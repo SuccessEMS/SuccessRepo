@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS for Outlook Release Notes V44.1 Update 4 (EMS for Outlook)</h1>
+        <p class="NormalWeb">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="p_4"><span class="span_29">See Also:&#160;</span><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="span_30">Contacting Customer Support</span></a><span class="span_31">&#160;and&#160;</span><a href="https://success.emssoftware.com/Release_Notes/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="span_30">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_2">
+            <col style="width: 289pt;" />
+            <col style="width: 384pt;" />
+            <col style="width: 288pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Name:&#160;</span><span class="span_8">V44.1 Update 4</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Release&#160;Date:&#160;</span><span class="span_8">September 19, 2016</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Build #:&#160;</span><span class="span_8">44.1.191.0</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_57">Fix&#160;</p>
+        <p class="p_58"><a href="https://success.emssoftware.com/Release_Notes/Update_4_Release_Notes/EMS_for_Outlook_Release_Notes_V44.1_Update_4" title="Edit section" class="a_3"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_4.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </p>
+        <table align="center" class="table_4">
+            <col style="width: 89pt;" />
+            <col style="width: 451pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_11">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_11">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_38">New Booking &gt; Add Resources</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Excluded Resources Allowed</p>
+                    <p class="p_25">When making a new reservation and adding resources, users were able to choose services that were excluded from the selected rooms.&#160;</p>
+                    <p class="p_4"><span class="span_7">Fix</span><span class="span_8">: Enforced the excluded resources rule so that users cannot add services that are excluded for certain rooms.&#160;</span>
+                    </p>
+                    <p class="p_25">22998</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_38">New Booking &gt; Commit Date</p>
+                    <p class="p_25">&#160;</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">"Commit Date" Message Persists After Clicking Commit Dates Option</p>
+                    <p class="p_25">When booking a space in EMS for Outlook and clicking the Commit Dates option, the message "Commit Date" presented&#160;persistently and prevented users from selecting different dates.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Changed the display so the message does not persist and users can change the date.</span>
+                    </p>
+                    <p class="p_25">22112</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">New Recurring Event</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">New Recurrent Meeting With Attendees Automatically Canceled</p>
+                    <p class="p_53"><span class="span_8">When booking a recurrent meeting using a single room&#160;and adding attendees in the&#160;</span><span class="span_7">To:&#160;</span><span class="span_8">field, an error occurred: "Reservation [###] has been cancelled."&#160;</span>
+                    </p>
+                    <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified validations so the error no longer occurs and users can create this type of event.</span>
+                    </p>
+                    <p class="p_45">Multiple Confirmation Emails Triggered by Changing Recurrence, Cancelations, and Conflicts in&#160;Recurrent Meetings</p>
+                    <p class="NormalWeb_2">When changing the recurrence, canceling, or raising a conflict in a&#160;recurrent meeting, the same number of&#160;individual confirmation emails were generated for each change as there were occurrences.</p>
+                    <p class="p_53"><span class="span_7">Fix</span><span class="span_8">: Modified functionality so that only one confirmation email triggers for these types of changes.&#160;</span>
+                    </p>
+                    <p class="p_45">Conflicted&#160;Booking Shows on Calendar After "Proceed Without Alternative"</p>
+                    <p class="p_53"><span class="span_8">When booking a recurring meeting&#160;in conflict by clicking the&#160;</span><span class="span_7">Proceed without alternate&#160;</span><span class="span_8">option during the conflict resolution process, the blocking event still&#160;showed on the calendar.</span>
+                    </p>
+                    <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the calendar so that blocking events are canceled and removed from the calendar in this situation.</span>
+                    </p>
+                    <p class="NormalWeb_2">23141</p>
+                    <p class="NormalWeb_2">22893</p>
+                    <p class="NormalWeb_2">23013</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">New Booking &gt; Search for Space</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Load Default Criteria Button Fails</p>
+                    <p class="p_25">When booking an event and searching for&#160;space, clicking the Load Default Criteria button, the wrong information appeared.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Removed the button.</span>
+                    </p>
+                    <p class="p_25">23043</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">View Reservation</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Cancel and Edit Options&#160;Missing from View Reservation</p>
+                    <p class="p_25">When viewing a reservation, the Cancel and Edit options did not appear next to the reservation.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the display so that the options show next to the reservation. Also, added a confirmation message for cancelations.</span>
+                    </p>
+                    <p class="p_25">22327</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Email Notifications</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Confirmation Formats for Outlook© Meetings&#160;Do Not Match&#160;EMS Web App</p>
+                    <p class="p_25">Email confirmations were different when sent for a booking made in Outlook versus&#160;Web App&#160;when&#160;using the same booking template.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified Outlook&#160;notifications to match the format for EMS Web App.</span>
+                    </p>
+                    <p class="p_25">23227</p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_62">&#160;</p>
+    </body>
+</html>

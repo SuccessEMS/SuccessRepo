@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="9886" MadCap:lastWidth="937" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>EMS Mobile App Release Notes <br />V44.1 Update 10 </h1>
+        <p>This section describes updates to&#160;your EMS software.&#160;</p>
+        <p>See Also:&#160;<MadCap:xref href="U10_Mobile App Known Issues.htm">EMS Mobile App Known Issues</MadCap:xref></p>
+        <p class="p_47">
+            <MadCap:xref href="#Contact">Contact Customer Support</MadCap:xref>&#160;and&#160;<MadCap:xref href="../Updating to the Latest Version of EMS (Patches and Builds).htm">Updating to the Latest Version of EMS (Patches and Builds)</MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Name:&#160;V44.1 Update 10</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Release&#160;Date:&#160;April 07, 2017</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Platform API&#160;#:&#160;&#160; 44.1.44.1.3947</p>
+                    <p>EMS Mobile App:&#160;44.1.4695</p>
+                    <p>ems-44.1.4695.unsigned.apk<br />ems-44.1.4695.unsigned.ipa</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p>Database (SQL)&#160;Patch:&#160;&#160; &#160;201703280</p>
+                    <p>Exchange Integration Build #:&#160;&#160;44.1.10000.85</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Fixes&#160;&#160;</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Emphasis_1">Log In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Keyboard Covered&#160;Code Field on Login Screen When 2FA is Enabled</h4>
+                        <p class="NormalWeb_2">When users attempted to log in with 2FA enabled, the verification Code field was blocked by the keyboard.&#160;&#160;<br /><br />Fix:&#160;Modified the display so the user can see the verification Code field in this situation.</p>
+                        <p class="NormalWeb"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/27741?fullScreen=false" class="Hyperlink_2">27741</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="5" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Emphasis_1">Scan QR Code</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>"Reservation Created" Toast Absent When Using a Second QR Code</h4>
+                        <p class="NormalWeb_2">When users booked a reservation by scanning a QR code for the second time in a session, the confirmation toast "Reservation Created" did not appear.<br /><br />Fix:&#160;Modified the display to show the toast message now appears when a QR code is used a second time.</p>
+                        <p class="NormalWeb"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/27744?fullScreen=false" class="Hyperlink_2">27744</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Meeting Prematurely Listed&#160;As In Progress</h4>
+                        <p class="NormalWeb_2">When users scanned a QR code to see events for a room, some events showed as In Progress up to two hours prior to start time.<br /><br />Fix:&#160;Modified time zone offset calculations so that rooms only show as In Progress upon start time.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28519" class="Hyperlink_2">28519</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>Auto-Create Workflow Issues</h4>
+                        <p class="NormalWeb_2">When users scanned a QR code to automatically create a booking, several issues arose. Where there was only one process template, they still had to click the "+" button to&#160;initiate the booking process. In a fully automated scenario where&#160;all field values were defaulted, they still had to click&#160;Create Reservation&#160;to finalize&#160;the booking.<br /><br />Fix:&#160;Modified the automation workflow so users are take directly to the booking process when they must complete some fields, and so that bookings are automatically finalized in fully defaulted scenarios.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28694" class="Hyperlink_2">28694</a>,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/27974" class="Hyperlink_2">27974</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Selecting a Process Template After Scanning QR Code Returned Users to Scan QR Code Screen</h4>
+                        <p class="NormalWeb_2">When users scanned a QR code to book a room and clicked on a certain&#160;process template from the available list, they were incorrectly returned to the Scan QR Code page.<br /><br />Fix:&#160;Modified validations so users can select the process template and proceed with the booking as expected.</p>
+                        <p class="NormalWeb"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/27966?fullScreen=false" class="Hyperlink_2">27966</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>iOS: Disabling Camera Caused Crash When Scanning &#160;a QR Code</h4>
+                        <p class="NormalWeb_2">When users scanned a QR code using iOS devices that had the camera disabled for the first time, the app crashed..<br /><br />Fix:&#160;Modified validations to successfully load the app when Allow Camera is off.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/27947?fullScreen=false" class="Hyperlink_2">27947</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td rowspan="5" class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Emphasis_1">Create Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Geolocation Issues</h4>
+                        <p class="NormalWeb_2">When users booked a room and Location Services was turned on, the&#160;Distance&#160;field was empty and the list of room results was not in order of proximity. On Android devices, when Location Services was turned off, the&#160;Distance&#160;label persisted and kilometers displayed as "NaN Kilometers;" additionally, the default building/view for the booking template in use was not automatically selected.&#160;<br /><br />Fix:&#160;Modified functionality so that when Location Services is turned on,&#160;users can see the distance of a room and the results list is sorted by nearest to furthest, and for Android, when Location Services is turned off, users no longer see the distance, and kilometers and default buildings/views display as expected.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28406?fullScreen=false" class="Hyperlink_2">28406</a>,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28596" class="Hyperlink_2">28596</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>Tapping Blue Arrow Caused&#160;Crash</h4>
+                        <p class="NormalWeb_2">When users tapped the blue FormLink&#160;"Next" arrow on the right&#160;from booking details or new reservation&#160;screens, the app crashed.<br /><br />Fix:&#160;Modified functionality so that tapping the arrow no longer causes a crash.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28498?fullScreen=false" class="Hyperlink_2">28498</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Start and End Times Defaulting Incorrectly</h4>
+                        <p class="NormalWeb_2">When users booked a meeting too close to closing time (according to booking rules), start and end times defaulted to the same time. Additionally, when booking rules set default meeting duration to 45 minutes after start time, default end time was calculated incorrectly.<br /><br />Fix:&#160;Modified functionality so that template defaults are properly applied and default end times are correctly calculated.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28374?fullScreen=false" class="Hyperlink_2">28374</a>,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28332" class="Hyperlink_2">28332</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>Changing Location Turned&#160;Off Capacity Filter For Room Search</h4>
+                        <p class="NormalWeb_2">When users searched for rooms and filtered by room capacity, and then changed location, the capacity filter turned off.<br /><br />Fix:&#160;Modified functionality so that changing the location does not turn off the capacity filter.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28507?fullScreen=false" class="Hyperlink_2">28507</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Child UDF Default Values&#160;Missing</h4>
+                        <p class="NormalWeb_2">When a booking template was set to show the default values set for child UDFs and the parent UDFs&#160;allowed multiple selections, the default values of the child fields did not display.&#160;<br /><br />Fix:&#160;Modified the display to show child UDF&#160;default values of multi-select parent UDFs in this situation.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/27920?fullScreen=false" class="Hyperlink_2">27920</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="4" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Emphasis_1">Edit Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>"Room Unavailable" Error When Changing Event Time To Follow Another Event</h4>
+                        <p class="NormalWeb_2">When users edited an event so that it started immediately after another one in the same room, the error "Room Unavailable" presented incorrectly and their room selection was cleared.&#160;&#160;<br /><br />Fix:&#160;Modified validations to allow adjacent scheduling when a meeting has no setup and teardown allowance.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28458?fullScreen=false" class="Hyperlink_2">28458</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Unable to Add Attendees After Booking Exchange Meeting</h4>
+                        <p class="NormalWeb_2">When users added attendees to an Exchange-compatible meeting that had not been originally created with attendees, their additions were not saved and attendees were not invited.&#160;<br /><br />Fix:&#160;Modified functionality so that users can successfully add attendees when editing in this situation.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28456" class="Hyperlink_2">28456</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>Rooms Not Listed Under View</h4>
+                        <p class="NormalWeb_2">When users edited an event and tapped the View option for a selected room, it was not in the list as expected.<br /><br />Fix:&#160;Modified the display so the selected room shows in both Building and View&#160;as expected.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28560" class="Hyperlink_2">28560</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Favorite Room Listed Twice</h4>
+                        <p class="NormalWeb_2">When users edited an event to move a meeting later on the schedule, the selected favorite room was listed twice.&#160;&#160;<br /><br />Fix:&#160;Modified the display so the selected favorite room only lists once as expected.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28401" class="Hyperlink_2">28401</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="3" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Emphasis_1">Time Zones</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>Time Zones Without Designated Abbreviations Displayed as "NULL"</h4>
+                        <p class="NormalWeb_2">Time zones that did not have abbreviations defined in the user database showed as "NULL" on the app.&#160;&#160;<br /><br />Fix:&#160;Modified functionality so that when time zone abbreviations are not defined, the time zone field shows the full name of the time zone.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28367?fullScreen=false" class="Hyperlink_2">28367</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Incorrect Time Zone Adjustment When Changing Event Date</h4>
+                        <p class="NormalWeb_2">When users changed an event date such that it was after the Daylight Savings Time period for their devices, the event time was incorrectly adjusted.&#160;&#160;<br /><br />Fix:&#160;Modified functionality so that time zone adjustments are made correctly in this situation.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28421" class="Hyperlink_2">28421</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>Room Incorrectly Unavailable When Server Time Zone Was "UTC +00"</h4>
+                        <p class="NormalWeb_2">When the server time zone was set to UTC + 00 and users picked a room spanning Daylight Savings Time, the room was incorrectly unavailable.&#160;&#160;<br /><br />Fix:&#160;Modified validations to ensure that room availability displays correctly in this situation.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28607?fullScreen=false" class="Hyperlink_2">28607</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Emphasis_1">Billing &amp; PO Numbers</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Default Billing Reference Number Empty When Prompt For Room Enabled</h4>
+                        <p class="NormalWeb_2">When users booked a room using a template that used a default billing reference number and required/validated the value, the field was empty after they selected a room as prompted.<br /><br />Fix:&#160;Modified functionality so that the default value is retained when the room prompt is enabled in this situation.</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/27602?fullScreen=false" class="Hyperlink_2">27602</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="3" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Emphasis_1">Navigation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>Android: Back Button Closed&#160;Application</h4>
+                        <p class="NormalWeb_2">When users clicked the native back button from the home screen on Android devices, this closed the application rather than collapsing it.&#160;<br /><br />Fix:&#160;Modified functionality so that tapping the Android back button from the home screen collapses the application without closing it.&#160;</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/27675?fullScreen=false" class="Hyperlink_2">27675</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Home Page Refreshed Incorrectly When Navigating Back From Booking Details&#160;</h4>
+                        <p class="NormalWeb_2">When users navigated back to the home page from a booking details screen, the home page did not scroll up to "Now" if the list of events extended beyond one page and they had previously navigated to see events for a specific date.<br /><br />Fix:&#160;Modified functionality so that the home page refreshes to today's events when reached using the&#160;Back&#160;button.&#160;</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28532?fullScreen=false" class="Hyperlink_2">28532</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <h4>Building URL Link Failed</h4>
+                        <p class="NormalWeb_2">When users clicked on&#160;Building URL&#160;from booking details screens, the link failed because the ":" character was not being carried over to the web browser.<br /><br />Fix:&#160;Modified functionality so that the URL is carried over and the link functions as expected.&#160;</p>
+                        <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/28548?fullScreen=false" class="Hyperlink_2">28548</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

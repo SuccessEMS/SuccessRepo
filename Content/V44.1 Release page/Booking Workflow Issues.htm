@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">Booking Workflow Issues</h1>
+        <p class="p_34">This section categorizes resolutions to issues encountered during the booking workflow.</p>
+        <table class="table_3">
+            <col style="width: 289pt;" />
+            <col style="width: 384pt;" />
+            <col style="width: 288pt;" />
+            <tr>
+                <td class="td_4">
+                    <p class="p_12"><span class="span_6">Name:&#160;</span><span class="span_5">V44.1 Update 1</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p class="p_12"><span class="span_6">Release&#160;Date:&#160;</span><span class="span_5">July 20, 2016</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p class="p_12"><span class="span_6">Patch #:&#160;</span><span class="span_5">2016.07.13.0</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_12">&#160;</p>
+        <table class="table_3">
+            <col style="width: 63pt;" />
+            <col style="width: 658pt;" />
+            <tr>
+                <td class="td_1">
+                    <p class="p_35">
+                        <img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3856/tech_doc_tip.png?revision=1&amp;size=bestfit&amp;width=35&amp;height=35" class="img_1" />
+                    </p>
+                </td>
+                <td class="td_1">
+                    <p class="p_4"><span class="span_17">See Also:</span><span class="span_6">&#160;</span><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="span_20">Contacting Customer Support</span></a><span class="span_6">,&#160;</span><a href="https://success.emssoftware.com/Release_Notes/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="span_20">Obtaining Patches and New Builds</span></a><span class="span_6">&#160;</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_39">Edit Booking Not Validating Time Zone&#160;</p>
+        <p class="p_40"><a href="https://success.emssoftware.com/Release_Notes/Update_1_Release_Notes/EMS_Mobile_Release_Notes_V44.1_Update_1/Booking_Workflow_Issues" title="Edit section" class="a_4"><img src="../Resources/Images/V44.1 Release page/V44 1 Update 1.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </p>
+        <table align="center" class="table_4">
+            <col style="width: 512pt;" />
+            <col style="width: 448pt;" />
+            <tr style="height: 4pt;">
+                <td class="td_2">
+                    <p class="p_11">Reported Issue</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_11">Issue Resolution</p>
+                </td>
+            </tr>
+            <tr style="height: 13pt;">
+                <td class="td_3">
+                    <p class="p_38">Edit Booking &gt; Change Event Times</p>
+                    <p class="p_25">When users changed event times on existing bookings, the following error message occurred:&#160;</p>
+                    <p class="p_38">"The date(s) you requested violates your first allowed booking date."</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_25">Modified validations to properly check the time zone and allow the Edit Booking&#160;so the error no longer occurs.</p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_39">New Bookings from Room Details Defaulting to Incorrect Start Time&#160;</p>
+        <p class="p_40"><a href="https://success.emssoftware.com/Release_Notes/Update_1_Release_Notes/EMS_Mobile_Release_Notes_V44.1_Update_1/Booking_Workflow_Issues" title="Edit section" class="a_4"><img src="../Resources/Images/V44.1 Release page/V44 1 Update 1.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </p>
+        <table align="center" class="table_4">
+            <col style="width: 512pt;" />
+            <col style="width: 448pt;" />
+            <tr style="height: 4pt;">
+                <td class="td_2">
+                    <p class="p_11">Reported Issue</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_11">Issue Resolution</p>
+                </td>
+            </tr>
+            <tr style="height: 13pt;">
+                <td class="td_3">
+                    <p class="p_38">Browse Locations &gt; Select Room &gt; Room Calendar &gt; New Reservation</p>
+                    <p class="p_25">When users began a new booking from the Room Details calendar view, the event start time was incorrectly set to the first available time, when it should have been set to the next hour from "now."</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_25">Modified functionality to ensure that event start time in this situation properly defaults the next hour from "now."</p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_39">PAM_AllowCriticalBookingChanges Parameter Ignored&#160;</p>
+        <p class="p_40"><a href="https://success.emssoftware.com/Release_Notes/Update_1_Release_Notes/EMS_Mobile_Release_Notes_V44.1_Update_1/Booking_Workflow_Issues" title="Edit section" class="a_4"><img src="../Resources/Images/V44.1 Release page/V44 1 Update 1.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </p>
+        <table align="center" class="table_4">
+            <col style="width: 512pt;" />
+            <col style="width: 448pt;" />
+            <tr style="height: 4pt;">
+                <td class="td_2">
+                    <p class="p_11">Reported Issue</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_11">Issue Resolution</p>
+                </td>
+            </tr>
+            <tr style="height: 13pt;">
+                <td class="td_3">
+                    <p class="p_38">Edit Booking&#160;</p>
+                    <p class="p_25">When users attempted to make critical edits to a booking in environments that had this parameter activated, thew were unable to click the Edit button as expected.</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_25">Modified functionality to ensure that when this parameter is set, the Edit button remains available so users can make critical booking changes.</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

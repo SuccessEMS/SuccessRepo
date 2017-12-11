@@ -1,0 +1,377 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1_2">EMS Platform Services Release Notes V44.1, Update 16 (EMS Platfrom Services)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 90pt;" />
+            <col style="width: 153pt;" />
+            <col style="width: 174pt;" />
+            <col style="width: 123pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="span_2">Name:&#160;</span><span class="span_1">V44.1 Update 16</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">September 29, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Patch:&#160;</span><span class="span_1">44.1.16000.201710040</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Build #:&#160;</span><span class="span_1">&#160;44.1.16000.3579</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_34">&#160;</p>
+        <h2 class="Heading2_2_1">Enhancements &#160;&#160;</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="td_3">
+                    <p class="Emphasis_1">Video Conference (VC)</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">VC Create – Validate VC Constraints on Event Creation</p>
+                    <p class="NormalWeb_2">Video Conferencing reservations are now validated for the following:</p>
+                    <ul class="ul_4">
+                        <li class="li_33">All booking records have the same GMT start per grouping.</li>
+                    </ul>
+                    <ul class="ul_5">
+                        <li class="li_33">For each date, the bookings should all have the same GMT start.</li>
+                    </ul>
+                    <ul class="ul_4">
+                        <li class="li_33">A room record is designated as the Host.</li>
+                        <li class="li_33">Only one VC Host can be assigned to a group of bookings with same GMT start time.</li>
+                    </ul>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30279" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30279" class="Hyperlink_2">30279</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">VC Cancel –&#160;Bookings and Reservation</p>
+                    <p class="NormalWeb_2">Users can cancel individual bookings in a VC. However, a VC Host booking cannot be canceled unless it is&#160;the only non-canceled booking in the group. When VC Cancel is enabled, Exchange will be updated.</p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30281" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30281" class="Hyperlink_2">30281</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">VC – Change Host</p>
+                    <p class="NormalWeb_2">Added a new route for setting the room associated with bookingID as the host of the reservation VC group in which bookingId belongs.</p>
+                    <p class="mt-font-courier-new_2">POST /reservations/{id}/vchost/{bookingId}</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30282" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=30282" class="Hyperlink_2">30282</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="16" class="td_2">
+                    <p class="Emphasis_1">API Calls</p>
+                    <p class="p_25">&#160;</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Get Drawings for Multiple Bookings</p>
+                    <p class="NormalWeb_2">Added a&#160;new API call that takes multiple booking IDs as inputs and returns drawings.</p>
+                    <p class="mt-font-courier-new_2">POST /bookings/actions/search/drawings</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31201" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31201" class="Hyperlink_2">31201</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Get Attachments for&#160;Multiple Bookings</p>
+                    <p class="NormalWeb_2">Added a new API call that takes multiple booking IDs&#160;as inputs and returns attachments.</p>
+                    <p class="mt-font-courier-new_2">POST /bookings/actions/search/attachments</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31202" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31202" class="Hyperlink_2">31202</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Ability to Create and Edit a&#160;Reservation with the Conference Code and Conference URL&#160;(Skype Meetings)</p>
+                    <p class="NormalWeb_2">Added 'conferenceURL' and 'conferenceCode' attributes to these routes:</p>
+                    <ul class="ul_4">
+                        <li class="li_33">POST /reservations/actions/create</li>
+                        <li class="li_33">PATCH /reservations/{id}</li>
+                    </ul>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31610" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31610" class="Hyperlink_2">31610</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Add Service Orders to Existing Booking</p>
+                    <p class="NormalWeb_3"><span class="span_19">Added a new API call that inserts&#160;</span><span class="span_19">records into tblServiceOrder and tblServiceOrderDetail.</span>
+                    </p>
+                    <p class="mt-font-courier-new_2">POST /bookings/{id}/serviceorders</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31649" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31649" class="Hyperlink_2">31649</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Edit Service Order</p>
+                    <p class="NormalWeb_2">Added a new API call that allows a parameter validation to allow edit of services and restrict SO times to an event time.</p>
+                    <p class="mt-font-courier-new_2">PATCH /serviceorders/{id}</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31650" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31650" class="Hyperlink_2">31650</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Delete Service Order Detail</p>
+                    <p class="mt-color-ff0000_1">DELETE /serviceorders/{id}/serviceorderdetails/{sodid}</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31651" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31651" class="Hyperlink_2">31651</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Delete Service Order</p>
+                    <p class="mt-color-ff0000_1">DELETE /serviceorders/{id}</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31652" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31652" class="Hyperlink_2">31652</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Edit Service Order Detail</p>
+                    <p class="mt-color-ff0000_1">PATCH /serviceorders/{id}/serviceorderdetails/{sodid}</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31653" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31653" class="Hyperlink_2">31653</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">CRUD (Create, Read, Update, Delete) for Service Order UDF Answers</p>
+                    <ul class="ul_4">
+                        <li class="li_13">GET /serviceorders/{id}/userdefinedfields</li>
+                        <li class="li_13">PATCH /serviceorders/{id}/userdefinedfields</li>
+                    </ul>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31655" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31655" class="Hyperlink_2">31655</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Support for Resource Packages</p>
+                    <p class="NormalWeb_2">Supports packageResourceId and resourceItems attributes.</p>
+                    <p class="mt-font-courier-new_2">POST /serviceorders/{id}/serviceorderdetails</p>
+                    <p class="NormalWeb_2">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31656" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31656" class="Hyperlink_2">31656</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Can Edit Service Validation</p>
+                    <p class="NormalWeb_3"><span class="span_19">GET /bookings/id/serviceorders</span><span class="span_19">&#160;includes new 'canEditService' attribute.</span>
+                    </p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31675" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31675" class="Hyperlink_2">31675</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Edit Host Information on Bookings</p>
+                    <p class="NormalWeb_2">New route for setting the room associated with bookingID as the host of the reservation VC group in which bookingId belongs.</p>
+                    <p class="mt-font-courier-new_2">POST /reservations/{id}/vchost/{bookingId}</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31735" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31735" class="Hyperlink_2">31735</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">GET Room Set Ups for Multiple Rooms</p>
+                    <p class="NormalWeb_3"><span class="span_19">GET/rooms/{id}/setup</span><span class="span_19">&#160;can now generate the capacity information.</span>
+                    </p>
+                    <p class="mt-font-courier-new_2">POST /rooms/actions/search/setups</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31809" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31809" class="Hyperlink_2">31809</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Add Building Timezone Detail to GET and POST Room Routes</p>
+                    <p class="NormalWeb_2">Added 'timezone' attribute to 'building' attribute of each room for following routes:</p>
+                    <ul class="ul_4">
+                        <li class="li_33">GET /rooms</li>
+                        <li class="li_33">GET /rooms/{id}</li>
+                        <li class="li_33">POST /rooms/actions/search</li>
+                    </ul>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32059" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32059" class="Hyperlink_2">32059</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Add Default Set Up Type Capacity Filter to Room Search</p>
+                    <p class="NormalWeb_3"><span class="span_19">'Capacity' attribute added to search criteria for&#160;</span><span class="span_19">POST /rooms/actions/search</span><span class="span_19">.&#160;Capacity is compared to the capacity of the defaultSetupType of rooms. Rooms should be returned if they are&#160;≥&#160;the value in the 'capacity' parameter passed.</span>
+                    </p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32060" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32060" class="Hyperlink_2">32060</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Add Building Timezone Detail to Room Availability Routes</p>
+                    <p class="NormalWeb_3"><span class="span_19">POST /rooms/actions/availability&#160;</span><span class="span_19">includes a new 'timeZoneSummary' attribute in the response.</span>
+                    </p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32065" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32065" class="Hyperlink_2">32065</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="8" class="td_2">
+                    <p class="Emphasis_1">EMS for Outlook</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">New Parameters</p>
+                    <p class="NormalWeb_3"><span class="span_19">The following parameters have been added to&#160;</span><span class="span_19">GET /public/parameters</span><span class="span_19">:</span>
+                    </p>
+                    <ul class="ul_4">
+                        <li class="li_32"><span class="span_19">Services_RestrictSOTimeToEvent&#160;</span><span class="span_19">=</span><span class="span_19">&#160;</span><span class="span_19">"Restrict Service Order Times Within Event Times"</span>
+                        </li>
+                        <li class="li_32"><span class="span_19">Services_PopulateServiceTimesFromBooking</span><span class="span_19">&#160;= "Set Service Time Default from the Event Time"</span>
+                        </li>
+                        <li class="li_32"><span class="span_19">Services_PopulateEstimatedCount</span><span class="span_19">&#160;= "Populate Service Setup with Attendance"</span>
+                        </li>
+                        <li class="li_32"><span class="span_19">Services_EnforceInventory</span><span class="span_19">&#160;= "Maintain Inventory"</span>
+                        </li>
+                    </ul>
+                    <p class="NormalWeb_3"><span class="span_19">The following parameters have been added to the&#160;</span><span class="span_19">GET /webtemplate/{id}</span><span class="span_19">&#160;response model:</span>
+                    </p>
+                    <ul class="ul_4">
+                        <li class="li_33">servicesAllowEdit</li>
+                        <li class="li_33">showResourcePricing</li>
+                        <li class="li_33">showRoomPricing</li>
+                        <li class="li_33">defaultRatePlanId</li>
+                    </ul>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32237" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32237" class="Hyperlink_2">32237</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Resource Images</p>
+                    <p class="NormalWeb_2">Retrieving room images (/rooms/{id}/images) and&#160;/rooms/{id}/images/{imageId}</p>
+                    <p class="mt-font-courier-new_2">GET /resources/{id}/images</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32239" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32239" class="Hyperlink_2">32239</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Resource Packages</p>
+                    <p class="NormalWeb_3"><span class="span_19">GET /resources</span><span class="span_19">&#160;includes a new 'packageResources' attribute.</span>
+                    </p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32240" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32240" class="Hyperlink_2">32240</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Resource Groups/Items (Selections)</p>
+                    <p class="NormalWeb_2">Includes fields for tblResourceGroup: ResourceId, SeqNo, Description, MinPick, MaxPick, Active</p>
+                    <p class="NormalWeb_2">Includes fields for tblResourceItem: ResourceGroupId, SeqNo, Description, Notes</p>
+                    <p class="mt-font-courier-new_2">GET /resources/{id}/selections</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32241" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32241" class="Hyperlink_2">32241</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Outlook Room Resource Exclusions</p>
+                    <p class="NormalWeb_2">New API&#160;call to get a room's resource exclusions.</p>
+                    <p class="mt-font-courier-new_2">GET /rooms/{id}/excludedresources</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32279" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32279" class="Hyperlink_2">32279</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Category Service Call That Validates a Time Against Category Cutoff Time Settings</p>
+                    <p class="mt-color-ff0000_1">POST /categories/{id}/validation</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32315" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32315" class="Hyperlink_2">32315</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Service Order UDFs - Return UDF Definitions and Child Definition Items When Requesting a Category</p>
+                    <p class="mt-color-ff0000_1">GET /categories/{id}/userdefinedfields</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32386" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32386" class="Hyperlink_2">32386</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">TimeZones by Date Range</p>
+                    <p class="NormalWeb_2">New API call gets a list of distinct time zones and their timezone offset time ranges (Daylight Savings related time offsets) for a buildingId or timeZoneId&#160;and a date range.&#160;</p>
+                    <ul class="ul_4">
+                        <li class="li_33">GET /timezones/{id}/offsets</li>
+                        <li class="li_33">GET /buildings/{id}/timezone/offsets</li>
+                    </ul>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32429" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32429" class="Hyperlink_2">32429</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5" class="td_2">
+                    <p class="Emphasis_1">API Calls</p>
+                    <p class="p_25">&#160;</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Allow Users to Add Reserve Start Time and Reserve End Time While Creating Booking</p>
+                    <p class="NormalWeb_2">Add reserve start time and reserve end time to booking request model.&#160;The following routes support optional 'reservedStartTime' and 'reservedEndTime' attributes.&#160;These override any pre-existing room setup/teardown settings:</p>
+                    <ul class="ul_4">
+                        <li class="li_33">POST /reservations/actions/create</li>
+                        <li class="li_33">POST&#160;/reservations/{id}/bookings</li>
+                        <li class="li_33">PATCH /bookings/{id}</li>
+                    </ul>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32482" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32482" class="Hyperlink_2">32482</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">CRUD for Webuser UDF Answers</p>
+                    <p class="NormalWeb_2">These routes will allow webuser&#160;user-defined fields (UDFs) to assign webroles ro webusers.&#160;</p>
+                    <ul class="ul_4">
+                        <li class="li_33">GET /myuser/userdefinedfields</li>
+                        <li class="li_33">PATCH /myuser/userdefinedfields</li>
+                    </ul>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32483" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32483" class="Hyperlink_2">32483</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Document Error Codes Each Service Route Can Return</p>
+                    <p class="NormalWeb_2">All error responses include new "errorCode" attribute.&#160;"MsgId" attribute is deprecated. All service route swagger docs include error codes that can be returned for each http error.</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32489" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32489" class="Hyperlink_2">32489</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Check-In Existing Visitor</p>
+                    <p class="NormalWeb_2">New 'checkedIn' attribute supported by the following routes:</p>
+                    <ul class="ul_4">
+                        <li class="li_33">PATCH /serviceorders/{id}/serviceorderdetails/{sodid}</li>
+                        <li class="li_33">GET /serviceorders/{id}</li>
+                        <li class="li_33">GET /serviceorders</li>
+                    </ul>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32572" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32572" class="Hyperlink_2">32572</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Add New SOD To Existing Service Order</p>
+                    <p class="NormalWeb_3"><span class="span_19">New route includes check in flag and calls existing&#160;</span><span class="span_19">vems_addServices_AddAttendee</span><span class="span_19">. It allows for adding Resource, Notes, or Attendee Type Service Order Details.</span>
+                    </p>
+                    <p class="mt-font-courier-new_2">POST /serviceorders/{id}/serviceorderdetails</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32573" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32573" class="Hyperlink_2">32573</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">New Error Code</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">New 'TokenMissing' Error Code Returned with Http 401 Responses if Client Omits x-ems-api-token Header in Requests</p>
+                    <p class="NormalWeb_2">Requests with either no x-ems-api-token request header&#160;or a header with an empty token value "" will return a http 401 with an errorCode of 'TokenMissing.'</p>
+                    <p class="p_25">TFS&#160;item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32678" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32678" class="Hyperlink_2">32678</a></p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

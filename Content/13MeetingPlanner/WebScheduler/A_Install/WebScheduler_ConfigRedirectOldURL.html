@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="709" MadCap:lastWidth="887" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title mt-export-translate="no">Configure Redirect From Old URL</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="false" />
+    </head>
+    <body>
+        <h1 class="mt-export-title">Configure Redirect From Old URL</h1>
+        <h2>Introduction</h2>
+        <p>v5.5.5.13 was the final MeetingPlanner version where the Web Scheduler was accessible via the /scheduler URL. In all subsequent versions, the web components were combined under the /suite application. &#160;If users are used to going to the old Web Scheduler URL, setting up a redirect can be done to prevent them from needing to update their bookmarks.&#160;</p> <p><strong>Note: &#160;</strong>While the following steps layout how to redirect the user from /scheduler to /suite, the same steps can be followed if you are looking to transition users out of the old MP Web toolset (/meetingplanner).</p><h2>How To:</h2><ol><li>Create a "Scheduler" folder in the C:\Program Files (x86)\Emergingsoft folder on the application server.</li><li>Open IIS.</li><li>Expand Sites.</li><li>Right-click on the <em>Default Web Site &gt; <strong>Add Virtual Directory</strong></em><strong>.</strong></li><li>Click <strong>OK</strong>.</li><li>Select the newly-created Scheduler virtual directory in IIS.</li><li>In the Features pane, double-click on <strong>HTTP Redirect.</strong></li><li>Create an HTTP Redirect rule to redirect users to the /suite application. &#160;</li></ol><p><strong>Note</strong>: &#160;Replace "demo.emergingsoft.com" with your server information.</p><ol MadCap:continue="true"><li>Click<strong> Apply,</strong> and you're done! &#160;Now, when users try to browse to <a rel="freeklink" href="http://server/scheduler" title="http://server/scheduler" class="external">http://server/scheduler</a>, they will be redirected to the new URL.</li></ol><p>&#160;</p></body>
+</html>

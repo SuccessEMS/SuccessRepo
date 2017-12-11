@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1_2">EMS Kiosk (Legacy) Release Notes, V44.1 Update 18.3</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 152pt;" />
+            <col style="width: 194pt;" />
+            <col style="width: 175pt;" />
+            <col style="width: 168pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="span_2">Name:&#160;</span><span class="span_1">V44.1&#160;Update 18.3</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">November 10, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Patch:&#160;</span><span class="span_1">44.1.18002.201711021</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Build #:&#160;</span><span class="span_1">&#160;44.1.15003.356</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Fixes&#160;</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Make a Reservation</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_3">Users Could Not&#160;Proceed in "Make a Reservation" Page When "Require Timeout to Terminate User Session" Was Set to No</p>
+                    <p class="NormalWeb_2">Users in the EMS Kiosk App (Legacy) were unable to make reservations in the Make a Reservation page because they were being sent back to login.aspx if the parameter "Require Timeout/Logoff to Terminate User session'' was set to 'NO.'&#160;&#160;This parameter does not affect the authentication step when making reservation, specially when there is no wait time.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users can proceed to completing their reservation in the EMS Kiosk App (Legacy).</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Error Message</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">If the EMS Kiosk App (Legacy) Was Idle, Users Received An Error Message</p>
+                    <p class="NormalWeb_2">Users experienced an&#160;unknown error after the EMS Kiosk App (Legacy) had&#160;been idle for twice the time Administrators had set for the page timeout.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users do not receive an error when the EMS Kiosk App (Legacy) is idle.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_56">&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

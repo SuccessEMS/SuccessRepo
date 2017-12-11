@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1_2">Release Notes for EMS for Outlook, V44.1 Update 18 (EMS for Outlook (Legacy))</h1>
+        <p class="NormalWeb">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb"><span class="Strong">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_4">Contacting Customer Support</span></a>&#160;and&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_4">Updating to the Latest Version of EMS</span></a></p>
+        <table class="table_2">
+            <col style="width: 91pt;" />
+            <col style="width: 135pt;" />
+            <col style="width: 169pt;" />
+            <col style="width: 146pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="Strong_2">Name:&#160;</span><span class="span_19">V44.1, Update 18</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Release&#160;Date:&#160;</span><span class="span_19">October 31, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Patch:&#160;</span><span class="span_19">44.1.18000.201710252</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Build #:&#160;</span><span class="span_19">&#160;44.1.18000.1602</span><span class="span_19"><br />(EMS for Outlook Legacy):&#160;44.1.14004.564)</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Enhancement</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Installation</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Uninstalling Previous Versions No Longer Required</p>
+                    <p class="NormalWeb_2">The EMS for Outlook installer will now check for pre-requisites and allow customers to upgrade from previous versions of v43, v44 and v44.1 EMS for Outlook.&#160; Uninstalling the add-in is no longer required prior to the upgrade.</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <h2 class="Heading2_2_1">Fixes</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p><span class="Emphasis_1">EMS for Outlook (Legacy)</span><span class="Emphasis_1"><br /></span><span class="Emphasis_1"><br /></span><span class="Emphasis_1">Adding Services</span>
+                    </p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">EMS for Outlook (Legacy) Users Were&#160;Unable to Add Two or More Services to Multiple Bookings in a Recurring Series</p>
+                    <p class="NormalWeb_2">Users were unable to&#160;add two or more services to multiple bookings in a recurring series.&#160;When adding second service, the "Apply To Additional Bookings" modal was empty and no bookings were shown. (EMS for Outlook Legacy)</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix</span><span class="span_19">: Modified functionality so that&#160;users can add two or more services to multiple bookings of recurring series.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Authorization</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">EMS for Outlook Authorization Issue</p>
+                    <p class="NormalWeb_2">Some users received authentication errors if 'field used to authenticate everyday user' parameter was set to NetworkID or ExternalReference.&#160; EMS for Outlook will now ignore this parameter and authenticate based on the email address of the Outlook profile in use along with a token.”</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix</span><span class="span_19">: Modified functionality to resolve the authorization issue.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="td_3">
+                    <p class="Emphasis_1">Exchange Integration Service (PAM)</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Booking Canceled in Attendees' Outlook Calendars When Services Were Canceled</p>
+                    <p class="NormalWeb_2">When a reservation was created in a room tied to an Outlook mailbox and invitations were sent to attendees' Outlook calendars, editing the reservation and canceling services&#160;generated cancelations for all attendees but not&#160;the owner of the reservation.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that only the Resource and&#160;Resource Mailbox are removed from the booking.</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32595" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32595" class="Hyperlink_2">32595</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Removing Resource Mailbox When Editing Reservation Also Removed&#160;Other Attendees from Each Date in Series</p>
+                    <p class="NormalWeb_2">For a recurring reservation that included a non-ERI room and Exchange attendees, removing the resource from all dates resulted in each date turning into an exception. This resulted in all attendees being removed from each date, but remaining on the series.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that only the Resource Mailbox is removed from the series, along with&#160;any exceptions. "Normal" attendees are not removed.&#160;</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31178" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=31178" class="Hyperlink_2">31178</a></p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

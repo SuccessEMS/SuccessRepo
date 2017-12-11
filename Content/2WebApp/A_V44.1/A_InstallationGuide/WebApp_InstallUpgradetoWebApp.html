@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="4" MadCap:lastHeight="2998" MadCap:lastWidth="887" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSWebApp.flmsp');" class="emsWebapp">
+    <head><title mt-export-translate="no">Installing or Upgrading to the EMS Web App</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1>Install or Upgrade to the EMS Web App</h1>
+        <ol>
+            <li>Manually any <span class="bold">uninstall </span>previous versions of VEMS or <MadCap:variable name="General.EMS&#160;Web App" />&#160;on your web server.&#160;</li>
+            <li>Verify that <MadCap:xref href="WebApp_RequirementPrerequisites.html">Requirements and Prerequisites</MadCap:xref> have been met.</li>
+            <li>Download the <span class="bold">EMSWebApplication.msi</span> file onto the web server that will be running <MadCap:variable name="General.EMS&#160;Web App" />.</li>
+            <li>Run <span class="bold">EMSWebApplication.msi</span>.</li>
+            <li>The first screen welcomes you to the&#160;<MadCap:variable name="General.EMS&#160;Web App" />&#160;Setup Wizard.&#160;Click <span class="bold">Next</span> to begin the installation process.</li>
+        </ol>
+        <p>
+            <img src="Images/A_InstallationGuide/WA_InstallUpgradetoWebApp_EMSWebAppSetupNext.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>In the&#160;Destination Folder screen, select the destination folder.</li>
+        </ol>
+        <p>
+            <img src="Images/A_InstallationGuide/WA_InstallUpgradetoWebApp_EMSWebAppSetupDestinationFolder.png" />
+        </p>
+        <p> &#160;  The installation process will create a new physical directory on your web server based on the destination folder path you entered.&#160;Click <span class="bold">Next</span>.</p>
+        <p>Tip:&#160;Choosing a folder above other than the default will create a new physical directory on your web server at that location.&#160;If your organization uses Internet Information Services (IIS), make sure that the user account used for IIS (IUSR&#160;and/or IIS_IUSRS) has access to this new installation directory. To learn more,&#160;See Also&#160;<MadCap:xref href="WebApp_WinWebServGuide2008R2.htm">Windows Server 2008/2008 R2 Web Server Setup Guide</MadCap:xref> or <MadCap:xref href="WebApp_WinWebServGuide2012R.htm">Windows Server 2012/2012 R2 Web Server Setup Guide</MadCap:xref>.</p>
+        <p>Note: <MadCap:variable name="General.EMS&#160;Web App" />&#160;should <span class="bold">not</span> be installed in the same physical directory as other EMS web-based products OR under a site running another version of VEMS or <MadCap:variable name="General.EMS&#160;Web App" />.</p>
+        <ol MadCap:continue="true">
+            <li>In the SQL Server and database information screen that appears, enter your SQL Instance Name and your Database Name and click <span class="bold">Next</span>.</li>
+        </ol>
+        <p>Tip: The database name is typically “EMS.”</p>
+        <p>
+            <img src="Images/A_InstallationGuide/WA_InstallUpgradetoWebApp_EMSWebAppSQLServerdatabase.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>In the Virtual Directory information screen that appears, the Virtual Directory Name will default to the destination folder you specified (in Step 6 above).&#160;It is recommended that you keep the default setting.&#160;The installation process will create a virtual directory on your web server based on the virtual directory entered (“EmsWebApp” in the example above).&#160;Click <span class="bold">Next</span>.</li>
+        </ol>
+        <p>
+            <img src="Images/A_InstallationGuide/WA_InstallUpgradetoWebApp_EMSWebAppVirtualDirectory.png" />
+        </p>
+        <p>Warning: <MadCap:variable name="General.EMS&#160;Web App" /> should not be installed in the same virtual directory as other EMS web-based products OR under a site running another version of <MadCap:variable name="General.EMS&#160;Web App" />.</p>
+        <ol MadCap:continue="true">
+            <li>On the Ready to install EMS Web Application screen that appears, click <span class="bold">Install</span>.</li>
+        </ol>
+        <p>
+            <img src="Images/A_InstallationGuide/WA_InstallUpgradetoWebApp_EMSWebAppSetupReadytoInstall.png" />
+        </p>
+        <ol MadCap:continue="true">
+            <li>On the Completed the EMS Web App Setup Wizard screen that appears, click <span class="bold">Finish</span>.</li>
+        </ol>
+    </body>
+</html>

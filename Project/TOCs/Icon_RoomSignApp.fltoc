@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Installation Guide EMS Room Sign App (formerly Glance)"
+    Link="/Content/A_Installation/8_RoomSignAppV44.1/8_RoomSignAppHome.htm">
+    <TocEntry
+      Title="Requirements for the EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_RequirementsforRSA.html" />
+    <TocEntry
+      Title="Obtain the Installation Files for EMS Room Sign"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_ObtainInstallFiles.html" />
+    <TocEntry
+      Title="Architecture for the EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_Architecture.html" />
+    <TocEntry
+      Title="Best Practices for Using EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_BestPractices.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    <TocEntry
+      Title="Install EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html" />
+  </TocEntry>
+  <TocEntry
+    Title="Configuration Guide EMS Room Sign App (formerly Glance)"
+    Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_Introduction.html">
+    <TocEntry
+      Title="Best Practices for Device Configuration"
+      Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_BestPractDeviceConfSteps.htm" />
+    <TocEntry
+      Title="Configure the EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_Config.html" />
+    <TocEntry
+      Title="Configure Profiles"
+      Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigProfile.html" />
+    <TocEntry
+      Title="Configure Check In Functionality "
+      Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigCheckInFunct.html" />
+    <TocEntry
+      Title="Configure Edit Booking Functionality"
+      Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigEditBookFunct.html" />
+    <TocEntry
+      Title="Configure How Booking Information Displays"
+      Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigHowBookInfoDisplay.html" />
+    <TocEntry
+      Title="Configure New Booking Functionality"
+      Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigNewBookFunct.html" />
+    <TocEntry
+      Title="Configure Custom Labels, Messages, and Images"
+      Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_CustomLabelsMessImage.html" />
+  </TocEntry>
+  <TocEntry
+    Title="Everyday User Guide EMS Room Sign App (formerly Glance)"
+    Link="/Content/D_Everyday User Guides/8_EMSRoomSignApp_UG.htm">
+    <TocEntry
+      Title="Introduction to EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_Introduction.html" />
+    <TocEntry
+      Title="Best Practices for Using EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_BestPracticesforUsing.html" />
+    <TocEntry
+      Title="Get Started with EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_GettingStarted.html" />
+    <TocEntry
+      Title="Deploying the EMS Room Sign App on Tablets"
+      Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_DeployingonTablet.html" />
+    <TocEntry
+      Title="Set Up EMS Room Sign App to Demo on a Desktop Browser (Update 12+)"
+      Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_SettingUpRSAtoDemo.html" />
+  </TocEntry>
+  <TocEntry
+    Title="Legacy Documentation"
+    Link="/Content/6RoomSignApp/B_V44/Glance_OlderReleases.htm">
+    <TocEntry
+      Title="EMS Glance Installation Guide"
+      Link="/Content/6RoomSignApp/B_V44/A_InstallationGuide/Glance_Overview.htm">
+      <TocEntry
+        Title="Considerations for Buying EMS Glance"
+        Link="/Content/6RoomSignApp/B_V44/C_UserGuide/Glance_ConsidBuying.html" />
+      <TocEntry
+        Title="System Requirements and Prerequisites"
+        Link="/Content/6RoomSignApp/B_V44/A_InstallationGuide/Glance_SystemReqandPrereq.html" />
+      <TocEntry
+        Title="Obtain the Installation Files"
+        Link="/Content/6RoomSignApp/B_V44/A_InstallationGuide/Glance_ObtainInstallFile.htm" />
+      <TocEntry
+        Title="Installing EMS Glance"
+        Link="/Content/6RoomSignApp/B_V44/A_InstallationGuide/Glance_Install.html" />
+      <TocEntry
+        Title="Deploy EMS Glance on a Tablet"
+        Link="/Content/6RoomSignApp/B_V44/A_InstallationGuide/Glance_DeployGlanceonTablet.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Glance Configuration Guide"
+      Link="/Content/6RoomSignApp/B_V44/A_InstallationGuide/Glance_Overview.htm">
+      <TocEntry
+        Title="Best Practices -- Device Configuration Steps"
+        Link="/Content/6RoomSignApp/B_V44/B_ConfigurationGuide/Glance_BestPracticesConfigSteps.html" />
+      <TocEntry
+        Title="EMS Glance Settings and Options"
+        Link="/Content/6RoomSignApp/B_V44/B_ConfigurationGuide/Glance_SettingsandOptions.htm" />
+      <TocEntry
+        Title="Configure How Booking Information Displays"
+        Link="/Content/6RoomSignApp/B_V44/B_ConfigurationGuide/Glance_ConfigHowBookInfoDisplays.html" />
+      <TocEntry
+        Title="Configure New Booking Functionality"
+        Link="/Content/6RoomSignApp/B_V44/B_ConfigurationGuide/Glance_ConfigNewBookFunct.html" />
+      <TocEntry
+        Title="Configure Edit Booking Functionality"
+        Link="/Content/6RoomSignApp/B_V44/B_ConfigurationGuide/Glance_ConfigEditBookFunct.html" />
+      <TocEntry
+        Title="Configure Check In Functionality"
+        Link="/Content/6RoomSignApp/B_V44/B_ConfigurationGuide/Glance_ConfigCheckInFunct.html" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Release Notes">
+    <TocEntry
+      Title="Release Notes V44.1"></TocEntry>
+    <TocEntry
+      Title="Release Notes V44"></TocEntry>
+    <TocEntry
+      Title="Release Notes V43" />
+    <TocEntry
+      Title="Release Notes V8" />
+  </TocEntry>
+  <TocEntry
+    Title="Glossary"
+    Link="/Content/G_Glossary/1_Glossary.htm"
+    Skin="/Project/Skins/HomeSearchBar.flskn"
+    StartSection="false"
+    SectionNumberReset="continue"
+    VolumeNumberReset="same"
+    ChapterNumberReset="continue"
+    ComputeToc="false"
+    ReplaceMergeNode="false"></TocEntry>
+</CatapultToc>

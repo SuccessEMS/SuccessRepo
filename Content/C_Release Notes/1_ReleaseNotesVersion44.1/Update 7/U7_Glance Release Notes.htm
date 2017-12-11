@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="3197" MadCap:lastWidth="937" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>EMS Glance Release Notes <br />V44.1, Update 7</h1>
+        <p>This section describes updates to&#160;your EMS software.&#160;See Also:&#160;<MadCap:xref href="#Contact">Contact Customer Support</MadCap:xref>&#160;and&#160;<MadCap:xref href="../Updating to the Latest Version of EMS (Patches and Builds).htm">Updating to the Latest Version of EMS (Patches and Builds)</MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Name:&#160;V44.1 Update 7</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Release&#160;Date:&#160;December 6, 2016</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Patch:&#160;2016.12.05.0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Build #:&#160;&#160;16.11.11.1</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p>API:&#160;1.0.1.012<br />&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p class="note-box">Important:&#160;There is a&#160;<a href="https://discussions.apple.com/thread/3802691?tstart=0" title="https://discussions.apple.com/thread/3802691?tstart=0" alt="https://discussions.apple.com/thread/3802691?tstart=0">known iOS issue</a>&#160;where homelinks on iPads (i.e., a full screen Safari browser page that is saved as an app) do not always clear&#160;their cache even if you do so manually. This issue may cause some of your devices to have errors.&#160;If you experience this issue, you should upgrade Glance (see&#160;Update 8).</p>
+        <p class="note-box">Note:&#160;Glance can run across all EMS versions. You can therefore just update the Glance application without upgrading all of EMS.</p>
+        <h2 class="Heading2_1">Fixes&#160;&#160;</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Emphasis_1">ArmorActive&#160;Enclosure</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>LED Colors Stayed Orange for Checked-In And&#160;Canceled Meetings on ArmorActive Enclosure&#160;</h4>
+                        <p class="p_25">When users checked into a meeting that was then canceled, the LEDs on the enclosure stayed orange.</p>
+                        <p class="p_32">Fix:&#160;Modified commands to the ArmorActive&#160;display so that when a meeting is canceled (regardless of check-in), LEDs turn red.&#160;</p>
+                        <p class="p_32">TFS Item 24347</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Emphasis_1">Edit Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>Cross-listed Combo Rooms Showed As Private</h4>
+                        <p class="p_25">When private academic courses were in combo rooms and cross-listed with other courses, they showed as "Private Meeting" when the event names should have shown in the list.</p>
+                        <p class="p_32">Fix:&#160;Modified functionality so that the event names now show in the list of courses and the events no longer behave as if they are private.</p>
+                        <p class="p_32">Note:&#160;Patch (above) required. &#160;</p>
+                        <p class="p_32">TFS&#160;item 23867</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Emphasis_1">New Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Automatic No-Show Incorrectly Triggered for Some Bookings</h4>
+                        <p class="NormalWeb_2">When users booked events in Glance that had no-show notifications turned on, due to a lag in saving to the database and updating Glance, some events triggered an automatic no-show status.</p>
+                        <p class="p_32">Fix:&#160;Modified the API so that these events update the database more efficiently and the events no longer trigger an inappropriate no-show status.</p>
+                        <h4>"Allow Future Same Day Bookings" Parameter Not Observed</h4>
+                        <p class="p_32">When this parameter was set to&#160;No, users were still able to book future same-day bookings by double-clicking on the&#160;desired time slots on the calendar grid.</p>
+                        <p class="p_32">Fix:&#160;&#160;Modified the display so that this parameter is enforced when it is set to No,&#160;clicking on the grid does not allow users to book future events.</p>
+                        <p class="p_25">TFS&#160;Items 23640, <a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/24505" class="Hyperlink_2">24505</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="Emphasis_1">Security</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <h4>Web Traffic Security Vulnerabilities</h4>
+                        <p class="p_25">The web application sent non-secure user and session information (cookies) during encrypted (SSL) sessions, exposing vulnerable information.</p>
+                        <p class="p_32">Fix:&#160;Added ANtiForgery validation to all Ajax HttpPost calls and added verb tampering redirection to prevent non-HTTP&#160;or Get calls being made to Glance so web traffic no longer exposes user and session information.</p>
+                        <p class="p_32">TFS&#160;Item 23980</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>

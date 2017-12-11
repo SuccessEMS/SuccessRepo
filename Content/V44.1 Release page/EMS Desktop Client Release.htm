@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Desktop Client Release Notes, V44.1 Update 2 (EMS Desktop Client)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="Strong_1">See Also:</span><span class="span_2">&#160;</span><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/Release_Notes/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 222pt;" />
+            <col style="width: 296pt;" />
+            <col style="width: 222pt;" />
+            <col style="width: 221pt;" />
+            <tr>
+                <td class="td_4">
+                    <p><span class="span_2">Name:&#160;</span><span class="span_1">V44.1 Update 2</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">August 8, 2016</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p><span class="span_2">Patch #:&#160;</span><span class="span_1">&#160;2016.08.08.0</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p><span class="span_2">Build #:&#160;</span><span class="span_1">44.1.235</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_4">
+                    <p class="p_59">&#160;</p>
+                </td>
+                <td class="td_4">
+                    <p class="p_59">&#160;</p>
+                </td>
+                <td class="td_4">
+                    <p class="p_59">&#160;</p>
+                </td>
+                <td class="td_4">
+                    <p class="p_59">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_34">&#160;</p>
+        <h2 class="Heading2_1">Enhancements&#160;</h2>
+        <h2 class="Heading2"><a href="https://success.emssoftware.com/Release_Notes/Update_2_0_Release_Notes/EMS_Desktop_Client_Release_Notes,_V44.1_Update_2" title="Edit section" class="a_17"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_2.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </h2>
+        <table align="center" class="table_4">
+            <col style="width: 115pt;" />
+            <col style="width: 425pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_41">EMS API</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Updates to the Database Table</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">New Tables</span><span class="span_19">&#160;</span>
+                    </p>
+                    <ul class="ul_4">
+                        <li class="li_13">tblDynamicFilters</li>
+                        <li class="li_13">tblMobileSecurity</li>
+                    </ul>
+                    <p class="Strong_3">Changes to Tables&#160;</p>
+                    <ul class="ul_4">
+                        <li class="li_13">TblNotificationRule – Added [VisitorCheckIn] [bit] field at end of table</li>
+                        <li class="li_13">TblRegistry – Increased length of [Area] nvarchar(30) to nvarchar(50)</li>
+                        <li class="li_13">TblServerVersion – Added the following 3 fields:</li>
+                    </ul>
+                    <ul class="ul_5">
+                        <li class="li_13">[ServerMinorVersion] [int] NOT NULL CONSTRAINT [DF_tblServerVersion_ServerMinorVersion] DEFAULT ((1)),</li>
+                        <li class="li_13">[ServerMajorVersion] [int] NOT NULL CONSTRAINT [DF_tblServerVersion_ServerMajorVersion] DEFAULT ((44)),</li>
+                        <li class="li_13">[DatabaseScriptVersion] [nvarchar] (max) NULL</li>
+                    </ul>
+                    <ul class="ul_4">
+                        <li class="li_13">TblWebMenu – Added new field, [IconClass] [nvarchar] (50)</li>
+                        <li class="li_13">TblWebTemplate – Added the following field:</li>
+                    </ul>
+                    <ul class="ul_5">
+                        <li class="li_13">[WebApp] [bit] NOT NULL CONSTRAINT [DF_tblWebTemplate_WebApp] DEFAULT ((1))</li>
+                    </ul>
+                    <ul class="ul_4">
+                        <li class="li_13">ems_vwBookings – removed WITH SCHEMABINDING</li>
+                    </ul>
+                    <p class="Strong_3">See Also:&#160;<a href="https://success.emssoftware.com/Knowledge_Base/V44.1_Database_Table" title="Knowledge_Base/V44.1_Database_Table" class="Hyperlink_3">Database Table</a></p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_1">Fixes&#160;</h2>
+        <h2 class="Heading2"><a href="https://success.emssoftware.com/Release_Notes/Update_2_0_Release_Notes/EMS_Desktop_Client_Release_Notes,_V44.1_Update_2" title="Edit section" class="a_17"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_2.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </h2>
+        <table align="center" class="table_4">
+            <col style="width: 149pt;" />
+            <col style="width: 391pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">EMS Desktop Client &gt;&#160;Login</p>
+                    <p class="NormalWeb"><span class="span_19">Bug&#160;</span><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/21359" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/21359"><span class="span_3">21359</span></a><span class="span_19"><br />Bug&#160;</span><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/21929" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/21929"><span class="span_3">21929</span></a>
+                    </p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Login Possible Via LDAP-SSL&#160;Without a Password</p>
+                    <p class="NormalWeb_2">When logging into the EMS Desktop Client using&#160;LDAP-SSL,&#160;users were able to login without a password.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">&#160;Modified validations to require a password.</span>
+                    </p>
+                    <p class="Strong_1">URL Field Unavailable</p>
+                    <p class="NormalWeb_3"><span class="span_19">When using&#160;</span><a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/Optional_Features/Integrated_Authentication_Options/06-Portal_Authentication/Portal_Authentication_Methods" title="https://success.emssoftware.com/EMS_V44.1/Installing_and_Setting_Up_EMS/01-Introduction/Configuring_Integrated_Authentication_for_the_EMS_Web_App/Appendix_-_Portal_Authentication_Methods"><span class="span_3">Portal Authentication</span></a><span class="span_19">, the URL field was unavailable on the Login page.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Enabled the field when Portal Authentication is in use&#160;so users can now specify the URL as designed.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">EMS Desktop Client &gt; Room Wizard &gt; Meeting Check-In &gt; Start Early</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/18802" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/18802" class="Hyperlink_2">18802</a></p>
+                    <p class="p_25">Bug 18797</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Start Early Button and Check-In Timing Off&#160;on Room Wizard</p>
+                    <p class="p_25">When checking in early to meetings in the Room Wizard, the check-in failed and registered as a no-show.&#160;</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Improved check-in functionality so that users can now click the Start Early button and successfully check in to a meeting.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Desktop Client Release Notes V44.1 Update 6 (EMS Desktop Client)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:</span><span class="span_2">&#160;</span><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/Release_Notes/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 232pt;" />
+            <col style="width: 311pt;" />
+            <col style="width: 231pt;" />
+            <col style="width: 186pt;" />
+            <tr>
+                <td class="td_4">
+                    <p><span class="span_2">Name:&#160;</span><span class="span_1">V44.1 Update 6</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">October 18, 2016</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p><span class="span_2">Patch #:&#160;</span><span class="span_1">&#160;2016.10.18.0</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p><span class="span_2">Build #:&#160;</span><span class="span_1">44.1.271</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_1">Enhancement&#160;</h2>
+        <h2 class="Heading2"><a href="https://success.emssoftware.com/Release_Notes/Update_6_0_Release_Notes/EMS_Desktop_Client_Release_Notes_V44.1_Update_6" title="Edit section" class="a_17"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_9.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </h2>
+        <table class="table_2">
+            <col style="width: 167pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Time Zones</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Update to Remove Daylight Savings Time from Turkish Time Zones</p>
+                    <p class="p_25">Modified time zone definitions throughout EMS to account for the Turkish government's decision to no longer observe Daylight Savings Time.</p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23860" class="Hyperlink_2">23860</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_1">Fixes&#160;</h2>
+        <h2 class="Heading2"><a href="https://success.emssoftware.com/Release_Notes/Update_6_0_Release_Notes/EMS_Desktop_Client_Release_Notes_V44.1_Update_6" title="Edit section" class="a_17"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_9.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </h2>
+        <table align="center" class="table_4">
+            <col style="width: 169pt;" />
+            <col style="width: 791pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Configuration &gt; Everyday User Applications &gt; Everyday Users</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Filtering By Both City and Process Template Fails</p>
+                    <p class="NormalWeb_2">When searching for Everyday Users, with the "Everyday Users linked to Groups via External Reference" parameter turned on, filtering results by both&#160;City and Process Template returned a list of all records.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the list to filter correctly.</span>
+                    </p>
+                    <p class="NormalWeb_7"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/13127" class="Hyperlink_2">13127</a>
+                    </p>
+                    <p class="Strong_1">Create New Everyday User: Error Message Uses Old Language</p>
+                    <p class="NormalWeb_2">If a duplicate new everyday user&#160;was entered, the error message "Web User Already Exists" displayed, which used old terminology.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the error message to read "Everyday User already exists" to&#160;align with new naming conventions.</span>
+                    </p>
+                    <p class="NormalWeb_7"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/21693" class="Hyperlink_2">21693</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Configuration &gt; Facilities&#160; &gt; Rooms</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Non-Admin Users Unable to Set Room Request/Reserve Preferences on Booking Templates</p>
+                    <p class="p_25">When non-administrative users configured rooms, the Web Process Template tab was unavailable.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the Room Configuration page to enable the Web Process Template tab when expected.</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/13000" class="Hyperlink_2">13000</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Dashboard &gt; Notifications</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Dashboard Indicator Stays Incorrectly Red for Event Coordinators</p>
+                    <p class="p_25">When Event Coordinator&#160;users were removed from a Notification Rule, the flashing indicator on their dashboard remained red although there was no notification on the dashboard.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the dashboard indicator to accurately reflect the latest changes to Event Coordinators' notification rules.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22587" class="Hyperlink_2">22587</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Edit Reservation &gt; Add Video Conference Meeting</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Host Selection Not Required for New Video Conference Bookings</p>
+                    <p class="p_25">When users added a new video conference booking to an existing reservation, they were not prompted to add a host, therefore the booking did not show on EMS Web App.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified validations to enforce host selection when booking is a video conference.</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23820" class="Hyperlink_2">23820</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Notifications</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Attendee&#160;Name Not Shown in Check-In Notification Subject Line</p>
+                    <p class="p_25">When attendees checked in to events and this triggered notifications, the subject line did not show the attendee name.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified notifications so that the attendee name shows in the subject line as expected.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23178" class="Hyperlink_2">23178</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="Emphasis_1">Campus &gt; Tools &gt; Wizard &gt; Delete Items</p>
+                </td>
+                <td class="td_6">
+                    <p class="Strong_1">Error Occurs Incorrectly When Deleting Service</p>
+                    <p class="p_25">When users deleted services from rooms using the Delete Items wizard, an error presented although the deletion was successful.&#160;</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the display so the error does not present when deletion is successful.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23283" class="Hyperlink_2">23283</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

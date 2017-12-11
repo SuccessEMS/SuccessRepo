@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="3333" MadCap:lastWidth="1450">
+    <head>
+        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Mobile App Release Notes (API, IPA, APK)<br />V44.1, Update 4 </h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="p_47">See Also:&#160;<MadCap:xref href="#Contact">Contact Customer Support</MadCap:xref>&#160;and&#160;<MadCap:xref href="../Updating to the Latest Version of EMS (Patches and Builds).htm">Updating to the Latest Version of EMS (Patches and Builds)</MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 234pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 281pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 288pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_12"><span class="span_6">Name:&#160;</span><span class="span_5">V44.1, Update 4</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_12"><span class="span_6">Release&#160;Date:&#160;</span><span class="span_5">September 19, 2016</span>
+                    </p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="p_16"><span class="span_6">Build #:&#160;</span><span class="span_5">44.1.430</span>
+                    </p>
+                    <p class="p_17"><span class="span_6">Mobile API #</span><span class="span_5">:&#160;44.1.187.0</span>
+                    </p>
+                    <p>IPA &amp;&#160;APK:&#160;44.1.430</p>
+                </td>
+            </tr>
+        </table>
+        <table align="center" class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col style="width: 298pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <col style="width: 790pt;" class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_11">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_11">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_26">Login &gt; Create Account</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_51">EMS Human Resources Toolkit Users Credentials Not Imported Correctly</p>
+                        <p class="p_4"><span class="span_8">When EMS Human Resources Toolkit users attempted to log in to EMS Mobile App, security template settings did not affect permissions as expected.&#160;The&#160;</span><span class="span_7">Create Account&#160;</span><span class="span_8">button was available to users who should not have access to this feature.</span>
+                        </p>
+                        <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified functionality so that Administrators can control the button's availability&#160;using the "Create \Edit An Account" role under Configuration &gt; Everyday User Applications &gt; Everyday User Security Templates in EMS Desktop Client.</span>
+                        </p>
+                        <p class="p_9">23080</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_26">User Interface</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_51">Create/Edit Reservation:&#160;Required Fields Unmarked for Long Field Names</p>
+                        <p class="NormalWeb_2">When working with a booking, fields that had long field names were not appropriately marked with red to indicate when they were required.</p>
+                        <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified display so that required fields show a red bar on the left side regardless of field name length.&#160;</span>
+                        </p>
+                        <p class="p_45">Calendar: "Load more" Button Displays When No More Events Exist</p>
+                        <p class="NormalWeb_2">When viewing future events, the button appeared even when no more events existed.</p>
+                        <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Changed validations so that the button only appears when there are more events to view.</span>
+                        </p>
+                        <p class="p_45">"Reservation Created" Message Repeats After Locking/Unlocking Devices</p>
+                        <p class="NormalWeb_2">During the reservation creation process, if users' devices locked and then unlocked while the user was navigating back to the home page,&#160;the message "Reservation Created" appeared multiple times.</p>
+                        <p class="p_53"><span class="span_7">Fix:</span><span class="span_8">&#160;Changed the message to only display once after saving changes.</span>
+                        </p>
+                        <p class="p_52">23171,&#160;23124,&#160;23029</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_9">Create Reservation&#160;&gt; Change Room</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_51">Changing Room Changes Timezone</p>
+                        <p class="p_25">When users changed the room to a new building on a reservation, the time zone changed and an error message presented.</p>
+                        <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified behavior so that the error message no longer presents.&#160;</span>
+                        </p>
+                        <p class="p_9">23065</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_26">Create Reservation &gt; Add Attendee</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_51">Adding Attendee to Reservation When Add to Calendar is Disabled Causes Crash</p>
+                        <p class="p_25">When users added attendees to reservations that had the option to add the event to the calendar&#160;disabled, the application crashed.</p>
+                        <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Changed functionality so the crash no longer occurs, and added a descriptive error message to clarify when adding the event to the calendar has been disabled.</span>
+                        </p>
+                        <p class="p_9">23366</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_26">Edit Outlook©&#160;Booking</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_16"><span class="span_7">Editing Outlook</span><span class="span_21">©</span><span class="span_7">&#160;Booking Causes Error</span>
+                        </p>
+                        <p class="p_53"><span class="span_8">When users edited bookings from Outlook</span><span class="span_21">©</span><span class="span_8">&#160;that had been made using a booking template enabled for both EMS Mobile App and EMS for Outlook, the following error occurred: "Error Loading Template."</span>
+                        </p>
+                        <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified functionality to ensure that users can edit this type of booking without the error.&#160;</span>
+                        </p>
+                        <p class="p_45">Cannot Save Changes to Outlook© Meeting</p>
+                        <p class="NormalWeb_2">When editing a booking that did not allow "Add to my calendar," users were unable to save changes.</p>
+                        <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified validations to ensure that users can save changes in this situation.</span>
+                        </p>
+                        <p class="p_9">23364,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23367" class="a_5">23367</a></p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_26">Search</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_51">Clicking Search Button Repeatedly Opens Multiple Search Windows</p>
+                        <p class="p_25">When users clicked the Search button multiple times, multiple search windows launched.</p>
+                        <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified behavior so that only one search window opens.</span>
+                        </p>
+                        <p class="p_9">23006</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_26">Calendar</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_51">Calendar Fails to Refresh After Booking Cancelation</p>
+                        <p class="NormalWeb_2">When users canceled a booking the Calendar did not refresh to show the cancelation.&#160;</p>
+                        <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the page to auto-refresh after a booking cancelation.</span>
+                        </p>
+                        <p class="p_45">Location Name and Details Frozen While Scrolling</p>
+                        <p class="NormalWeb_2">When users scrolled up and down, the location name and other details did not scroll.</p>
+                        <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified display so that all elements scroll as designed.&#160;</span>
+                        </p>
+                        <p class="p_45">Bookings Not Visible When&#160;Toggling Back to Home Page</p>
+                        <p class="NormalWeb_2">When users navigated to the calendar in schedule (grid) view&#160;and then back to the home page, bookings did not show on the home page.</p>
+                        <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the display to ensure that bookings are properly listed on the home page.&#160;</span>
+                        </p>
+                        <p class="p_9">23069,&#160;23028, 23386</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_26">Check-In</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_51">Outdated Parameters for Check-In and Building Proximity</p>
+                        <p class="p_25">Parameters that controlled user&#160;Check-In from EMS Desktop Client for&#160;how building proximity was handled during check-in were outdated:</p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_14">MOBILE_CheckinProximityDistance -&#160;Mobile Check In Proximity Distance</li>
+                            <li class="li_14">MOBILE_CheckinProximityUnitOfMeasurement -&#160;Mobile Check In Proximity Unit of Measurement</li>
+                            <li class="li_14">MOBILE_ProximityDistance -&#160;Mobile building proximity distance</li>
+                            <li class="li_14">MOBILE_ProximityUnitOfMeasurement -&#160;Mobile building proximity unit of measurement</li>
+                        </ol>
+                        <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified parameters so now the following exist instead:</span>
+                        </p>
+                        <ol start="1" class="ol_1">
+                            <li class="li_14">MOBILE_CheckinProximityDistance -&#160;Mobile Check In Proximity Distance</li>
+                            <li class="li_14">MOBILE_ProximityUnitOfMeasurement -&#160;Mobile proximity unit of measurement</li>
+                        </ol>
+                        <p class="p_9">23253</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="p_26">iOS Only: Home Page</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="p_51">Today's Events Not Displaying Automatically</p>
+                        <p class="p_25">When users on iOS&#160;devices launched the application, today's events were not automatically listed.&#160;</p>
+                        <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the display to list today's events for the current user&#160;as designed.&#160;</span>
+                        </p>
+                        <p class="p_9">23378</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+        <p>&#160;</p>
+    </body>
+</html>

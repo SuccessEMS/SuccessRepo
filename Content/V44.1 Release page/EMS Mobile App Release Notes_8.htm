@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1_2">EMS Mobile App Release Notes V44.1 Update 1 (EMS Mobile App (IPA and APK), EMS Platfrom Services API)</h1>
+        <p class="NormalWeb_1"><span class="span_1">This section describes updates to&#160;your EMS software.&#160;&#160;</span><span class="span_1"><img src="../Resources/Images/V44.1 Release page/EMS Academic Planning Release_1.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3864/tech_doc_new.png?revision=1&amp;size=bestfit&amp;width=26&amp;height=25" class="img_1" /></span><span class="span_1">Click on the&#160;</span><span class="Strong_5">title</span><span class="span_1">&#160;for each item below to expand for more details.</span>
+        </p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 171pt;" />
+            <col style="width: 191pt;" />
+            <col style="width: 221pt;" />
+            <col style="width: 296pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="NormalWeb"><span class="span_2">Name:&#160;</span><span class="span_1">V44.1 Update 11</span>
+                    </p>
+                    <p class="NormalWeb"><a href="https://success.emssoftware.com/Release_Notes/Update_10_Release_Notes/Update_10_Known_Issues/EMS_Mobile_App_Known_Issues" title="EMS Mobile App Known Issues" class="Strong_1">Known Issues</a>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb"><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">May 12, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb"><span class="span_2">Platform API&#160;#:&#160;</span><span class="span_1">&#160; 44.1.11000.3761</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb"><span class="span_2">Database (SQL)&#160;Patch:&#160;</span><span class="span_1">&#160; &#160;201705091</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Fixes&#160;</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">About Page</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_80">API Revision Number Missing on About Page</p>
+                    <p class="p_77"><span class="span_19">The API revision number was not displayed with the version number on the About Page.&#160;&#160;</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the page to add the API revision number.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_2">Authentication</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_80">Entering a Blank Server URL Over SSO Caused Crash</p>
+                    <p class="p_77"><span class="span_19">When users changed the&#160;</span><a href="https://success.emssoftware.com/001_Using_EMS__(V44.1)/Using_EMS_Mobile_App/030_Getting_Started_With_EMS_Mobile/010_Log_in%2C_reset_password_or_create_an_account/Entering_Your__Server_URL" title="https://success.emssoftware.com/001_Using_EMS/Using_EMS_Mobile_App/030_Getting_Started_With_EMS_Mobile/010_Logging_In/Entering_Your__Server_URL"><span class="span_3">Server URL</span></a><span class="span_19">&#160;to an empty value using Single Sign On authentication, EMS Mobile App crashed.&#160;&#160;</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified validations so the app no longer crashes and instead presents the error message, "Unable to import configuration".</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_2">Edit Reservation</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_80">Child User-Defined Fields Disappear</p>
+                    <p class="p_77"><span class="span_19">When users edited values in User Defined Fields (UDFs)&#160;that had child fields, saved changes, and then opened the reservation to edit again, the child UDFs&#160;did not display.&#160;</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that child UDFs&#160;display in edit mode.</span>
+                    </p>
+                    <p class="NormalWeb"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/29480" class="Hyperlink_2">29480</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="Emphasis_1">API Customization</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_80">User Authentication Issues Due To Custom config.json File</p>
+                    <p class="p_77"><span class="span_19">For customers who used a custom config.json file, users had to click the About&#160;&gt;</span><span class="Strong_2">&#160;EMS Server URL&#160;</span><span class="span_19">in order to authenticate.</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that custom config.json files no longer cause the issue and users authenticate in one step.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

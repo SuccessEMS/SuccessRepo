@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Web App Release Notes Version 44.1 Update 13 (EMS Web App)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 105pt;" />
+            <col style="width: 132pt;" />
+            <col style="width: 178pt;" />
+            <col style="width: 126pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="span_2">Name:&#160;</span><span class="span_1">V44.1 Update 13</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">July 14, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Patch: &#160;</span><span class="span_1">44.1.13000.201707100</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Build #:&#160;</span><span class="span_1">&#160;44.1.13000.474</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Fixes&#160;</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="4" class="td_3">
+                    <p class="Emphasis_1">Skype for Business</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">For ADFS Authentication, Popup Window Did Not Close&#160;</p>
+                    <p class="NormalWeb_2">Users authenticating with ADFS&#160;who successfully logged in were experiencing a popup window that would not close.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that popup window closes after user successfully logs into Skype for Business.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">After Adding a Room to Their Reservation,&#160;Users Were Unable to Toggle Skype Icon (EMS Mobile Web App)</p>
+                    <p class="NormalWeb_2">In the EMS Mobile Web App, users were unable to toggle the Skype icon after adding a room to their reservation.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users can toggle the Skype icon after adding a room.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_45">Room Names with Special Symbols Displayed Incorrectly in Skype Calendar</p>
+                    <p class="NormalWeb_2">Skype meetings including room names with special symbols that were created in the EMS Web App were displayed incorrectly in the Skype calendar.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that room names with special characters are displayed correctly in the Skype Calendar.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">If Adding Skype for Business to a Reservation, Users Cannot Disable Add to Calendar Checkbox</p>
+                    <p class="NormalWeb_2">For Skype for Business to function properly, the meeting must be added to the creator's calendar. If the Add to Calendar checkbox is unchecked, Skype for Business would not be added to the reservation.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that &#160;users cannot disable the Add to Calendar checkbox.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_38">Manage Services</p>
+                    <p class="p_38">Add Services</p>
+                    <p class="p_38">Create Reservation</p>
+                    <p class="p_38">Attendees</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Booking and Resources Applied Incorrectly</p>
+                    <p class="NormalWeb_2">When a reservation was created with multiple locations and an attendee resource type was added to a building the attendee resource was incorrectly added on all locations.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that resources are added correctly.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="Emphasis_1">Services tab</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_45">Unauthenticated Requests Did Not Include a Next Step Button</p>
+                    <p class="NormalWeb_2">When a reservation was created with an unauthenticated process template, the Next Step button on the Services tab was missing. This Next Step button would have taken users to the Request Details page.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the Next Step button appears and users can advance to the Request Details page.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

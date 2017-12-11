@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="10" MadCap:lastHeight="6558" MadCap:lastWidth="1000" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title mt-export-translate="no">Configuring Platform Services in the Admin Portal</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1>Configure Platform Services in the Admin Portal</h1>
+        <p>To begin configuration of EMS Platform Services, navigate to the Platform Services URL (e.g., https://yourcompany.com/ems-platform-api/admin).</p>
+        <p>This topic provides information on the following:&#160;</p>
+        <ul class="mt-indent-1">
+            <li>
+                <MadCap:xref href="#Authentication_Types">Authentication Types</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#ClearCache">Clear the Cache</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Manage_Integration_Clients">Manage Integration Clients</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#viewlogs">View Logs</MadCap:xref>
+            </li>
+        </ul>
+        <h2><a name="Authentication_Types"></a>Authentication Types</h2>
+        <p>EMS supports two authentication types for the EMS Platform Services Admin Portal:</p>
+        <ol class="mt-indent-1">
+            <li><span class="bold">EMS Native authentication</span>—A web user with web admin security template credentials can login to admin portal. Verify license information is correctly reflected on the admin home page.</li>
+            <li><span class="bold">NTLM authentication</span>—While&#160;installing Platform Services, click the&#160;<span class="bold">Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box.&#160;</li>
+        </ol>
+        <p>From the EMS Platform Services Admin Portal, you can clear the cache, view license and application information, manage integration clients, and view logs. </p>
+        <p>
+            <img src="../Images/PS_CG_Config1.png" />
+        </p>
+        <h2><a id="flushcache" name="ClearCache"></a>Clear the Cache</h2>
+        <p>Important: The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p>
+        <p>To clear your cache and have Platform Services re-read the database parameters:</p>
+        <ol>
+            <li>From the <span class="bold">Admin Functions</span> section of the Home Page, click the <span class="bold">Clear Cache</span> button.&#160;</li>
+            <li>You will receive a notification that the cache has been cleared successfully.</li>
+        </ol>
+        <h2><a name="Manage_Integration_Clients"></a>Manage Integration Clients</h2>
+        <p>From the Integrations&#160;link on the Home Page, you can <MadCap:xref href="#create_a_new_integration_client">create</MadCap:xref>, <MadCap:xref href="#Edit_the_Status_of_or_Delete_an_Integration_Client">edit status</MadCap:xref>, or <MadCap:xref href="#Edit_the_Status_of_or_Delete_an_Integration_Client">delete integration clients</MadCap:xref>.</p>
+        <h3>To <a name="create_a_new_integration_client"></a>create a new integration client:</h3>
+        <ol>
+            <li>From the left sidebar on the Home Page, click <span class="bold">Integrations</span>. From this screen, you can view a list of integrations and their statuses. <ol start="1" style="list-style-type: lower-alpha;"><li>To create a new integration client, click the <span class="bold">New Integration Client</span> button.</li><li>Create a client&#160;<span class="bold">Name</span>.</li><li>From the <span class="bold">Type </span>dropdown, choose either <span class="bold">Custom </span>or <span class="bold">Partner</span>.&#160;</li><li>The <span class="bold">Active </span>box is checked by default. This indicates that your integration is active.&#160;</li><li>Click <span class="bold">Enable Logging</span>&#160;to view the logs for this integration through the Log section of the Admin Portal.&#160;</li><li>Designate a <span class="bold">User Authentication</span> type.&#160;</li></ol></li>
+        </ol>
+        <p>Important:&#160;Partner and Custom types can be classified as either of the following client sub-categories:</p>
+        <ol>
+            <ul>
+                <li><span class="bold">User-based:</span>&#160;User-based clients (EMS Mobile, EMS for Outlook) need to authenticate as a user in order to perform any actions. These clients need an integration client role with minimal access to the following API resources (above and beyond public resources):
+
+                <ul><li>/authentication</li><li>/logging</li></ul></li>
+                <li><span class="bold">Non-user Based:</span> Non-user Based clients (EMS Kiosk, EMS Room Sign App) provide functionality independent of users but also support user-like functionality (i.e., Check-In, on-the-fly room reservations). These clients need a role with wider access.</li>
+            </ul>
+            <li>To designate the client as an Everyday User:
+    <ol start="1" style="list-style-type: lower-alpha;"><li>Click the <span class="bold">Allow Everyday User Authentication</span> box under User Authentication. If this box is not checked, all other options for everyday user authentication will be inaccessible. Header, OpenID, and SAML are configured from the Admin Portal.&#160;</li><li>Click the <span class="bold">User Authentication is Persistent</span> box to allow users to remain logged in.&#160;</li><li>The default for <span class="bold">Token Duration</span> is one day (1440 minutes). Customize this duration by entering a number of minutes in the field.&#160;</li></ol><p><img src="../Images/PS_CG_Config2.png" /></p><ol style="list-style-type: lower-alpha;" MadCap:continue="true"><li>Choose an authentication method from the <span class="bold">Everyday User Authentication Method</span> dropdown.<ul MadCap:continue="true"><li><span class="bold">EMS Native </span>authentication: authenticate users via Everyday Application User (webuser) credentials stored in the EMS database. No additional authentication configuration is required.</li><li><span class="bold">Header </span>authentication, navigate to the EMS Platform Services Admin Portal. Select Header from sidebar and enter the Header variable.&#160;</li></ul><p><img src="../Images/PS_CG_Config3.png" /></p></li><li>Configure <span class="bold">LDAP </span>authentication in the EMS Web App. See <MadCap:xref href="../../3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html">LDAP Authentication</MadCap:xref>.&#160;</li><li>To configure&#160;<span class="bold">NTLM&#160;</span>authentication,&#160;click the<span class="bold">&#160;Enable NTLM&#160;For EMS Everyday User Authentication</span>&#160;box. No additional authentication configuration is required.</li><li>Select&#160;<span class="bold">Open ID</span>&#160;authentication from the sidebar and complete the required fields. See <MadCap:xref href="../../3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html">Open ID Connect Authentication</MadCap:xref>&#160;for more details.<p><img src="../Images/PS_CG_Config4.png" /></p></li><li>Select&#160;<strong>SAML </strong>authentication from the sidebar and complete the required fields. See <MadCap:xref href="../../3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">SAML Authentication</MadCap:xref>&#160;for more details.<p><img src="../Images/PS_CG_Config5.png" /></p></li></ol><p>Note: The Header, OpenID, and SAML authentication settings are applied globally. All&#160;Integration Clients with these authentications&#160;types selected will default to these settings.</p><ol style="list-style-type: lower-alpha;" MadCap:continue="true"><li>Based on client type, platform check against license count, and current number of "active" integration clients. If license count is 0 or equal to the current number of "active" clients, then Platform Services&#160;denies the request to add an additional client. Customer would have to either set existing client to inactive, or up their license count via normal licensing process. Please refer to Licensing Requirements for more details.</li><li>Click <span class="bold">Save Client</span>. A client ID and Secret pair is generated once the Integration Client is successfully saved. Copy and save the Client Secret in a secure location. You will not be able to retrieve the Client Secret; to obtain the Client Secret, you will need to reset it. To reset the Client Secret, navigate to the Integrations tab and select the Integration Client. Click the Reset Secret button.</li></ol></li>
+        </ol>
+        <p>Notes: Platform Services requires a valid JWT Authentication token in order to call any of the API resources with the exception of /public, /status/, and /clientauthentication.</p>
+        <p>Before making any API request, you must first call /clientauthentication with the Client ID and Secret pair generated above.</p>
+        <h3>To <a name="Edit_the_Status_of_or_Delete_an_Integration_Client"></a>Edit the Status of or Delete an Integration Client</h3>
+        <ol>
+            <li>Select the Integration link on the Home Page.</li>
+            <li>Select the Integration Client you wish to edit or delete.</li>
+            <li>To edit the status of the Integration Client, uncheck&#160;the <span class="bold">Active </span>checkbox.&#160;</li>
+            <li>To delete the integration client, click the <span class="bold">Delete Client </span>button.</li>
+            <li>Click <span class="bold">Save Changes</span>.</li>
+        </ol>
+        <p>
+            <img src="../Images/PS_CG_Config6.png" />
+        </p>
+        <h2><strong><a id="viewlogs" name="viewlogs"></a>View Logs</strong>
+        </h2>
+        <p>There are two types of logs in EMS Platform Services:</p>
+        <ol class="mt-indent-1">
+            <li><span class="bold">Global logs:</span> Includes logs for only Platform Services.&#160;</li>
+        </ol>
+        <p>
+            <img src="../Images/PS_CG_Config7.png" />
+        </p>
+        <ol class="mt-indent-1" start="2">
+            <li><span class="bold">Integration logs:</span> Includes logs for a select integration client. Enable logging for any integration client you wish to view logs for.&#160;</li>
+        </ol>
+        <p>
+            <img src="../Images/PS_CG_Config8.png" />
+        </p>
+        <p>&#160;</p>
+    </body>
+</html>

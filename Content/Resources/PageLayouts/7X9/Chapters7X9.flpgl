@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="First Right" Width="7in" Height="9in" Padding="20px" PageType="firstright" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="custom" BackgroundType="Solid" BackgroundColor="#ffffff">
+        <Frame Flow="body" Y="50px" Bottom="43px" X="0px" Right="-2px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Bottom" Width="578px" Height="675px" FlowIndex="1">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-31px" X="-2px" Y="752px" Width="586px" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Using <MadCap:variable xhtml:name="General.EMS&#160;Web App" /> <MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-2px" Y="-8px" Width="106px" Height="40px" Flow="decoration0" Right="472px" Bottom="736px" BackgroundImage="../../Images/EMS Logo.JPG" BackgroundRepeat="stretch" />
+    </Page>
+    <Page Name="Left" Width="7in" Height="9in" Padding="20px" PageType="left" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" BleedLeft="0.25in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" PageSize="custom">
+        <Frame Flow="body" Y="57px" Bottom="48px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="576px" Height="663px">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-31px" X="-2px" Y="752px" Width="586px" TextAlign="left" VerticalAlign="top" FlowIndex="1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Using <MadCap:variable xhtml:name="General.EMS&#160;Web App" /> <MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+        <Frame X="-2px" Y="-2px" Width="106px" Height="40px" Flow="decoration0" Right="472px" Bottom="730px" BackgroundImage="../../Images/EMS Logo.JPG" BackgroundRepeat="stretch" />
+    </Page>
+    <Page Name="Right" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="right" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" Orientation="portrait" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" Y="46px" Bottom="49px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="576px" Height="673px">
+        </Frame>
+        <Frame X="-3px" Y="-8px" Width="106px" Height="40px" Flow="decoration0" Right="473px" Bottom="736px" BackgroundImage="../../Images/EMS Logo.JPG" BackgroundRepeat="stretch" />
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-31px" X="-2px" Y="752px" Width="586px" TextAlign="left" VerticalAlign="top" FlowIndex="1">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Using <MadCap:variable xhtml:name="General.EMS&#160;Web App" /> <MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

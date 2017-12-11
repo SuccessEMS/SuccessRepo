@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2555" MadCap:lastWidth="1060" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">EMS for Outlook Release Notes <br />V44.1, Update 4</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="p_47">See Also:&#160;<MadCap:xref href="#Contact">Contact Customer Support</MadCap:xref>&#160;and&#160;<MadCap:xref href="../Updating to the Latest Version of EMS (Patches and Builds).htm">Updating to the Latest Version of EMS (Patches and Builds)</MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');width: 957px;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 266px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 389px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 299px;" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_12">Name:&#160;V44.1 Update 4</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_12">Release&#160;Date:&#160;September 19, 2016</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="p_12">Build #:&#160;44.1.191.0</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Fix&#160;</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 293px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 662px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_11">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_11">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_38">New Booking &gt; Add Resources</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_45">Excluded Resources Allowed</p>
+                        <p class="p_25">When making a new reservation and adding resources, users were able to choose services that were excluded from the selected rooms.&#160;</p>
+                        <p class="p_4">Fix: Enforced the excluded resources rule so that users cannot add services that are excluded for certain rooms.&#160;</p>
+                        <p class="p_25">22998</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_38">New Booking &gt; Commit Date</p>
+                        <p class="p_25">&#160;</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_45">"Commit Date" Message Persists After Clicking Commit Dates Option</p>
+                        <p class="p_25">When booking a space in EMS for Outlook and clicking the Commit Dates option, the message "Commit Date" presented&#160;persistently and prevented users from selecting different dates.</p>
+                        <p class="p_4">Fix:&#160;Changed the display so the message does not persist and users can change the date.</p>
+                        <p class="p_25">22112</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_26">New Recurring Event</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_45">New Recurrent Meeting With Attendees Automatically Canceled</p>
+                        <p class="p_53">When booking a recurrent meeting using a single room&#160;and adding attendees in the&#160;To:&#160;field, an error occurred: "Reservation [###] has been cancelled."&#160;</p>
+                        <p class="p_53">Fix:&#160;Modified validations so the error no longer occurs and users can create this type of event.</p>
+                        <p class="p_45">Multiple Confirmation Emails Triggered by Changing Recurrence, Cancelations, and Conflicts in&#160;Recurrent Meetings</p>
+                        <p class="NormalWeb_2">When changing the recurrence, canceling, or raising a conflict in a&#160;recurrent meeting, the same number of&#160;individual confirmation emails were generated for each change as there were occurrences.</p>
+                        <p class="p_53">Fix: Modified functionality so that only one confirmation email triggers for these types of changes.&#160;</p>
+                        <p class="p_45">Conflicted&#160;Booking Shows on Calendar After "Proceed Without Alternative"</p>
+                        <p class="p_53">When booking a recurring meeting&#160;in conflict by clicking the&#160;Proceed without alternate&#160;option during the conflict resolution process, the blocking event still&#160;showed on the calendar.</p>
+                        <p class="p_53">Fix:&#160;Modified the calendar so that blocking events are canceled and removed from the calendar in this situation.</p>
+                        <p class="NormalWeb_2">23141</p>
+                        <p class="NormalWeb_2">22893</p>
+                        <p class="NormalWeb_2">23013</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_26">New Booking &gt; Search for Space</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="p_45">Load Default Criteria Button Fails</p>
+                        <p class="p_25">When booking an event and searching for&#160;space, clicking the Load Default Criteria button, the wrong information appeared.</p>
+                        <p class="p_4">Fix:&#160;Removed the button.</p>
+                        <p class="p_25">23043</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_26">View Reservation</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="p_45">Cancel and Edit Options&#160;Missing from View Reservation</p>
+                        <p class="p_25">When viewing a reservation, the Cancel and Edit options did not appear next to the reservation.</p>
+                        <p class="p_4">Fix:&#160;Modified the display so that the options show next to the reservation. Also, added a confirmation message for cancellations.</p>
+                        <p class="p_25">22327</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="p_26">Email Notifications</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p class="p_45">Confirmation Formats for Outlook Meetings&#160;Do Not Match&#160;EMS Web App</p>
+                        <p class="p_25">Email confirmations were different when sent for a booking made in Outlook versus&#160;Web App&#160;when&#160;using the same booking template.</p>
+                        <p class="p_4">Fix:&#160;Modified Outlook&#160;notifications to match the format for EMS Web App.</p>
+                        <p class="p_25">23227</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>

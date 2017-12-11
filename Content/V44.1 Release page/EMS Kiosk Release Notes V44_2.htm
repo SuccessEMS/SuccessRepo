@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">&#160;EMS Kiosk Release Notes V44.1 Update 7 (EMS Kiosk)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="p_72">See Also:&#160;</p>
+        <ul class="ul_1">
+            <li class="li_12"><a href="https://success.emssoftware.com/EMS_V44.1/V44.1_Updates/Update_7_Known_Issues/EMS_Kiosk_Known_Issues" title="EMS Kiosk Known Issues" class="a_2">EMS Kiosk Known Issues</a>
+            </li>
+            <li class="li_19"><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support" class="a_2">Contacting Customer Support</a>&#160;and&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build" class="a_2">Updating to the Latest Version of EMS</a></li>
+        </ul>
+        <table class="table_3">
+            <col style="width: 116pt;" />
+            <col style="width: 178pt;" />
+            <col style="width: 135pt;" />
+            <col style="width: 111pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_6">Name:&#160;</span><span class="span_5">V44.1 Update 7</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_6">Release&#160;Date:&#160;</span><span class="span_5">December 6, 2016</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_6">Patch:&#160;</span><span class="span_5">2016.12.05.0</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_6">Build #:&#160;</span><span class="span_5">&#160;44.1.283.0</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_48">Fixes&#160;&#160;</p>
+        <p class="p_6"><a href="https://success.emssoftware.com/Release_Notes/Update_7_Release_Notes/EMS_Kiosk_Release_Notes_V44.1_Update_7" title="Edit section" class="a_3"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_10.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </p>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_11">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_11">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Floor Plan</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Floor Plans Not Loading</p>
+                    <p class="p_25">When users clicked on floor plans from the View Map column on the Locate Person or My Reservations pages, they did not load successfully.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified functionality so that floor plans load as expected.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/24194" class="a_16">24194</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Translations</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Error Messages in Spanish (Venezuela) and Portuguese (Angola) Incorrect</p>
+                    <p class="p_25">When transations&#160;for EMS Kiosk were set to&#160;Spanish (Venezuela) and Portuguese (Angola), an error page titled " Browser TItle-Untitled Page" displayed the error,&#160;"Details: An unknown error occurred."</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the page to show the correct browser title and error message.</span>
+                    </p>
+                    <p class="p_25">23320</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Outlook Reservations</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">End Now Button Persists for Outlook Reservations</p>
+                    <p class="p_4"><span class="span_8">Reservations that had been booked in Outlook incorrectly showed the&#160;</span><span class="span_7">End Now</span><span class="span_8">&#160;button.</span>
+                    </p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified validations so that the&#160;</span><span class="span_7">End Now</span><span class="span_8">&#160;button does not show on Outlook reservations.&#160;</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23966" class="a_16">23966</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Check-In</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Reduce Check-In to Single Click</p>
+                    <p class="p_25">Users had to confirm check-in with a second click.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the check-in confirmation to only require one click on the Check-In icon.&#160;</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/24689" class="a_16">24689</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_65">&#160;</p>
+    </body>
+</html>

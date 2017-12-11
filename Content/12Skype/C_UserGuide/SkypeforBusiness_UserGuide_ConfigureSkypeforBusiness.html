@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="10" MadCap:lastHeight="7333" MadCap:lastWidth="1000">
+    <head><title mt-export-translate="no">Configuring Skype for Business</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1>Configure Skype for Business</h1>
+        <p>This topic provides information on the following: </p>
+        <ul>
+            <li>
+                <MadCap:xref href="#Deployment_Types">Deployment Types</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Integrate_with_the_Skype_for_Business_Server">Integrate with Skype for Business Server</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Connect_EMS_Web_App_Platform_Services">Connect EMS Web App&#160;to Platform Services</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Configure_Skype_for_Business_on_Global_Templates">Configure Skype for Business on Global Templates</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Configure_Skype_for_Business_on_a_Process_Template_Level">Configure Skype for Business on a Process Template Level</MadCap:xref>
+            </li>
+            <li>
+                <MadCap:xref href="#Configure_Skype_for_Business_on_Existing_Templates">Configure Skype for Business on Existing Templates</MadCap:xref>
+            </li>
+        </ul>
+        <p>
+            <MadCap:annotation MadCap:createDate="2017-11-25T15:07:14.0589622-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Does this statement refer to the entire topic or just the deployment types?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-25T15:07:26.8179811-07:00">Skype for Business must be configured in the EMS Desktop Client. The process below applies to both EMS Mobile App and EMS Web App.</MadCap:annotation>
+        </p>
+        <h2><a name="Deployment_Types"></a>Deployment Types</h2>
+        <p>There are three deployment&#160;types for Skype for Business:</p>
+        <ol class="mt-indent-1">
+            <li><span class="bold">On Premise:</span> This deployment for Skype for Business does not retain a token and requires authentication every 8 hours. As a result, you will be asked to sign in every 8 hours.&#160;</li>
+            <li><span class="bold">Online:</span> This deployment retains the token so only an initial authentication is required.&#160;</li>
+            <li><span class="bold">Hybrid:</span> This deployment has the same authentication method as the Online deployment.</li>
+        </ol>
+        <p>Skype for Business Authentication and Authorization Sequence Diagram</p>
+        <p>
+            <img src="../Images/Skype_CG1.png" />
+        </p>
+        <p>Note: Ensure that you have Exchange web services component deployed in your environment.&#160;</p>
+        <h2><a name="Integrate_with_the_Skype_for_Business_Server"></a>Integrate with Skype for Business Server</h2>
+        <ol>
+            <li>Set the authentication for Skype for Business.&#160;</li>
+            <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Everyday User Applications</span> tab.</li>
+            <li>From the Area dropdown, choose <span class="bold">Skype for Business</span>.&#160;</li>
+        </ol>
+        <p>
+            <img src="../Images/Skype_CG2.png" />
+        </p>
+        <ol class="mt-indent-1" start="1" style="list-style-type: upper-roman;">
+            <li><span class="bold">For On Premise deployment:</span>
+                <ol start="1" style="list-style-type: lower-alpha;">
+                    <li>Set the <span class="bold">Skype for Business Auto Discover URL</span> parameter. This parameter performs autodiscovery&#160;to find the appropriate server to communicate with. For more information regarding setting this parameter, click see <a href="https://ucwa.skype.com/documentation/GettingStarted-RootURL" title="https://ucwa.skype.com/documentation/GettingStarted-RootURL" alt="https://ucwa.skype.com/documentation/GettingStarted-RootURL">here</a>.&#160;</li>
+                    <li>Set&#160;the <span class="bold">Skype for Business Serve Authentication Method</span>. This parameter determines the authentication type that is used to generate a token.&#160;<ul start="1"><li>The Skype for Business (On Premise) server supports three authentication methods:<ol start="1"><li>ADFS (not supported in EMS Mobile App)</li><li>NTLM</li><li>UserName/Password</li></ol><p><img src="../Images/Skype_CG3.png" /></p></li></ul></li>
+                </ol>
+            </li>
+            <li><span class="bold">For Online deployment:</span>
+                <ol start="1" style="list-style-type: lower-alpha;">
+                    <li>Set the <span class="bold">Azure Active Directory Client ID</span> parameter. This parameter determines the ID of the registered application. For more information regarding setting this parameter, click see <a href="https://msdn.microsoft.com/en-us/skype/ucwa/registeringyourapplicationinazuread" title="https://msdn.microsoft.com/en-us/skype/ucwa/registeringyourapplicationinazuread">here</a>.&#160;</li>
+                    <li>Set the <span class="bold">Azure Active Directory Tenant</span> parameter. This parameter determines the name of the AAD tenant. For more information regarding setting this parameter, click see <a href="https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-howto-tenant" title="https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-howto-tenant">here</a>.</li>
+                    <li><span class="bold">Skype for Business Auto Discover URL</span>. This parameter performs autodiscovery&#160;to find the appropriate server to communicate with. For more information regarding setting this parameter, click&#160;see <a href="https://msdn.microsoft.com/en-us/skype/ucwa/authenticationusingazuread" title="https://msdn.microsoft.com/en-us/skype/ucwa/authenticationusingazuread">here</a>.&#160;</li>
+                    <li><span class="bold">Skype for Business Server Authentication Method</span>. This parameter determines the authentication type that is used to generate a token.<ul start="1"><li>The Skype for Business (Online) server supports one authentication method:<ol start="1"><li>Oauth</li></ol><p><img src="../Images/Skype_CG4.png" /></p></li></ul></li>
+                </ol>
+            </li>
+        </ol>
+        <ol start="4">
+            <li>Configure the Reply URL&#160;for EMS Mobile App (Skype for Business Online deployment):
+    <ol start="1" style="list-style-type: lower-alpha;"><li>&#160;Refer to the steps outlined in this see <a href="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication#a-nameadvanced-aalternative-method-manually-configure-azure-active-directory-with-advanced-settings" title="https://docs.microsoft.com/en-us/azure/app-service-mobile/app-service-mobile-how-to-configure-active-directory-authentication#a-nameadvanced-aalternative-method-manually-configure-azure-active-directory-with-advanced-settings">documentation</a>.</li><li>In the Reply URL field, insert&#160;<span class="bold">emssoftware://skype/x</span>.</li></ol></li>
+            <li>Configure the Reply URL for EMS Web App:
+    <ol start="1" style="list-style-type: lower-alpha;"><li>In the Reply URL field, insert the root URL:
+        <ul class="mt-indent-1"><li>Skype for Business Reply URL = https://loripsor/ConferencingLogin.aspx (where EMS Web App URL = htttps://loripsor.emswebapp.com and&#160;Root URL = loripsor)</li></ul></li></ol></li>
+        </ol>
+        <p>Warning: The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p>
+        <h2><a name="Connect_EMS_Web_App_Platform_Services"></a>Connect EMS Web App&#160;to Platform Services</h2>
+        <p>In order to integrate with Skype for Business, EMS Web App must connect to EMS Platform Services.&#160;</p>
+        <ol>
+            <li>Navigate to the EMS Platform Services Admin Portal.&#160;</li>
+            <li>Select <span class="bold">Integrations</span>. Under Clients, click on the<span class="bold"> EMS Web App</span> link.</li>
+            <li>Click the <span class="bold">Reset Secret</span> button and copy the generated Secret.</li>
+            <li>In the <span class="bold">web.config file </span>located in the designated folder for your current version of EMS, insert the copied Secret&#160;ID into the value field.&#160;</li>
+        </ol>
+        <p>&#160; &#160; &lt;add key="platformServicesSecret" value="<span style="background-color: #ffff00;">Your</span><span class="bold"><span style="background-color: #ffff00;">SecretID</span></span>" /&gt;</p>
+        <p>Important: Cloud customers do not need to generate a Secret or insert it into the web.config file (Steps 3 through 4).</p>
+        <ol start="5">
+            <li>Clear the cache in EMS Platform Services by navigating&#160;back to the EMS Platform Services Admin Portal and clicking the <span class="bold">Clear Cache</span> button.&#160;</li>
+        </ol>
+        <h2><a name="Configure_Skype_for_Business_on_Global_Templates"></a>Configure Skype for Business on Global Templates</h2>
+        <ol start="1">
+            <li>Log into EMS Desktop Client.&#160;Enable the global parameters for&#160;Skype for Business within EMS. Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Everyday User Applications</span> tab.&#160;
+
+    <ol start="1" style="list-style-type: lower-alpha;"><li>From the Area dropdown, choose <span class="bold">Integration to Microsoft Exchange</span>.</li><li>Select<span class="bold"> Enable Skype for Business</span>. Click <span class="bold">Edit</span>.</li><li>The default value is No. Set the Description to <span class="bold">Yes</span>.</li><li>Click <span class="bold">OK</span>.</li><li>Click <span class="bold">Close</span>.&#160;</li></ol></li>
+        </ol>
+        <p>Configuring Skype for Business on a Global Template</p>
+        <p>
+            <img src="../Images/Skype_CG5.png" />
+        </p>
+        <ol start="2">
+            <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Everyday User Applications</span> tab.&#160;
+
+    <ol start="1" style="list-style-type: lower-alpha;"><li>From the Area dropdown, choose <span class="bold">System</span>.</li><li>Select<span class="bold"> Platform Services URL</span>. Click <span class="bold">Edit</span>.</li><li>Enter the Value (enter the URL for Platform Services) (e.g., https://serverURL/{PlatformServicesName}.</li><li>Click <span class="bold">OK</span>.</li><li>Click <span class="bold">Close</span>.&#160;</li></ol></li>
+            <ol style="list-style-type: lower-alpha;">
+                <li>Navigate to <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt; <span class="bold">Parameters </span>&gt; <span class="bold">Everyday User Applications</span>.
+    <ol start="1"><li>From the Area dropdown, choose <span class="bold">Skype for Business</span>.</li><li>Select <span class="bold">Enable Skype for Business</span>. Click <span class="bold">Edit</span>.</li><li>The default value is No. Set the Description to <span class="bold">Yes</span>.</li><li>Click <span class="bold">OK</span>.</li><li>Click <span class="bold">Close</span>.&#160;</li></ol></li>
+            </ol>
+        </ol>
+        <h2><a name="Configure_Skype_for_Business_on_a_Process_Template_Level"></a>Configure Skype for Business on a Process Template Level</h2>
+        <p>Note: Changing the parameters on a template level will override the global settings.</p>
+        <p>To configure Skype for Business on a process template level:</p>
+        <ol start="1">
+            <li>Navigate to <span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Everyday User Process Templates</span>.</li>
+            <li>Click <span class="bold">New</span>.</li>
+            <li>In the Everyday User Application Settings, check the <strong>Enable Integration to Microsoft Exchange</strong> box.&#160;</li>
+            <li>Navigate to the <span class="bold">Parameters</span> tab.</li>
+            <li>Filter the parameters by typing "Skype" in the <span class="bold">Filter</span> field.&#160;</li>
+            <li>Click on the Enable Skype for Business parameter and click <span class="bold">Edit</span>. The Edit Parameter dialog box appears.</li>
+            <li>The default value is No. Select <span class="bold">Yes</span> from the Enable Skype for Business dropdown. Click OK on the Edit Parameter dialog box.&#160;</li>
+            <li>Click <span class="bold">OK </span>on the<span class="bold"> Everyday User Process Template </span>box.</li>
+            <li>Click <span class="bold">Close</span>.&#160;</li>
+        </ol>
+        <p>Configuring Skype for Business on a Process Template Level</p>
+        <p>
+            <img src="../Images/Skype_CG6.png" />
+        </p>
+        <p>Warning: The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.&#160;</p>
+        <h2><a name="Configure_Skype_for_Business_on_Existing_Templates"></a>Configure Skype for Business on Existing Templates</h2>
+        <p>To configure Skype for Business in existing templates:</p>
+        <ol start="1">
+            <li>In the EMS Desktop Client, navigate to <span class="bold">Configuration </span>&gt; <span class="bold">Everyday User Applications</span> &gt; <span class="bold">Everyday User Process Templates</span>.</li>
+            <li>Click on the existing template for which you want to enable Skype for Business.</li>
+            <li>Click <span class="bold">Edit</span>. The template dialog box appears.&#160;</li>
+            <li>Ensure that the&#160;<span class="bold">Enable Integration to Microsoft Exchange</span> box is checked in the Everyday User Application Setting section.&#160;</li>
+            <li>Navigate to the <span class="bold">Parameters</span> tab.</li>
+            <li>Filter the parameters by typing "Skype" in the <span class="bold">Filter</span> field.&#160;</li>
+            <li>Click on the Enable Skype for Business parameter and click <span class="bold">Edit</span>. The Edit Parameter dialog box appears.
+    <ol start="1"><li>The default value is No. Select <span class="bold">Yes</span> from the Enable Skype for Business dropdown.</li><li>Click <span class="bold">OK </span>on the <span class="bold">Edit Parameter </span>dialog box.&#160;</li></ol></li>
+            <li>Click <span class="bold">OK </span>on the<span class="bold"> Everyday User Process Template </span>box.</li>
+            <li>Click <span class="bold">Close</span>.&#160;</li>
+        </ol>
+        <p>Configuring Skype for Business in an Existing Template</p>
+        <p>
+            <img src="../Images/Skype_CG7.png" />
+        </p>
+        <p>Warning: The cache must be cleared in Platform Services&#160;and the EMS Web App whenever parameter changes are made in the EMS Desktop Client.</p>
+        <p>Note: Once a Skype meeting is added to a reservation, a&#160;Skype meeting flag—indicating that the reservation has a Skype meeting—appears in the Booking Summary tab for the reservation in the EMS Desktop Client. Additionally, the Skype ID will appear in&#160;the Properties tab for the reservation. A reservation-level display field named Skype Meeting in the Query Builder will indicate there is a Skype meeting in the reservation.</p>
+    </body>
+</html>

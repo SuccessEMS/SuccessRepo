@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="1333" MadCap:lastWidth="835">
+    <head><title></title>
+        <link href="../../Resources/Stylesheets/OptFeatGuide.css" rel="stylesheet" />
+    </head>
+    <body>
+        <h1>Connect Your EMS Web-Based Applications</h1>
+        <p>EMS Web-based applications (such as VEMS, EMS Web App, and EMS Mobile App) also need to be configured to use this database connection method. This topic guides you in this task.</p>
+        <ol start="1">
+            <li>Access Internet Information Services (IIS) Manager on your web server.&#160;</li>
+            <li>Create a new Application Pool that will be used by your EMS web based application(s) installed on this web server.&#160;</li>
+        </ol>
+        <p>
+            <img src="Images/OptFeatGuide/Connecting Your EMS Web Based.png" />
+        </p>
+        <ol start="3">
+            <li>Change the Application Pool&#160;Identity&#160;to run under a&#160;Custom account. &#160;Specify the EMS-specific Active Directory user account (see&#160;<a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/Optional_Features/Connecting_To_Your_Database_Using_Active_Directory/010_Pre-Installation_Requirements" title="Pre-Installation Requirements">Pre-Installation Requirements</a>).&#160;</li>
+        </ol>
+        <p>
+            <img src="Images/OptFeatGuide/Connecting Your EMS Web Based_1.png" />
+        </p>
+        <ol start="4">
+            <li>Change the&#160;Application Pool&#160;in your EMS web-based application to the pool defined above.&#160;</li>
+            <li>Open the&#160;web.config&#160;file for the EMS web-based product and make the following changes:&#160;</li>
+        </ol>
+        <p>
+            <img src="Images/OptFeatGuide/Connecting Your EMS Web Based_2.png" />
+        </p>
+        <p>Tip for EMS Cloud Customers:&#160;Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please contact EMS Support.&#160;&#160;</p>
+        <p>Important:&#160;If you do not have a customer login, register&#160;<a href="https://www.dea.com/ServiceAndSupport/RequestAccess.aspx" title="https://www.dea.com/ServiceAndSupport/RequestAccess.aspx">here</a>.</p>
+        <p>Option 1&#160;(Recommended):&#160;Submit a Ticket directly via the&#160;<a href="https://support.emssoftware.com/" title="https://support.emssoftware.com">EMS Support Portal</a></p>
+        <p>Option 2:&#160;Email&#160;<a href="mailto:support@emssoftware.com" title="mailto:support@emssoftware.com">support@emssoftware.com</a></p>
+        <p>Option 3 (Recommended for critical issues only):&#160;Phone (800) 288-4565</p>
+        <ol start="6">
+            <li>Launch your EMS web-based product to verify connectivity.&#160;<br />&#160;</li>
+        </ol>
+    </body>
+</html>

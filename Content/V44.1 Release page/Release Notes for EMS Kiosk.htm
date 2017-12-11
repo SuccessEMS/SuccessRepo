@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1_2">Release Notes for EMS Kiosk App, V44.1 Update 18 (EMS Kiosk App)</h1>
+        <p class="NormalWeb">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb"><span class="Strong">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_4">Contacting Customer Support</span></a>&#160;and&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_4">Updating to the Latest Version of EMS</span></a></p>
+        <table class="table_2">
+            <col style="width: 127pt;" />
+            <col style="width: 133pt;" />
+            <col style="width: 167pt;" />
+            <col style="width: 113pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="Strong_2">Name:&#160;</span><span class="span_19">V44.1,&#160;Update 18</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Release&#160;Date:&#160;</span><span class="span_19">October 31, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Patch:&#160;</span><span class="span_19">44.1.18000.201710252</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Build #:&#160;</span><span class="span_19">&#160;44.1.18000.209</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Fixes&#160;</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="td_3">
+                    <p class="Emphasis_1">Configuration</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Entire Page Was Moving When Scrolling on Touch Screen</p>
+                    <p class="NormalWeb_2">Users were experiencing the entire page moving when scrolling outside of the profile list on a touch screen device.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that entire page does not move.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Inactive Profiles Were Visible in List</p>
+                    <p class="NormalWeb_2">Users could still see inactive profiles when searching for them from the Configuration page.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that if the "Inactive" checkbox is marked on the required Kiosk profile, it should be hidden in the profiles list on the 'config' page.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Today's Events</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Bad Profile Configuration Broke Building and Floor Filters</p>
+                    <p class="NormalWeb_2">Building filter was incorrectly defaulting to All Buildings and the floor filter was defaulting&#160;to All Floors.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the building filter defaults to the building on the profile and the floor filter defaults to the Default floor.</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32719" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32719" class="Hyperlink_2">32719</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Authorization</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">"No Results Found" Validation Message Displays by Default on Secondary Auth Screen After Using Invalid Badge on Badge Auth</p>
+                    <p class="NormalWeb_2">Users who scanned&#160;an invalid Badge and then clicked on the "I don't have my badge" button received a&#160;validation message that continued to display by default on the secondary auth screen.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the validation message does not appear on the secondary authorization screen.</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32782" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32782" class="Hyperlink_2">32782</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="td_3">
+                    <p class="Emphasis_1">Locate a Person</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">The Max Record Returned for Group Searches Parameter Wasn't Being Honored</p>
+                    <p class="NormalWeb_2">Users who&#160;set the parameter in the EMS Desktop Client were experiencing search results that were not honoring this value.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that search results honor the parameter's value.</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33217" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33217" class="Hyperlink_2">33217</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">The Max Booking Availability Records Returned&#160;Parameter Wasn't Being Honored</p>
+                    <p class="NormalWeb_2">Users who&#160;set the parameter in the EMS Desktop Client were experiencing search results that were not honoring this value.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that search results honor the parameter's value.</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33247" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33247" class="Hyperlink_2">33247</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">My Reservation</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">The Allow User to Cancel/End Booking Outside of Profile&#160;Parameter Wasn't Being Honored</p>
+                    <p class="NormalWeb_2">Users who&#160;set the parameter in the EMS Desktop Client were experiencing search results that were not honoring this value.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that search results honor the parameter's value.</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33267" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33267" class="Hyperlink_2">33267</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Profiles</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Splash Screen for Successfully Applied Profiles Did Not Automatically Move to Next Screen</p>
+                    <p class="NormalWeb_2">Users applying profiles were experiencing a stuck splash screen that would not progress. The splash screen should appear for a few seconds before moving on the next Welcome screen and then on to the default page.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users can progress beyond the splash screen when applying profiles.</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33702" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33702" class="Hyperlink_2">33702</a></p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>

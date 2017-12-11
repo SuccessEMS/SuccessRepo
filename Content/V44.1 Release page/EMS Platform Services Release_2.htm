@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">&#160;EMS Platform Services Release Notes Version 44.1 Update 14 (EMS Platform Services)</h1>
+        <p class="NormalWeb">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb"><span class="Strong">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_8">Contacting Customer Support</span></a>&#160;and&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_8">Updating to the Latest Version of EMS</span></a></p>
+        <table class="table_2">
+            <col style="width: 172pt;" />
+            <col style="width: 210pt;" />
+            <col style="width: 177pt;" />
+            <col style="width: 223pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="Strong_2">Name:&#160;</span><span class="span_19">V44.1 Update 14</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Release&#160;Date:&#160;</span><span class="span_19">July 31, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Patch:&#160;</span><span class="span_19">44.1.14000.201707251</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Build #:&#160;</span><span class="span_19">44.1.14000.2640</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Enhancements</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="14" class="td_3">
+                    <p class="Emphasis_1">API Calls&#160;</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Search By and Return Status Information for Reservations</p>
+                    <p class="NormalWeb_2">The following API calls have been added:&#160;</p>
+                    <ol start="1" class="ol_1">
+                        <li class="li_24"><span class="span_19">GET /reservations</span><span class="span_19">: Supports 'statusId' search filter and statusId attribute in response model.</span>
+                        </li>
+                        <li class="li_24"><span class="span_19">POST /reservations/actions/searc</span><span class="span_19">h: Supports 'statusIds' search filter.</span>
+                        </li>
+                    </ol>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Reservation/Booking Audit Info Correctly Via Delegate Functions</p>
+                    <ul class="ul_4">
+                        <li class="li_24"><span class="span_19">GET /reservations</span><span class="span_19">, GET /bookings and GET /reservations/{id}/userdefinedfields all include audit information with each record, in the following format:</span>
+                        </li>
+                    </ul>
+                    <p class="mt-font-courier-new_1">"audit": {</p>
+                    <p class="mt-font-courier-new_1">&#160; &#160; "addedBy": "Joe User",</p>
+                    <p class="mt-font-courier-new_1">&#160; &#160; "dateAdded": "2016-12-27T15:38:07.22Z",</p>
+                    <p class="mt-font-courier-new_1">&#160; &#160; "changedBy": "Joe User",</p>
+                    <p class="mt-font-courier-new_1">&#160; &#160; "dateChanged": "2016-12-27T15:38:07.22Z"</p>
+                    <p class="mt-font-courier-new_1">}</p>
+                    <ul class="ul_4">
+                        <li class="li_13">If a delegate creates/edits a reservation or booking, the audit information will reflect the delegate user.</li>
+                    </ul>
+                    <p class="p_25">&#160;</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_45">Make/Status the Default Redirect Page for Base URL Requests</p>
+                    <ul class="ul_4">
+                        <li class="li_24"><span class="span_19">Visiting&#160;</span><a href="https://mydomain.com/%5bVirtualSite%5d" title="https://mydomain.com/[VirtualSite]"><span class="Hyperlink_6">https://mydomain.com/[VirtualSite]</span></a><span class="span_19">&#160;in browser redirects you to the status page (e.g.,&#160;</span><a href="https://mydomain.com/EmsPlatform" title="https://mydomain.com/EmsPlatform"><span class="Hyperlink_6">https://mydomain.com/EmsPlatform</span></a><span class="span_19">).</span>
+                        </li>
+                        <li class="li_24"><span class="span_19">Visiting&#160;</span><a href="https://mydomain.com/%5bVirtualSite%5d/swagger" title="https://mydomain.com/[VirtualSite]/swagger"><span class="Hyperlink_6">https://mydomain.com/[VirtualSite]/swagger</span></a><span class="span_19">&#160;in browser redirects you to the EMS Platform Swagger Documentation page.</span>
+                        </li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">Set Estimated/Actual Attendance as a Part of Edit Reservation</p>
+                    <p class="NormalWeb_3"><span class="span_19">Users can&#160;set estimated and actual attendance as a part of edit reservation. Add estimated, actual attendance to request attributes of&#160;</span><span class="span_19">PATCH/reservation/{id}</span><span class="span_19">&#160;call:</span>
+                    </p>
+                    <ul class="ul_4">
+                        <li class="li_32"><span class="span_19">PATCH /reservation/{id}</span><span class="span_19">&#160;Additional Attributes:</span>
+                        </li>
+                    </ul>
+                    <ul class="ul_5">
+                        <li class="li_33">estimatedAttendance</li>
+                        <li class="li_33">actualAttendance</li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Rename GET/Myuser/Delegates</p>
+                    <p class="NormalWeb_3"><span class="span_19">GET /myuser/delegates&#160;</span><span class="span_19">moved to&#160;</span><span class="span_19">GET /myuser/delegations</span><span class="span_19">&#160;to return a list of users who the authenticated user can impersonate, (i.e.,&#160;users for which an authenticated user is a delegate).</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">Added Ability to Search Users</p>
+                    <p class="NormalWeb_3"><span class="span_19">Added new route&#160;to allow searching users by username, ID and/or email address.&#160;</span><span class="span_19">POST /webusers/actions/search</span><span class="span_19">&#160;allows the search of&#160;web users by username, email, external reference, or network id.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_45">GET All Buildings Within an Area</p>
+                    <p class="NormalWeb_3"><span class="span_19">GET/bookviews/{id}/rooms&#160;</span><span class="span_19">returns buildings if ID for area is passed in the request parameters.</span>
+                    </p>
+                    <p class="NormalWeb_2">New /areas service:</p>
+                    <ul class="ul_4">
+                        <li class="li_33">GET /areas</li>
+                        <li class="li_33">GET /areas/{id}</li>
+                        <li class="li_33">POST /areas</li>
+                        <li class="li_33">POST /areas/actions/search</li>
+                        <li class="li_33">GET /areas/{id}/buildings</li>
+                        <li class="li_33">GET /areas/{id}/buildings/{building}</li>
+                        <li class="li_33">POST /areas/{id}/buildings</li>
+                        <li class="li_33">DELETE /areas/{id}/buildings</li>
+                    </ul>
+                    <p class="NormalWeb_2">&#160;</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">Set Actual Attendance As a Part of Edit Booking</p>
+                    <p class="NormalWeb_3"><span class="span_19">API call,&#160;</span><span class="span_19">PATCH/booking/{id}</span><span class="span_19">&#160;includes optional actualAttendance field.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_45">Set Estimated Attendance as a Part of Create Reservation</p>
+                    <p class="NormalWeb_3"><span class="span_19">Added estimated attendance to the request parameters for the API call,&#160;</span><span class="span_19">POST /reservations/actions/create</span><span class="span_19">.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Get List of UDFs from Multiple Reservations</p>
+                    <p class="NormalWeb_3"><span class="span_19">New API call,&#160;</span><span class="span_19">POST&#160;/reservations/actions/search/userdefinedfields,&#160;</span><span class="span_19">searches reservations by one or more reservation IDs, returning their UDF values.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Get List of UDFs from Multiple Bookings</p>
+                    <p class="NormalWeb_3"><span class="span_19">New API call,&#160;</span><span class="span_19">POST&#160;/bookings/actions/search/userdefinedfields,&#160;</span><span class="span_19">returns a list of UDF values for one or more booking IDs.</span><span class="span_19">&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">Change Status of Bookings</p>
+                    <p class="NormalWeb_3"><span class="span_19">New API call,&#160;</span><span class="span_19">PUT /bookings/{id}/status,</span><span class="span_19">&#160;changes the status on a booking.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_45">Add Deposit to a Reservation</p>
+                    <p class="NormalWeb_3"><span class="span_19">New API call,&#160;</span><span class="span_19">POST /reservations/{id}/deposit,&#160;</span><span class="span_19">adds&#160;a deposit to a reservation.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">Change Status of a Reservation</p>
+                    <p class="NormalWeb_3"><span class="span_19">New API call,&#160;</span><span class="span_19">PUT /reservations/{id}/status</span><span class="span_19">, changes the status on a reservation.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb">&#160;</p>
+        <h2 class="Heading2_2_1">Fix</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="td_3">
+                    <p class="Emphasis_1">API Calls&#160;</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">API Call Was Only Returning Rooms with Long Description Field Defined</p>
+                    <p class="NormalWeb_3"><span class="span_19">The API call,&#160;</span><span class="span_19">rooms/{id}/images</span><span class="span_19">, was only returning rooms with the Long Description field defined.</span>
+                    </p>
+                    <p class="NormalWeb_3"><span class="span_19">Fix: Modified modality so that using the call</span><span class="span_19">&#160;/rooms/{id}/images</span><span class="span_19">&#160;would return image list regardless of contents of the Long Description field.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_12">
+                    <p>&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

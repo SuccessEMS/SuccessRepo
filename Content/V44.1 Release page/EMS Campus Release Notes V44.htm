@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Campus Release Notes V44.1 Update 7 (EMS Campus)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="p_72">See Also:&#160;</p>
+        <ul class="ul_1">
+            <li class="li_12"><a href="https://success.emssoftware.com/EMS_V44.1/V44.1_Updates/Update_7_Known_Issues/EMS_Campus_Known_Issues" title="EMS Campus Known Issues" class="a_2">EMS Campus Known Issues</a>
+            </li>
+            <li class="li_19"><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support" class="a_2">Contacting Customer Support</a>&#160;and&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build" class="a_2">Updating to the Latest Version of EMS</a></li>
+        </ul>
+        <table class="table_3">
+            <col style="width: 114pt;" />
+            <col style="width: 177pt;" />
+            <col style="width: 138pt;" />
+            <col style="width: 111pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_6">Name:&#160;</span><span class="span_5">V44.1 Update 7</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_6">Release&#160;Date:&#160;</span><span class="span_5">December 6, 2016</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_6">Patch:&#160;</span><span class="span_5">&#160;2016.12.05.0</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_6">Build #:&#160;</span><span class="span_5">&#160;44.1.284.0</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_48">Fixes&#160;&#160;</p>
+        <p class="p_6"><a href="https://success.emssoftware.com/Release_Notes/Update_7_Release_Notes/EMS_Campus_Release_Notes_V44.1_Update_7" title="Edit section" class="a_3"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_10.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </p>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_11">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_11">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Publish Courses</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Cross-Listed Courses Missing Info, Slow Performance</p>
+                    <p class="p_25">When users published a term that included cross-listed courses, conflict handling caused slow performance, errors, and the courses were missing course dates.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified conflict handling so that data is published efficiently and the issues no longer occur.</span>
+                    </p>
+                    <p class="p_25">24544</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Academic Browser</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">SIS Caused Duplicate Courses</p>
+                    <p class="p_25">Due to syncing issues for section changes over SIS, switching section numbers for two courses resulted in duplicating both courses in the Academic Browser.&#160;</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified synchronization to correctly process the switched section numbers without duplicating the courses.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/18103" class="a_16">18103</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Academic Book</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Instructor View of Courses Unavailable When Listing All Subjects</p>
+                    <p class="p_25">When users navigated to the course view for a specific instructor and included all subjects, the view was empty.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the view to show all courses for an instructor in all subjects as expected.</span>
+                    </p>
+                    <p class="p_25">21914</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="p_26">Cancelations</p>
+                </td>
+                <td class="td_6">
+                    <p class="p_45">Canceling One Meeting Pattern Updates Course Status Incorrectly</p>
+                    <p class="p_25">When users canceled one meeting pattern for a published term that had more than one meeting pattern, the reservation status incorrectly changed to Canceled.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified validations so the reservation status remains Confirmed as long as one confirmed meeting pattern exists in the course.</span>
+                    </p>
+                    <p class="p_25">22977</p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

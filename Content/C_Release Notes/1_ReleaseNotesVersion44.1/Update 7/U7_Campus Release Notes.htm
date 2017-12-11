@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2450" MadCap:lastWidth="937" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" />
+        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>EMS Campus Release Notes <br />V44.1 Update 7</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="p_72">See Also:&#160;</p>
+        <ul class="ul_1">
+            <li class="li_12">
+                <MadCap:xref href="EMS Campus Known Issues.htm">EMS Campus Known Issues</MadCap:xref>
+            </li>
+            <li class="li_19">See Also:&#160;<MadCap:xref href="#Contact">Contact Customer Support</MadCap:xref>&#160;and&#160;<MadCap:xref href="../Updating to the Latest Version of EMS (Patches and Builds).htm">Updating to the Latest Version of EMS (Patches and Builds)</MadCap:xref>. </li>
+        </ul>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_12">Name:&#160;V44.1 Update 7</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_12">Release&#160;Date:&#160;December 6, 2016</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="p_12">Patch:&#160;&#160;2016.12.05.0</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="p_12">Build #:&#160;&#160;44.1.284.0</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Fixes&#160;&#160;</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="p_11">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="p_11">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_26">Publish Courses</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Cross-Listed Courses Missing Info, Slow Performance</h4>
+                        <p class="NormalWeb_2">When users published a term that included cross-listed courses, conflict handling caused slow performance, errors, and the courses were missing course dates.</p>
+                        <p class="NormalWeb_2">Fix:&#160;Modified conflict handling so that data is published efficiently and the issues no longer occur.</p>
+                        <p class="p_25">24544</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="p_26">Academic Browser</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>SIS Caused Duplicate Courses</h4>
+                        <p class="NormalWeb_2">Due to syncing issues for section changes over SIS, switching section numbers for two courses resulted in duplicating both courses in the Academic Browser.&#160;</p>
+                        <p class="NormalWeb_2">Fix:&#160;Modified synchronization to correctly process the switched section numbers without duplicating the courses.</p>
+                        <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/18103" class="a_16">18103</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="p_26">Academic Book</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Instructor View of Courses Unavailable When Listing All Subjects</h4>
+                        <p class="NormalWeb_2">When users navigated to the course view for a specific instructor and included all subjects, the view was empty.</p>
+                        <p class="NormalWeb_2">Fix:&#160;Modified the view to show all courses for an instructor in all subjects as expected.</p>
+                        <p class="p_25">21914</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p class="p_26">Cancellations</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <h4>Canceling One Meeting Pattern Updates Course Status Incorrectly</h4>
+                        <p class="NormalWeb_2">When users canceled one meeting pattern for a published term that had more than one meeting pattern, the reservation status incorrectly changed to Canceled.</p>
+                        <p class="NormalWeb_2">Fix:&#160;Modified validations so the reservation status remains Confirmed as long as one confirmed meeting pattern exists in the course.</p>
+                        <p class="p_25">22977</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>

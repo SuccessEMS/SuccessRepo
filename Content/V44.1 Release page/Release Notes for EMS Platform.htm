@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1_2">Release Notes for EMS Platform Services, V44.1 Update 18 (EMS Platform Services)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 100pt;" />
+            <col style="width: 145pt;" />
+            <col style="width: 175pt;" />
+            <col style="width: 121pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="span_2">Name:&#160;</span><span class="span_1">V44.1, Update 18</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">October 31, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Patch:&#160;</span><span class="span_1">44.1.18000.201710252</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Build #:&#160;</span><span class="span_1">&#160;44.1.18001.200</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Enhancements</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="5" class="td_3">
+                    <p class="Emphasis_1">Room Search</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Availability Result Sort</p>
+                    <p class="NormalWeb_2">Availability results now return a&#160;list of rooms&#160;ordered by availability,&#160;room name, type, floors, and capacity. Rooms that are not available will not appear on&#160;first page results.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Availability Result Sorted by "Days Available" in Descending Order</p>
+                    <p class="NormalWeb_2">"Available" rooms will be sorted first&#160;followed by "unavailable" rooms. When creating a recurring meeting, users will see&#160;unavailable rooms in an order where the room available for most days is displayed on the top of the unavailable results.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Availability Result Sorted by "Days Available" in Descending Order</p>
+                    <p class="p_25">Customers can search rooms by actual room types and multiple room types&#160;and not by classification type.&#160;</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">POST/rooms/action/search to Return Capacity for Default Setup Type</p>
+                    <p class="NormalWeb_2">Administrators can&#160;compare the attendance for VC bookings with the room's capacity. This will allow admins to&#160;move the meeting to another space that matches the meeting host's requirement. This feature will optimize space utilization.&#160;</p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32861" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=32861" class="Hyperlink_2">32861</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Duplicated Results Removed if a Room Was&#160;Available on More Than One Template</p>
+                    <p class="NormalWeb_2">Room availability search now allows for removing duplicated results if a room is available on more than one template. This more defined filtering feature&#160;enhances the&#160;efficiency on the result set size returned.</p>
+                    <p class="NormalWeb"><span class="Strong_2">&#160;</span><span class="span_19">TFS item&#160;</span><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33308" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33308"><span class="span_3">33308</span></a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_6">
+                    <p class="Emphasis_1">Parameters</p>
+                </td>
+                <td class="td_6">
+                    <p class="Strong_1">VIP Flag Has Been Added to Reservation Summary Model</p>
+                    <p class="NormalWeb_3"><span class="span_19">/bookings/actions/search&#160;</span><span class="span_19">now returns 'vip' field as part of reservation.&#160;</span>
+                    </p>
+                    <p class="NormalWeb"><span class="Strong_2">&#160;</span><span class="span_19">TFS item&#160;</span><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33500" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workItems?_a=edit&amp;id=33500"><span class="span_3">33500</span></a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

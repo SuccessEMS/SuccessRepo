@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1"><span class="Title1">EMS Desktop Client Release Notes V44.1 Update 9</span>&#160;(EMS Desktop Client)</h1>
+        <p class="p_4"><span class="span_31">This section describes updates to&#160;your EMS software.&#160;&#160;</span><span class="span_31"><img src="../Resources/Images/V44.1 Release page/EMS Desktop Client Release_7.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3864/tech_doc_new.png?revision=1&amp;size=bestfit&amp;width=26&amp;height=25" class="img_1" /></span><span class="span_31">Click on the&#160;</span><span class="span_35">title</span><span class="span_38">&#160;</span><span class="span_31">for each item below to expand for more details.</span>
+        </p>
+        <p class="p_4"><span class="span_29">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="span_30">Contacting Customer Support</span></a><span class="span_31">&#160;and&#160;</span><a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="span_30">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_2">
+            <col style="width: 158pt;" />
+            <col style="width: 203pt;" />
+            <col style="width: 133pt;" />
+            <col style="width: 169pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Name:&#160;</span><span class="span_8">V44.1 Update 9</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Release&#160;Date:&#160;</span><span class="span_8">March 07, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Patch:&#160;</span><span class="span_8">201702270</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Build #:&#160;</span><span class="span_8">&#160;44.1.297</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_57">Fixes&#160;&#160;</p>
+        <p class="p_58"><a href="https://success.emssoftware.com/Release_Notes/Update_9_Release_Notes/020_EMS_Desktop_Client_Release_Notes_V44.1_Update_9" title="Edit section" class="a_3"><img src="../Resources/Images/V44.1 Release page/EMS Desktop Client Release_7.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </p>
+        <table align="center" class="table_4">
+            <col style="width: 167pt;" />
+            <col style="width: 765pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_11">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_11">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Edit Reservation</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_8">Slow Performance and Errors&#160;When Adding Everyday Users&#160;Using LDAP Authentication</p>
+                    <p class="p_77"><span class="span_8">When users edited a reservation in the Reservation Wizard&#160;and assigned Everyday&#160;users&#160;when LDAP authentication&#160;was enabled, load time for the edit page was unusually slow and errors could occur.&#160;</span><span class="span_8"><br /></span><span class="span_8"><br /></span><span class="span_7">Fix:&#160;</span><span class="span_8">Modified functionality so that LDAP-authenticated&#160;Everyday Users load more efficiently and the slow performance and errors no longer occur.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02.dea.com:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22003" class="a_16">22003</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Notifications</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_8">Service Order Notification Rule Selections Not Retained</p>
+                    <p class="p_77"><span class="span_8">When users selected multiple&#160;resources or states for a notification rule and clicked&#160;</span><span class="span_7">Finish</span><span class="span_8">&#160;to save their entries, and then opened the rule again to edit, their selections were not saved.&#160;</span><span class="span_8"><br /></span><span class="span_8"><br /></span><span class="span_7">Fix:&#160;</span><span class="span_8">Modified functionality to ensure that users' selections are retained.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02.dea.com:8080/tfs/EMS%20Suite/Ems/_workitems/edit/25617" class="a_16">25617</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Dashboard</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_8">New Web User Status Changes Not Saved</p>
+                    <p class="p_77"><span class="span_8">When Administrators received a notification on the dashboard that a new web user was created and pending review, and then changed the new web user status to Active (selecting&#160;the&#160;</span><span class="span_7">Reviewed</span><span class="span_8">&#160;option), their changes were not saved on the dashboard and the notification continued to show on the dashboard as if it had not been reviewed.&#160;</span><span class="span_8"><br /></span><span class="span_8"><br /></span><span class="span_7">Fix:&#160;</span><span class="span_8">Modified functionality to ensure that changes to new web user's status is retained and reviewed notifications do not persist on the dashboard.</span>
+                    </p>
+                    <p class="p_25"><a href="http://tfs02.dea.com:8080/tfs/EMS%20Suite/Ems/_workitems/edit/27830" class="a_16">27830</a>,&#160;<a href="http://tfs02.dea.com:8080/tfs/EMS%20Suite/Ems/_workitems/edit/21141" class="a_16">21141</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Web Deploy</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_8">HTTPS Issues</p>
+                    <p class="p_77"><span class="span_8">The HTTPS bindings line missing from the web config, which&#160;caused an issue with the customers not being able to use HTTPS for the site.&#160;</span><span class="span_8"><br /></span><span class="span_8"><br /></span><span class="span_7">Fix:&#160;</span><span class="span_8">Added the missing line so that customers can use HTTPS for Web Deploy.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02.dea.com:8080/tfs/EMS%20Suite/Ems/_workitems/edit/26970" class="a_16">26970</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_62">&#160;</p>
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

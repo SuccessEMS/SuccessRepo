@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="3236" MadCap:lastWidth="1247">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Desktop Client Release Notes <br />V44.1 Update 7</h1>
+        <p class="NormalWeb">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="p_71">See Also:&#160;</p>
+        <ul class="ul_1">
+            <li class="li_4">Known Issues</li>
+            <li class="li_18"><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support" class="a_19">Contacting Customer Support</a>&#160;and&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build" class="a_19">Updating to the Latest Version of EMS</a></li>
+        </ul>
+        <table class="table_2">
+            <col style="width: 116pt;" />
+            <col style="width: 178pt;" />
+            <col style="width: 135pt;" />
+            <col style="width: 111pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Name:&#160;</span><span class="span_8">V44.1 Update 7</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Release&#160;Date:&#160;</span><span class="span_8">December 6, 2016</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Patch:&#160;</span><span class="span_8">2016.12.05.0</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_12"><span class="span_7">Build #:&#160;</span><span class="span_8">&#160;44.1.284.0</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_57">Enhancements&#160;&#160;</p>
+        <p class="p_58"><a href="https://success.emssoftware.com/Release_Notes/Update_7_Release_Notes/EMS_Desktop_Client_Release_Notes_V44.1_Update_7" title="Edit section" class="a_3"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_10.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </p>
+        <table align="center" class="table_4">
+            <col style="width: 932pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_11">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_45">Add Support for SQL Server SP3</p>
+                    <p class="p_4"><span class="span_8">24174; see also&#160;</span><a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/EMS_V44.1_System_Requirements&amp;mt-draft=true" title="https://success.emssoftware.com/EMS_V44.1/EMS_V44.1_System_Requirements?mt-draft=true"><span class="span_32">Sys&#160;</span></a><span class="span_8">Reqs</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">Show Reservation ID Field on&#160;Manage Services Browser Window</p>
+                    <p class="p_4"><span class="span_8">Added the&#160;</span><span class="span_7">Reservation ID</span><span class="span_8">&#160;field to the Manage Services page.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/25038" class="a_16">25038</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_57">Fixes&#160;&#160;</p>
+        <p class="p_58"><a href="https://success.emssoftware.com/Release_Notes/Update_7_Release_Notes/EMS_Desktop_Client_Release_Notes_V44.1_Update_7" title="Edit section" class="a_3"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_10.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </p>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_11">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_11">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Performance</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Database Slowness</p>
+                    <p class="p_25">Browsing on VEMS had very slow performance and timed out due to two stored procedures: &#160;vems_ReservationSummary_LoadData&#160;and&#160;ems_RES_UserDefinedFields.&#160;</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the stored procedures so that users no longer experience slow performance.&#160;</span>
+                    </p>
+                    <p class="p_25">25085</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">System Updates</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">API URL Absent After Auto-Updating Web Deploy Client</p>
+                    <p class="p_25">When upgrading from V44 to V44.1 via auto-update web deploy, on the first launch of the application, users were prompted to enter their EMS server and database name, and the API URL from the original install was not preserved.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified auto-update to carry over the API URL from the previous installation so that users are not prompted for server or database name.</span>
+                    </p>
+                    <p class="p_25">23318&#160;</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Login</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Custom Log Out URL Unavailable</p>
+                    <p class="p_4"><span class="span_8">The</span><span class="span_7">&#160;Sign Out</span><span class="span_8">&#160;option was unavailable on EMS Web App for customers who wished to override the default LogOut.aspx link with their own URL.</span>
+                    </p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified validations to ensure that users can assign a custom URL for the&#160;</span><span class="span_7">Sign Out</span><span class="span_8">&#160;button on the EMS Web App.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23743" class="a_16">23743</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Reservation Book</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">User Access for Combo Rooms Not Observed</p>
+                    <p class="p_4"><span class="span_8">Bookings for combo rooms and their components did not display&#160;as intended&#160;when users did&#160;</span><span class="span_21">not&#160;</span><span class="span_8">have access to combo rooms but&#160;</span><span class="span_21">did&#160;</span><span class="span_8">have access to component&#160;rooms: the Reservation Book displayed the booking&#160;to these users&#160;as if it were in one of the component rooms in the combo when it should have displayed as being in all the component rooms for which the users had been assigned access.</span>
+                    </p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified validations to ensure that users who do not have&#160;access to combo rooms will see the&#160;booking in the appropriate component rooms&#160;in the Reservation Book. Additionally, modified the display so that these users can see when combo&#160;</span><span class="span_21">and&#160;</span><span class="span_8">component&#160;rooms are blocked.&#160;</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23795" class="a_16">23795</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Room Wizard</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Date and Time Field Entries Overridden on Room Wizard</p>
+                    <p class="p_25">When users added a new booking to&#160;a video conference reservation with multiple occurrences, and entered a date and time before choosing a room, the date and time fields did not carry over their date and time entries into the Room Wizard.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the fields to check for user entries earlier in the workflow so the users do&#160;not have to re-enter them on the Room Wizard.</span>
+                    </p>
+                    <p class="p_25">24251</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Video Conferences</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Host Location Field Showed for Video Conferences With Two or More Hosts</p>
+                    <p class="p_25">When editing a video conference reservation, the Host Location field displayed in error.&#160;</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the field so that it does not display when the video conference has two or more hosts.&#160;</span>
+                    </p>
+                    <p class="p_25">24201</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Reports</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Error Running Query Builder When Used With&#160;Web Deploy Service</p>
+                    <p class="p_25">When users ran reports on Reports&gt;Queries&gt;Query Builder on systems that used EMS via Web Deploy, an SQL Connection Error occurred.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified functionality to ensure that reports run without issue.</span>
+                    </p>
+                    <p class="p_25">23011</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Time Zones</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">GMT Offset Incorrect for Moscow Time Zone</p>
+                    <p class="p_25">The GMT offset was incorrectly calculated as 240 minutes for the Moscow time zone.&#160;</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the time zone table to calculate the offset for 180 minutes.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23725" class="a_16">23725</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Patch Installation</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Patch for EMS Professional Caused Error</p>
+                    <p class="p_25">Running the update patch for EMS Professional via System Administration &gt; Database &gt; Install Patch caused the error, "Patch is invalid. Patch is a different Server Version."</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the DLL so that the&#160;EMS Professional patch runs without error as expected.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23175" class="a_16">23175</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_26">Notifications</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Notifications&#160;Not Triggered for Date/Time, Status, or Room Changes</p>
+                    <p class="NormalWeb_2">When users changed dates or times, status, or room for events that had notification rules to email participants such as event coordinators, and there were additional notification rules for the events set to monitor other status changes, the date/time change&#160;notifications did not occur.</p>
+                    <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified validations to ensure that notifications are sent to participants as expected.</span>
+                    </p>
+                    <p class="NormalWeb_2"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22064" class="a_16">22064</a>,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/25240" class="a_16">25240</a></p>
+                    <p class="p_45">No-Show and Cancelation&#160;Notifications Triggered at Incorrect Time</p>
+                    <p class="NormalWeb_2">When a booking had a no-show or cancelation notification rule set to trigger at five minutes before the event time, the notices fired incorrectly at five minutes before the reserved or setup time.</p>
+                    <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified validations so that notices fire based on the event time for these notification rules.&#160;</span>
+                    </p>
+                    <p class="p_53"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/15501" class="a_16">15501</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_26">Services</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Resources From Setup Worksheet Out of Order</p>
+                    <p class="p_25">When users used a setup worksheet to add resources to bookings, they were listed in the wrong order and groupings.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified import sequence for setup worksheet so that resources now show in chronological and category groupings.</span>
+                    </p>
+                    <p class="p_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/24310" class="a_16">&#160;24310</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_62">&#160;</p>
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

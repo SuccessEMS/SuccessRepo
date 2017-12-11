@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Mobile App Release Notes V44.1 Update 3 (EMS Mobile App (IPA))</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="p_47"><span class="span_17">See Also:</span><span class="span_6">&#160;</span><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="span_18">Contacting Customer Support</span></a><span class="span_5">&#160;and&#160;</span><a href="https://success.emssoftware.com/Release_Notes/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="span_18">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 289pt;" />
+            <col style="width: 384pt;" />
+            <col style="width: 288pt;" />
+            <tr>
+                <td class="td_4">
+                    <p class="p_12"><span class="span_6">Name:&#160;</span><span class="span_5">V44.1 Update 3</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p class="p_12"><span class="span_6">Release&#160;Date:&#160;</span><span class="span_5">August 26, 2016</span>
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p class="p_12"><span class="span_6">Build #:&#160;</span><span class="span_5">44.1.###.##</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_12">&#160;</p>
+        <table align="center" class="table_4">
+            <col style="width: 148pt;" />
+            <col style="width: 392pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="p_11">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_11">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_38">EMS Mobile App &gt; Launch Application</p>
+                    <p class="p_25">Bug 22976</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Users Incorrectly Prompted to Download Mobile App</p>
+                    <p class="p_25">The mobile web app was prompting users to download the&#160;EMS Mobile App App even when the parameter "URL for the EMS Mobile App in the app store" was blank.</p>
+                    <p class="p_4"><span class="span_7">Fix</span><span class="span_8">: The prompt only appears if the EMS admin has configured a value for that parameter.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_38">EMS Mobile App &gt; Create Account&#160;</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22928?fullScreen=false" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22928?fullScreen=false" class="a_5">22929</a></p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Create Account Button Available When Integrated Authentication is On</p>
+                    <p class="p_25">When organizations had integrated authentication configured, the Create Account button still showed as available for&#160;EMS Mobile App.</p>
+                    <p class="p_4"><span class="span_7">Fix</span><span class="span_8">: Modified validations to remove this option when integrated authentication is active.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_38">EMS Mobile App &gt; Browse Events&#160;</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22880?fullScreen=false" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22880?fullScreen=false" class="a_5">22880</a></p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23007" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23007" class="a_5">23007</a></p>
+                    <p class="p_25">&#160;</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Load More Bookings Button Missing in List View</p>
+                    <p class="p_53"><span class="span_8">When browsing the list of events on the home screen, the&#160;</span><span class="span_7">Load More Bookings</span><span class="span_8">&#160;button was missing from the bottom of the list view.</span>
+                    </p>
+                    <p class="p_53"><span class="span_7">Fix</span><span class="span_8">: Modified the display to show the button so users can expand the list.&#160;</span>
+                    </p>
+                    <p class="p_45">Clicking Search Button on Calendar List View Causes Crash</p>
+                    <p class="NormalWeb_2">When browsing events in the calendar list view, clicking the Search button caused the app to crash.</p>
+                    <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified behavior so that users can now click the Search button to search for specific events.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_38">EMS Mobile App &gt; Browse Locations&#160;</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23105" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23105" class="a_5">23105</a></p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23104" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23104" class="a_5">23104</a></p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23086" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23086" class="a_5">23086</a></p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22796" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22796" class="a_5">22796</a></p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Browse Locations&#160;Date Filter Unavailable</p>
+                    <p class="NormalWeb_2">When browsing locations, users could not change the date field in the upper right corner of the list to filter the list.</p>
+                    <p class="p_53"><span class="span_7">Fix</span><span class="span_8">: Modified the field so users can change the date and filter the list.&#160;</span>
+                    </p>
+                    <p class="p_45">Duplicating Locations&#160;Filters Causes Filters List to Omit Items</p>
+                    <p class="p_53"><span class="span_8">When creating new locations filters by clicking the&#160;</span><span class="span_7">Duplicate&#160;</span><span class="span_8">button on the Filters List, items were missing until the user returned to the page.</span>
+                    </p>
+                    <p class="p_53"><span class="span_7">Fix</span><span class="span_8">: Modified the display to properly display filters in this situation.</span>
+                    </p>
+                    <p class="p_45">Building Info Not Showing Kilometers</p>
+                    <p class="NormalWeb_2">When browsing buildings that were set to show measurements in kilometers, data still showed in miles.</p>
+                    <p class="p_53"><span class="span_7">Fix</span><span class="span_8">: Modified the display to observe the kilometer setting and show information in metric when appropriate.&#160;</span>
+                    </p>
+                    <p class="p_45">Building Images Missing From About This Location</p>
+                    <p class="NormalWeb_2">When users browsed buildings and opened the About this Location &gt; Images tab, images were missing from the display.</p>
+                    <p class="p_53"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the display so that users can see images on&#160;the About this Location &gt; Images tab.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_38">EMS Mobile App &gt; Log In&#160;</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23085" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23085" class="a_5">23085</a></p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Extra Spaces Allowed on Login</p>
+                    <p class="p_25">When logging in, users could add extra spaces and still successfully log in.</p>
+                    <p class="p_4"><span class="span_7">Fix</span><span class="span_8">: Improved validations to prevent users from logging in with extra spaces.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_38">EMS Mobile App &gt; Home Button&#160;</p>
+                    <p class="p_25">Bug (Multiple)</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Pressing Home Button On Mobile Devices Causes Unexpected Results</p>
+                    <p class="p_25">When switching between {product_mobile}} and other mobile apps and pressing the "Home" button on their mobile devices, users experienced unexpected results..</p>
+                    <p class="p_4"><span class="span_7">Fix</span><span class="span_8">: Modified button behavior so that results are as expected.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_38">EMS Mobile App &gt; Edit Booking</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23002" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23002" class="a_5">23002</a></p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Edit Button Shown On In-Progress Bookings</p>
+                    <p class="p_25">The Edit button was available on bookings once they had begun.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified display so that the Edit button does is not available once the meeting starts.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_38">EMS Mobile App &gt; New Reservation &gt; Rooms List</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23024" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23024" class="a_5">23024</a></p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Rooms Missing From Search Results</p>
+                    <p class="p_25">When searching for space, some rooms were missing from the list and it appeared to be cut off at the bottom.</p>
+                    <p class="p_4"><span class="span_7">Fix:&#160;</span><span class="span_8">Modified the display to show all rooms in the list.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_38">EMS Mobile App &gt; ...</p>
+                    <p class="p_25">&#160;</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_9">&#160;</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2441" MadCap:lastWidth="937" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1>EMS Mobile App Release Notes <br />V44.1 Update 11</h1>
+        <p>This section describes updates to&#160;your EMS software.&#160;</p>
+        <p>See Also:&#160;EMS Mobile App Known Issues</p>
+        <p class="p_47">
+            <MadCap:xref href="#Contact">Contact Customer Support</MadCap:xref>&#160;and&#160;<MadCap:xref href="../Updating to the Latest Version of EMS (Patches and Builds).htm">Updating to the Latest Version of EMS (Patches and Builds)</MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Name:&#160;V44.1 Update 11</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Release&#160;Date:&#160;May 12, 2017</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p>Platform API&#160;#:&#160;&#160; 44.1.11000.3761</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p>Database (SQL)&#160;Patch:&#160;&#160; &#160;201705091</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Fixes&#160;&#160;</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');margin-left: auto;margin-right: auto;" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Emphasis_1">About Page</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>API Revision Number Missing on About Page</h4>
+                        <p class="NormalWeb_2">The API revision number was not displayed with the version number on the About Page.</p>
+                        <p class="NormalWeb_2">Fix: Modified the page to add the API revision number.</p>
+                        <p class="NormalWeb_2">29299</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td rowspan="3" class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Emphasis_1">Authentication</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <h4>Entering a Blank Server URL Over SSO Caused Crash</h4>
+                        <p class="NormalWeb_2">When users changed the Server URL to an empty value using Single Sign On authentication, EMS Mobile App crashed.</p>
+                        <p class="NormalWeb_2">Fix: Modified validations so the app no longer crashes and instead presents the error message, "Unable to import configuration".</p>
+                        <p class="NormalWeb_2">29733</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <h4>Child User-Defined Fields Disappear</h4>
+                        <p class="NormalWeb_2">When users edited values in User Defined Fields (UDFs) that had child fields, saved changes, and then opened the reservation to edit again, the child UDFs did not display.</p>
+                        <p class="NormalWeb_2">Fix: Modified functionality so that child UDFs display in edit mode.</p>
+                        <p class="NormalWeb_2">29480</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <h4>User Authentication Issues Due To Custom config.json File</h4>
+                        <p class="NormalWeb_2">For customers who used a custom config.json file, users had to click the About &gt; EMS Server URL in order to authenticate.</p>
+                        <p class="NormalWeb_2">Fix: Modified functionality so that custom config.json files no longer cause the issue and users authenticate in one step.</p>
+                        <p class="NormalWeb_2">29692</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+        <p class="NormalWeb">&#160;</p>
+    </body>
+</html>

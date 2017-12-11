@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1_2">Before Upgrading, Please Read This</h1>
+        <p class="Title">Upgrade Requirements Update 15</p>
+        <p class="NormalWeb">Before upgrading, please read the important upgrade considerations below.</p>
+        <table class="table_2">
+            <col style="width: 63pt;" />
+            <col style="width: 657pt;" />
+            <tr>
+                <td class="td_1">
+                    <p class="p_66">
+                        <img src="../Resources/Images/V44.1 Release page/Before Upgrading Please Read_5.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3857/tech_doc_warning.png?revision=1&amp;size=bestfit&amp;width=26&amp;height=25" class="img_1" />
+                    </p>
+                </td>
+                <td class="td_1">
+                    <p class="NormalWeb"><span class="Strong_2">Important:&#160;</span><span class="span_19">EMS Software recommends a best practice of performing an Internet Information Services (IIS)&#160;reset for all Web applications after updates have been completed.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h4 class="Strong_1">EMS Desktop Client</h4>
+        <p class="NormalWeb">Versions 11 and later of the Web Deploy Desktop Client will be required to upgrade to Update 14. This is due to a failure of the Web deploy to automatically update.</p>
+        <table class="table_2">
+            <col style="width: 63pt;" />
+            <col style="width: 657pt;" />
+            <tr>
+                <td class="td_1">
+                    <p class="p_66">
+                        <img src="../Resources/Images/V44.1 Release page/Before Upgrading Please Read_5.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3857/tech_doc_warning.png?revision=1&amp;size=bestfit&amp;width=26&amp;height=25" class="img_1" />
+                    </p>
+                </td>
+                <td class="td_1">
+                    <p class="NormalWeb"><span class="Strong_2">Warning:</span><span class="Strong_2">&#160;</span><span class="span_19">Do not try to manually update the Web Deploy using the AutoUpdate.exe. You will receive an error, "</span><span class="Emphasis_1">EMS is having trouble connecting</span><span class="span_19">," and the Desktop Client will stop working completely.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h4 class="Heading4_2"><span class="span_27">EMS Room Sign App (</span><span class="span_25">formerly Glance</span><span class="span_27">)</span><span class="span_12">&#160;</span>
+        </h4>
+        <p class="NormalWeb">As of Update 12, significant changes were made to&#160;the former EMS Glance product. The Update renames Glance to the EMS Room Sign App and also greatly updates the visual design.&#160;<span class="Strong">You may have to manually refresh the Room Sign App page on each tablet following your upgrade</span>. To refresh the page on an iPad, you should close the browser and &#160;re-open it using the homelink. We are working to ensure you will not have to do so in the future.</p>
+        <p class="NormalWeb">Upgrading to any release after Update 7 was causing end users to see an error message on the tablet. The browser on each tablet had to be restarted to eliminate the error.&#160;After upgrading to Update 15, end users will no longer see the error message.</p>
+        <table class="table_2">
+            <col style="width: 63pt;" />
+            <col style="width: 657pt;" />
+            <tr>
+                <td class="td_1">
+                    <p class="p_66">
+                        <img src="../Resources/Images/V44.1 Release page/Before Upgrading Please Read_5_1.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3856/tech_doc_tip.png?revision=1&amp;size=bestfit&amp;width=35&amp;height=35" class="img_1" />
+                    </p>
+                </td>
+                <td class="td_1">
+                    <p class="NormalWeb"><span class="Strong_2">Tip:</span><span class="Strong_2">&#160;</span><span class="span_19">This fix is possible because Update 15 initially turns off the any anti-forgery validation. To turn on this validation (and thus close the security hole), follow these upgrade steps:</span>
+                    </p>
+                    <ol start="1" class="ol_1">
+                        <li class="li_10">Uninstall your current Room Sign application.</li>
+                        <li class="li_10">Install Update 15 to the exact same virtual directory.</li>
+                        <li class="li_4"><span class="span_19">After successfully installing, go into the EMS Desktop Client and&#160;</span><span class="Strong_2">Refresh All Units</span><span class="span_19">.</span><span class="span_19"><br /></span><span class="span_19"><img src="../Resources/Images/V44.1 Release page/Before Upgrading Please Read_5.jpg" style="height: 149px;width: 605px;" alt="RoomSignApp_RefreshAllClients.JPG" class="img_1" /></span>
+                        </li>
+                        <li class="li_10">Wait a few minutes for all the units to obtain the new settings.&#160;</li>
+                        <li class="li_4"><span class="span_19">Edit the Room Sign web.config file, and search for&#160; &lt;</span><span class="span_19">add key="ValidateAntiForgery" value="false" /&gt;.</span>
+                        </li>
+                        <li class="li_10">Change “false” to “true.”</li>
+                        <li class="li_10">Save and close the file.</li>
+                        <li class="li_10">Refresh all profiles.</li>
+                    </ol>
+                </td>
+            </tr>
+        </table>
+        <h4 class="Heading4_2"><span class="span_27">EMS Mobile App</span><span class="span_12">&#160;</span>
+        </h4>
+        <p class="NormalWeb">EMS Mobile App Update 12 is compatible with Platform Services Update 12, as well as previous versions.&#160;Platform Services Update 12 is NOT compatible with previous versions of EMS Mobile App. Customers upgrading to Platform Services Update 12 must upgrade to EMS Mobile App Update 12.</p>
+    </body>
+</html>

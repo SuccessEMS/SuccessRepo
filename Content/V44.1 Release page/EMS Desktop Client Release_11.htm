@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1_2">EMS Desktop Client Release Notes V44.1 Update 11 (EMS Desktop Client)</h1>
+        <p class="NormalWeb_1"><span class="span_1">This section describes updates to&#160;your EMS software.&#160;&#160;Click on the&#160;</span><span class="Strong_5">title</span><span class="span_39">&#160;</span><span class="span_1">for each item below to expand for more details.</span>
+        </p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 166pt;" />
+            <col style="width: 191pt;" />
+            <col style="width: 137pt;" />
+            <col style="width: 169pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="span_2">Name:&#160;</span><span class="span_1">V44.1 Update 11</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">May 12, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Patch:&#160;</span><span class="span_1">&#160;201705091</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Build #:&#160;</span><span class="span_1">&#160;44.1.11000.313</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Fixes</h2>
+        <table align="center" class="table_4">
+            <col style="width: 167pt;" />
+            <col style="width: 765pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Service Orders</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_80">Service Order Notifications Incorrectly Triggered For New Orders</p>
+                    <p class="p_77"><span class="span_19">When users created a reservation and added new service orders, email notifications were incorrectly generated although they were set to trigger only for changed or deleted orders.&#160;</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified validations so that email notifications do not fire for new service orders unless rules are configured to do so.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_2">Reservation Wizard</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_80">Host Locations Unavailable When Adding a Specific Room for Video Conferences</p>
+                    <p class="p_77"><span class="span_19">When users selected a specific room to add to&#160;a video conference reservation in the Reservation Wizard, no Host Locations were available for selection although this was a required field.&#160;</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality to ensure that host locations for the booking are listed and available in the Host Location field in this scenario.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_2">Edit Reservation</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_80">Confirmation Times Out of Sync When "Display Audit Times in This Time Zone" Selected</p>
+                    <p class="p_77"><span class="span_19">When users sent a reservation confirmation and set audit times to display in a specific time zone, the time sent shown on the Email tab did not match the actual time when the email was sent.</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality to properly adjust for audit time zones so that the time sent matches the actual time.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_49">&#160;</p>
+        <table align="center" class="table_4">
+            <col style="width: 167pt;" />
+            <col style="width: 765pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_5">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">User Activity</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_80">Users With Matching Booking Templates Showed&#160;as Duplicates In Active Users Log</p>
+                    <p class="p_77"><span class="span_19">When&#160;user name matched the name of an assigned booking template, this caused duplicate listing in the active user log (under System Administration &gt; Tools &gt;</span><span class="Strong_2">&#160;Active Users</span><span class="span_19">).</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so only the user name is listed in the Active Users log.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_89">&#160;</p>
+        <p class="p_34">&#160;</p>
+    </body>
+</html>

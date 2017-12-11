@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="8" MadCap:lastHeight="1928" MadCap:lastWidth="834" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head><title mt-export-translate="no">Changing the EMS Mobile App Logo (Private Deployment Only)</title>
+        <meta name="mt-type" value="application/x.deki-text" />
+        <meta name="mt-unsafe" value="true" />
+    </head>
+    <body>
+        <h1>Change EMS Mobile App Logo (Private Deployment Only)</h1>
+        <p>For customers re-signing the application, we provide unsigned builds.</p>
+        <ol>
+            <li>Store your unsigned EMS Mobile App in a new or empty directory.</li>
+            <li>Change the extension of the app to .zip. (e.g., IPhone.App-44.1.xxx-unsigned.ipa -&gt; IPhone.App-44.1.xxx-unsigned.zip.)</li>
+            <li>Un-compress/expand the new zip file.</li>
+            <li>To set a custom logo, replace the following logo files:</li>
+        </ol>
+        <h2>IOS</h2>
+        <ol>
+            <li>Rezip all of the extracted files from earlier.</li>
+            <li>Give the new zip file an ipa extension.</li>
+            <li>Using a Mac computer, install fastlane.<ul><li>sudo gem install fastlane</li></ul></li>
+            <li>Do the rest of this on the Mac.</li>
+            <li>Login to <a href="https://developer.apple.com/">https://developer.apple.com</a> and switch to team "Your Team Name."</li>
+            <li>Download your teams Distribution provisioning profile.</li>
+            <li>Double click it to install it.  This file should exist on your system:<ul><li>~/Library/MobileDevice/Provisioning Profiles/&lt;a guid for your provisioning profile&gt;.mobileprovision</li></ul></li>
+            <li>Get your team's existing .p12 file with the cert and private key combined, and then import that into Keychain (by double-clicking it) and then entering the password.<ul><li>When the cert is installed successfully you should see iPhone Distribution: &lt;Your Team Name&gt; in your Keychain, with a private key.</li></ul></li>
+            <li>Assuming you have:<ul><li>fastlane installed on your Mac</li><li>the cert &amp; private key installed in Keychain</li><li>the provisioning profile mentioned above in:   ~/Library....mobileprovision</li></ul></li>
+            <li>Resign your target ipa with this command:<p>fastlane run resign \</p><p>ipa:path/to/your/file.ipa \</p><p>signing_identity:"iPhone Distribution: &lt;Your Team Name&gt;" \</p><p>provisioning_profile:$HOME/Library/MobileDevice/Provisioning Profiles/&lt;your profile GUID&gt;.mobileprovision \</p><p>display_name:EMS-Resigned</p></li>
+            <li>If you want a bash script that will do this, you can copy this into a file (e.g., resign_enterprise.sh):<p>#!/bin/bash</p><p>IPA=relative/path/to/file.ipa</p><p>IDENTITY="iPhone Distribution: &lt;Your Team Name&gt;"</p><p>PROFILE=$HOME/Library/MobileDevice/Provisioning Profiles/&lt;your profile GUID&gt;.mobileprovision</p><p>DISPLAY_NAME=EMS-Resigned</p><p>fastlane run resign ipa:"$IPA" signing_identity:"$IDENTITY" provisioning_profile:"$PROFILE" display_name:$DISPLAY_NAME</p></li>
+        </ol>
+        <h2>Android</h2>
+        <ol>
+            <li>Rezip all the extracted files from earlier.<ul><li>Note that assets, res, and AndroidManifest.xml are top-level files in an .apk, so be careful to zip the right things up.</li><li>This CLI command will zip all the files in the current directory into a new zip file in the parent directory:</li></ul><p>zip -qr ../ems-custom-44.1.xxx.zip ./*</p></li>
+            <li>Give the new zip file an apk extension (e.g., myapp.zip -&gt; myapp.apk).</li>
+            <li>Sign the new apk file.<p>This is the script we use to sign our app, adjust for your needs:</p><p>#!/bin/bash</p><p>APK_TO_SIGN=$1</p><p>APK_OUTPUT=$2</p><p>EMS_APK_KEYSTORE_PATH=path/to/your/app.keystore</p><p>&#160;</p><p>jarsigner -verbose \</p><div class="indent">-sigalg $EMS_APK_SIG_ALG \</div><div class="indent">-digestalg $EMS_APK_DIGEST_ALG \</div><div class="indent">-storepass $EMS_APK_KEYSTORE_PASS \</div><div class="indent">-keystore $EMS_APK_KEYSTORE_PATH \</div><div class="indent">$APK_TO_SIGN $EMS_APK_ALIAS_NAME</div><p>&#160;&#160;</p><p>zipalign 4 $APK_TO_SIGN $APK_OUTPUT</p></li>
+        </ol>
+        <p>Note: We recommend that you use an image with a 3:1 aspect ratio in order to ensure that the image will be be properly rendered by the application.</p>
+    </body>
+</html>

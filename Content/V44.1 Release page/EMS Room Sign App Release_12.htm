@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Room Sign App Release Notes</h1>
+        <p class="NormalWeb">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb"><span class="Strong">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_4">Contacting Customer Support</span></a>&#160;and&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_4">Updating to the Latest Version of EMS</span></a></p>
+        <table class="table_2">
+            <col style="width: 163pt;" />
+            <col style="width: 198pt;" />
+            <col style="width: 152pt;" />
+            <col style="width: 176pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="Strong_2">Name:&#160;</span><span class="span_19">V44.1 Update 12</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Release&#160;Date:&#160;</span><span class="span_19">June 30, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Patch:&#160;</span><span class="span_19">2017.06.29.0</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Build #:&#160;</span><span class="span_19">&#160;</span><span class="span_19">17.6.28.1</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Enhancements</h2>
+        <table align="center" class="table_4">
+            <col style="width: 207pt;" />
+            <col style="width: 725pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="td_3">
+                    <p class="Emphasis_1">ArmorActive Enclosure</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Five-Second Tones Now Sent as Best Practice</p>
+                    <p class="NormalWeb_2">The audio tones needed to change the LED indicators on the ArmorActive enclosure now play for five seconds.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">Tones to ArmorActive Enclosures Are Sent Every 45 Seconds</p>
+                    <p class="NormalWeb_2">The audio tones needed to change the LED indicators on the ArmorActive enclosure are now sent every 45 seconds, ensuring that the LED color always aligns with the room state.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p><span class="span_19"><br /></span><span class="Emphasis_1">Edit Booking</span>
+                    </p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Users Can Now Extend Their Meetings With One Click</p>
+                    <p class="NormalWeb_2">The user experience for extending bookings has been improved and users can now extend their bookings with only one click. See Configuring Edit Booking for more information.</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p><span class="span_19"><br /></span><span class="Emphasis_1">Portrait Mode</span><span class="span_19"><br />&#160;</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">The Room Sign App Can Now Be Deployed in Portrait Mode</p>
+                    <p class="NormalWeb_2">The EMS Room Sign App can now be deployed in portrait mode, which displays an agenda view of the day's events. See Deploying the EMS Room Sign App on Tablets for more information.</p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <h2 class="Heading2_2_1">Fixes</h2>
+        <table align="center" class="table_4">
+            <col style="width: 212pt;" />
+            <col style="width: 720pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Status for Private Booking</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Bookings Were Not Appearing if Booked Status Was Status for Private Booking</p>
+                    <p class="NormalWeb_2">When users created a profile, set the status to "status for private booking," and created a booking with this profile, the booking did not appear. The availability bar was red and had no text.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix</span><span class="span_19">: Modified functionality so that the value in the "Private Booking Label" parameter appeared in the availability bar.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="td_3">
+                    <p class="Emphasis_1">Create a Reservation</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Large Values of the "Maximum Number of Minutes for New Booking" Parameter Resulted in a Strange Default End Time</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix</span><span class="span_19">: Modified functionality so that any value of the parameter still yielded the proper default end time, and displayed accurate values in the end time picker.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">Keyboard Was Reopening When Users Hit OK to Confirm a Reservation</p>
+                    <p class="NormalWeb_2">The keyboard would reopen when users hit OK to confirm their reservation.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix</span><span class="span_19">: Modified functionality so that the keyboard does not reappear when confirming a reservation.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_41">&#160;</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">In Certain Scenarios, Users Could Not Reserve Even if the Room Was Available</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix</span><span class="span_19">: Modified functionality so that users can reserve a room as long as the room is available and the profile allows reservations.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

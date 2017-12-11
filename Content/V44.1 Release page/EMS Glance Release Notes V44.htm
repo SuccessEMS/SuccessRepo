@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Glance Release Notes V44.1 Update 6 (EMS Glance)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:</span><span class="span_2">&#160;</span><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/Release_Notes/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 303pt;" />
+            <col style="width: 408pt;" />
+            <col style="width: 250pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="NormalWeb_4"><span class="span_2">Name:&#160;</span><span class="span_1">V44.1 Update 6</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb_4"><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">October 18, 2016</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb_4"><span class="span_2">Build #:&#160;</span><span class="span_1">16.9.28.1</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <table align="center" class="table_4">
+            <col style="width: 144pt;" />
+            <col style="width: 816pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Events</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Event Incorrectly Listed as Private</p>
+                    <p class="p_25">Meetings that were set to an event type of "none" incorrectly displayed as Private.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that events with no assigned event type do not display as Private.&#160;</span>
+                    </p>
+                    <table class="table_2">
+                        <col style="width: 62pt;" />
+                        <col style="width: 533pt;" />
+                        <tr>
+                            <td class="td_8">
+                                <p class="p_66">
+                                    <img src="../Resources/Images/V44.1 Release page/EMS Glance Release Notes V44.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3856/tech_doc_tip.png?revision=1&amp;size=bestfit&amp;width=35&amp;height=35" class="img_1" />
+                                </p>
+                            </td>
+                            <td class="td_8">
+                                <p class="NormalWeb_4"><span class="Strong_2">Tip:</span><span class="span_19">&#160;Requires Patch.</span>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23190" class="Hyperlink_2">23190</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Translations</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Slovak Translation for List and Map View Causes Error</p>
+                    <p class="NormalWeb"><span class="span_19">When users requested a reservation and clicked the&#160;</span><span class="Strong_2">Display results in</span><span class="span_19">&#160;option for&#160;List or Map, the message,&#160;"There was a problem processing your request"&#160;displayed.</span>
+                    </p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the display so the error does not occur and users can proceed with the booking in Slovak.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/12953" class="Hyperlink_2">12953</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Security</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Web Traffic Security Vulnerabilities</p>
+                    <p class="p_25">The web application sent non-secure user and session information (cookies) during encrypted (SSL) sessions, exposing vulnerable information.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Added ANtiForgery validation to all Ajax HttpPost calls and added verb tampering redirection to prevent non http or Get calls being made to Glance so web traffic no longer exposes user and session information.</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23103?fullScreen=false" class="Hyperlink_2">23103</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

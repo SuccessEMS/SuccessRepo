@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xml:lang="en-us" MadCap:lastBlockDepth="8" MadCap:lastHeight="1415" MadCap:lastWidth="1026" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
+        <link href="../../../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Glance Release Notes <br />V44.1, Update 6</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="p_47">See Also:&#160;<MadCap:xref href="#Contact">Contact Customer Support</MadCap:xref>&#160;and&#160;<MadCap:xref href="../Updating to the Latest Version of EMS (Patches and Builds).htm">Updating to the Latest Version of EMS (Patches and Builds)</MadCap:xref>. </p>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <tr class="TableStyle-PatternedRows-Body-LightRows">
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_4">Name:&#160;V44.1 Update 6</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                    <p class="NormalWeb_4">Release&#160;Date:&#160;October 18, 2016</p>
+                </td>
+                <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                    <p class="NormalWeb_4">Build #:&#160;16.9.28.1</p>
+                </td>
+            </tr>
+        </table>
+        <h2>Fixes</h2>
+        <table class="TableStyle-PatternedRows" style="mc-table-style: url('../../../1DesktopClient/V44.1/Resources/TableStyles/PatternedRows.css');" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 206px;" />
+            <col class="TableStyle-PatternedRows-Column-Regular" style="width: 733px;" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p class="Strong_1">Area</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p class="Strong_1">Description</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p class="Emphasis_1">Events</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p class="bold">Event Incorrectly Listed as Private</p>
+                        <p class="p_25">Meetings that were set to an event type of "none" incorrectly displayed as Private.</p>
+                        <p class="NormalWeb">Fix:&#160;Modified functionality so that events with no assigned event type do not display as Private.&#160;</p>
+                        <p class="NormalWeb">Tip:&#160;Requires Patch.</p>
+                        <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23190" class="Hyperlink_2">23190</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p class="Emphasis_1">Translations</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p class="bold">Slovak Translation for List and Map View Causes Error</p>
+                        <p class="NormalWeb">When users requested a reservation and clicked the&#160;Display results in&#160;option for&#160;List or Map, the message,&#160;"There was a problem processing your request"&#160;displayed.</p>
+                        <p class="NormalWeb">Fix:&#160;Modified the display so the error does not occur and users can proceed with the booking in Slovak.&#160;</p>
+                        <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/12953" class="Hyperlink_2">12953</a>
+                        </p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
+                        <p class="Emphasis_1">Security</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
+                        <p class="bold">Web Traffic Security Vulnerabilities</p>
+                        <p class="p_25">The web application sent non-secure user and session information (cookies) during encrypted (SSL) sessions, exposing vulnerable information.</p>
+                        <p class="NormalWeb">Fix:&#160;Added ANtiForgery validation to all Ajax HttpPost calls and added verb tampering redirection to prevent non http or Get calls being made to Glance so web traffic no longer exposes user and session information.</p>
+                        <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23103?fullScreen=false" class="Hyperlink_2">23103</a>
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h2><a name="Contact"></a>Contact Customer Support</h2>
+        <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
+    </body>
+</html>

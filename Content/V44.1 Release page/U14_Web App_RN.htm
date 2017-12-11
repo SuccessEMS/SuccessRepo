@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1"><span class="span_31">&#160;</span>EMS Web App Release Notes Version 44.1, Update 14 (EMS Web App)</h1>
+        <p class="NormalWeb">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb"><span class="Strong">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_8">Contacting Customer Support</span></a>&#160;and&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_8">Updating to the Latest Version of EMS</span></a></p>
+        <table class="table_2">
+            <col style="width: 174pt;" />
+            <col style="width: 194pt;" />
+            <col style="width: 155pt;" />
+            <col style="width: 213pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="Strong_2">Name:&#160;</span><span class="span_19">V44.1 Update 14</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Release&#160;Date:&#160;</span><span class="span_19">July 31, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Patch:&#160;</span><span class="span_19">43.0.0.201707180</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="Strong_2">Build #:&#160;</span><span class="span_19">44.1.14000.555</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb">&#160;</p>
+        <h2 class="Heading2_2_1">Enhancements</h2>
+        <table align="center" class="table_4">
+            <col style="width: 164pt;" />
+            <col style="width: 767pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">My Bookings</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">My Bookings Includes Join Skype Link</p>
+                    <p class="NormalWeb_2">Users who are owners of a reservation with a Skype meeting can now join the Skype meeting by navigating to My Bookings from the homepage. The Join Skype button appears next to the check in/cancel/end now buttons.&#160;</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">My Events</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">My Bookings Includes Join Skype Link</p>
+                    <p class="NormalWeb_2">Users who are owners of a reservation with a Skype meeting can now join the Skype meeting by navigating to My Bookings from the My Events page. The Join Skype button appears next to the check in/cancel/end now buttons.&#160;</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Process Template Parameter</p>
+                    <p class="Emphasis_1">Unauthenticated User</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">New EDU Process Template Parameter</p>
+                    <p class="NormalWeb_2">Configuration administrators may now modify the taxonomy of the Room Title on the unauthenticated template&#160;to reflect the type of space that is available to be requested.</p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Fixes&#160;</h2>
+        <table align="center" class="table_4">
+            <col style="width: 198pt;" />
+            <col style="width: 733pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Selected Rooms</p>
+                    <p class="Emphasis_1">Unauthenticated Users</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Changed Selected Rooms Section to Use Room Title Singular Parameter in an Unathenticated Template</p>
+                    <p class="NormalWeb_2">ClassicRequestForm.aspx was not using the Room Title Singular parameter value for this section because an unauthenticated template can only choose a single room.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the Room Title Singular parameter is being used.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Create Reservation</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Recurrence Button Was Not Responding When Clicked</p>
+                    <p class="NormalWeb_2">Users had to click the recurrence button multiple times to open the start date or start time pop up Window.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that a single click opens the pop-up window as an authenticated user action.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Location Tab</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Users Who Clicked Continue Button from Location Tab Did Not Lead to Details Page</p>
+                    <p class="NormalWeb_2">Users who tried to click Continue from the Location tab were not being directed to the Details tab.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that user is directed to Details tab when clicking Continue.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="td_2">
+                    <p class="Emphasis_1">Browse Locations</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">From Browse Locations, Users Were Able to Book Rooms for Templates That Were Unavailable</p>
+                    <p class="NormalWeb_2">Process templates that were not enabled for the Web App were still displaying as an option when viewed in Browse Locations or My Account/Personalization.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that templates that are not enabled in Web App do not appear as an option.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="p_45">Selected Time in Browse Locations Was Not Honoring Room Request Time</p>
+                    <p class="NormalWeb_2">Authenticated users who select a time from the Browse Locations screen did not see that same time once they were redirected to the Room Request page.&#160;</p>
+                    <table class="table_2">
+                        <col style="width: 62pt;" />
+                        <col style="width: 471pt;" />
+                        <tr>
+                            <td class="td_8">
+                                <p class="p_66">
+                                    <img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_18.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3855/tech_doc_note.png?revision=1&amp;size=bestfit&amp;width=50&amp;height=50" class="img_1" />
+                                </p>
+                            </td>
+                            <td class="td_8">
+                                <p class="NormalWeb"><span class="Strong_2">Note:&#160;</span><span class="span_19">This bug only occurred if no default time block was set on the process template.&#160;</span>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the time selected on the Browse Locations page persists on the Room Request page.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Reservation Details</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Attachments Could Not Be Deleted Once Uploaded in EMS Web App</p>
+                    <p class="NormalWeb_2">Users trying to delete attachments were experiencing a spinning wheel that does not advance the screen.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users can delete attachments.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">View Services</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Resources Were Entered Under the Wrong Category</p>
+                    <p class="NormalWeb_2">When users added a resource to a reservation using the Facility Reservation form, the resource appeared under the wrong category.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that resources are displayed in the correct category.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Adding Rooms</p>
+                    <p class="Emphasis_1">Unauthenticated Users</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Users Could Not Add Room Unless Unauthenticated Template&#160;Had Categories Selected and Categories Have Groupings</p>
+                    <p class="NormalWeb_2">Users cannot add a room unless the unauthenticated template has categories selected. Additionally, the categories themselves must have groupings.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users can add a room for templates with&#160;available categories.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Recurring Reservations</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Recurrence Window Was Not Showing Start and End Time Set</p>
+                    <p class="NormalWeb_2">The date and time in the Recurrence window were not displaying correctly.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the start and end time set in the Date &amp; Time window persist in the recurrence window.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Room Search</p>
+                    <p class="Emphasis_1">Unauthenticated Users</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Room Search Was Not Following the Attendance Criteria&#160;</p>
+                    <p class="NormalWeb_2">When requesting a room as an unauthenticated user, the attendance filter was not being honored by the room search.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the attendance filter works as expected and the room search results display on those rooms that match the value indicated in the filter.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Service Only Request Template</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Service Only Request Templates Were Experiencing Internal Server Errors</p>
+                    <p class="NormalWeb_2">When users attempted to select location and date in a Service Only Request process template, they were experiencing an internal server error.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users can complete their reservation in a Service Only Request process template without receiving internal server errors.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Terms &amp; Conditions</p>
+                    <p class="Emphasis_1">Unauthenticated Users</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Terms &amp; Conditions Were Not Being Required for Unauthenticated Users</p>
+                    <p class="NormalWeb_2">Unauthenticated users entering&#160;Request Details and submitting&#160;the request were not receiving an error message prompting them to complete the Terms &amp; Conditions. Users proceeding to the Request Details tab from the Service tab should have received a Terms &amp; Conditions error if T&amp;C were required.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users are prompted when Terms &amp; Conditions are required but not completed.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Create Reservation</p>
+                    <p class="Emphasis_1">Unauthenticated Users</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Building Hours Violation Not Working for Unauthenticated Users&#160;</p>
+                    <p class="NormalWeb_2">Unauthenticated users who created a reservation with a start time that violated the building's hours of operation did not receive a violation of building hours error message.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that unauthenticated users choosing a start time that violates the building's hours of operation receive an error message.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Resources</p>
+                    <p class="Emphasis_1">Unauthenticated Users</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Resources Displayed When Not Available At Checkout for Unauthenticated Users</p>
+                    <p class="NormalWeb_2">All resources were displayed as Available at Checkout for unauthenticated users regardless of category configuration.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that unauthenticated users could only view resources that were configured as Available at Checkout.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Account Validation</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Link to We Can Send It To You Again Was Broken</p>
+                    <p class="NormalWeb_2">Users trying to validate their accounts were receiving an error that their request could not be processed when clicking the "We can send it to you again" link.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users receive an email that allows them to validate their account.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Create Reservation</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Interactive Functions on iPad Were Not Working</p>
+                    <p class="NormalWeb_2">When users attempted to create a reservation in the EMS Web App using their iPad, the frame to select location was cutoff and unusable.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the filter window opens fully in the middle of the screen.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Manage Services</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Adding Services from Manage Services for One Booking Added Services to All Bookings</p>
+                    <p class="NormalWeb_2">Users adding services to one booking within a reservation from Manage Services were finding the services added to all bookings within that reservation.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the additional services is added only to the booking selected under "Add to Additional Bookings."</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Server</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Unable to Implement Server-Level Encryption FIPS</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that FIPS can be implemented.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">I Know What Room I Want</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Apostrophe in Room Name Caused No Results to be Returned in Search</p>
+                    <p class="NormalWeb_2">When users added an apostrophe (') when searching in I Know What Room I Want, no results were returned.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that search results are returned if there is an apostrophe in the name.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Add Booking</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Add New Booking to Cancelled Reservation</p>
+                    <p class="NormalWeb_2">Users were able to add new bookings to a cancelled reservation.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that new bookings cannot be added to a cancelled reservation.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="3" class="td_3">
+                    <p class="Emphasis_1">Browse Events</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Browse Events Filter Incorrectly Displayed Amount of Events</p>
+                    <p class="NormalWeb_2">Users viewing the Daily list of events were seeing the correct events, but not the correct number of events.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the Daily list of events reflects the correct amount of events.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="p_45">Events Returned from Custom Link Did Not Respect the Number of Events Displayed in Browse Events&#160;</p>
+                    <p class="NormalWeb_2">Users who created a custom link to view calendars according to specific views/Buildings (that had more than 50 rooms) could only see the first 50 rooms. All rooms should have been displayed.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that all rooms are displayed via the custom link.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Guests Were Unable to Use the Add to My Calendar Link&#160;</p>
+                    <p class="NormalWeb_3"><span class="span_19">Guest users attempting to add reservations to their calendar using the Add to My Calendar link were receiving the error message, "</span><span class="Emphasis_1">There was a problem attempting to complete the action you requested. Please try again at a later time</span><span class="span_19">."</span>
+                    </p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the .ici file is available for download.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Booking Details</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">European Dates Displayed Incorrectly in EMS Web App</p>
+                    <p class="NormalWeb_2">Incorrect dates in Booking Details for users with browsers that have London language and European system time. Date was displayed correctly for Event Date but incorrect for First Booking date.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that dates with European system time display correctly. The First Booking date should display the same date as Event Date.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Add Services</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Resources Were Being Grouped Under One Category</p>
+                    <p class="NormalWeb_2">Users adding Services from multiple categories to an existing reservation were seeing all services displayed under one category.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that Services display under the appropriate category.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Access</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">EMS System Access in China</p>
+                    <p class="NormalWeb_2">Google fonts were always failing to load when the EMS Web App was being access in China.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that all users in China can access the EMS Web App.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Edit Booking</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Editing a Booking Alters Setup/Teardown Times</p>
+                    <p class="NormalWeb_2">When users edited a booking, the reserved time for the booking reverted back to the default.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that only the changes made should apply to the booking. Changing non-critical booking information will not change critical booking information.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Setup Type</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Room Capacities Displaying Incorrectly</p>
+                    <p class="NormalWeb_2">Users who changed the setup count on the setup type for the room were seeing that the count was not updating with the setup type when searching for available rooms.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the setup type the count reflects the setup type configured.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Pricing Plan</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Resource Pricing Was Not Reflecting&#160;the Process Template Parameter</p>
+                    <p class="NormalWeb_2">The pricing plan was not following the process template parameter but instead the global system parameter.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that the pricing plan follows the process template.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Edit Booking</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Booking Status Resets When an Edit Was Made</p>
+                    <p class="NormalWeb_2">When users edited a reserve-type booking in the EMS Web App, the request rooms were being sent back to request status instead of confirmed.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that only the status on the effected booking is changed.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Create an Account</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_45">Auto Create Web User Account Function Was Not Working</p>
+                    <p class="NormalWeb_2">Auto create web user account function was not working when portal authorization is used.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that auto create web user account function works with portal authorization.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Select Services</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_45">Resources Could Not Be Added to Booking When Reservation Had 2/3 Cancelled Bookings</p>
+                    <p class="NormalWeb_3"><span class="span_19">For reservations that contain 2/3 cancelled bookings, resources could not be added.&#160;Users received a prompt that "</span><span class="Emphasis_1">Your selected room(s) and date(s) do not allow for additional Services. Please adjust your selections or continue to the next step</span><span class="span_19">."</span>
+                    </p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that&#160;users can add resources to reservations that contain 2/3 cancelled bookings.&#160;</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

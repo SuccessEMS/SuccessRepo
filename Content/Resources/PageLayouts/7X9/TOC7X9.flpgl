@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <Page Name="First Right" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="firstright" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#ffffff" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
+        <Frame X="-6px" Y="-6px" Width="586px" Height="733px" FlowIndex="8" Flow="body" Right="-4px" Bottom="41px" Anchors="Left,Right,Bottom" />
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="-8px" Bottom="-31px" X="8px" Y="752px" Width="576px" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Using <MadCap:variable xhtml:name="General.EMS&#160;Web App" /> <MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Left" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="left" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#ffffff" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" Y="22px" Bottom="121px" X="0px" Right="0px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="576px" Height="625px">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="721px" Width="576px" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+    <Page Name="Right" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="right" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" Orientation="portrait" BackgroundType="Solid" BackgroundColor="#ffffff" BleedBottom="0.25in" BleedTop="0.25in" BleedRight="0.25in" BleedLeft="0.25in">
+        <Frame Flow="body" Y="53px" Bottom="90px" X="1px" Right="-1px" ColumnCount="1" ColumnGap="30px" ColumnDivider="Solid 1px Red" Anchors="Left,Right,Top,Bottom" Width="576px" Height="625px">
+        </Frame>
+        <Frame Flow="footer" Height="47px" Anchors="Left,Right,Bottom" Right="0px" Bottom="0px" X="0px" Y="721px" Width="576px" TextAlign="left" VerticalAlign="top">
+            <Content>
+                <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">
+                    <xhtml:head>
+                    </xhtml:head>
+                    <xhtml:body>
+                        <xhtml:p xhtml:class="FrameFooterText"><MadCap:variable xhtml:name="System.PageNumber" />
+                        </xhtml:p>
+                    </xhtml:body>
+                </xhtml:html>
+            </Content>
+        </Frame>
+    </Page>
+</PageStyles>

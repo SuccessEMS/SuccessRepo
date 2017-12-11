@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Kiosk Release Notes V44.1 Update 3 (EMS Kiosk)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:</span><span class="span_2">&#160;</span><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;&#160;</span><a href="https://success.emssoftware.com/Release_Notes/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 206pt;" />
+            <col style="width: 275pt;" />
+            <col style="width: 274pt;" />
+            <col style="width: 205pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="span_2">Name:&#160;</span><span class="span_1">V44.1 Update 3</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">August 26, 2016</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Build #: &#160;</span><span class="span_1">&#160;44.1.0.267</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Patch #:&#160;</span><span class="span_1">&#160;2016.08.24.0</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_1">Enhancements&#160;</h2>
+        <h2 class="Heading2"><a href="https://success.emssoftware.com/Release_Notes/Update_3_Release_Notes/EMS_Kiosk_Release_Notes_V44.1_Update_3" title="Edit section" class="a_17"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_3.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </h2>
+        <table align="center" class="table_4">
+            <col style="width: 240pt;" />
+            <col style="width: 720pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_2">EMS Kiosk &gt;&#160;Floormaps</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Add Support for SVG File Formats for Floor Plan Images</p>
+                    <p class="p_25">SVG files are now supported and&#160;rendered correctly in the following pages:&#160;Make a Reservation, Locate Space, and Locate Viewer pages.&#160;</p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22895" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22895" class="Hyperlink_2">2</a><a href="https://success.emssoftware.com/Demonstrate_that_SVG_files_are_allowed_and_are_rendered_correctly_in_the_following_areas%3A_EMS_Floor_Plan_Configuration_Configuring_floor_map_using_SVG_image_(adding_indicators%2C_removing_indicators%2C_changing_rooms%2C_etc.)_EMS_Web_App_Using_an_SVG_floor_map_to_book_space_EMS_Desktop_Client_Configuration_%3E_Buildings_%3E_Images_tab" title="Demonstrate that SVG files are allowed and are rendered correctly in the following areas: EMS Floor Plan Configuration Configuring floor map using SVG image (adding indicators, removing indicators, changing rooms, etc.) EMS Web App Using an SVG floor map to bo" class="Hyperlink_2">1611</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_56">Fixes</p>
+        <table align="center" class="table_4">
+            <col style="width: 151pt;" />
+            <col style="width: 389pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">EMS Kiosk &gt; Log In via LDAP</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22869" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22869" class="Hyperlink_2">22869</a></p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">LDAP Login Fails</p>
+                    <p class="p_25">Users were unable to log in to EMS Kiosk when their system was set to use LDAP&#160;authentication.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified validations so that users can now successfully log in to EMS Kiosk using LDAP Authentication</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">EMS Kiosk&#160;&gt; Make a Reservation &gt; Floor Plans</p>
+                    <p class="p_25">Bug 22586</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22986?fullScreen=false" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22986?fullScreen=false" class="Hyperlink_2">22986</a></p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Unable to Book a Room from Floor Plan</p>
+                    <p class="NormalWeb_2">When browsing for space, clicking on the floor plan map caused an error and users could not book rooms from the floor plan view.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so users can now book rooms from this view.</span>
+                    </p>
+                    <p class="Strong_1">Floor Plans Unavailable</p>
+                    <p class="NormalWeb_3"><span class="span_19">When browsing for space, clicking on&#160;</span><span class="Strong_2">Map&#160;</span><span class="span_19">caused EMS Kiosk to hange on "Loading carousel items" and users were unable to select floor plans.</span>
+                    </p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so users can now view floor plans.</span>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">EMS Kiosk &gt; Booking Check-In</p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/17854" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/17854" class="Hyperlink_2">17854</a></p>
+                    <p class="p_25">Bug&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22861" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/22861" class="Hyperlink_2">22861</a></p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Check-In Button Missing From Locate Person</p>
+                    <p class="NormalWeb_3"><span class="span_19">The&#160;</span><span class="Strong_2">Check In</span><span class="span_19">&#160;button was missing from the Locate Person page.</span>
+                    </p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the display to show the&#160;</span><span class="Strong_2">Check In&#160;</span><span class="span_19">button so users&#160;can now check&#160;in to meetings from Locate Person when the option is configured.</span>
+                    </p>
+                    <p class="Strong_1">Check-In Hangs From Make Reservation</p>
+                    <p class="NormalWeb_2">When checking into a reservation from the Make Reservation page, it appeared to hang and then the user was redirected to the main page.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users' check-ins now succeed and&#160;the My Reservation page is refreshed such that the check-in option no longer shows&#160;for that reservation&#160;</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+    </body>
+</html>

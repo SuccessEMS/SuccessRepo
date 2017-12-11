@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">EMS Platform Services Release Notes Version 44.1 Update 13 (EMS Platform Services)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 128pt;" />
+            <col style="width: 118pt;" />
+            <col style="width: 172pt;" />
+            <col style="width: 122pt;" />
+            <tr>
+                <td class="td_2">
+                    <p><span class="span_2">Name:&#160;</span><span class="span_1">V44.1&#160;Update 13</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">July 14, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Patch:&#160;</span><span class="span_1">44.1.13000.201707100</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p><span class="span_2">Build #:&#160;</span><span class="span_1">&#160;44.1.13000.2459</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_2_1">Fixes&#160;</h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="7" class="td_3">
+                    <p class="Emphasis_1">API Calls</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Added&#160;POST /rooms/actions/availability/templates</p>
+                    <p class="p_25">Added a new API call to search availability across multiple templates</p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=28763" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=28763" class="Hyperlink_2">28763</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Added the following&#160;room details to GET / rooms response</p>
+                    <p class="mt-color-ff0000_1">"diagram": {</p>
+                    <p class="mtindent2_1"><span class="span_19">"floorPlanIndicatorID": 0,</span><span class="span_19"><br /></span><span class="span_19">"imageID": 0,</span><span class="span_19"><br /></span><span class="span_19">"x": 0,</span><span class="span_19"><br /></span><span class="span_19">"y": 0</span><span class="span_19"><br />&#160;</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30621" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30621" class="Hyperlink_2">30621</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Added new API calls to get all floor plans for a floor ID</p>
+                    <p class="mtindent2_1"><span class="span_19">/buildings/{id}/floors</span><span class="span_19"><br /></span><span class="span_19">/buildings/{id}/floors/{floorId}</span><span class="span_19"><br /></span><span class="span_19">/buildings/{id}/floors/{floorId}/roomdiagrams</span>
+                    </p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30685" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30685" class="Hyperlink_2">30685</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Updated the POST/Bookings/action/search call</p>
+                    <p class="NormalWeb_2">The API call POST / bookings/actions/search/users has been added.&#160;</p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30701" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30701" class="Hyperlink_2">30701</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Added a&#160;status as a search criteria to POST/bookings/action/search</p>
+                    <p class="NormalWeb_2">Added "statusIds"&#160;to POST /bookings/actions/search request.</p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30703" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30703" class="Hyperlink_2">30703</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Add room types as a search criteria to POST/bookings/action/search</p>
+                    <p class="p_25">Added "roomTypeIds"&#160;to POST /bookings/actions/search request.</p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30704" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30704" class="Hyperlink_2">30704</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Strong_1">Added floors as a search criteria to POST/bookings/action/search</p>
+                    <p class="p_25">Added "floorIds"&#160;to POST /bookings/actions/search request.</p>
+                    <p class="p_25">TFS item&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30705" title="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems?_a=edit&amp;id=30705" class="Hyperlink_2">30705</a></p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_56">&#160;</p>
+    </body>
+</html>

@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1">&#160;EMS Mobile Release Notes V44.1 Update 6 (EMS Mobile App API/IPA/APK)</h1>
+        <p class="p_34">This section describes updates to&#160;your EMS software.&#160;</p>
+        <p class="NormalWeb_1"><span class="span_2">See Also:</span><span class="span_2">&#160;</span><a href="https://success.emssoftware.com/Older_Releases_(V44%2C_V43)/EMS_Version_44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_1">Contacting Customer Support</span></a><span class="span_1">&#160;and&#160;</span><a href="https://success.emssoftware.com/Release_Notes/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_1">Updating to the Latest Version of EMS</span></a>
+        </p>
+        <table class="table_3">
+            <col style="width: 193pt;" />
+            <col style="width: 431pt;" />
+            <col style="width: 336pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="NormalWeb_4"><span class="span_2">Name:&#160;</span><span class="span_1">V44.1 Update 6</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb_4"><span class="span_2">Release&#160;Date:&#160;</span><span class="span_1">October 18, 2016</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb_5"><span class="span_2">Build #:&#160;</span><span class="span_1">44.1.477</span>
+                    </p>
+                    <p class="NormalWeb_6"><span class="span_2">Mobile API #</span><span class="span_1">:&#160;44.1.208.0</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_1">Enhancements&#160;</h2>
+        <h2 class="Heading2"><a href="https://success.emssoftware.com/Release_Notes/Update_6_0_Release_Notes/EMS_Mobile_Release_Notes_V44.1_Update_6" title="Edit section" class="a_17"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_9.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </h2>
+        <table align="center" class="table_4">
+            <col style="width: 193pt;" />
+            <col style="width: 768pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td rowspan="2" class="td_3">
+                    <p class="Emphasis_1">Log In</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Set Time Period for Authentication</p>
+                    <p class="p_25">In order to enable Administrators to set a defined time period in days for users' log-ins to persist, added a configuration parameter, "Number of days to persist login on mobile app" (MOBILE_NumberofDays ). When set to 0, behavior remains governed by "Number of minutes to remember login on the mobile app." When set to any number of days, the user must sign out or the application must crash in order to begin a new session during that time period.</p>
+                    <p class="Strong_1">Related Fixes:</p>
+                    <ul class="ul_4">
+                        <li class="li_4"><span class="span_19">Renamed parameter, "Number of minutes to remember login on the mobile app"&#160;</span><span class="Strong_2">(</span><span class="span_19">MOBILE_MinutesToRememberLogin) to "Inactivity period in minutes before auto logout from mobile app."</span>
+                        </li>
+                        <li class="li_10">Removed parameter, "Number of days to remember login on mobile app" (MOBILE_DaysToRememberLogin) as this new parameter replaces it.&#160;</li>
+                    </ul>
+                    <p class="Strong_1">See Also:&#160;<a href="https://success.emssoftware.com/Release_Notes/Update_6_0_Release_Notes/EMS_Mobile_Release_Notes_V44.1_Update_6" title="EMS Mobile Release Notes V44.1 Update 6" class="Hyperlink_2">EMS Mobile App System Parameters</a></p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23531"><span class="span_3">23531</span></a><span class="span_19">,&#160;</span><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23532"><span class="span_3">23532</span></a><span class="span_19">,&#160;</span><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23533"><span class="span_3">23533</span></a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Automatically Log Users Out When User Configuration Changes</p>
+                    <p class="p_25">In order to enable Administrators to update user profiles with the latest changes, added functionality so that users are automatically logged out whenever the following types of changes are made to their configuration:</p>
+                    <ul class="ul_4">
+                        <li class="li_10">Number or type of process templates and security templates.&#160;</li>
+                        <li class="li_10">Any updates to&#160;user information including email, username, time zone, external reference, or network ID.</li>
+                    </ul>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23728" class="Hyperlink_2">23728</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_1">Fixes&#160;</h2>
+        <h2 class="Heading2"><a href="https://success.emssoftware.com/Release_Notes/Update_6_0_Release_Notes/EMS_Mobile_Release_Notes_V44.1_Update_6" title="Edit section" class="a_17"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_9.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </h2>
+        <table align="center" class="table_4">
+            <col style="width: 193pt;" />
+            <col style="width: 768pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Log In &gt; iOS 10</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Connection Fails on iOS10</p>
+                    <p class="p_25">Users were unable to log in to EMS Mobile App via iOS10.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so that users can now log in via iOS10.</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23719" class="Hyperlink_2">23719</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Android Devices &gt; Log In</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Two Factor Authentication Bypassed on Android Devices</p>
+                    <p class="p_25">When users logged in using two-factor authentication on Android devices, they were able to bypass it by clicking the back key to exit the authentication prompt.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified authentication so that users are not logged in until the second factor has been completed.</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23359" class="Hyperlink_2">23359</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Browse Events in List View</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">List Fails to Refresh When Advancing To Previous Or Next Day&#160;</p>
+                    <p class="p_25">When users browsed the events calendar in list view and clicked on the previous or next day in the top menu bar, the list view failed to refresh and show the selected day's events.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the display to refresh and show the selected day's events.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23677" class="Hyperlink_2">23677</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Geolocation</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Geolocation Causes Slow Processing</p>
+                    <p class="p_25">When users turned on geolocation to find the nearest buildings during the booking process, performance was slow.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality to use&#160;the cached location, start&#160;the location search earlier in the process,&#160;or show&#160;a “Waiting” indicator.</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23353" class="Hyperlink_2">23353</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">QR Codes</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Scanning QR Codes Causes Error</p>
+                    <p class="p_25">When users scanned QR codes, the following error occurred: "There was an error reading the QR code."</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified parameter presets to ensure that QR codes point correctly to URLs and the error no longer occurs.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_7"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23843" class="Hyperlink_2">23843</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Cancel Meeting</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Cancelling Outlook Meeting Causes Error</p>
+                    <p class="p_25">When users canceled meetings that had been booked in EMS Web App with Exchange-enabled booking templates, an error occurred.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified Exchange Integration to ensure that cancelations can be completed without errors.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23851" class="Hyperlink_2">23851</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Add Contacts</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Display Issues for Contact Fields</p>
+                    <p class="p_25">When users created a reservation using a template with pre-defined contacts, and then changed the 1st Contact by searching by name,&#160;no search results presented and the search results display was cut off. Additionally, if the user had more than one default primary contact defined, the 1st Contact field was not auto-populated and the searching for one produced&#160;“There are no matching search results."</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the display so that the search results present as expected in full-screen size. Also resolved validations for users with more than one default primary contact so that the 1st Contact auto-populates with that user's name and clicking the Search icon produces search results as expected.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_8"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23363" class="Hyperlink_2">23363</a>,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23675" class="Hyperlink_2">23675</a></p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_2">Invite Attendees</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Keyboard Search Key Causes Error</p>
+                    <p class="p_25">When users added attendees to an event and used the Search key on their mobile device keyboard, the error "Invalid Email" occurred.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the display to present the expected search results.</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23862" class="Hyperlink_2">23862</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Edit Reservation</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Back Button on Edit Reservation Page Causes Crash</p>
+                    <p class="NormalWeb_3"><span class="span_19">Tapped the&#160;</span><span class="Strong_2">Back&#160;</span><span class="span_19">button twice while editing a reservation caused the application to crash.</span>
+                    </p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">&#160;Modified the display so the crash no longer occurs and clicking the&#160;</span><span class="Strong_2">Back</span><span class="span_19">&#160;button returns users to the Home page.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_7"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23930" class="Hyperlink_2">23930</a>
+                    </p>
+                    <p class="Strong_1">Change to Building/Room Combo Not Saved</p>
+                    <p class="NormalWeb_2">When users edited a reservation to change both the building and the room, the edit was not saved.</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified validations to ensure that these changes are saved as expected.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_7"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23786" class="Hyperlink_2">23786</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">User Defined Fields</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">User Defined Fields With Long Titles Overlap</p>
+                    <p class="p_25">When creating a reservation with any template containing UDFs, those fields&#160;with longer names stacked one on top of the other making them illegible.</p>
+                    <p class="NormalWeb"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the display so that these fields do not overlap.</span>
+                    </p>
+                    <p class="NormalWeb_4"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23780?fullScreen=false" class="Hyperlink_2">23780</a>
+                    </p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Booking Templates</p>
+                </td>
+                <td class="td_3">
+                    <p class="Strong_1">Booking Templates Not Clickable, Cut Off</p>
+                    <p class="NormalWeb_2">The titles of booking templates were not clickable during the new booking workflow, and long template names were cut off.&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified the display so that clicking on a template title produces a new screen with more information about the template.&#160;</span>
+                    </p>
+                    <p class="NormalWeb_9"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23668" class="Hyperlink_2">23668</a>,&#160;<a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23674" class="Hyperlink_2">23674</a></p>
+                    <p class="Strong_1">Templates Named Incorrectly</p>
+                    <p class="NormalWeb_2">When browsing by location, opening a room, and then starting a new reservation, booking templates were listed with incorrect names (showing Room data and "ID").&#160;</p>
+                    <p class="NormalWeb_3"><span class="Strong_2">Fix</span><span class="span_19">:&#160;</span><span class="Strong_2">&#160;</span><span class="span_19">Modified the display to show booking templates by their title as designed.</span>
+                    </p>
+                    <p class="NormalWeb_7"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/23834" class="Hyperlink_2">23834</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="p_34">&#160;</p>
+    </body>
+</html>

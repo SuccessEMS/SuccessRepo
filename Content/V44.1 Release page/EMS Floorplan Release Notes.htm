@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us">
+    <head><title></title>
+    </head>
+    <body>
+        <h1 class="Heading1"><span class="Title1">EMS Floorplan Release Notes V44.1 Update 10</span>&#160;(EMS Floorplans)</h1>
+        <p class="NormalWeb">This section describes updates to&#160;your EMS software.&#160;&#160;<img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_14.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3864/tech_doc_new.png?revision=1&amp;size=bestfit&amp;width=26&amp;height=25" class="img_1" />Click on the&#160;<span class="Strong_3">title</span>&#160;for each item below to expand for more details.</p>
+        <p class="NormalWeb"><span class="Strong">See Also:&#160;</span><a href="https://success.emssoftware.com/EMS_V44/Installing_and_Setting_Up_EMS/EMS_Desktop_Client/Installing_EMS_Desktop_Client/02-Customer_Support" title="Customer Support"><span class="Hyperlink_4">Contacting Customer Support</span></a>&#160;and&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Updating_to_the_Latest_Version_of_EMS_(Patches_and_Builds)" title="https://success.emssoftware.com/EMS_V44.1/Obtaining_and_Applying_the_Latest_Patch_or_a_New_Build"><span class="Hyperlink_4">Updating to the Latest Version of EMS</span></a></p>
+        <table class="table_2">
+            <col style="width: 168pt;" />
+            <col style="width: 190pt;" />
+            <col style="width: 259pt;" />
+            <col style="width: 288pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="NormalWeb"><span class="Strong_2">Name:&#160;</span><span class="span_19">V44.1 Update 10</span>
+                    </p>
+                    <p class="NormalWeb"><a href="https://success.emssoftware.com/Release_Notes/Update_10_Release_Notes/Update_10_Known_Issues/EMS_Floorplan_Known_Issues" title="EMS Floorplan Known Issues" class="Strong_1">Known Issues</a>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb"><span class="Strong_2">Release&#160;Date:&#160;</span><span class="span_19">April 07, 2017</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb"><span class="Strong_2">Floorplan Build #:&#160;</span><span class="span_19">&#160; 44.1.9.128</span>
+                    </p>
+                    <p class="NormalWeb"><span class="Strong_2">Room Diagramming Build #:&#160;</span><span class="span_19">44.1.0.151</span>
+                    </p>
+                </td>
+                <td class="td_2">
+                    <p class="NormalWeb"><span class="Strong_2">Database (SQL) Patch:&#160;</span><span class="span_19">201703280</span>
+                    </p>
+                    <p class="NormalWeb"><span class="Strong_2">Exchange Integration Build #</span><span class="span_19">:&#160;&#160;44.1.10000.85</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_1">Enhancement&#160;</h2>
+        <h2 class="Heading2"><a href="https://success.emssoftware.com/Release_Notes/Update_10_Release_Notes/040_EMS_Floorplan_Release_Notes_V44.1_Update_10" title="Edit section" class="a_17"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_14.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Emphasis_1">Session ID</p>
+                </td>
+                <td class="td_2">
+                    <p class="p_80">Update Session ID</p>
+                    <p class="p_81">Enhanced the security by updating the session ID after a user searches for a group. Admins should ensure that this line is included in the web.config file: &lt;httpcookies httponlycookies="true" requiressl="true" /&gt;</p>
+                    <p class="p_82">&#160;</p>
+                    <p><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/26119" class="Hyperlink_1">26119</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <h2 class="Heading2_1">Fixes&#160;&#160;</h2>
+        <h2 class="Heading2"><a href="https://success.emssoftware.com/Release_Notes/Update_10_Release_Notes/040_EMS_Floorplan_Release_Notes_V44.1_Update_10" title="Edit section" class="a_17"><img src="../Resources/Images/V44.1 Release page/EMS Web App Release Notes_14.gif" style="height: 16px;width: 16px;" alt="Edit section" class="img_1" /></a>
+        </h2>
+        <table align="center" class="table_4">
+            <col style="width: 138pt;" />
+            <col style="width: 793pt;" />
+            <tr>
+                <td class="td_2">
+                    <p class="Strong_1">Area</p>
+                </td>
+                <td class="td_2">
+                    <p class="Strong_1">Description</p>
+                </td>
+            </tr>
+            <tr>
+                <td class="td_3">
+                    <p class="Emphasis_1">Indicators</p>
+                </td>
+                <td class="td_3">
+                    <p class="p_80">Indicators Shift Slightly When Saved</p>
+                    <p class="p_77"><span class="span_19">When users placed floormap indicators and then saved, the indicators shifted&#160;in position slightly.&#160;&#160;</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so indicators do not move when saved.</span>
+                    </p>
+                    <p class="NormalWeb"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/26322" class="Hyperlink_2">26322</a>
+                    </p>
+                    <p class="p_80">Incorrect Prompt For Floor When Already Specified</p>
+                    <p class="p_77"><span class="span_19">When users selected a floor and then on the floormap image,&#160;placed floormap indicators and then saved, they were prompted to specify a floor.&#160;&#160;</span><span class="span_19"><br /></span><span class="span_19"><br /></span><span class="Strong_2">Fix:&#160;</span><span class="span_19">Modified functionality so users's floor selections are saved and they are no longer prompted to select a floor a second time..</span>
+                    </p>
+                    <p class="NormalWeb"><a href="http://tfs02:8080/tfs/EMS%20Suite/Ems/_workitems/edit/26323" class="Hyperlink_2">26323</a>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p>&#160;</p>
+        <p class="NormalWeb">&#160;</p>
+        <p>&#160;</p>
+    </body>
+</html>
