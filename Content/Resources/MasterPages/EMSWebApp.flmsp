@@ -16,7 +16,7 @@
                     <div class="container">
                         <MadCap:breadcrumbsProxy />
                         <div class="sideContent small-3 columns" id="smartmenu-accordion">
-                            <MadCap:menuProxy style="mc-toc-depth: 1;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Icon_WebApp.fltoc" />
+                            <MadCap:menuProxy style="mc-toc-depth: 1;mc-context-sensitive: False;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Icon_WebApp.fltoc" />
                         </div>
                         <div class="small-9 columns right-content">
                             <MadCap:bodyProxy />
