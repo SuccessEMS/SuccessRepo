@@ -2,7 +2,7 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="EMS Campus Documentation">
+    Title="Documentation for EMS Campus">
     <TocEntry
       Title="EMS Campus Planning Interface (CPI)"
       Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_Intro.htm">
@@ -450,43 +450,40 @@
         Title="Release Notes V8" />
     </TocEntry>
     <TocEntry
-      Title="Video Tutorials">
+      Title="Video Tutorials"
+      Link="/Content/8Campus/A_V44.1/Video Tutorials/Campus_VideoTutorialIntro.htm">
       <TocEntry
-        Title="Video Tutorials"
-        Link="/Content/8Campus/A_V44.1/Video Tutorials/Campus_VideoTutorialIntro.htm">
-        <TocEntry
-          Title="VIDEO: Changing Rooms After Publishing a Term in [%=General.EMS Campus%]"
-          Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_ChangingRoomsAfterPublishTerm.htm"
-          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="VIDEO: Create Optimization Scenarios"
-          Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_CreateOptimizationScenario.htm"
-          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="VIDEO: Defining and Editing Courses"
-          Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_DefiningEditingCourses.htm"
-          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="VIDEO: Publish Final Exams"
-          Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_PublishFinalExams.htm"
-          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="VIDEO: Review Scenarios and Publish Terms"
-          Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_ReviewScenariosPublishTerms.htm"
-          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="VIDEO: Running Statistical Reports"
-          Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_RunningStatisticalReports.htm"
-          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="VIDEO: Running Utility Reports"
-          Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_RunningUtilityReports.htm"
-          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="VIDEO: Setting Preferences"
-          Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_SettingPreferences.htm"
-          MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
+        Title="VIDEO: Changing Rooms After Publishing a Term in [%=General.EMS Campus%]"
+        Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_ChangingRoomsAfterPublishTerm.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Create Optimization Scenarios"
+        Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_CreateOptimizationScenario.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Defining and Editing Courses"
+        Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_DefiningEditingCourses.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Publish Final Exams"
+        Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_PublishFinalExams.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Review Scenarios and Publish Terms"
+        Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_ReviewScenariosPublishTerms.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Running Statistical Reports"
+        Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_RunningStatisticalReports.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Running Utility Reports"
+        Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_RunningUtilityReports.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Setting Preferences"
+        Link="/Content/8Campus/A_V44.1/Video Tutorials/VIDEO_SettingPreferences.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Glossary"
