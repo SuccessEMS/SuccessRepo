@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="481" MadCap:lastWidth="920">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="481" MadCap:lastWidth="1300">
     <head>
         <link href="../Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
         <link rel="icon" href="../Images/favicon.png" />
@@ -17,7 +17,7 @@
                         <MadCap:breadcrumbsProxy />
                         <div class="sideContent small-3 columns" id="smartmenu-accordion">
                             <!--	<MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: False;mc-include-siblings: False;mc-include-children: True;" class="menu" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Master.fltoc" />-->
-                            <MadCap:menuProxy style="mc-toc-depth: -1;mc-context-sensitive: True;mc-include-parent: True;mc-include-siblings: True;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Icon_OptionalFeatures.fltoc" />
+                            <MadCap:menuProxy style="mc-context-sensitive: True;mc-include-parent: False;mc-include-siblings: False;mc-include-children: True;" data-mc-skin="/Project/Skins/SideMenu.flskn" mc-linked-toc="/Project/TOCs/Master.fltoc" />
                         </div>
                         <div class="small-9 columns right-content">
                             <MadCap:bodyProxy />
