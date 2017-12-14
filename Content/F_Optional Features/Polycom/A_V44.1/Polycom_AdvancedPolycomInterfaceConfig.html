@@ -1,111 +1,118 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="586" MadCap:lastWidth="810" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head><title mt-export-translate="no">Advanced EMS Polycom Interface Configuration</title>
-        <meta name="mt-type" value="application/x.deki-text" />
-        <meta name="mt-unsafe" value="false" />
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="621" MadCap:lastWidth="860" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title>Advanced EMS Polycom Interface Configuration</title>
     </head>
     <body>
         <h1>Advanced EMS Polycom Interface Configuration</h1>
         <p>By default, the following booking information is transferred from EMS to the Polycom Realpresence Resource Manager API:</p>
-        <table>
-            <tr>
-                <td>
-                    <p>Field Description</p>
-                </td>
-                <td>
-                    <p>EMS Table.Column</p>
-                </td>
-                <td>
-                    <p>Polcom Object Property</p>
-                </td>
-                <td>
-                    <p>Direction</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Reservation Event&#160;Name</p>
-                </td>
-                <td>
-                    <p>tblReservation.EventName</p>
-                </td>
-                <td>
-                    <p>reservation:name</p>
-                </td>
-                <td>
-                    <p>EMS &gt; Polycom</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Booking Event Start Time</p>
-                </td>
-                <td>
-                    <p>tblBooking.GMTTimeEventStart</p>
-                </td>
-                <td>
-                    <p>reservation:start-time</p>
-                </td>
-                <td>
-                    <p>EMS &gt; Polycom</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Booking Event End Time</p>
-                </td>
-                <td>
-                    <p>tblBooking.GMTTimeEventEnd</p>
-                </td>
-                <td>
-                    <p>reservation:end-time</p>
-                </td>
-                <td>
-                    <p>EMS &gt; Polycom</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Room(s) and/or Resource(s)</p>
-                </td>
-                <td>
-                    <p>tblRoom.ExternalReference and/or tblResource.ExternalReference</p>
-                </td>
-                <td>
-                    <p>plcm-reservedparticipant(s)</p>
-                </td>
-                <td>
-                    <p>EMS &gt; Polycom</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Polycom&#160;Reference ID</p>
-                </td>
-                <td>
-                    <p>tblPolycomActivity.PolycomReferenceID</p>
-                </td>
-                <td>
-                    <p>Location|Etag</p>
-                </td>
-                <td>
-                    <p>Polycom &gt; EMS</p>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <p>Polycom Error Information</p>
-                </td>
-                <td>
-                    <p>tblPolycomActivity.Activity</p>
-                </td>
-                <td>
-                    <p>Web Service Exception</p>
-                </td>
-                <td>
-                    <p>Polycom &gt; EMS</p>
-                </td>
-            </tr>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <col class="TableStyle-PatternedRows-Column-Regular" />
+            <thead>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Field Description</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>EMS Table.Column</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
+                        <p>Polcom Object Property</p>
+                    </th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
+                        <p>Direction</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Reservation Event&#160;Name</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>tblReservation.EventName</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>reservation:name</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>EMS &gt; Polycom</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Booking Event Start Time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>tblBooking.GMTTimeEventStart</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>reservation:start-time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>EMS &gt; Polycom</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Booking Event End Time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>tblBooking.GMTTimeEventEnd</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>reservation:end-time</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>EMS &gt; Polycom</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>Room(s) and/or Resource(s)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>tblRoom.ExternalReference and/or tblResource.ExternalReference</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
+                        <p>plcm-reservedparticipant(s)</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
+                        <p>EMS &gt; Polycom</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Polycom&#160;Reference ID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>tblPolycomActivity.PolycomReferenceID</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
+                        <p>Location|Etag</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
+                        <p>Polycom &gt; EMS</p>
+                    </td>
+                </tr>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Polycom Error Information</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>tblPolycomActivity.Activity</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
+                        <p>Web Service Exception</p>
+                    </td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
+                        <p>Polycom &gt; EMS</p>
+                    </td>
+                </tr>
+            </tbody>
         </table>
         <p>&#160;</p>
     </body>

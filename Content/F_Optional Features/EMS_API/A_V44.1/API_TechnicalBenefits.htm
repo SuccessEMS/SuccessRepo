@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="840" MadCap:lastWidth="867">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="840" MadCap:lastWidth="886">
     <head><title></title>
-        <link href="../../../Resources/Stylesheets/OptFeat_API.css" rel="stylesheet" />
     </head>
     <body>
         <h1>Technical Benefits</h1>
@@ -10,11 +9,11 @@
         <p>EMS APIs provide infinite configurability by enabling you to completely customize your API calls and returns.</p>
         <h2>EventTypes and StatusTypes</h2>
         <p>You define your organization's EventTypes&#160;and Statuses; you can retrieve a list of these calls using the GetEventTypes and GetStatusTypes&#160;calls.&#160;Status types, for example, are as follows:</p>
-        <ul style="list-style-type: disc;margin-left: 36pt;">
-            <li>Booked Space&#160;—the room is taken out of inventory and cannot be reserved by another booking. (The system prevents the space from being double-booked.)</li>
-            <li>Cancel—booking information is retained, but the room is released back into inventory</li>
-            <li>Info Only—Booking information is retained, but the space is not taken out of inventory</li>
-            <li>Wait—booking information is retained in case the space becomes available prior to the event date</li>
+        <ul>
+            <li><span class="bold">Booked Space</span>—the room is taken out of inventory and cannot be reserved by another booking. (The system prevents the space from being double-booked.)</li>
+            <li><span class="bold">Cancel</span>—booking information is retained, but the room is released back into inventory</li>
+            <li><span class="bold">Info Only</span>—Booking information is retained, but the space is not taken out of inventory</li>
+            <li><span class="bold">Wait</span>—booking information is retained in case the space becomes available prior to the event date</li>
         </ul>
         <p>StatusTypeIDs are as follows: -14 = Booked Space, -11 = Info Only, -13 = Wait, -12 = Cancel</p>
         <h2>DisplayOnWeb</h2>
