@@ -1930,20 +1930,7 @@
       Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-        <TocEntry
-          Title="Application Architecture"
-          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ApplicationArchitecture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Examples"
-          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Examples.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Integration Diagram"
-          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="System Requirements"
-          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_SystemRequirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
+        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
       <TocEntry
         Title="Obtain the Installation Files "
         Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

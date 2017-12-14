@@ -505,20 +505,7 @@
         Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-          <TocEntry
-            Title="Application Architecture"
-            Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ApplicationArchitecture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Examples"
-            Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Examples.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Integration Diagram"
-            Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="System Requirements"
-            Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_SystemRequirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        </TocEntry>
+          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
         <TocEntry
           Title="Obtain the Installation Files "
           Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -1114,20 +1101,7 @@
         Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-          <TocEntry
-            Title="Application Architecture"
-            Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ApplicationArchitecture.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Examples"
-            Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Examples.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Integration Diagram"
-            Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="System Requirements"
-            Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_SystemRequirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        </TocEntry>
+          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
         <TocEntry
           Title="Obtain the Installation Files "
           Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
@@ -4364,6 +4338,42 @@
             Title="API Functions - Kiosk Add Room to Profile and by Setup Type"
             Link="/Content/5Kiosk/B_V44/B_Config/Kiosk_CG_API/Kiosk_CGV44_APIKioskAddRoom.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="EMS Kiosk User Guide (V44)"
+        Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_UseKioskV44.htm">
+        <TocEntry
+          Title="Get Started with EMS Kiosk"
+          Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_GetStartedV44.htm">
+          <TocEntry
+            Title="Overview: The EMS Kiosk Window"
+            Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_OverviewKioskWindowV44.htm"></TocEntry>
+        </TocEntry>
+        <TocEntry
+          Title="My Reservation Page"
+          Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_MyReservPageV44.htm">
+          <TocEntry
+            Title="Work with the My Reservation Page"
+            Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_WorkwithMyResPageV44.htm"></TocEntry>
+          <TocEntry
+            Title="Check In with EMS Kiosk"
+            Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_CheckInV44.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Make a Reservation"
+          Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_MakeReservV44.htm"></TocEntry>
+        <TocEntry
+          Title="Locate a Person"
+          Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_LocatePersonV44.htm"></TocEntry>
+        <TocEntry
+          Title="Locate Space"
+          Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_LocateSpaceV44.htm"></TocEntry>
+        <TocEntry
+          Title="View Information"
+          Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_ViewInfoV44.htm"></TocEntry>
+        <TocEntry
+          Title="View Today's Events"
+          Link="/Content/5Kiosk/B_V44/C_User/Kiosk_UG_ViewTodaysEventV44.htm" />
       </TocEntry>
       <TocEntry
         Title="EMS Glance Installation Guide"
