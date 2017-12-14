@@ -2245,3 +2245,10 @@ div.indent
 	
 }
 
+p.beforelist
+{
+	padding-bottom: 0px;
+	margin: 0 0 10px;
+	margin-bottom: 5px;
+}
+
