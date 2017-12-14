@@ -1,22 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1430" MadCap:lastWidth="861" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\Resources\MasterPages\EMSMobileApp.flmsp');" MadCap:onlyLocalStylesheets="False">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1351" MadCap:lastWidth="860" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head>
         <link href="../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Restricting Users' Mobile App Versions</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
-        <h1 class="mt-export-title">
+        <h1>
             <MadCap:annotation MadCap:createDate="2017-11-30T20:05:25.8317821-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="From Archived Doc guide. Should this be with current Mobile App?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-30T20:05:41.0105152-07:00">Restrict Users' Mobile App Versions</MadCap:annotation>
         </h1>
         <p>Starting with the August 2016 release, <MadCap:variable name="General.Product" /> will ensure that <MadCap:variable name="General.Mobile" />&#160;is both forwards- and backwards- compatible, so that the mobile app will still function even if users update it on their devices. Alternatively, if you update your API but users do not update their app, functionality remains intact.</p>
         <p>You may wish to&#160;force&#160;users to keep their installations up to date. For example, you may want them to upgrade their <MadCap:variable name="General.Mobile" />&#160;after you upgrade the API, or you may want to prevent them from updating their <MadCap:variable name="General.Mobile" />&#160;until you upgrade the API.&#160;To enforce these restrictions, follow the steps below.</p>
         <ol>
             <li>Log in to the API admin page (previously configured <MadCap:xref href="../A_InstallationGuide/Mobile_InstallandBasicSetup.html#Initial_Configuration">here</MadCap:xref>).</li>
-            <li>Click on <span class="bold">Admin </span>tab, and set the minimum and maximum app versions:<p><img src="../Images/B_ConfigurationGuide/MA_RestrictUsersMobileAppVer_Admin.png" style="width: 482px;height: 367px;" /></p></li>
+            <li>Click on <span class="bold">Admin </span>tab, and set the minimum and maximum app versions:<p><img src="../Images/B_ConfigurationGuide/MA_RestrictUsersMobileAppVer_Admin.png" /></p></li>
         </ol>
         <h2>
-            <MadCap:annotation MadCap:createDate="2017-10-24T13:07:52.3986324-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This section is deki from &quot;How Do I Know When to Upgrade the Mobile App and API?&quot; topic in Mobile Config." MadCap:editor="Megan.Laub" MadCap:editDate="2017-10-24T13:10:43.2399703-06:00">Determining EMS Mobile API and Version Compatibility</MadCap:annotation>
+            <MadCap:annotation MadCap:createDate="2017-10-24T13:07:52.3986324-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This section is deki from &quot;How Do I Know When to Upgrade the Mobile App and API?&quot; topic in Mobile Config." MadCap:editor="Megan.Laub" MadCap:editDate="2017-10-24T13:10:43.2399703-06:00">Determine EMS Mobile API and Version Compatibility</MadCap:annotation>
         </h2>
         <p>Use the matrix below to determine how you want to enforce user updates.</p>
         <table border="1" cellpadding="0" cellspacing="0" style="mc-table-style: url('../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows">
@@ -191,7 +191,6 @@
                 </tr>
             </tbody>
         </table>
-        <p>&#160;</p>
         <p>Concept:&#160;The Minimum App Version means that users running <MadCap:variable name="General.Mobile" />&#160;below the minimum will not be able to use EMS. Increasing this value essentially forces users on an older version to upgrade. Maximum App Version prevents users from using <MadCap:variable name="General.Mobile" /> if they run a version above the max.</p>
     </body>
 </html>
