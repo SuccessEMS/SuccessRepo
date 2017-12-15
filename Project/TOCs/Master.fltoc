@@ -99,6 +99,37 @@
             Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_AddRoleServices2012.html" />
         </TocEntry>
       </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Integration Diagram"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
+      </TocEntry>
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
@@ -122,6 +153,37 @@
       <TocEntry
         Title="What's New"
         Link="/Content/3MobileApp/A_InstallationGuide/Mobile_WhatsNew.html" />
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Integration Diagram"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
+      </TocEntry>
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
@@ -147,6 +209,37 @@
         <TocEntry
           Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
           Link="/Content/4Outlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Integration Diagram"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -398,6 +491,37 @@
         <TocEntry
           Title="Upload, Configure, and View Floorplans"
           Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Integrated Authentication Options"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+          <TocEntry
+            Title="Introduction"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <TocEntry
+              Title="Integrated Authentication Considerations"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Integration Diagram"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+          <TocEntry
+            Title="Integrated Windows Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+            <TocEntry
+              Title="Manage Everyday Users For Integrated Authentication"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+          <TocEntry
+            Title="LDAP Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+          <TocEntry
+            Title="Portal or Federated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+            <TocEntry
+              Title="Portal Authentication Methods"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+          </TocEntry>
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="EMS Facility Management Toolkit (Optional Feature)"
@@ -524,7 +648,7 @@
       </TocEntry>
       <TocEntry
         Title="EMS RoomWizard Integration"
-        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_Introduction.htm">
+        Link="/Content/F_Optional Features/8_Room_Wizard_Home.htm">
         <TocEntry
           Title="Introduction"
           Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
@@ -696,6 +820,37 @@
             Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_AddRoleServices2012.html" />
         </TocEntry>
       </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Integration Diagram"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
+      </TocEntry>
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
@@ -719,6 +874,37 @@
       <TocEntry
         Title="What's New"
         Link="/Content/3MobileApp/A_InstallationGuide/Mobile_WhatsNew.html" />
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Integration Diagram"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
+      </TocEntry>
     </TocEntry>
     <TocEntry
       Title="EMS for Microsoft Outlook"
@@ -744,6 +930,37 @@
         <TocEntry
           Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
           Link="/Content/4Outlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          <TocEntry
+            Title="Integration Diagram"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -994,6 +1211,37 @@
         <TocEntry
           Title="Upload, Configure, and View Floorplans"
           Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Integrated Authentication Options"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+          <TocEntry
+            Title="Introduction"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+            <TocEntry
+              Title="Integrated Authentication Considerations"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            <TocEntry
+              Title="Integration Diagram"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+          <TocEntry
+            Title="Integrated Windows Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+            <TocEntry
+              Title="Manage Everyday Users For Integrated Authentication"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          </TocEntry>
+          <TocEntry
+            Title="LDAP Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+          <TocEntry
+            Title="Portal or Federated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+            <TocEntry
+              Title="Portal Authentication Methods"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+          </TocEntry>
+        </TocEntry>
       </TocEntry>
       <TocEntry
         Title="EMS Facility Management Toolkit (Optional Feature)"
