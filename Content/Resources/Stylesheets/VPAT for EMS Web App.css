@@ -1,0 +1,486 @@
+/*<meta />*/
+
+p
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+ol
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+ul
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+li
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	margin-top: 0pt;
+}
+
+td
+{
+	margin-bottom: 8pt;
+	font-family: Calibri;
+	font-size: 11pt;
+	vertical-align: top;
+}
+
+h1.Heading1
+{
+	page-break-after: avoid;
+	page-break-inside: avoid;
+	margin-top: 12pt;
+	margin-bottom: 0pt;
+	mc-heading-level: 1;
+	font-family: 'Calibri Light';
+	color: #2F5496;
+	font-size: 16pt;
+	font-weight: normal;
+}
+
+img.img_1
+{
+	visibility: visible;
+	mso-wrap-style: square;
+}
+
+a.a_1
+{
+	font-family: Arial;
+	color: #999999;
+	font-size: 27pt;
+}
+
+p.p_1
+{
+	background-color: #FFFFFF;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	text-align: center;
+	mc-heading-level: 2;
+}
+
+span.span_1
+{
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+}
+
+sup.sup_1
+{
+	font-family: Arial;
+	color: #000000;
+	font-size: 13pt;
+}
+
+p.p_2
+{
+	background-color: #FFFFFF;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	text-align: center;
+}
+
+p.p_3
+{
+	background-color: #FFFFFF;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	text-align: center;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+}
+
+a.a_2
+{
+	color: #999999;
+}
+
+span.span_2
+{
+	color: #00467F;
+	text-decoration: underline;
+}
+
+p.p_4
+{
+	background-color: #FFFFFF;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	mc-heading-level: 2;
+}
+
+p.p_5
+{
+	margin-top: 23pt;
+	margin-bottom: 30pt;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+td.td_1
+{
+	border-top-style: solid;
+	border-top-width: 1pt;
+	border-top-color: #000000;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	background-color: #FFFFFF;
+	padding-top: 12pt;
+	padding-left: 12pt;
+	padding-bottom: 12pt;
+	padding-right: 12pt;
+}
+
+span.span_3
+{
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+span.span_4
+{
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+p.p_6
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+}
+
+table.table_1
+{
+	border-collapse: collapse;
+}
+
+p.p_7
+{
+	background-color: #FFFFFF;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+}
+
+p.p_8
+{
+	margin-bottom: 0pt;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+	color: #0099CC;
+	font-size: 12pt;
+}
+
+td.td_2
+{
+	border-top-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	background-color: #FFFFFF;
+	padding-top: 12pt;
+	padding-left: 12pt;
+	padding-bottom: 12pt;
+	padding-right: 12pt;
+}
+
+p.p_9
+{
+	margin-bottom: 0pt;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	font-style: italic;
+	color: #0099CC;
+	font-size: 12pt;
+}
+
+span.span_5
+{
+	font-family: Arial;
+	font-style: italic;
+	color: #00467F;
+	font-size: 12pt;
+}
+
+td.td_3
+{
+	border-top-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	border-right-style: none;
+	background-color: #DDDDDD;
+	padding-top: 12pt;
+	padding-left: 12pt;
+	padding-bottom: 12pt;
+	padding-right: 12pt;
+}
+
+p.p_10
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+a.a_3
+{
+	font-family: Arial;
+	color: #999999;
+	font-size: 21pt;
+}
+
+p.p_11
+{
+	background-color: #FFFFFF;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	mc-heading-level: 4;
+}
+
+li.li_1
+{
+	background-color: #FFFFFF;
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+}
+
+ul.ul_1
+{
+	list-style-type: disc;
+	margin-left: 36pt;
+}
+
+span.span_6
+{
+	font-family: Arial;
+	font-weight: bold;
+	color: #000000;
+	font-size: 12pt;
+}
+
+li.li_2
+{
+	background-color: #FFFFFF;
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+}
+
+a.a_4
+{
+	font-family: Arial;
+	color: #999999;
+	font-size: 24pt;
+}
+
+p.p_12
+{
+	background-color: #FFFFFF;
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	mc-heading-level: 3;
+}
+
+p.p_13
+{
+	background-color: #FFFFFF;
+	margin-bottom: 0pt;
+}
+
+a.a_5
+{
+	font-family: Arial;
+	font-weight: bold;
+	color: #00467F;
+	font-size: 12pt;
+}
+
+p.p_14
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	text-align: justify;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+a.a_6
+{
+	font-family: Arial;
+	font-weight: bold;
+	color: #00467F;
+	font-size: 12pt;
+	text-decoration: underline;
+}
+
+li.li_3
+{
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+	text-align: justify;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+p.p_15
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	text-align: justify;
+}
+
+span.span_7
+{
+	font-family: Arial;
+	font-weight: bold;
+	color: #00467F;
+	font-size: 12pt;
+	text-decoration: underline;
+}
+
+li.li_4
+{
+	margin-top: 3pt;
+	margin-bottom: 3pt;
+	text-align: justify;
+}
+
+p.p_16
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	mc-heading-level: 3;
+}
+
+p.p_17
+{
+	margin-bottom: 0pt;
+}
+
+p.p_18
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+ol.ol_1
+{
+	list-style-type: decimal;
+	margin-left: 36pt;
+}
+
+p.p_19
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	text-align: center;
+	mc-heading-level: 2;
+}
+
+p.p_20
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	margin-left: 0pt;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+p.p_21
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	margin-left: 0pt;
+	text-align: center;
+	font-family: Arial;
+	font-size: 12pt;
+}
+
+p.p_22
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	text-align: justify;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+sup.sup_2
+{
+	font-family: Arial;
+	font-size: 9pt;
+}
+
+span.span_8
+{
+	font-family: Arial;
+	color: #0000FF;
+	font-size: 12pt;
+	text-decoration: underline;
+}
+
+p.p_23
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	margin-left: 0pt;
+	text-align: center;
+}
+
+p.p_24
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	margin-left: 0pt;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+p.p_25
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	margin-left: 0pt;
+}
+
+p.p_26
+{
+	margin-top: 5pt;
+	margin-bottom: 5pt;
+	font-family: Arial;
+	color: #000000;
+	font-size: 12pt;
+}
+
