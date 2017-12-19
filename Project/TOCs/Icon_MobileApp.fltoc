@@ -32,8 +32,6 @@
         <TocEntry
           Title="Integrated Authentication Considerations"
           Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Integration Diagram" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Integrated Windows Authentication"
@@ -52,6 +50,9 @@
           Title="Portal Authentication Methods"
           Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
       </TocEntry>
+      <TocEntry
+        Title="EMS Mobile App Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Mobile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="EMS Mobile Authentication"
