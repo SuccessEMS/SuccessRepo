@@ -5010,6 +5010,13 @@
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/Learn About Our Applications/What is Facilities Management.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="What is Integrated Authentication"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
     </TocEntry>
   </TocEntry>
   <TocEntry
