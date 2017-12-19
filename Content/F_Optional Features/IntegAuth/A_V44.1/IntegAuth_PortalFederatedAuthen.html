@@ -1,12 +1,26 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="2483" MadCap:lastWidth="860" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-    <head><title mt-export-translate="no">Portal or Federated Authentication</title>
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="2740" MadCap:lastWidth="860" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Portal or Federated Authentication</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
         <h1>Portal or Federated Authentication</h1>
-        <h2>Overview&#160;</h2>
+        <p>This topic provides information on the following:</p>
+        <ul class="unorder-list">
+            <li><a href="#Portal_Authentication_Overview">Portal Authentication Overview</a>
+            </li>
+            <li><a href="#Installation/Configuration">Installation/Configuration</a>
+                <ul>
+                    <li><a href="#Redirect_User_Log_In_to_Your_SSO_Provider">Redirect User Log In to Your SSO Provider</a>
+                    </li>
+                    <li><a href="#Specify_a_Different_Default_Home_Page_for_Guest_Users">Specify a Different Default Home Page for Guest Users</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <h2><a name="Portal_Authentication_Overview"></a>Portal Authentication Overview&#160;</h2>
         <p>The Portal Authentication method provides EMS Web App single sign-on capability using your organization’s portal (e.g.,&#160;CAS, Shibboleth,&#160;SiteMinder, Plumtree, uPortal, etc.). When a user logged into your portal accesses EMS Web App, a predefined user-specific variable (e.g.,&#160;email address, employee/student ID, network ID, etc.) captured by your portal/sign-on page is compared against corresponding information recorded in the&#160;<span class="bold">Network ID</span>&#160;and/or&#160;<span class="bold">External Reference</span>&#160;fields of your EMS Everyday User records. If a match exists, the Everyday User will be automatically logged-into EMS Web App.</p>
         <div class="notifications">
             <p class="note-box note">Note: The Field Used to Authenticate Everyday User&#160;parameter (within <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>&gt; <span class="bold">Everyday User Applications</span> tab) is used by EMS Web App to determine which value should be used for authentication.</p>
@@ -20,48 +34,48 @@
             <li>Query String</li>
             <li>Federated (SAML)</li>
         </ul>
-        <p>For a more detailed explanation of the authentication methods outlined above,&#160;see&#160;<a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/Optional_Features/Integrated_Authentication_Options/06-Portal_Authentication/Portal_Authentication_Methods" title="https://success.emssoftware.com/EMS_V44.1/Installing_and_Setting_Up_EMS/EMS_Services_and_Components/Configuring_Integrated_Authentication_for_Everyday_User_Applications/06-Portal_Authentication/Portal_Authentication_Methods">Portal Authentication Methods</a>.&#160;</p>
-        <h2>Installation/Configuration&#160;</h2>
-        <ol start="1">
+        <p>For a more detailed explanation of the authentication methods outlined above,&#160;see&#160;<a href="IntegAuth_PortalAuthenMethods.html">Portal Authentication Methods</a>.&#160;</p>
+        <h2><a name="Installation/Configuration"></a>Installation/Configuration&#160;</h2>
+        <ol start="1" class="number-list">
             <li>Within the Everyday User Applications parameters area of EMS (System Administration &gt; Settings &gt;&#160;Parameters&#160;(Everyday User Applications tab), the following parameters must be set accordingly:</li>
         </ol>
-        <table>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/PatternedRows.css');" class="TableStyle-PatternedRows" cellspacing="0">
             <thead>
-                <tr>
-                    <th>
+                <tr class="TableStyle-PatternedRows-Head-Header1">
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
                         <p>Area</p>
                     </th>
-                    <th>
+                    <th class="TableStyle-PatternedRows-HeadE-Regular-Header1">
                         <p>Description</p>
                     </th>
-                    <th>
+                    <th class="TableStyle-PatternedRows-HeadD-Regular-Header1">
                         <p>Value</p>
                     </th>
                 </tr>
             </thead>
             <tbody>
-                <tr>
-                    <td>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Authentication</p>
                         <p>&#160;</p>
                     </td>
-                    <td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
                         <p>Portal Authentication Cookie Key</p>
                     </td>
-                    <td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Required if Portal Authentication Method = Cookie</p>
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr class="TableStyle-PatternedRows-Body-DarkerRows">
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Authentication</p>
                         <p>&#160;</p>
                     </td>
-                    <td>
+                    <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>Portal Authentication Method</p>
                         <p>&#160;</p>
                     </td>
-                    <td>
+                    <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Server Variable</p>
                         <p>Session</p>
                         <p>Form</p>
@@ -69,44 +83,31 @@
                         <p>Query String</p>
                     </td>
                 </tr>
-                <tr>
-                    <td>
+                <tr class="TableStyle-PatternedRows-Body-LightRows">
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p>Authentication</p>
                         <p>&#160;</p>
                     </td>
-                    <td>
+                    <td class="TableStyle-PatternedRows-BodyB-Regular-LightRows">
                         <p>Portal Authentication Variable</p>
                     </td>
-                    <td>
+                    <td class="TableStyle-PatternedRows-BodyA-Regular-LightRows">
                         <p>User variable to be compared against the EMS Everyday User&#160;External Reference/Network ID&#160;field</p>
                     </td>
                 </tr>
             </tbody>
         </table>
-        <ol start="2">
-            <li>Direct users to the default EMS Web App page. If the default installation settings were used, the default page is:</li>
+        <ol start="2" MadCap:continue="true" class="number-list">
+            <li>Direct users to the default EMS Web App page. If the default installation settings were used, the default page is:<p>(http://[ServerName]/EMSWebApp/Default.aspx)<br />(replace [ServerName] with the name of your web&#160;server)</p></li>
         </ol>
-        <p>(http://[ServerName]/EMSWebApp/Default.aspx)<br></br>(replace [ServerName] with the name of your web&#160;server)</p>
-        <table>
-            <tr>
-                <td>
-                    <p>
-                        <img src="Images/IntegAuthen_Guide/Integrated Windows Authentication.png" alt="https://success.emssoftware.com/@api/deki/files/3864/tech_doc_new.png?revision=1&amp;size=bestfit&amp;width=26&amp;height=25">
-                        </img>
-                    </p>
-                </td>
-                <td>
-                    <p>New!&#160;Redirecting User Log In to Your SSO Provider</p>
-                    <p>Administrators can&#160;hide the login form on the My Home page and instead, present a single&#160;Sign In&#160;button that links to the override URL. Open the web.config file and locate the following code to customize the redirect:</p>
-                    <p>&lt;!--&lt;add key="loginOverrideUrl" value=""/&gt;--&gt;</p>
-                    <p>Additionally, you can do the same for user log out:</p>
-                    <p>&lt;!--&lt;add key="logoutOverrideUrl" value=""/&gt;--&gt;</p>
-                    <p>Changing the URL in these areas means that when users log in or out, they will pass through your SSO provider.</p>
-                    <p>Specifying a Different Default Home Page for Guest Users</p>
-                    <p>Additionally, you can now&#160;<a href="https://success.emssoftware.com/#Unauthenticated User Home Page Parameter?title=Installation_%26_Setup_Guides/EMS_Web_App_V44.1/Setting_Up_EMS_Web_App/EMS_Web_App_System_Parameters" title="EMS Web App System Parameters">specify a different site home page</a>&#160;for unauthenticated users.</p>
-                </td>
-            </tr>
-        </table>
+        <h3><a name="Redirect_User_Log_In_to_Your_SSO_Provider"></a>Redirect User Log In to Your SSO Provider</h3>
+        <p>Administrators can&#160;hide the login form on the My Home page and instead, present a single&#160;<span class="bold">Sign In</span>&#160;button that links to the override URL. Open the web.config file and locate the following code to customize the redirect:</p>
+        <p>&lt;!--&lt;add key="loginOverrideUrl" value=""/&gt;--&gt;</p>
+        <p>Additionally, you can do the same for user log out:</p>
+        <p>&lt;!--&lt;add key="logoutOverrideUrl" value=""/&gt;--&gt;</p>
+        <p>Changing the URL in these areas means that when users log in or out, they will pass through your SSO provider.</p>
+        <h3><a name="Specify_a_Different_Default_Home_Page_for_Guest_Users"></a>Specify a Different Default Home Page for Guest Users</h3>
+        <p>Additionally, you can now&#160;<a href="../../../2WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_WebAppSysParameters.html">specify a different site home page</a>&#160;for unauthenticated users.</p>
         <p>&#160;</p>
     </body>
 </html>
