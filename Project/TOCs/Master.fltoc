@@ -136,6 +136,9 @@
       <TocEntry
         Title="EMS Regics Authentication Options"
         Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Regics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
