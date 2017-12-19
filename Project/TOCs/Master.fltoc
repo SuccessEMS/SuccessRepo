@@ -2153,40 +2153,40 @@
       Link="/Content/B_Configuration Guides/10_EMS Campus Configuration Guide.htm">
       <TocEntry
         Title="Set Up EMS Campus"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_SetUpEMSCampusIntro.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_SetUpEMSCampusIntro.html" />
       <TocEntry
         Title="Overview of Synchronization"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_OverviewofSynchr.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_OverviewofSynchr.html" />
       <TocEntry
         Title="Synchronize Campus-Specific Data"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_SynchroCampus-SpecificData.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_SynchroCampus-SpecificData.html" />
       <TocEntry
         Title="Synchronize Facility Data"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_SynchroFacilityData.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_SynchroFacilityData.html" />
       <TocEntry
         Title="Configure Domains"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_ConfigDomains.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_ConfigDomains.html" />
       <TocEntry
         Title="Configure Academic Units"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_ConfigAcademUnit.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_ConfigAcademUnit.html" />
       <TocEntry
         Title="Configure Instructors"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_ConfigInstructors.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_ConfigInstructors.html" />
       <TocEntry
         Title="Configure the Primary Academic Unit for a Subject"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_ConfigPrimaryAcadUnitforSub.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_ConfigPrimaryAcadUnitforSub.html" />
       <TocEntry
         Title="Configure Course Types"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_ConfigCourseType.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_ConfigCourseType.html" />
       <TocEntry
         Title="Configure Course Types/Room Types Matches"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_ConfigCourseRoomTypeMatch.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_ConfigCourseRoomTypeMatch.html" />
       <TocEntry
         Title="Work with Time Block Templates"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_WorkTimeBlockTemp2.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_WorkTimeBlockTemp2.html" />
       <TocEntry
         Title="Troubleshoot: Slow Performance When De-Synchronizing Terms"
-        Link="/Content/8Campus/A_V44.1/B_ConfigurationGuide/Campus_TroubleshootSlowPerform.html" />
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_TroubleshootSlowPerform.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Master Calendar"
