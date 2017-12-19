@@ -5035,6 +5035,9 @@
       <TocEntry
         Title="[%=System.LinkedTitle%]"
         Link="/Content/Learn About Our Applications/What is the EMS Floor Plans.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VPAT 508 ADA Compliance"
+        Link="/Content/Learn About Our Applications/VPAT 508 ADA Compliance Section.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
   </TocEntry>
   <TocEntry
