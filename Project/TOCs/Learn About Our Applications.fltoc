@@ -105,16 +105,15 @@
     Link="/Content/Learn About Our Applications/Integrated Authentication.htm" />
   <TocEntry
     Title="Authentication Options for EMS Master Calendar"
-    Link="/Content/Learn About Our Applications/Authentication Options for.htm" />
+    Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_MC.htm" />
   <TocEntry
-    Title="Authentication Options for EMS Mobile"
-    Link="/Content/Learn About Our Applications/Authentication Options for_1.htm" />
+    Title="Authentication Options for EMS Mobile" />
   <TocEntry
     Title="Authentication Options for EMS Regics"
-    Link="/Content/Learn About Our Applications/Authentication Options for_2.htm" />
+    Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Regics.htm" />
   <TocEntry
     Title="Authentication Options for Virtual EMS and EMS Web App"
-    Link="/Content/Learn About Our Applications/Authentication Options for_3.htm" />
+    Link="/Content/Learn About Our Applications/IntegAuth_Authentication Options_WebAppVEMS.htm" />
   <TocEntry
     Title="What is Polycom Integration?"
     Link="/Content/Learn About Our Applications/What is Polycom Integration.htm" />
