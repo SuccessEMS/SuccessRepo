@@ -727,10 +727,7 @@
     Link="/Content/A_Installation/1InstallationHome.htm">
     <TocEntry
       Title="EMS Desktop Client"
-      Link="/Content/A_Installation/2_DesktopClient/V44.1/2_DesktopClient_Home.htm">
-      <TocEntry
-        Title="Introduction"
-        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html"></TocEntry>
+      Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html">
       <TocEntry
         Title="System Requirements and Prerequisites"
         Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_SystemReq.htm" />
