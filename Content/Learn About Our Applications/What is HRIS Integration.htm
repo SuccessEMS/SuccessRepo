@@ -1,0 +1,455 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="D:\Learn About Our Applications\Learn About Our Applications.docx" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">What is HRIS Integration?</h1>
+        <p class="NormalWeb_2">If your organization&#160;uses an Human Resources&#160;Information System or HRIS, user and group profiles or "accounts" may already be maintained there. This toolkit eliminates the double-entry of this information, by synchronizing between your HRIS and EMS&#160;at your chosen frequency. This toolkit enables you to automate&#160;the creation, updating, and de-activation of user and group accounts in EMS. You can configure it to automatically transfer&#160;selected records to a staging database and then update&#160;the appropriate tables in EMS. This tool saves time and enhances security, and enables the creation, maintenance, and inactivation of user and group accounts from an outside data source.</p>
+        <p class="NormalWeb_11"><span class="mt-color-669933_1"><img src="../Resources/Images/Learn About Our Applications/What is Integrated Windows.png" style="height: 40px;width: 40px;" alt="https://success.emssoftware.com/@api/deki/files/6299/magnifier.png?revision=1" class="img_1" /></span><span class="mt-color-669933_1">See the&#160;</span><a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/Optional_Features/EMS_Human_Resources_Toolkit/Installing_Human_Resources_Toolkit/001_Introduction/Integration_Diagram" title="Integration Diagram"><span class="mt-color-669933_2">Integration Diagram</span></a>
+        </p>
+        <h2 class="Heading2_3">Integration Diagram</h2>
+        <p class="NormalWeb_16">
+            <img src="../Resources/Images/Learn About Our Applications/What is HRIS Integration.png" style="height: 760px;width: 1055px;" alt="https://success.emssoftware.com/@api/deki/files/6335/integrationsflowhris.png?revision=1" class="img_1" />
+        </p>
+        <h4 class="Heading4_1">How It Works</h4>
+        <p class="NormalWeb">The&#160;<span class="Emphasis">EMS_Staging</span>&#160;database (created by&#160;<span class="Strong">HRTK Staging DB Install G_GT_WU.sql</span>) is used to stage User records before they are imported into EMS.&#160;</p>
+        <p class="NormalWeb"><span class="Strong">Note</span>: your EMS database may have the “Groups” field renamed to another term, such as&#160;<span class="Emphasis">Employees</span>.</p>
+        <p class="NormalWeb">Once you have identified the data source within your organization that will be used to create and maintain your User records, you will then define and create a process to import active&#160;User records into the&#160;<span class="Emphasis">tblPeople</span>&#160;table within&#160;<span class="Emphasis">EMS_Staging&#160;</span>(shown below).</p>
+        <p class="mtaligncenter_1">
+            <img src="../Resources/Images/Learn About Our Applications/What is HRIS Integration_1.png" style="height: 441px;width: 385px;" alt="https://success.emssoftware.com/@api/deki/files/1949/image_26.png?revision=1&amp;size=bestfit&amp;width=385&amp;height=441" class="img_1" />
+        </p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="mtaligncenter_1">&#160;</p>
+        <p class="NormalWeb">&#160;</p>
+        <p><span class="span_8"><img src="../Resources/Images/Learn About Our Applications/What is Integrated Windows.png" style="height: 40px;width: 40px;" alt="https://success.emssoftware.com/@api/deki/files/6299/magnifier.png?revision=1" class="img_1" /></span><span class="span_8">&#160;</span><span class="span_8">See the Technical Architecture</span><span class="span_8">&#160;</span>
+        </p>
+        <p class="NormalWeb_21">EMS Human Resources Toolkit automates the creation, update, and de-activation of user records as individuals and as groups or contacts. EMS Human Resources Toolkit absorbs user records and any changes to these records&#160;from your chosen data source, and then transfers the data&#160;to EMS.&#160;This allows you to automatically sync EMS with user records held in other systems in your organization.</p>
+        <p class="NormalWeb_22">
+            <img src="../Resources/Images/Learn About Our Applications/What is HRIS Integration_2.png" style="height: 567px;width: 768px;" alt="https://success.emssoftware.com/@api/deki/files/1494/HR_Toolkit_-_Introduction_-_diagram.png?revision=1&amp;size=bestfit&amp;width=768&amp;height=567" class="img_1" />
+        </p>
+        <p class="NormalWeb_21">&#160;</p>
+        <p class="NormalWeb_21">The information from your organization’s database(s) is loaded into the EMS_Staging database table and then the HRTK_Update_Group stored procedure is created on the EMS database, then executed to populate the data from the staging table into EMS.&#160;This information populates and updates the information for your EMS Groups, Contacts, and Everyday/Web Users.&#160;</p>
+        <p><span class="span_8"><img src="../Resources/Images/Learn About Our Applications/What is Integrated Windows.png" style="height: 40px;width: 40px;" alt="https://success.emssoftware.com/@api/deki/files/6299/magnifier.png?revision=1" class="img_1" /></span><span class="span_8">&#160;</span><span class="span_8">See How Resources Are Mapped Between EMS and Your HRIS</span>
+        </p>
+        <p class="NormalWeb_21">You can use the specifications below to make sure your source data will import correctly into EMS.</p>
+        <p class="NormalWeb_21">The&#160;<span class="Emphasis">HRTK_Update_Group</span>&#160;stored procedure (created by&#160;<span class="Strong">HRTK Update Script G_C_GT_WU.sql</span>) contains all of the logic to create your EMS Contact, Group and Everyday Applications (web) User data.&#160;Records are imported into EMS from the EMS_Staging database according to the specifications below.</p>
+        <table class="table_2">
+            <col style="width: 169pt;" />
+            <col style="width: 159pt;" />
+            <col style="width: 583pt;" />
+            <thead>
+                <tr style="height: 18pt;">
+                    <th class="th_1">
+                        <p class="Strong_2">EMS Staging Field (varchar)</p>
+                    </th>
+                    <th class="th_1">
+                        <p class="Strong_2">Writes Data to EMS Database Fields</p>
+                    </th>
+                    <th class="th_1">
+                        <p class="Strong_2">Requirements/Notes</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="height: 14pt;">
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">PersonnelNumber&#160;</span><span class="span_3">(20)</span>
+                        </p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Contact.External Reference</p>
+                        <p class="NormalWeb_7">WebUser.ExternalReference</p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">Required</span><span class="span_3">&#160;Part of Primary Key Cluster.&#160;Unique identifier (e.g. Employee/Student ID, Personnel Number, etc.) for each web user.&#160; Used for purposes of creating /updating EMS.</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">FirstName</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Contact.Contact</p>
+                        <p class="NormalWeb_7">WebUser.UserName</p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Must have at least 1 of 3.&#160;Built in EMS as LastName, FirstName Middle Initial.</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">LastName</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Contact.Contact</p>
+                        <p class="NormalWeb_7">WebUser.UserName</p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Must have at least 1 of 3.&#160;Built in EMS as LastName, FirstName Middle Initial.</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">Title</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Contact.Title</p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">can be null</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">MiddleInitial&#160;</span><span class="span_3">(10)</span>
+                        </p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Contact .Contact</p>
+                        <p class="NormalWeb_7">WebUser.UserName</p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Must have at least 1 of 3.&#160;Built in EMS as LastName, FirstName Middle Initial.</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">EMailAddress</span><span class="span_3">&#160;(75)</span>
+                        </p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Contact.EmailAddress</p>
+                        <p class="NormalWeb_7">WebUser.EmailAddress</p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">Required</span><span class="span_3">&#160;for Web User creation</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">Phone</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Contact.Phone</p>
+                        <p class="NormalWeb_7">WebUser.Phone</p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">can be null</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">Fax</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Contact.Phone</p>
+                        <p class="NormalWeb_7">WebUser.Fax</p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">can be null</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">Address1</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Contact.Address1</p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">can be null</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">Address2</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Contact.Address2</p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">can be null</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">City</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Contact.City</p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">can be null</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">State</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Contact.State</p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">can be null</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">ZipCode</span><span class="span_3">&#160;(10)</span>
+                        </p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Contact.ZipCode</p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">can be null</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">Country</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Contact.Country</p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">can be null</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">NetworkID</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">WebUser.NetworkID</p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">Required</span><span class="span_3">&#160;for Integrated Authentication.</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">GroupID</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Group.ExternalReference</p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">Required.</span><span class="span_3">&#160;&#160;Unique identifier for each group.&#160;&#160;Along with PersonnelNumber, part of primary key cluster. If (Hybrid) for Group/GroupType functionality must be 0.</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_8">
+                        <p class="NormalWeb"><span class="Strong_1">GroupName</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Group.GroupName</p>
+                    </td>
+                    <td class="td_8">
+                        <p class="NormalWeb_7">Required only for Everyday Application User associated with Groups. If (Hybrid) and GroupID = 0, this value is ignored.</p>
+                    </td>
+                </tr>
+                <tr style="height: 14pt;">
+                    <td class="td_9">
+                        <p class="NormalWeb"><span class="Strong_1">GroupType</span><span class="span_3">&#160;(50)</span>
+                        </p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Group.GroupTypeID</p>
+                        <p class="NormalWeb_7">GroupType.Description if unique</p>
+                    </td>
+                    <td class="td_9">
+                        <p class="NormalWeb_7">Required only for Everyday Application User associated with Groups. Associates groups with group types. If (Hybrid) and GroupID = 0, this value is ignored.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="NormalWeb_21">&#160;</p>
+        <h3 class="Heading3_1">Group Type Records</h3>
+        <p class="NormalWeb_21">Unique GroupTypes in&#160;<span class="Emphasis">EMS_Staging.tblPeople&#160;</span>are added to the Group Types table in EMS (<span class="Emphasis">EMS.tblGroupType</span>). Group Types are not updated or de-activated.</p>
+        <h3 class="Heading3_1">Group Records</h3>
+        <ul class="ul_5">
+            <li class="li_7">Groups that exist in EMS_Staging.tblPeople, but not in EMS.tblGroup (based on EMS_Staging.tblPeople.GroupID and EMS.tblGroup.ExternalReference) will be created in EMS.</li>
+            <li class="li_7">For Groups that exist in EMS_Staging.tblPeople and in EMS.tblGroup, GroupName and GroupType changes in EMS_Staging will be updated in EMS.</li>
+            <li class="li_7">Groups that exist in EMS.tblGroup, but not in EMS_Staging.tblPeople will be de-activated in EMS (includes all of the Contacts associated with the Group).</li>
+        </ul>
+        <h3 class="Heading3_1">Contact Records</h3>
+        <p class="NormalWeb_21">Contacts that exist in EMS_Staging.tblPeople, but not in EMS.tblContact (based on EMS_Staging.tblPeople.PersonnelNumber and EMS.tblContact.ExternalReference) will be created in EMS for the associated Group (see section above for Group maintenance logic).&#160;A Web User account will also be created for the Contact in EMS and the Group record will be automatically assigned to the Contact’s Web User record.&#160;This allows the Contact to make a reservation on behalf of the Group in Virtual EMS.&#160;</p>
+        <p class="NormalWeb_21">For Contacts that exist in EMS_Staging.tblPeople and in EMS.tblContact, any/all changes to the Contact’s information (name, address, etc.)&#160;in EMS_Staging will be updated in EMS.&#160;If the Group that a Contact is assigned to changes, the Contact record under the original Group will be de-activated and a new Contact record will be added under the new Group.&#160;This process also automatically assigns the Group record to the Contact’s Web User record.</p>
+        <p class="NormalWeb_21">Contacts that exist in EMS.tblContact, but not in EMS_Staging.tblPeople will be de-activated in EMS.</p>
+        <p><span class="span_8"><img src="../Resources/Images/Learn About Our Applications/What is Integrated Windows.png" style="height: 40px;width: 40px;" alt="https://success.emssoftware.com/@api/deki/files/6299/magnifier.png?revision=1" class="img_1" /></span><span class="span_8">&#160;Higher Education:&#160;</span><span class="span_8">See How EMS Integrates Student and Course Data From Student Information Systems (SIS)</span>
+        </p>
+        <p class="p_19">Integrating Course and Student Information with Student Information Systems (SIS)?</p>
+        <h4 class="Heading4_1">How Do I Install It?</h4>
+        <p class="NormalWeb">If you are unsure whether your organization is licensed for EMS Human Resources Toolkit or if you would like to learn more about it, please contact your Account Executive.</p>
+        <p class="Strong">Process Overview:</p>
+        <p class="NormalWeb_23">To integrate the EMS Human Resources Toolkit, you will:</p>
+        <ul class="ul_5">
+            <li class="li_25">Identify the data source(s) in your organization to use as the source for your user records.</li>
+            <li class="li_25">Determine if user records are organized by groups and contacts (Group/Contact Model), by groups and group types (Group/Group Type Model), or all of these (Hybrid).</li>
+            <li class="li_25">Obtain and execute the .sql files for creating the staging database and stored procedures needed to import data into your EMS database.</li>
+            <li class="li_25">Establish a process for importing records into the staging database.</li>
+            <li class="li_25">Execute the EMS HR Toolkit stored procedure (using Microsoft SQL Server Management Studio to create an SQL job to run the stored procedure on a schedule).</li>
+            <li class="li_25">Maintain the source data to ensure continual data flow between your source(s) and EMS.</li>
+        </ul>
+        <p class="p_38"><span class="span_8"><img src="../Resources/Images/Learn About Our Applications/What Are The EMS Software.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3858/tech_doc_overview.png?revision=1&amp;size=bestfit&amp;width=26&amp;height=29" class="img_1" /></span><span class="span_8">&#160;</span><span class="span_8">Concept:</span><span class="span_8">&#160;EMS Human Resources Toolkit can be configured&#160;in three ways: Group/Group Type, Group/Contact and Hybrid&#160;(click to expand)&#160;</span>
+        </p>
+        <p class="NormalWeb_21">&#160;Your Implementation Consultant will work with you to determine which variant will be best for your organization.&#160;The “Group/Contact” model is structured around having your Groups populated with Contacts beneath them; the “Group/Group Type” model categorizes User records by group and group type, and&#160;does not create Contacts under the Groups imported into the HRTK. The Hybrid Model will adjust the functionality based upon the&#160;<span class="Emphasis">GroupID</span>&#160;criteria in the EMS_Staging.dbo.tblPeople table.&#160;Note that your EMS environment may use different names for Groups and Contacts, such as&#160;<span class="Emphasis">Employee</span>.</p>
+        <p class="NormalWeb">The EMS Human Resources Toolkit&#160;Installation Guide leads you through installing HR Toolkit in your environment.&#160;</p>
+        <table class="table_1">
+            <col style="width: 63pt;" />
+            <col style="width: 658pt;" />
+            <tr>
+                <td class="td_4">
+                    <p class="p_15">
+                        <img src="../Resources/Images/Learn About Our Applications/What is the EMS Mobile App.png" style="height: 50px;width: 50px;" alt="https://success.emssoftware.com/@api/deki/files/3859/tech_doc_note.png?revision=1&amp;size=bestfit&amp;width=26&amp;height=26" class="img_1" />
+                    </p>
+                </td>
+                <td class="td_4">
+                    <p class="NormalWeb"><span class="Strong_1">Important:</span><span class="Strong_1">&#160;</span><span class="span_3">If you do not have a customer login, register&#160;</span><a href="https://www.dea.com/ServiceAndSupport/RequestAccess.aspx" title="https://www.dea.com/ServiceAndSupport/RequestAccess.aspx"><span class="Hyperlink_3">here</span></a><span class="span_3">.</span>
+                    </p>
+                </td>
+            </tr>
+        </table>
+        <p class="NormalWeb_23"><span class="Strong">Option 1</span>&#160;<span class="Strong">(Recommended):</span>&#160;Submit a Ticket directly via the&#160;<a href="https://support.emssoftware.com/" title="https://support.emssoftware.com"><span class="Hyperlink_6">EMS Support Portal</span></a></p>
+        <p class="NormalWeb_23"><span class="Strong">Option 2:</span>&#160;Email&#160;<a href="mailto:support@emssoftware.com" title="mailto:support@emssoftware.com"><span class="Strong_5">support@emssoftware.com</span></a></p>
+        <p class="NormalWeb_23"><span class="Strong">Option 3 (Recommended for critical issues only):</span>&#160;Phone (800) 288-4565</p>
+        <p><span class="span_8"><img src="../Resources/Images/Learn About Our Applications/What is Integrated Windows.png" style="height: 40px;width: 40px;" alt="https://success.emssoftware.com/@api/deki/files/6299/magnifier.png?revision=1" class="img_1" /></span><span class="span_8">&#160;</span><span class="span_8">See Database Requirements</span>
+        </p>
+        <table class="table_2">
+            <col style="width: 94pt;" />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="p_32">Operating System</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Microsoft SQL Server 2008 R2</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">Microsoft SQL Server 2012 SP2</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Microsoft SQL Server 2012 SP3</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">Microsoft SQL Server 2014 SP1, Compatibility Level 110</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="NormalWeb_21">&#160;</p>
+        <h3 class="Heading3_1">Web Server</h3>
+        <table class="table_2">
+            <col style="width: 285pt;" />
+            <col style="width: 658pt;" />
+            <thead>
+                <tr>
+                    <th class="th_1">
+                        <p class="Strong_2">Operating System</p>
+                    </th>
+                    <th class="th_1">
+                        <p class="Strong_2">IIS App Pool</p>
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Windows Server 2008 R2</p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">7/7.5</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">Windows Server 2012</p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_6">8</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Windows Server 2012 R2</p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">8.5</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="Strong_1">Prerequisites</p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_6">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_1">
+                        <p class="p_6">Application Pool Running&#160;4.0*</p>
+                    </td>
+                    <td class="td_1">
+                        <p class="p_6">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="td_2">
+                        <p class="p_6">.NET Framework 4.6.1*</p>
+                    </td>
+                    <td class="td_2">
+                        <p class="p_6">&#160;</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" class="td_1">
+                        <p class="mt-font-size-120pt_1">Minimum System Requirements</p>
+                        <p class="NormalWeb"><span class="span_2">Processor: 2.0GHz and 4 cores or faster</span><span class="span_2"><br /></span><span class="span_2">Memory: 8GB or more*</span><span class="span_2"><br /></span><span class="span_2">Hard-Disk Space: 1GB or more</span>
+                        </p>
+                        <p class="mt-font-size-120pt_2">*For up to 100 concurrent users.&#160;Increased specs required for 100+ concurrent users.</p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="NormalWeb_24">*= varies per EMS Software Application</p>
+    </body>
+</html>

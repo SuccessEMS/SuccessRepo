@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:sourceDocument="D:\Learn About Our Applications\Learn About Our Applications.docx" xml:lang="en-us">
+    <head><title></title>
+        <link href="../Resources/Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <h1 class="Heading1">Authentication Options for Virtual EMS and EMS Web App</h1>
+        <p class="NormalWeb_2">Authentication is controlled by three factors.&#160; They all must be configured correctly for the authentication to work:</p>
+        <ol start="1" class="ol_2">
+            <li class="li_10"><span class="mt-color-669933_1">Login Credentials</span><span class="span_2">: This is the location where external LDAP/Windows/Portal credentials need to be entered in our software for each user.</span>
+            </li>
+            <li class="li_10"><span class="mt-color-669933_1">Enabled by</span><span class="span_2">: This is either a parameter or checkbox that needs to be enabled for the authentication to work.</span>
+            </li>
+            <li class="li_10"><span class="mt-color-669933_1">Configuration Page</span><span class="span_2">:This is where configuration and options are set for the authentication.</span>
+            </li>
+        </ol>
+        <h2 class="Heading2_1">Integrated Windows Authentication</h2>
+        <ul class="ul_5">
+            <li class="mt-font-size-135pt_1">Login Credentials: Network ID / External Reference in web user account settings (Either of these work)</li>
+            <li class="mt-font-size-135pt_1">Enabled by: Within IIS on the VEMS site, "Authentication" options, Windows Authentication enabled, Anonymous Authentication disabled</li>
+            <li class="mt-font-size-135pt_1">Configuration Page: IIS "Authentication" options</li>
+        </ul>
+        <h2 class="Heading2_1">LDAP</h2>
+        <ul class="ul_5">
+            <li class="mt-font-size-135pt_1">Login Credentials: Network ID / External Reference in web user account settings (This is specified by the "Field Used to Authenticate Web User" on the VEMS/EMS Web App Parameters&#160;tab).</li>
+            <li class="mt-font-size-135pt_1">Enabled by: ldapconfiguration.aspx page, "Authenticate users via LDAP?" checkbox (must be logged in with Web Admin security role and have Integrated Authentication in license).</li>
+            <li class="mt-font-size-135pt_1">Configuration Page: ldapconfiguration.aspx page (there are multiple tabs).</li>
+            <li class="mt-font-size-135pt_1">Other Notes: EMS LDAP License is required for this to work.&#160; The web server will need access to directory server for this to work.</li>
+        </ul>
+        <h2 class="Heading2_1">Portal</h2>
+        <ul class="ul_5">
+            <li class="mt-font-size-135pt_1">Login Credentials: Network ID / External Reference in web user account settings (this is specified by the "Field Used to Authenticate Web User" on the VEMS/EMS Web App&#160;parameters tab).</li>
+            <li class="mt-font-size-135pt_1">Enabled by: Always enabled; select the appropriate entry from&#160;the "Portal Authentication Method" on the VEMS/EMS Web App&#160;Parameters page</li>
+            <li class="mt-font-size-135pt_1">Configuration Page: There are multiple different setup items in the VEMS/EMS Web App&#160;parameters under the "Authentication" area</li>
+        </ul>
+    </body>
+</html>

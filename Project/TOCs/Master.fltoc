@@ -4965,6 +4965,24 @@
       Title="Release Notes V8" />
   </TocEntry>
   <TocEntry
+    Title="Learn About Our Applications">
+    <TocEntry
+      Title="Managing EMS">
+      <TocEntry
+        Title="EMS Application Architecture"
+        Link="/Content/Learn About Our Applications/EMS Application Architecture.htm" />
+      <TocEntry
+        Title="EMS Application Architecture for EMS Campus"
+        Link="/Content/Learn About Our Applications/EMS Application Architecture_1.htm" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Learn About Our Applications/What Do EMS APIs Do.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="[%=System.LinkedTitle%]"
+        Link="/Content/Learn About Our Applications/What is Facilities Management.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
     Title="Glossary"
     Link="/Content/G_Glossary/1_Glossary.htm"
     Skin="/Project/Skins/HomeSearchBar.flskn"
