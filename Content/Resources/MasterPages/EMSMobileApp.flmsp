@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="455" MadCap:lastWidth="902">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="7" MadCap:lastHeight="481" MadCap:lastWidth="1033">
     <head>
         <link href="../Stylesheets/MainStyles.css" rel="stylesheet" type="text/css" />
         <link rel="icon" href="../Images/favicon.png" />
@@ -30,7 +30,9 @@
         <div class="footer center">
             <div class="container">
                 <div class="HomeMasterPageFooter outer-row">
-                    <div><a href="">Privacy Policy </a>|<a href="">Terms of Use</a><p class="Copyright">© <MadCap:variable name="General.Year" /> <MadCap:variable name="General.My Company" />, LLC. All Rights Reserved.</p></div>
+                    <div><a href=""><a href="https://www.emssoftware.com/privacy-policy">Privacy Policy </a>|<a href="https://www.emssoftware.com/terms-of-use">Terms of Use </a>|<a href="../../Contact Us.htm"> Contact </a>|<a href="mailto:success@emssoftware.com?subject=Documentation Feedback"> Feedback</a></a>
+                        <p class="Copyright">© <MadCap:variable name="General.Year" /> <MadCap:variable name="General.My Company" />, LLC. All Rights Reserved.</p>
+                    </div>
                     <div class="footer-icons"><a href="" class="facebook"></a><a href="" class="twitter"></a><a href="" class="youtube"></a><a href="" class="linkedin"></a><a href="" class="googleplus"></a>
                     </div>
                 </div>
