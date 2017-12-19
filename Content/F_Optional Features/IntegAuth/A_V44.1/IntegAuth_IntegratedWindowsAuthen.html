@@ -4,7 +4,7 @@
     </head>
     <body>
         <h1>Integrated Windows Authentication</h1>
-        <p>Integrated Windows Authentication (IWA) is a built-in Microsoft Internet Information Services (IIS) authentication protocol that can be used to automatically authenticate and sign-in a user to EMS Web App.&#160; Integrated Windows Authentication works only with Internet Explorer and is best used on intranets where all clients accessing EMS Web App are within a single domain.&#160;</p>
+        <p>Integrated Windows Authentication (IWA) is a built-in Microsoft Internet Information Services (IIS) authentication protocol that can be used to automatically authenticate and sign-in a user to EMS Web App. Integrated Windows Authentication works only with Internet Explorer and is best used on intranets where all clients accessing EMS Web App are within a single domain.&#160;</p>
         <p>This topic provides information on the following:</p>
         <ul class="unorder-list">
             <li><a href="#Activate_Integrated_Windows_Authentication_for_IIS_6.0">Activate Integrated Windows Authentication for IIS 6.0</a>
@@ -31,18 +31,18 @@
         <ol start="1" class="number-list">
             <li>On the web server that hosts your EMS application's&#160;site, open&#160;<span class="bold">IIS Manager</span>.</li>
             <li>Locate your EMS application's&#160;site.</li>
-            <li>Right-click your EMS application's&#160;site&#160;and choose&#160;<span class="bold">Properties</span>.&#160; The Properties screen will open.</li>
-            <li>Go to the&#160;<span class="bold">Directory Security</span>&#160;tab and click the&#160;<span class="bold">Edit&#160;</span>button under the&#160;Authentication and access control&#160;section.&#160; The Authentication Methods screen will open.</li>
-            <li>Uncheck the&#160;Enable anonymous access&#160;option.&#160; The&#160;Integrated Windows authentication&#160;option should be the only option checked.<p><img src="Images/IntegAuthen_Guide/Integrated Windows Authentication_1.png" /></p></li>
-            <li>Click&#160;OK&#160;to exit the Authentication Methods screen.&#160; Click&#160;OK&#160;again to exit the Properties screen.&#160; You have completed the necessary IIS configuration steps for IIS 6.0.</li>
+            <li>Right-click your EMS application's&#160;site&#160;and choose&#160;<span class="bold">Properties</span>. The Properties screen will open.</li>
+            <li>Go to the&#160;<span class="bold">Directory Security</span>&#160;tab and click the&#160;<span class="bold">Edit&#160;</span>button under the&#160;Authentication and access control&#160;section. The Authentication Methods screen will open.</li>
+            <li>Uncheck the&#160;<span class="bold">Enable anonymous access</span>&#160;option.&#160;The&#160;<span class="bold">Integrated Windows authentication</span>&#160;option should be the only option checked.<p><img src="Images/IntegAuthen_Guide/Integrated Windows Authentication_1.png" /></p></li>
+            <li>Click&#160;<span class="bold">OK&#160;</span>to exit the Authentication Methods screen. Click&#160;<span class="bold">OK&#160;</span>again to exit the Properties screen. You have completed the necessary IIS configuration steps for IIS 6.0.</li>
         </ol>
         <h2><a name="Activate_Integrated_Windows_Authentication_for_IIS_7.x/8.x"></a>Activate Integrated Windows Authentication for IIS 7.x/8.x</h2>
         <ol start="1" class="number-list">
-            <li>On the web server that hosts your EMS application's&#160;site, open&#160;IIS Manager.</li>
+            <li>On the web server that hosts your EMS application's&#160;site, open&#160;<span class="bold">IIS Manager</span>.</li>
             <li>Locate and highlight your EMS application's&#160;site.&#160;<p><img src="Images/IntegAuthen_Guide/Integrated Windows Authentication_2.png" /></p></li>
-            <li>Double-click the&#160;Authentication&#160;option in the&#160;IIS&#160;section.<p><img src="Images/IntegAuthen_Guide/Integrated Windows Authentication_3.png" /></p></li>
-            <li>Right-click the&#160;Windows Authentication&#160;option and select&#160;Enable.</li>
-            <li>Right-click the&#160;Anonymous Authentication&#160;option and select&#160;Disable.</li>
+            <li>Double-click the&#160;<span class="bold">Authentication&#160;</span>option in the&#160;<span class="bold">IIS&#160;</span>section.<p><img src="Images/IntegAuthen_Guide/Integrated Windows Authentication_3.png" /></p></li>
+            <li>Right-click the&#160;<span class="bold">Windows Authentication</span>&#160;option and select&#160;<span class="bold">Enable</span>.</li>
+            <li>Right-click the&#160;<span class="bold">Anonymous Authentication</span>&#160;option and select&#160;<span class="bold">Disable</span>.</li>
             <li>You have completed the necessary IIS configuration steps for IIS 7.</li>
         </ol>
     </body>
