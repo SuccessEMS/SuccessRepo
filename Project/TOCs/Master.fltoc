@@ -864,6 +864,9 @@
             Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Learn About Our Applications/VPAT for EMS Web App V44 1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
           Title="Integrated Windows Authentication"
           Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
           <TocEntry
@@ -5050,6 +5053,9 @@
       <TocEntry
         Title="VPAT 508 ADA Compliance"
         Link="/Content/Learn About Our Applications/VPAT 508 ADA Compliance Section.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VPAT for EMS Web App"
+        Link="/Content/Learn About Our Applications/VPAT for EMS Web App V44 1.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
   </TocEntry>
   <TocEntry
