@@ -79,9 +79,7 @@
         Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
         <TocEntry
           Title="Integrated Authentication Considerations"
-          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Integration Diagram" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
       <TocEntry
         Title="Integrated Windows Authentication"
@@ -100,6 +98,9 @@
           Title="Portal Authentication Methods"
           Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
       </TocEntry>
+      <TocEntry
+        Title="EMS Web App and VEMS Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
   </TocEntry>
   <TocEntry
