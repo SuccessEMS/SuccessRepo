@@ -108,9 +108,6 @@
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Integration Diagram"
-            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Integrated Windows Authentication"
@@ -163,8 +160,7 @@
             Title="Integrated Authentication Considerations"
             Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="Integration Diagram"
-            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Title="Integration Diagram" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Integrated Windows Authentication"
@@ -220,8 +216,7 @@
             Title="Integrated Authentication Considerations"
             Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           <TocEntry
-            Title="Integration Diagram"
-            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Title="Integration Diagram" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Integrated Windows Authentication"
@@ -501,8 +496,7 @@
               Title="Integrated Authentication Considerations"
               Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
             <TocEntry
-              Title="Integration Diagram"
-              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+              Title="Integration Diagram" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           </TocEntry>
           <TocEntry
             Title="Integrated Windows Authentication"
@@ -826,9 +820,6 @@
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Integration Diagram"
-            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Integrated Windows Authentication"
@@ -880,9 +871,6 @@
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Integration Diagram"
-            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Integrated Windows Authentication"
@@ -937,9 +925,6 @@
           <TocEntry
             Title="Integrated Authentication Considerations"
             Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Integration Diagram"
-            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Integrated Windows Authentication"
@@ -1217,9 +1202,6 @@
             <TocEntry
               Title="Integrated Authentication Considerations"
               Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthentication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-            <TocEntry
-              Title="Integration Diagram"
-              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           </TocEntry>
           <TocEntry
             Title="Integrated Windows Authentication"
@@ -2053,33 +2035,33 @@
         Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html"></TocEntry>
       <TocEntry
         Title="EMS Mobile Authentication"
-        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_SetUpMobileAuthen.html">
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SetUpMobileAuthen.html">
         <TocEntry
           Title="EMS Native Authentication"
-          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html" />
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html" />
         <TocEntry
           Title="LDAP Authentication"
-          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html" />
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html" />
         <TocEntry
           Title="Open ID Connect Authentication"
-          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html">
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html">
           <TocEntry
             Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-            Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Persistent Authentication"
-          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         <TocEntry
           Title="SAML Authentication"
-          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">
           <TocEntry
             Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-            Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
         <TocEntry
           Title="Using Windows Authentication (NTLM) for EMS Mobile"
-          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html" />
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry

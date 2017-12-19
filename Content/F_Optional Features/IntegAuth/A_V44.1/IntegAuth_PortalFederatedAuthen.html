@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="1569" MadCap:lastWidth="810" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="2483" MadCap:lastWidth="860" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <head><title mt-export-translate="no">Portal or Federated Authentication</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
@@ -7,10 +7,12 @@
     <body>
         <h1>Portal or Federated Authentication</h1>
         <h2>Overview&#160;</h2>
-        <p>The Portal Authentication method provides EMS Web App single sign-on capability using your organization’s portal (e.g.,&#160;CAS, Shibboleth,&#160;SiteMinder, Plumtree, uPortal, etc.).&#160; When a user logged into your portal accesses EMS Web App, a predefined user-specific variable (e.g.,&#160;email address, employee/student ID, network ID, etc.) captured by your portal/sign-on page is compared against corresponding information recorded in the&#160;Network ID&#160;and/or&#160;External Reference&#160;fields of your EMS Everyday User records.&#160; If a match exists, the Everyday User will be automatically logged-into EMS Web App.</p>
-        <p>Note:&#160; The "Field Used to Authenticate Everyday User"&#160;parameter (within System Administration &gt; Settings &gt;&#160;Parameters&#160;(Everyday User Applications tab) is used by EMS Web App to determine which value should be used for authentication.</p>
+        <p>The Portal Authentication method provides EMS Web App single sign-on capability using your organization’s portal (e.g.,&#160;CAS, Shibboleth,&#160;SiteMinder, Plumtree, uPortal, etc.). When a user logged into your portal accesses EMS Web App, a predefined user-specific variable (e.g.,&#160;email address, employee/student ID, network ID, etc.) captured by your portal/sign-on page is compared against corresponding information recorded in the&#160;<span class="bold">Network ID</span>&#160;and/or&#160;<span class="bold">External Reference</span>&#160;fields of your EMS Everyday User records. If a match exists, the Everyday User will be automatically logged-into EMS Web App.</p>
+        <div class="notifications">
+            <p class="note-box note">Note: The Field Used to Authenticate Everyday User&#160;parameter (within <span class="bold">System Administration</span> &gt; <span class="bold">Settings </span>&gt;&#160;<span class="bold">Parameters&#160;</span>&gt; <span class="bold">Everyday User Applications</span> tab) is used by EMS Web App to determine which value should be used for authentication.</p>
+        </div>
         <p>Several built-in authentication methods to pass-in credentials are available including:</p>
-        <ul>
+        <ul class="unorder-list">
             <li>Server Variable (Header Variable)</li>
             <li>Session</li>
             <li>Form</li>
@@ -18,7 +20,7 @@
             <li>Query String</li>
             <li>Federated (SAML)</li>
         </ul>
-        <p>For a more detailed explanation of the authentication methods outlined above,&#160;See Also:&#160;<a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/Optional_Features/Integrated_Authentication_Options/06-Portal_Authentication/Portal_Authentication_Methods" title="https://success.emssoftware.com/EMS_V44.1/Installing_and_Setting_Up_EMS/EMS_Services_and_Components/Configuring_Integrated_Authentication_for_Everyday_User_Applications/06-Portal_Authentication/Portal_Authentication_Methods">Portal Authentication Methods</a>.&#160;</p>
+        <p>For a more detailed explanation of the authentication methods outlined above,&#160;see&#160;<a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/Optional_Features/Integrated_Authentication_Options/06-Portal_Authentication/Portal_Authentication_Methods" title="https://success.emssoftware.com/EMS_V44.1/Installing_and_Setting_Up_EMS/EMS_Services_and_Components/Configuring_Integrated_Authentication_for_Everyday_User_Applications/06-Portal_Authentication/Portal_Authentication_Methods">Portal Authentication Methods</a>.&#160;</p>
         <h2>Installation/Configuration&#160;</h2>
         <ol start="1">
             <li>Within the Everyday User Applications parameters area of EMS (System Administration &gt; Settings &gt;&#160;Parameters&#160;(Everyday User Applications tab), the following parameters must be set accordingly:</li>

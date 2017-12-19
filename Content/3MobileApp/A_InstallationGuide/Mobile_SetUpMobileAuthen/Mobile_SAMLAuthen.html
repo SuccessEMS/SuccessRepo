@@ -67,7 +67,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Identity Attribute Name</span> </p>
+                        <p><span class="bold">Identity Attribute Name</span> <![CDATA[ ]]></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Assertion attribute name containing user identity. Attribute names can be identity provider specific (i.e. 'uid', 'mail').</p>
@@ -102,7 +102,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-LightRows">
-                        <p><span class="bold">Service Provider Callback URL</span> </p>
+                        <p><span class="bold">Service Provider Callback URL</span> <![CDATA[ ]]></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Base URL of EMS Platform, used for the Identity Provider callback URL in the SAML HTTP POST binding. Set this URL to the base URL of the EMS Platform installation (i.e. https://mycompany.com/EmsPlatform).</p>
@@ -110,7 +110,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p><span class="bold">Path to Identity Provider Public Certificate</span> </p>
+                        <p><span class="bold">Path to Identity Provider Public Certificate</span> <![CDATA[ ]]></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyD-Regular-DarkerRows">
                         <p>Optional identity provider public key (.pem) for EMS Platform to use to verify SAML Assertions.</p>
@@ -127,7 +127,7 @@
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p><span class="bold">Path to Service Provider Private Certificate</span> </p>
+                        <p><span class="bold">Path to Service Provider Private Certificate</span> <![CDATA[ ]]></p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyA-Regular-DarkerRows">
                         <p>Optional Customer-generated private cert (.cer/.pem) file containing base64 encoded public cert for EMS Platform to use to sign AuthnRequests sent to identity provider.</p>
@@ -138,13 +138,13 @@
         <h3>How EMS Platform Services Supports SAML</h3>
         <p>No 2fa support is provided&#160;with SAML authentication. 2fa is the responsibility of the Identity Provider (3rd-Party or Customer owned) and not the EMS Platform Services.&#160;Token expiration is configured and managed the same for SAML as for other authorization types, thus overriding any SAML Assertion Conditions that specify the assertion expiration timestamp.</p>
         <p>See Also: <MadCap:xref href="Mobile_PersistentAuthen.htm">Persistent Authentication</MadCap:xref> for token expiration configuration details.</p>
-        <p>See Also:&#160;Refer to <MadCap:xref href="../Mobile_CustomizeMobileAppUsingConfigJson.htm">Customize Your Mobile App Configuration Using config.json</MadCap:xref>&#160;for details on building a configuration file for <MadCap:variable name="General.Mobile" />.</p>
+        <p>See Also:&#160;Refer to <MadCap:xref href="../../B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm">Customize Your Mobile App Configuration Using config.json</MadCap:xref>&#160;for details on building a configuration file for <MadCap:variable name="General.Mobile" />.</p>
         <p>Once you have created your configuration file, you may proceed with one of the sections below, depending on whether you intend to host the file or pre-configure the application and redistribute it.</p>
         <h3>Use Hosted Configuration (Public Deployment)</h3>
         <p>Host your configuration file from an applicable web server. Distribute the URL to your end users.</p>
         <p>Warning: It is not recommended to make this configuration file publicly available, since it will likely have URLs and/or other information in it that you do not want made available. Instead, host the file in a way such that it is only available internally to your organization. Users should only have to perform this import one time per installation of the application.</p>
         <h3>Pre-Configure EMS&#160;Mobile App (Private Deployment)</h3>
-        <p>If you wish to pre-configure <MadCap:variable name="General.Mobile" />, see&#160;<MadCap:xref href="../Mobile_ConfigRe-signMobilePrivDeploy.html">Configure and Re-Sign the EMS Mobile App</MadCap:xref>.</p>
+        <p>If you wish to pre-configure <MadCap:variable name="General.Mobile" />, see&#160;<MadCap:xref href="../../B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html">Configure and Re-Sign the EMS Mobile App</MadCap:xref>.</p>
         <h2><a name="Test_Your_SAML_Configuration"></a>Test Your SAML&#160;Configuration</h2>
         <p>Assuming you have installed the EMS Platform Services API at https://ems.yourcompany.com/endpoint, then you can test the configuration with a simple curl command:</p>
         <div class="indent">cURL -X GET -H 'x-ems-consumer: MobileApp' https://ems.yourcompany.com/endpoint/api/v1/health</div>
