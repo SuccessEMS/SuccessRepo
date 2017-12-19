@@ -127,6 +127,15 @@
             Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
         </TocEntry>
       </TocEntry>
+      <TocEntry
+        Title="Master Calendar Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_MC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS Mobile App Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Mobile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="EMS Regics Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Regics.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
