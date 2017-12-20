@@ -38,11 +38,15 @@
     Title="Installation Guide EMS Master Calendar"
     Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
     <TocEntry
-      Title="EMS Master Calendar (V8)"
-      Link="/Content/8MC/V8/A_Installation/MC_EMSMCV8.html" />
+      Title="System Requirements and Prerequisites"
+      Link="/Content/8MC/V8/A_Installation/MC_IG_SysReqPrereq.html" />
     <TocEntry
-      Title="Requirements for Master Calendar"
-      Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
+      Title="Obtain Latest Version of Installation Files"
+      Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html">
+      <TocEntry
+        Title="Requirements for Master Calendar"
+        Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
+    </TocEntry>
     <TocEntry
       Title="Installation Instructions"
       Link="/Content/8MC/V8/A_Installation/MC_IG_InstallationInstruct.html">
