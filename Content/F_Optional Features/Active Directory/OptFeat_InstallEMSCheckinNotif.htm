@@ -1,51 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="4" MadCap:lastHeight="1737" MadCap:lastWidth="887">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="2035" MadCap:lastWidth="865">
     <head><title></title>
-        <link href="../../Resources/Stylesheets/OptFeatGuide.css" rel="stylesheet" />
     </head>
     <body>
         <h1>Install EMS Check-in Notification Service</h1>
         <p>To install the EMS Email Notification Service:</p>
-        <ol start="1">
+        <ol class="number-list">
             <li>Verify that the prerequisite software is installed.</li>
-            <li>Download the&#160;EMSCheckInNotificationSetup.msi&#160;onto the server that will be running the service.</li>
-            <li>Double-click&#160;EMSCheckInNotificationSetup.msi. Follow the on-screen prompts. It is recommended that the defaults are accepted.</li>
-            <li>Within the Microsoft Windows Start menu, locate&#160;EMS Check-in Notification Service.&#160;The EMS Check-in Notification Configuration screen will appear.</li>
+            <li>Download the&#160;<span class="bold">EMSCheckInNotificationSetup.msi</span>&#160;onto the server that will be running the service.</li>
+            <li>Double-click&#160;<span class="bold">EMSCheckInNotificationSetup.msi</span>. Follow the on-screen prompts. It is recommended that the defaults are accepted.</li>
+            <li>Within the Microsoft Windows Start menu, locate&#160;<span class="bold">EMS Check-in Notification Service</span>.&#160;The EMS Check-in Notification Configuration screen will appear.<p><img src="Images/OptFeatGuide/Installing EMS Check in Notification.png" /></p></li>
+            <li>Review and complete/change the following settings:<ul class="unorder-list"><li><span class="bold">Mode</span>&#160;– Type of authentication to the SMTP server.</li><li><span class="bold">SMTP Server</span> –&#160;SMTP server name or IP address.</li><li><span class="bold">Use Gmail</span> –&#160;Check this box if the organization uses Gmail as their mail server.</li><li><span class="bold">Port Number</span> –&#160;SMTP port (default = 25)</li><li><span class="bold">Use SSL</span> –&#160;Check this option if your SMTP server runs under SSL.</li><li><span class="bold">User Name/Password</span>&#160;– Required if an authentication mode other than Unauthenticated is selected.</li><li><span class="bold">Email Interval</span> –&#160;The frequency with which the system will generate notification emails. If the interval is set to 0 minutes, the service will not function.</li></ul></li>
+            <li>In the Databases section of the dialog box, you will see a sample database and server (named ‘server’ and ‘database.’) Select this entry, click&#160;<span class="bold">Edit</span> and change the values to your EMS server and database name.<p><img src="Images/OptFeatGuide/Installing EMS Check in Notification_1.png" /></p></li>
+            <li>On the <span class="bold">Database </span>tab of the Notification Database dialog box, complete the following:<ul class="unorder-list"><li><span class="bold">Server/Database</span>&#160;– EMS server and database name</li><li><span class="bold">EMS Authentication/Windows Authentication</span>&#160;– The method of authentication to this database.</li><li><span class="bold">Email From</span> –&#160;Email address that will be displayed in the From field of notification emails that are sent.</li><li><span class="bold">Enable Service Event Logging</span>&#160;– Activates Windows event logging.</li></ul></li>
+            <li>After making your entries, click&#160;<span class="bold">OK</span>.</li>
+            <li>Click&#160;<span class="bold">OK&#160;</span>again to save your EMS Check-in Notification Configuration&#160;settings.</li>
         </ol>
-        <p>
-            <img src="Images/OptFeatGuide/Installing EMS Check in Notification.png" />
-        </p>
-        <ol start="5">
-            <li>Review and complete/change the following settings:</li>
-        </ol>
-        <ul>
-            <li>Mode&#160;– Type of authentication to the SMTP server.</li>
-            <li>SMTP Server –&#160;SMTP server name or IP address.</li>
-            <li>Use Gmail –&#160;Check this box if the organization uses Gmail as their mail server.</li>
-            <li>Port Number –&#160;SMTP port (default = 25)</li>
-            <li>Use SSL –&#160;Check this option if your SMTP server runs under SSL.</li>
-            <li>User Name/Password&#160;– Required if an authentication mode other than Unauthenticated is selected.</li>
-            <li>Email Interval –&#160;The frequency with which the system will generate notification emails. If the interval is set to 0 minutes, the service will not function.</li>
-        </ul>
-        <ol start="6">
-            <li>In the Databases section of the dialog box, you will see a sample database and server (named ‘server’ and ‘database.’) Select this entry, click&#160;Edit, and change the values to your EMS server and database name.</li>
-        </ol>
-        <p>
-            <img src="Images/OptFeatGuide/Installing EMS Check in Notification_1.png" />
-        </p>
-        <ol start="7">
-            <li>On the Database tab of the Notification Database dialog box, complete the following:</li>
-        </ol>
-        <ul>
-            <li>Server/Database&#160;– EMS server and database name</li>
-            <li>EMS Authentication/Windows Authentication&#160;– The method of authentication to this database.</li>
-            <li>Email From –&#160;Email address that will be displayed in the From field of notification emails that are sent.</li>
-            <li>Enable Service Event Logging&#160;– Activates Windows event logging.</li>
-        </ul>
-        <ol start="8">
-            <li>After making your entries, click&#160;OK.</li>
-            <li>Click&#160;OK&#160;again to save your EMS Check-in Notification Configuration&#160;settings.</li>
-        </ol>
-        <p>Note:&#160;If any issues are encountered starting the service, please visit the online Support Center for a possible solution or call Customer Support.</p>
+        <div class="notifications">
+            <p class="note-box note"><span class="bold">Note:</span>&#160;If any issues are encountered starting the service, please visit the online Support Center for a possible solution or call Customer Support.</p>
+        </div>
     </body>
 </html>
