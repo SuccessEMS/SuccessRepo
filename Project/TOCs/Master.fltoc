@@ -1946,7 +1946,8 @@
             Title="Fields in the Reservation Wizard"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_FieldsinResWiz.htm" />
           <TocEntry
-            Title="The Everyday User Reservations Browser">
+            Title="The Everyday User Reservations Browser"
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EverydayUserReservBrowser.htm">
             <TocEntry
               Title="Search Using the Everyday User Reservations Browser"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchEverydayUserBrow.htm" />
@@ -1959,7 +1960,8 @@
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BookingaVC.html" />
         </TocEntry>
         <TocEntry
-          Title="The Browser">
+          Title="The Browser"
+          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Browser.htm">
           <TocEntry
             Title="Search with the Browser"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithBrowser.html" />
@@ -3486,7 +3488,8 @@
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ApprovDenyReservReq.html" />
           </TocEntry>
           <TocEntry
-            Title="The Calendar">
+            Title="The Calendar"
+            Link="/Content/2WebApp/A_V44.1/C_UserGuide/DC_UG_Calendar.htm">
             <TocEntry
               Title="Search with the Calendar"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithCalendar.html" />
@@ -3495,12 +3498,14 @@
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithResourCal.html" />
           </TocEntry>
           <TocEntry
-            Title="The Reservation Wizard">
+            Title="The Reservation Wizard"
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ReservationWizard.htm">
             <TocEntry
               Title="Fields in the Reservation Wizard"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_FieldsinResWiz.htm" />
             <TocEntry
-              Title="The Everyday User Reservations Browser">
+              Title="The Everyday User Reservations Browser"
+              Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EverydayUserReservBrowser.htm">
               <TocEntry
                 Title="Search Using the Everyday User Reservations Browser"
                 Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchEverydayUserBrow.htm" />
@@ -3513,7 +3518,8 @@
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BookingaVC.html" />
           </TocEntry>
           <TocEntry
-            Title="The Browser">
+            Title="The Browser"
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Browser.htm">
             <TocEntry
               Title="Search with the Browser"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithBrowser.html" />
