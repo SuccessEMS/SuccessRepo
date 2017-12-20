@@ -59,8 +59,7 @@
     Title="When Should I Use EMS Web App Instead of EMS for Outlook?"
     Link="/Content/Learn About Our Applications/When Should I Use EMS Web.htm" />
   <TocEntry
-    Title="Integration Diagram"
-    Link="/Content/Learn About Our Applications/Integration Diagram.htm" />
+    Title="Integration Diagram" />
   <TocEntry
     Title="Toolkits and Data Integration Services"
     Link="/Content/Learn About Our Applications/Toolkits and Data Integration.htm" />
