@@ -3,8 +3,7 @@
   Version="1"
   sourceDocument="D:\Learn About Our Applications\Learn About Our Applications.docx">
   <TocEntry
-    Title="Learn About Our Applications"
-    Link="/Content/Learn About Our Applications/Learn About Our Applications.htm" />
+    Title="Learn About Our Applications" />
   <TocEntry
     Title="General FAQs"
     Link="/Content/Learn About Our Applications/General FAQs.htm" />
@@ -82,8 +81,7 @@
     Title="Digital Signage: Video Displays, Tablets, and Room Signs"
     Link="/Content/Learn About Our Applications/Digital Signage Video Displays.htm" />
   <TocEntry
-    Title="Learn About Managing EMS"
-    Link="/Content/Learn About Our Applications/Learn About Managing EMS.htm" />
+    Title="Learn About Managing EMS" />
   <TocEntry
     Title="EMS Application Architecture"
     Link="/Content/Learn About Our Applications/EMS Application Architecture.htm" />
@@ -137,8 +135,7 @@
     Title="What is RoomWizard Integration?"
     Link="/Content/Learn About Our Applications/What is RoomWizard Integration.htm" />
   <TocEntry
-    Title="Learn About Our Applications_1"
-    Link="/Content/Learn About Our Applications/Learn About Our Applications_1.htm" />
+    Title="Learn About Our Applications_1" />
   <TocEntry
     Title="Watch Video Tutorials"
     Link="/Content/Learn About Our Applications/Watch Video Tutorials.htm" />
