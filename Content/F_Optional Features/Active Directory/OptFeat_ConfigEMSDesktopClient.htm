@@ -1,36 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="5" MadCap:lastHeight="1357" MadCap:lastWidth="874">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="1619" MadCap:lastWidth="865">
     <head><title></title>
-        <link href="../../Resources/Stylesheets/OptFeatGuide.css" rel="stylesheet" />
     </head>
     <body>
         <h1>Configure EMS Desktop Client</h1>
-        <ol start="1">
-            <li>Go to an EMS desktop client user’s PC and open the Registry Editor.&#160;</li>
-        </ol>
-        <p>Warning:&#160;Registry changes can cause irreversible damage if done incorrectly.</p>
-        <ol start="2">
-            <li>Locate and expand&#160;HKEY_CURRENT_USER.&#160;</li>
-            <li>Locate and expand&#160;Software.&#160;</li>
-            <li>Locate and expand&#160;Dean Evans and Associates&#160;if you use EMS V43 or V44, or&#160;EMS Software&#160;if you use V44.1.&#160;</li>
-            <li>Navigate to and select your EMS product folder (e.g. EMS Workplace 6.0).&#160;</li>
-        </ol>
-        <p>
-            <img src="Images/OptFeatGuide/Configuring EMS Desktop Client_1.png" />
-        </p>
-        <ol start="6">
-            <li>Right-click, select&#160;New, and add a&#160;DWORD (32-bit) Value.&#160;</li>
-        </ol>
-        <p>
-            <img src="Images/OptFeatGuide/Configuring EMS Desktop Client_2.png" />
-        </p>
-        <ol start="7">
-            <li>Rename the&#160;New Value #1&#160;entry to&#160;UseAuthentication.&#160;</li>
-            <li>Modify the&#160;Value&#160;data field to 1.&#160;</li>
-        </ol>
-        <p>&#160;&#160;
-		<img src="Images/OptFeatGuide/Configuring EMS Desktop Client_3.png" /></p>
-        <ol start="9">
+        <ol class="number-list">
+            <li>Go to an EMS desktop client user’s PC and open the Registry Editor.&#160;<div class="notifications"><p class="note-box warning"><span class="bold">Warning:</span>&#160;Registry changes can cause irreversible damage if done incorrectly.</p></div></li>
+            <li>Locate and expand&#160;<span class="bold">HKEY_CURRENT_USER</span>.&#160;</li>
+            <li>Locate and expand&#160;<span class="bold">Software</span>.&#160;</li>
+            <li>Locate and expand&#160;EMS&#160;Software if you use V44.1, or <span class="bold">Dean Evans and Associates</span>&#160;if you use EMS V43 or V44.&#160;</li>
+            <li>Navigate to and select your EMS product folder (e.g. EMS Workplace 6.0).&#160;<p><img src="Images/OptFeatGuide/Configuring EMS Desktop Client_1.png" /></p></li>
+            <li>Right-click, select&#160;<span class="bold">New</span>, and add a&#160;<span class="bold">DWORD (32-bit) Value</span>.&#160;<p><img src="Images/OptFeatGuide/Configuring EMS Desktop Client_2.png" /></p></li>
+            <li>Rename the&#160;<span class="bold">New Value #1</span>&#160;entry to&#160;<span class="bold">UseAuthentication</span>.&#160;</li>
+            <li>Modify the&#160;<span class="bold">Value&#160;</span>data field to 1.&#160;<p>&#160;&#160;
+		<img src="Images/OptFeatGuide/Configuring EMS Desktop Client_3.png" /></p></li>
             <li>Launch your EMS Desktop Client&#160;application to verify connectivity.&#160;</li>
         </ol>
     </body>
