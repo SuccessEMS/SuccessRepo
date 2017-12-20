@@ -1930,7 +1930,8 @@
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ApprovDenyReservReq.html" />
         </TocEntry>
         <TocEntry
-          Title="The Calendar">
+          Title="The Calendar"
+          Link="/Content/2WebApp/A_V44.1/C_UserGuide/DC_UG_Calendar.htm">
           <TocEntry
             Title="Search with the Calendar"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithCalendar.html" />
@@ -1939,7 +1940,8 @@
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithResourCal.html" />
         </TocEntry>
         <TocEntry
-          Title="The Reservation Wizard">
+          Title="The Reservation Wizard"
+          Link="/Content/1DesktopClient/V44.1/C_UserGuide/The Reservation Wizard.htm">
           <TocEntry
             Title="Fields in the Reservation Wizard"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_FieldsinResWiz.htm" />
