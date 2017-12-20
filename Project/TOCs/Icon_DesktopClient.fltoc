@@ -1179,7 +1179,8 @@
             Title="Configure Word Merge Documents"
             Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigWordMergeDoc.html" />
           <TocEntry
-            Title="Configure Calendar Styles" />
+            Title="Configure Calendar Styles"
+            Link="/Content/1DesktopClient/44/CG_44/DC_CG_44_ConfigCalendarStyles.html" />
         </TocEntry>
         <TocEntry
           Title="System Administration Configuration &gt; Settings"
@@ -1326,7 +1327,7 @@
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_UserSettings.html" />
         <TocEntry
           Title="Reservations and Bookings"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ReservandBookings.html"></TocEntry>
+          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ReservandBookings.html" />
         <TocEntry
           Title="Other Reservation Functions"
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_OtherResFunctions.html">
@@ -1335,7 +1336,7 @@
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_RecActAttend.html" />
           <TocEntry
             Title="Manage Attendees and Visitors"
-            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ManageAttendeesVisitor.html"></TocEntry>
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ManageAttendeesVisitor.html" />
           <TocEntry
             Title="View Visitors"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ViewVisitors.htm" />
@@ -1364,7 +1365,7 @@
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_UseReservationBook.html">
           <TocEntry
             Title="Create a Booking in the Reservation Book"
-            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BookRoomsResBook.html"></TocEntry>
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BookRoomsResBook.html" />
           <TocEntry
             Title="View and Edit Reservations in the Reservation Book"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ViewEditReservinResBook.htm" />
@@ -1380,10 +1381,10 @@
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResNavigator.htm">
           <TocEntry
             Title="Overview of the Navigator"
-            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_NavigatorOverview.html"></TocEntry>
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_NavigatorOverview.html" />
           <TocEntry
             Title="Get Familiar with the Navigator"
-            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GetFamwithNav.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GetFamwithNav.html" />
           <TocEntry
             Title="Edit a Reservation in the Navigator"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditResinNav.html" />
@@ -1428,7 +1429,7 @@
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AddItemstoMultBook.html" />
             <TocEntry
               Title="Edit Booking Detail Items for Individual Bookings"
-              Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditItemsforIndividBook.html"></TocEntry>
+              Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditItemsforIndividBook.html" />
             <TocEntry
               Title="Copy Booking Details Between Bookings"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetBetwBookings.htm" />
@@ -1452,7 +1453,7 @@
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetailsWzd.html" />
             <TocEntry
               Title="Delete Booking Details Wizard"
-              Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsWzd.html"></TocEntry>
+              Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsWzd.html" />
             <TocEntry
               Title="Delete Item Wizard"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteItemWizard.html" />
@@ -1484,7 +1485,8 @@
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ApprovDenyReservReq.html" />
         </TocEntry>
         <TocEntry
-          Title="The Calendar">
+          Title="The Calendar"
+          Link="/Content/2WebApp/A_V44.1/C_UserGuide/DC_UG_Calendar.htm">
           <TocEntry
             Title="Search with the Calendar"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithCalendar.html" />
@@ -1493,12 +1495,14 @@
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithResourCal.html" />
         </TocEntry>
         <TocEntry
-          Title="The Reservation Wizard">
+          Title="The Reservation Wizard"
+          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ReservationWizard.htm">
           <TocEntry
             Title="Fields in the Reservation Wizard"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_FieldsinResWiz.htm" />
           <TocEntry
-            Title="The Everyday User Reservations Browser">
+            Title="The Everyday User Reservations Browser"
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EverydayUserReservBrowser.htm">
             <TocEntry
               Title="Search Using the Everyday User Reservations Browser"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchEverydayUserBrow.htm" />
@@ -1511,7 +1515,8 @@
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BookingaVC.html" />
         </TocEntry>
         <TocEntry
-          Title="The Browser">
+          Title="The Browser"
+          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Browser.htm">
           <TocEntry
             Title="Search with the Browser"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithBrowser.html" />
@@ -1648,7 +1653,7 @@
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_OverviewBilling.html" />
           <TocEntry
             Title="Search for Transactions"
-            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchforTransactions.html"></TocEntry>
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchforTransactions.html" />
           <TocEntry
             Title="Apply Calculations to Billing -- Add to Billing Topic. This is a placeholder"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ApplyCalcultoBilling.html" />
@@ -1682,7 +1687,7 @@
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Confirmations.html">
           <TocEntry
             Title="Send Confirmations"
-            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SendConfirmations.html"></TocEntry>
+            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SendConfirmations.html" />
           <TocEntry
             Title="Generate a Single Confirmation at a Time"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GenSingConfirmatTime.html" />
@@ -1721,13 +1726,14 @@
   <TocEntry
     Title="Release Notes">
     <TocEntry
-      Title="Release Notes V44.1"></TocEntry>
+      Title="Release Notes V44.1"
+      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />
     <TocEntry
-      Title="Release Notes V44"></TocEntry>
+      Title="Release Notes V44"
+      Link="/Content/C_Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm" />
     <TocEntry
-      Title="Release Notes V43" />
-    <TocEntry
-      Title="Release Notes V8" />
+      Title="Release Notes V43"
+      Link="/Content/C_Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
   </TocEntry>
   <TocEntry
     Title="Video Tutorials"
@@ -1781,85 +1787,92 @@
       Link="/Content/F_Optional Features/2_EMS_API_Home.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_Introduction.htm">
         <TocEntry
           Title="Process Overview"
           Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ProcessOverview.html" />
         <TocEntry
           Title="Technical Benefits"
-          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_TechnicalBenefits.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_TechnicalBenefits.htm" />
       </TocEntry>
       <TocEntry
         Title="Hardware and Software Requirements"
-        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_HardwareSoftwareReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_HardwareSoftwareReqs.htm" />
       <TocEntry
         Title="EMS API Requirements and Licensing"
-        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_APIReqsLicensing.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_APIReqsLicensing.htm" />
       <TocEntry
         Title="Obtain the EMS API Web Service Installation Files"
-        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ObtainAPIWebServInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ObtainAPIWebServInstallFiles.htm" />
       <TocEntry
         Title="Install or Upgrade Database Components"
-        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_InstallUpgradeDatabaseComponents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_InstallUpgradeDatabaseComponents.htm" />
       <TocEntry
         Title="Install or Upgrade the EMS API Web Service"
-        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_InstallUpgradeAPIWebServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_InstallUpgradeAPIWebServ.htm" />
       <TocEntry
         Title="Configure and Verify EMS for EMS API Web Service Use"
-        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ConfigVerifyEMSAPIWebServUse.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ConfigVerifyEMSAPIWebServUse.htm" />
       <TocEntry
         Title="EMS API Functions"
         Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_EMSAPIfunctions.html" />
       <TocEntry
         Title="Release Notes"
-        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ReleaseNotes.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ReleaseNotes.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Floor Plan"
       Link="/Content/F_Optional Features/3_EMS_FloorPlansHome.htm">
       <TocEntry
-        Title="Floor Plan Installation Guide">
+        Title="Introduction"
+        Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Introduction.htm">
         <TocEntry
-          Title="Introduction"
-          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-          <TocEntry
-            Title="Requirements"
-            Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Requirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        </TocEntry>
-        <TocEntry
-          Title="Obtain Floor Plans Installation Files"
-          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_ObtainFPInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Install Floor Plans Components"
-          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallFloorPlanComponents.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-          <TocEntry
-            Title="Install or Upgrade the Floor Plan Web Service"
-            Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPWebService.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-          <TocEntry
-            Title="Install or Upgrade the Floor Plan Configuration Tool"
-            Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPConfigTool.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        </TocEntry>
-        <TocEntry
-          Title="Upload, Configure, and View Floorplans"
-          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Requirements"
+          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Requirements.htm" />
       </TocEntry>
       <TocEntry
-        Title="Floor Plan Configuration Guide">
-        <TocEntry
-          Title="Introduction"
-          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Hardware and Software Requirements"
-          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_HardwareSoftwareReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Title="Obtain Floor Plans Installation Files"
+        Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_ObtainFPInstallFiles.htm" />
+      <TocEntry
+        Title="Install Floor Plans Components"
+        Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallFloorPlanComponents.htm">
         <TocEntry
           Title="Install or Upgrade the Floor Plan Web Service"
-          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_InstallUpgradeFPWebServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPWebService.htm" />
         <TocEntry
-          Title="Install or Upgrade the Floor Plans Configuration Utility"
-          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_InstallUpgradeFPConfigUtility.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Install or Upgrade the Floor Plan Configuration Tool"
+          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPConfigTool.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Upload, Configure, and View Floorplans"
+        Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" />
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
         <TocEntry
-          Title="Floor Plan Configuration Steps"
-          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_FPConfigSteps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -1867,62 +1880,62 @@
       Link="/Content/F_Optional Features/4_EMS_Facility_Management_Toolkit_Home.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_Introduction.htm">
         <TocEntry
           Title="How It Works"
-          Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_HowItWorks.htm" />
       </TocEntry>
       <TocEntry
         Title="Installation Overview"
-        Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_InstallOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_InstallOverview.htm" />
       <TocEntry
         Title="Obtain the Installation Files"
-        Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_ObtainInstallFiles.htm" />
       <TocEntry
         Title="Install and Execute the Facility Management Toolkit"
-        Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_InstallExecuteFMToolkit.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_InstallExecuteFMToolkit.htm" />
     </TocEntry>
     <TocEntry
       Title="EMS Human Resources Toolkit"
       Link="/Content/F_Optional Features/5_EMS_HumanResourcesToolkitHome.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" />
       <TocEntry
         Title="Installation Overview"
-        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" />
       <TocEntry
         Title="Obtain the Installation Files"
-        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" />
       <TocEntry
         Title="How It Works"
-        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm">
         <TocEntry
           Title="How HR Toolkit Integrates Your User Records"
-          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" />
         <TocEntry
           Title="Align Your Source Data for HR Toolkit"
-          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_AlignSourceData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_AlignSourceData.htm" />
         <TocEntry
           Title="Configure EMS Web App for HR Toolkit"
-          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" />
         <TocEntry
           Title="Upgrade Considerations"
-          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" />
       </TocEntry>
       <TocEntry
         Title="Install HR Toolkit for the Group/Group Type Model"
-        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_InstallforGroupGroupTypeModel.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_InstallforGroupGroupTypeModel.htm">
         <TocEntry
           Title="Import Group/Group Type Data"
-          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ImportGroupGroupTypeData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ImportGroupGroupTypeData.htm" />
       </TocEntry>
       <TocEntry
         Title="Install HR Toolkit for the Groups/Contacts or Hybrid Model"
-        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_InstallforGroupContactHybridModel.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_InstallforGroupContactHybridModel.htm">
         <TocEntry
           Title="Import Group/Contact or Hybrid Data"
-          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -1930,60 +1943,95 @@
       Link="/Content/F_Optional Features/8_Active DirectoryHome.htm">
       <TocEntry
         Title="Connect to Your Database Using Active Directory"
-        Link="/Content/F_Optional Features/Active Directory/OptFeat_ConnectToYourDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_ConnectToYourDatabase.htm">
         <TocEntry
           Title="Pre-Installation Requirements"
-          Link="/Content/F_Optional Features/Active Directory/OptFeat_Pre-InstallReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_Pre-InstallReqs.htm" />
         <TocEntry
           Title="Configure Your EMS Database"
-          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConfigYourEMSDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConfigYourEMSDatabase.htm" />
         <TocEntry
           Title="Configure EMS Desktop Client"
-          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConfigEMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConfigEMSDesktopClient.htm" />
         <TocEntry
           Title="Connect Your EMS Web-Based Applications"
-          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConnectYourEMSWebBasedApps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConnectYourEMSWebBasedApps.htm" />
         <TocEntry
           Title="Finalize Your Database Connection"
-          Link="/Content/F_Optional Features/Active Directory/OptFeat_FinalizeYourDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_FinalizeYourDatabaseCon.htm" />
         <TocEntry
           Title="Manage Database Connections With EMS Services"
-          Link="/Content/F_Optional Features/Active Directory/OptFeat_ManageDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_ManageDatabaseCon.htm" />
       </TocEntry>
       <TocEntry
         Title="How Do I Translate EMS To Another Language?"
-        Link="/Content/F_Optional Features/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" />
       <TocEntry
         Title="Install EMS Check-in Notification Service"
-        Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSCheckinNotif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSCheckinNotif.htm" />
       <TocEntry
         Title="Install or Upgrade the EMS Email Notification Service"
-        Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallUpgradeEMSEmailNotif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallUpgradeEMSEmailNotif.htm" />
       <TocEntry
         Title="Install the EMS Automated Report Service"
-        Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" />
     </TocEntry>
     <TocEntry
       Title="CISCO TMS Interface"
       Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
+        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Introduction.htm" />
       <TocEntry
         Title="Obtain the Installation Files "
-        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ObtainInstallFiles.htm" />
       <TocEntry
         Title="Install the Database"
-        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_InstallDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_InstallDatabase.htm" />
       <TocEntry
         Title="Install the EMS - Cisco TMS Service"
-        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_InstallCiscoTMSservice.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_InstallCiscoTMSservice.htm" />
       <TocEntry
         Title="Install the Cisco TMS Activity DLL"
-        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_InstallCiscoTMSActDLL.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_InstallCiscoTMSActDLL.htm" />
       <TocEntry
         Title="Configure the EMS - Cisco TMS Interface"
-        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ConfigCiscoTMSinterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ConfigCiscoTMSinterface.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS RoomWizard Integration"
+      Link="/Content/F_Optional Features/8_Room_Wizard_Home.htm">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_Introduction.htm" />
+      <TocEntry
+        Title="System Requirements"
+        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_SystemRequirements.htm" />
+      <TocEntry
+        Title="Obtain the Installation Files"
+        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_ObtainInstallFiles.htm" />
+      <TocEntry
+        Title="Install EMS - RoomWizard Interface"
+        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_InstallRWinterface.htm" />
+      <TocEntry
+        Title="Install EMS -RoomWizard Interface Website"
+        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_InstallRWInterWebsite.htm" />
+      <TocEntry
+        Title="Configure the EMS RoomWizard Interface"
+        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_ConfigEMSRW.htm">
+        <TocEntry
+          Title="Data Transferred Between Units and the Interface"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_DataTransBetweenUnits.htm" />
+        <TocEntry
+          Title="Room Wizard Communication"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_RWCommunication.htm" />
+        <TocEntry
+          Title="Security Considerations"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_SecurityConsiderations.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Steelcase RoomWizard"
+        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_ConfigSteelcaseRW.htm" />
     </TocEntry>
     <TocEntry
       Title="Polycom Integration"
@@ -1999,7 +2047,7 @@
           Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_Requirements.html" />
         <TocEntry
           Title="Integration Diagram"
-          Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_IntegrationDiagram.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_IntegrationDiagram.htm" />
       </TocEntry>
       <TocEntry
         Title="Obtain the Installation Files"
@@ -2012,7 +2060,7 @@
         Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_InstallUpgradePolycomService.html" />
       <TocEntry
         Title="Configure the EMS Polycom Interface"
-        Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_ConfigPolycomInterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_ConfigPolycomInterface.htm">
         <TocEntry
           Title="Install the Polycom Activity DLL on Users' Machines"
           Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_InstallPolycomActivityDLL.html" />
@@ -2023,40 +2071,6 @@
           Title="Advanced EMS Polycom Interface Configuration"
           Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html" />
       </TocEntry>
-    </TocEntry>
-    <TocEntry
-      Title="EMS RoomWizard Integration">
-      <TocEntry
-        Title="Introduction"
-        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>
-      <TocEntry
-        Title="System Requirements"
-        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_SystemRequirements.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Obtain the Installation Files"
-        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_ObtainInstallFiles.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Install EMS - RoomWizard Interface"
-        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_InstallRWinterface.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Install EMS -RoomWizard Interface Website"
-        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_InstallRWInterWebsite.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Configure the EMS RoomWizard Interface"
-        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_ConfigEMSRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
-        <TocEntry
-          Title="Data Transferred Between Units and the Interface"
-          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_DataTransBetweenUnits.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Room Wizard Communication"
-          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_RWCommunication.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-        <TocEntry
-          Title="Security Considerations"
-          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_SecurityConsiderations.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
-      <TocEntry
-        Title="Configure Steelcase RoomWizard"
-        Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_ConfigSteelcaseRW.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
       Title="Integrated Authentication Options"
