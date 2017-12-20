@@ -244,9 +244,10 @@
         Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAttachmentType.html" />
       <TocEntry
         Title="Configure Word Merge Documents"
-        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigWordMergeDoc.html" />
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigWordMergeDoc.html"></TocEntry>
       <TocEntry
-        Title="Configure Calendar Styles" />
+        Title="Configure Calendar Styles"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html" />
     </TocEntry>
     <TocEntry
       Title="Configuration &gt; Everyday User Applications"
@@ -526,390 +527,510 @@
   </TocEntry>
   <TocEntry
     Title="Expert User Guide for EMS Desktop Client"
-    Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Introduction.html">
+    Link="/Content/B_Configuration Guides/2_EMS_Desktop_Client_CG.htm">
     <TocEntry
-      Title="Introduction to EMS Desktop Client"
-      Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html" />
+      Title="Starting EMS"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_StartingEMS.html" />
     <TocEntry
-      Title="Launch EMS Desktop Client"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_StartEMS.html" />
+      Title="Overview of EMS Desktop Client Configuration"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewofDCConfig.htm" />
     <TocEntry
-      Title="Manage Database Connections"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ManageDBConn.html" />
+      Title="Authentication Options for EMS Desktop Client"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_AuthenticationOptions.html" />
     <TocEntry
-      Title="User Settings"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_UserSettings.html" />
+      Title="EMS Main Window"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSMainWindow.html" />
     <TocEntry
-      Title="Reservations and Bookings"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ReservandBookings.html"></TocEntry>
+      Title="EMS Browser Window"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSBrowserWindow.htm" />
     <TocEntry
-      Title="Other Reservation Functions"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_OtherResFunctions.html">
+      Title="Configuration &gt; Facililties"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFacil.html">
       <TocEntry
-        Title="Record Actual Attendance Numbers for Bookings"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_RecActAttend.html" />
-      <TocEntry
-        Title="Manage Attendees and Visitors"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ManageAttendeesVisitor.html"></TocEntry>
-      <TocEntry
-        Title="View Visitors"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ViewVisitors.htm" />
-      <TocEntry
-        Title="Check In Visitors"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CheckInVisitors.htm" />
-      <TocEntry
-        Title="Import a List of Visitors"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ImportListVis.html" />
-    </TocEntry>
-    <TocEntry
-      Title="The EMS Window"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EMSWindow.html">
-      <TocEntry
-        Title="Work with the EMS Window"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithEMSWindow.htm" />
-      <TocEntry
-        Title="Toolbar Buttons"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ToolbarButtons.html" />
-      <TocEntry
-        Title="Customizing Your Toolbar"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CustomizeToolbar.html" />
-    </TocEntry>
-    <TocEntry
-      Title="The Reservation Book"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_UseReservationBook.html">
-      <TocEntry
-        Title="Create a Booking in the Reservation Book"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BookRoomsResBook.html"></TocEntry>
-      <TocEntry
-        Title="View and Edit Reservations in the Reservation Book"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ViewEditReservinResBook.htm" />
-      <TocEntry
-        Title="Edit a Reservation in the Reservation Book"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditResinResBook.htm" />
-      <TocEntry
-        Title="Import a List of Visitors to a Booking"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ImportListVis.html" />
-    </TocEntry>
-    <TocEntry
-      Title="The Navigator"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResNavigator.htm">
-      <TocEntry
-        Title="Overview of the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_NavigatorOverview.html"></TocEntry>
-      <TocEntry
-        Title="Get Familiar with the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GetFamwithNav.html" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Edit a Reservation in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditResinNav.html" />
-      <TocEntry
-        Title="Add Bookings to a Reservation in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AddBooktoResinNav.html" />
-      <TocEntry
-        Title="Copy a Reservation in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyResinNav.html" />
-      <TocEntry
-        Title="Change the Status of a Reservation in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ChangeStatusResfromResSum.html" />
-      <TocEntry
-        Title="Reprice Categories and Room Charges for a Reservation in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
-      <TocEntry
-        Title="Apply a Reservation Discount"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ApplyReservDiscount.html" />
-      <TocEntry
-        Title="Edit a Booking in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditBookinNav.html" />
-      <TocEntry
-        Title="Edit Multiple Bookings in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditMultipleBookinNav.html" />
-      <TocEntry
-        Title="Move Bookings to a Different Reservation in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_MoveBooktoDifRes.html" />
-      <TocEntry
-        Title="Copy Multiple Bookings in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyMultipleBookinNav.html" />
-      <TocEntry
-        Title="Booking Details and Items Overview"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BookDetailsItemsOverview.htm">
+        Title="Overview of Configuring Rooms"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRooms.html">
         <TocEntry
-          Title="Add Booking Details and Items to Individual Bookings"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AddBookDetItemtoIndivBookings.htm" />
+          Title="Configure Rooms"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRooms.html" />
         <TocEntry
-          Title="Add Booking Details and Items to Existing Bookings"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AddBookDetsItemstoExistBook.html" />
+          Title="Room Configuration Wizard"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomConfigWiz.htm" />
         <TocEntry
-          Title="Add Booking Details and Items to Multiple Bookings"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AddItemstoMultBook.html" />
+          Title="Configure Room Pricing"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomPricing.htm" />
         <TocEntry
-          Title="Edit Booking Detail Items for Individual Bookings"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditItemsforIndividBook.html"></TocEntry>
+          Title="Configure Override Rooms"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigOverrideRooms.htm" />
         <TocEntry
-          Title="Copy Booking Details Between Bookings"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetBetwBookings.htm" />
+          Title="Configure and Generate Room QR Codes"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGenerRoomQRCode.htm" />
         <TocEntry
-          Title="Delete Booking Detail Items from Multiple Bookings"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetItemMultBook.htm" />
-        <TocEntry
-          Title="Delete Booking Details from Multiple Bookings"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsMultBook.htm" />
-        <TocEntry
-          Title="Edit Charges for Multiple Billable Items"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditChargforMultpBillItem.html" />
-        <TocEntry
-          Title="Edit Count Information for a Booking in the Navigator"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EditCountInfoforBook.html" />
-        <TocEntry
-          Title="Add Booking Details Wizard"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AddBookDetailsWizard.htm" />
-        <TocEntry
-          Title="Copy Booking Details Wizard"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetailsWzd.html" />
-        <TocEntry
-          Title="Delete Booking Details Wizard"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsWzd.html"></TocEntry>
-        <TocEntry
-          Title="Delete Item Wizard"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteItemWizard.html" />
-        <TocEntry
-          Title="Add Item Wizard"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AddItemWizard.htm" />
+          Title="Import Rooms"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportRooms.htm" />
       </TocEntry>
       <TocEntry
-        Title="Comments and Reminders in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CommRemindinNav.html">
+        Title="Configure Buildings"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuilding.html" />
+      <TocEntry
+        Title="Configure Building Hours"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuildingHours.html">
         <TocEntry
-          Title="Add Multiple Comments and Reminders to a Reservation"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AddMultCommRemintoRes.htm" />
+          Title="Building Hours Wizard"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_BuildHourWiz.htm" />
       </TocEntry>
       <TocEntry
-        Title="User-Defined Fields in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_UserDefFieldsinNav.html" />
+        Title="Configure Areas"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAreas.html" />
       <TocEntry
-        Title="Attachments in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AttachmentsinNav.html" />
+        Title="Configure Room Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRoomType.html" />
       <TocEntry
-        Title="Drawings in the Navigator"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DrawingsinNav.html" />
+        Title="Configure Setup Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigSetupType.html" />
       <TocEntry
-        Title="Resource Utility Conflicts Tool"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_RunResourceUtility.html" />
+        Title="Configure Features"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFeatures.html" />
       <TocEntry
-        Title="Approve or Deny Reservation Requests"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ApprovDenyReservReq.html" />
+        Title="Configure Floors"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloors.html" />
+      <TocEntry
+        Title="Configure Floor Plans"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloorPlans.html" />
+      <TocEntry
+        Title="Configure Public Views"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigPublicViews.html" />
     </TocEntry>
     <TocEntry
-      Title="The Calendar">
+      Title="Configuration &gt; Resources"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRes.html">
       <TocEntry
-        Title="Search with the Calendar"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithCalendar.html" />
+        Title="Categories, Resources, Services - What's the Difference?"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm" />
       <TocEntry
-        Title="Search with the Resource Calendar"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithResourCal.html" />
-    </TocEntry>
-    <TocEntry
-      Title="The Reservation Wizard">
-      <TocEntry
-        Title="Fields in the Reservation Wizard"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_FieldsinResWiz.htm" />
-      <TocEntry
-        Title="The Everyday User Reservations Browser">
+        Title="Configure Resources for a Category"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigResourcesforCat.html">
         <TocEntry
-          Title="Search Using the Everyday User Reservations Browser"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchEverydayUserBrow.htm" />
+          Title="Resource Configuration Wizard"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ResourceConfigWiz.htm" />
       </TocEntry>
       <TocEntry
-        Title="Create a Reservation in the Reservation Wizard"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CreateResinResWizard.htm" />
+        Title="Import Resources for a Category"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResforCat.htm" />
       <TocEntry
-        Title="Book a Video Conference"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BookingaVC.html" />
+        Title="Define Resource Selections and Selection Items"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineResourceSel.htm" />
+      <TocEntry
+        Title="Configure Services for a Category"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigureServicesforCat.htm" />
+      <TocEntry
+        Title="Configure Groupings for a Resource"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigGroupingsResource.html" />
+      <TocEntry
+        Title="Define Production Areas and Production Items for a Catering Resource"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineProdAreaItems.htm" />
+      <TocEntry
+        Title="Configure Pricing for a Resource in the Edit Pricing Window"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingResourceEditPriceWin.htm" />
+      <TocEntry
+        Title="Export Pricing Information for a Resource"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricInfo.htm" />
     </TocEntry>
     <TocEntry
-      Title="The Browser">
+      Title="Configuration &gt; Billing"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBilling.htm">
       <TocEntry
-        Title="Search with the Browser"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithBrowser.html" />
+        Title="Configure Rate Schedules"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRateSchedule.htm" />
+      <TocEntry
+        Title="Configure Pricing Plans"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingPlan.htm" />
+      <TocEntry
+        Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricingInfoBillableItems.htm" />
+      <TocEntry
+        Title="Configure Calculations"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalc.htm" />
+      <TocEntry
+        Title="Configure Accounts"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAccount.htm" />
+      <TocEntry
+        Title="Configure Payment Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPaymentType.htm" />
+      <TocEntry
+        Title="Configure Sales Categories"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSalesCat.htm" />
+      <TocEntry
+        Title="Configure Billing References and PO Numbers"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBillRefPO.htm" />
+      <TocEntry
+        Title="Establishing Billing Reference and PO Behavior"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EstablishBillingRef.htm" />
+      <TocEntry
+        Title="Configure Currencies"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCurrencies.htm" />
     </TocEntry>
     <TocEntry
-      Title="People: Groups and Contacts"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_PeopleGroupsContacts.html">
+      Title="Configuration &gt; Administration"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAdmin.htm">
       <TocEntry
-        Title="Search for People"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchforPeople.html" />
-      <TocEntry
-        Title="Add or Edit Profile Information for People and Groups"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkInfoAboutGroupsIndiv.html" />
-      <TocEntry
-        Title="Create an Everyday User from a Group"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CreateEverydayUserfromGroup.htm" />
-      <TocEntry
-        Title="Assign an Everyday User to a Group"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AssignEverydayUserstoGroup.html" />
-      <TocEntry
-        Title="Configure Contacts for a Group"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ConfigContactsforGroup.html" />
-      <TocEntry
-        Title="Import Groups"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ImportGroups.html" />
-      <TocEntry
-        Title="Print and Export Everyday User Information"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_PrintExportEverdayUserInfo.html" />
-      <TocEntry
-        Title="Print and Export Group Information"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_PrintExportGroupInfo.html" />
-      <TocEntry
-        Title="Work with Reservations for a Group"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResGroup.htm" />
-      <TocEntry
-        Title="Email a Group"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EmailaGroup.htm" />
-    </TocEntry>
-    <TocEntry
-      Title="The Dashboard"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_UseDashboard.html">
-      <TocEntry
-        Title="Overview of the EMS Dashboard"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkWithDashboard.html" />
-      <TocEntry
-        Title="Notifications Tab"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_NotificationsTab.html">
+        Title="Configure Categories"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCategory.html">
         <TocEntry
-          Title="Confirmations Vs Notifications: What Is the Difference?"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ConfirmVsNotifWhatDiff.html" />
+          Title="Enable Visitor Management"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EnableVisitorMgmt.htm" />
       </TocEntry>
       <TocEntry
-        Title="Reminders Tab"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_RemindersTab.htm" />
+        Title="Configure Departments"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigDepts.htm" />
       <TocEntry
-        Title="Everyday User Reservations Tab"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EverydayUserReservationsTab.html" />
+        Title="Configure Statuses"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigStatuses.htm" />
       <TocEntry
-        Title="Guest Requests Tab"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GuestRequestsTab.html">
+        Title="Configure Notification Rules"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigNotRules.htm">
         <TocEntry
-          Title="Manage Requests for Managed Space"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ManageReqMangedSpace.html" />
+          Title="Types of Notification Rules"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_TypesNotifiRules.htm" />
       </TocEntry>
       <TocEntry
-        Title="Wait List Tab"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WaitListTab.html" />
+        Title="Configure Group Notification Rules"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupNot.htm" />
       <TocEntry
-        Title="Reconfirm Dates Tab"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ReconfirmDatesTab.html" />
+        Title="Configure Check-in Notification Rules"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCheckinNot.htm" />
       <TocEntry
-        Title="Building Hours Exceptions Tab"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BuildHoursExceptTab.html" />
+        Title="Configure Room Card Formats"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomCardFormat.htm" />
       <TocEntry
-        Title="Analytics Tab"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AnalyticsTab.html" />
+        Title="Configure Calendar Formats"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalFormat.htm" />
       <TocEntry
-        Title="At a Glance Tab"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_AtAGlanceTab.html" />
+        Title="Configure Reservation Wizard Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigResWiz.htm" />
     </TocEntry>
     <TocEntry
-      Title="Manage Services"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ManageServices.html">
+      Title="Configuration &gt; Other"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigOther.html">
       <TocEntry
-        Title="Work With and Search for Service Orders"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ManageServices.html" />
+        Title="Configure Event Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEventType.html" />
+      <TocEntry
+        Title="Configure Group Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigGroupType.html" />
+      <TocEntry
+        Title="Configure Reminder Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigReminderTypes.html" />
+      <TocEntry
+        Title="Configure Comment Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCommentType.html" />
+      <TocEntry
+        Title="Configure Messages"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigMessages.htm" />
+      <TocEntry
+        Title="Configure Special Dates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigSpecialDates.html" />
+      <TocEntry
+        Title="Configure User-Defined Fields"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigUDF.html" />
+      <TocEntry
+        Title="Configure Reservation Sources"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigReservSources.html" />
+      <TocEntry
+        Title="Configure Cancel Reasons"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCancelReasons.html" />
+      <TocEntry
+        Title="Configure Attachment Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAttachmentType.html" />
+      <TocEntry
+        Title="Configure Word Merge Documents"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigWordMergeDoc.html" />
+      <TocEntry
+        Title="Configure Calendar Styles"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html" />
     </TocEntry>
     <TocEntry
-      Title="Search For Reservations, Bookings, Resources, and Service Orders"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SrchResBookResSvcOrder.html" />
-    <TocEntry
-      Title="Booking Check In "
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BookCheckIn.html">
+      Title="Configuration &gt; Everyday User Applications"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEverydayUserApp.html">
       <TocEntry
-        Title="Enable Booking Check In"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_EnableBookingCheckIn.html" />
+        Title="Configure Everyday Users"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEverydayUser.htm">
+        <TocEntry
+          Title="Licensing for Everyday Users"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_LicensingEverydayUser.htm" />
+        <TocEntry
+          Title="Emailing an Everyday User"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EmailingEverydayUser.html" />
+        <TocEntry
+          Title="Configure Groups and Contacts from an Everyday User"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupsContactsEverydayUser.htm" />
+        <TocEntry
+          Title="Assign Templates to Everyday Users"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignTempEverydayUser.htm" />
+      </TocEntry>
       <TocEntry
-        Title="Ways to Check In"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WaystoCheckIn.html" />
+        Title="Configure Everyday User Process Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEverydayUserProcessTemplate.htm">
+        <TocEntry
+          Title="Web Template Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTemplateTab.htm" />
+        <TocEntry
+          Title="Booking Rules Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingRulesTab.htm" />
+        <TocEntry
+          Title="Defaults Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_DefaultsTab.htm" />
+        <TocEntry
+          Title="Video Conference Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_VCtab.htm" />
+        <TocEntry
+          Title="Rooms Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_RoomsTab.htm" />
+        <TocEntry
+          Title="Categories Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoryTab.htm" />
+        <TocEntry
+          Title="Event Types Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EventTypeTab.htm" />
+        <TocEntry
+          Title="LDAP Groups Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_LDAPGroupTab.htm" />
+        <TocEntry
+          Title="User Defined Fields Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_UDFTab.htm" />
+        <TocEntry
+          Title="Parameters Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm" />
+        <TocEntry
+          Title="Web Text Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTextTab.htm" />
+        <TocEntry
+          Title="Menu Text Translations Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_MenuTextTab.htm" />
+        <TocEntry
+          Title="Terms and Conditions Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_TermsConditionsTab.htm" />
+      </TocEntry>
       <TocEntry
-        Title="Manage Check In"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ManageCheckIn.html" />
+        Title="Configure Everyday User Security Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSecTemplate.htm">
+        <TocEntry
+          Title="Everyday User Security Template Field Definitions"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEUSecurityFieldDef.htm" />
+        <TocEntry
+          Title="Assign Security Templates to Multiple Everyday Users"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignSecTempMultUser.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure EMS Web App Menus"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigWebAppMenu.htm" />
+      <TocEntry
+        Title="Configure Help Text"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigHelpText.htm" />
+      <TocEntry
+        Title="Configure Web Text"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigWebText.htm" />
+      <TocEntry
+        Title="Configure Language Translations"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigLangTrans.htm" />
+      <TocEntry
+        Title="Configure Confirmation Behavior for Everyday User Applications"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfBehavior.htm" />
+      <TocEntry
+        Title="Create Templates for Desks and Workspaces"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CreateTempDeskWork.htm" />
+      <TocEntry
+        Title="Everyday User Process Template Field Definitions"
+        Link="/Content/2WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_EverydayUserProcTempFieldDef.html" />
+      <TocEntry
+        Title="How Do I Allow Invitations on a Booking Template?"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_HowDoIAllowInvite.htm" />
     </TocEntry>
     <TocEntry
-      Title="Reports and Queries"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ReportsQueries.html">
+      Title="Configuration &gt; Kiosk"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigurationKiosk.htm">
       <TocEntry
-        Title="Report Descriptions and Options"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ReportDescriptionsOptions.html" />
+        Title="Configure Kiosk Profiles"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm" />
       <TocEntry
-        Title="Generate an EMS Report"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GenEMSReport.html" />
-      <TocEntry
-        Title="Generate an EMS Billing Report"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GenEMSBillReport.html" />
-      <TocEntry
-        Title="Generate Attendee Visitor Reports"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GenVisitorRep.html" />
-      <TocEntry
-        Title="Configure Automated Reports"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ConfigAutomatedReports.html" />
-      <TocEntry
-        Title="Work with Saved Reports"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG44_WorkwithSavedReport.html" />
-      <TocEntry
-        Title="Work with a Query"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithResBook.html" />
+        Title="Configure Kiosk Menus"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm" />
     </TocEntry>
     <TocEntry
-      Title="Billing"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Billing.html">
+      Title="Configure Groups (Toolbar Icon)"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigurationGroupsToolbarIcon.htm">
       <TocEntry
-        Title="Overview of Billing in EMS"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_OverviewBilling.html" />
+        Title="Configure Groups"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroup.htm">
+        <TocEntry
+          Title="Configure Additional Information for a Group"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAddInfoGroup.html" />
+        <TocEntry
+          Title="Edit Group Information"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EditGroupInfo.htm" />
+        <TocEntry
+          Title="Import Groups"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportGroup.htm" />
+      </TocEntry>
       <TocEntry
-        Title="Search for Transactions"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchforTransactions.html"></TocEntry>
-      <TocEntry
-        Title="Apply Calculations to Billing -- Add to Billing Topic. This is a placeholder"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ApplyCalcultoBilling.html" />
-      <TocEntry
-        Title="Quick Reference Guide: Billing and Invoicing"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_QuickRefBillandInvoice.html" />
-      <TocEntry
-        Title="Work with Invoices"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithInvoices.html" />
-      <TocEntry
-        Title="Types of Transactions"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_TypesofTransactions.html" />
-      <TocEntry
-        Title="Work with Transactions"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_WorkwithTransactions.html" />
-      <TocEntry
-        Title="EMS Billing Reports"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GenEMSBillReport.html" />
-      <TocEntry
-        Title="Apply a Reservation Discount"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ApplyReservDiscount.html" />
-      <TocEntry
-        Title="Bill Multiple Reference and PO Numbers for a Reservation"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_BillMultRefandPONumbers.html" />
-      <TocEntry
-        Title="Price Categories and Room Charges"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_RepricCatRoomChargeRes.html" />
+        Title="Configure Contacts"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigContacts.htm" />
     </TocEntry>
     <TocEntry
-      Title="Confirmations"
-      Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Confirmations.html">
+      Title="System Administration &gt; Settings"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SystemAdministrationSettings.htm">
       <TocEntry
-        Title="Send Confirmations"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SendConfirmations.html"></TocEntry>
+        Title="Edit System Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EditSysParam.htm" />
       <TocEntry
-        Title="Generate a Single Confirmation at a Time"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GenSingConfirmatTime.html" />
+        Title="Import Registration Information"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportRegInfo.htm" />
       <TocEntry
-        Title="Generate Printed Confirmations"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GenPrintedConfirmations.html" />
+        Title="Configure the Confirmation Email Subject Line"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfEmailSubLine.htm" />
       <TocEntry
-        Title="Generate Word Merge Documents for Custom Documentation"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GenMergeDocsCustomDoc.html" />
+        Title="Reservation Wizard Required Fields"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ReservationWizReqFields.html" />
       <TocEntry
-        Title="View History of Sent Emails"
-        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ViewHistorySentEmails.html" />
+        Title="Configure Email Settings"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEmailSet.html" />
+      <TocEntry
+        Title="Set Global Email Preference to SMTP and My Personal Email Preference to Outlook"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SetGlobalEmailPrefSMTP.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="System Administration &gt; Security"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SysAdminSecurity.html">
+      <TocEntry
+        Title="Overview of User Processes"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewUserProc.htm" />
+      <TocEntry
+        Title="Configure Users"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUsers.htm" />
+      <TocEntry
+        Title="Configure User Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserTemp.htm" />
+      <TocEntry
+        Title="Configure Academic User Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAcadUserTemp.htm" />
+      <TocEntry
+        Title="Configure User Security for Multiple User Accounts"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserSecMultAcct.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="System Administration &gt; Tools"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_SystemAdminTools.html">
+      <TocEntry
+        Title="Change Group Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeGroupWiz.htm" />
+      <TocEntry
+        Title="Change Reservation Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeResWiz.htm" />
+      <TocEntry
+        Title="Room Administration Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomAdminWizard.htm" />
+      <TocEntry
+        Title="Manage Saved Reports"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ManageSavedReport.htm" />
+      <TocEntry
+        Title="Override Existing Bookings Utility"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverrideExistingBookUtil.html" />
+      <TocEntry
+        Title="Import Reservations Utility"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResUtil.htm" />
+      <TocEntry
+        Title="View and Email Logged-In Users"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ViewEmailLoggedUsers.htm" />
+      <TocEntry
+        Title="Deleting Old Data"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_DeleteOldData.htm" />
+      <TocEntry
+        Title="Currency Configuration Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CurrencyConfigWiz.htm" />
+      <TocEntry
+        Title="Booking Move/Change Status Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingMoveChangeStatusWiz.htm" />
+      <TocEntry
+        Title="Video Display Interface"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_VideoDisplayInterf.htm" />
+      <TocEntry
+        Title="Migrate Data"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_MigrateData.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="System Parameters"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SystemParam.htm">
+      <TocEntry
+        Title="EMS Desktop Client Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_DCSystemParam.htm" />
+      <TocEntry
+        Title="EMS Web App Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_WebAppParam.htm" />
+      <TocEntry
+        Title="EMS for Outlook Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_OutlookSysParam.htm" />
+      <TocEntry
+        Title="EMS Kiosk Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_KioskParam.htm" />
+      <TocEntry
+        Title="EMS Mobile App Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_MobileAppParam.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Import Files to Streamline Data Entry"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportFileSpec.htm">
+      <TocEntry
+        Title="Special Date Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SpecialDateImportFileSpec.htm" />
+      <TocEntry
+        Title="Room Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomImportFileSpec.htm" />
+      <TocEntry
+        Title="Resource Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ResourceImportFileSpec.htm" />
+      <TocEntry
+        Title="Group Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_GroupImportFileSpec.htm" />
+      <TocEntry
+        Title="Reservation Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ResImportFileSpec.htm" />
+      <TocEntry
+        Title="Final Exam Schedule Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_FinalExamSchedImportFileSpec.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Video Conferencing"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_VC.html">
+      <TocEntry
+        Title="Configure Video Conferencing Capabilities"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigVCCapabilities.htm" />
+      <TocEntry
+        Title="Overview of Video Conferenncing"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewVCConfig.html" />
+    </TocEntry>
+    <TocEntry
+      Title="Academic Import Utility"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_AcademicImportUtil.html" />
+    <TocEntry
+      Title="Deployment of EMS Desktop Client"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DeploymentOptions.htm">
+      <TocEntry
+        Title="Decision Guide: Web Vs Conventional Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DecisionGuide.htm" />
+      <TocEntry
+        Title="Web Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Web Deployment.htm" />
+      <TocEntry
+        Title="Conventional Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Conventional Deployment.htm" />
+      <TocEntry
+        Title="Easy Deployment with Conventional Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Easy Deployment.htm" />
+      <TocEntry
+        Title="Enable SSL on Web Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Enable SSL on Web Deployment.htm" />
+      <TocEntry
+        Title="Troubleshooting"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Troubleshooting.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry

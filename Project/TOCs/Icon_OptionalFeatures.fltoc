@@ -47,7 +47,7 @@
       Link="/Content/F_Optional Features/3_EMS_FloorPlansHome.htm">
       <TocEntry
         Title="Floor Plan Installation Guide"
-        Link="/Content/F_Optional Features/3_EMS_FloorPlansHome.htm">
+        Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_CG_InstallGuideOverview.htm">
         <TocEntry
           Title="Introduction"
           Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
@@ -80,8 +80,6 @@
             <TocEntry
               Title="Integrated Authentication Considerations"
               Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-            <TocEntry
-              Title="Integration Diagram" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
           </TocEntry>
           <TocEntry
             Title="Integrated Windows Authentication"
@@ -103,7 +101,8 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Title="Floor Plan Configuration Guide">
+        Title="Floor Plan Configuration Guide"
+        Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_ConfigOverview.htm">
         <TocEntry
           Title="Introduction"
           Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_CG/FloorPlan_CG_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />

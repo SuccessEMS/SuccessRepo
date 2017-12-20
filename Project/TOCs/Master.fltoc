@@ -413,9 +413,6 @@
         Title="EMS Master Calendar"
         Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
         <TocEntry
-          Title="EMS Master Calendar (V8)"
-          Link="/Content/8MC/V8/A_Installation/MC_EMSMCV8.html" />
-        <TocEntry
           Title="Requirements for Master Calendar"
           Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
         <TocEntry
@@ -993,7 +990,7 @@
             Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigWordMergeDoc.html" />
           <TocEntry
             Title="Configure Calendar Styles"
-            Link="/Content/1DesktopClient/44/CG_44/DC_CG_44_ConfigCalendarStyles.html" />
+            Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html" />
         </TocEntry>
         <TocEntry
           Title="Configuration &gt; Everyday User Applications"
