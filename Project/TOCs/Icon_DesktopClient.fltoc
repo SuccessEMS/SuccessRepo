@@ -1926,6 +1926,44 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
+      Title="Active Directory"
+      Link="/Content/F_Optional Features/8_Active DirectoryHome.htm">
+      <TocEntry
+        Title="Connect to Your Database Using Active Directory"
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_ConnectToYourDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        <TocEntry
+          Title="Pre-Installation Requirements"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_Pre-InstallReqs.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Configure Your EMS Database"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConfigYourEMSDatabase.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Configure EMS Desktop Client"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConfigEMSDesktopClient.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Connect Your EMS Web-Based Applications"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConnectYourEMSWebBasedApps.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Finalize Your Database Connection"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_FinalizeYourDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Manage Database Connections With EMS Services"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_ManageDatabaseCon.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="How Do I Translate EMS To Another Language?"
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install EMS Check-in Notification Service"
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSCheckinNotif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install or Upgrade the EMS Email Notification Service"
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallUpgradeEMSEmailNotif.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="Install the EMS Automated Report Service"
+        Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
+    <TocEntry
       Title="CISCO TMS Interface"
       Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
       <TocEntry
@@ -2052,19 +2090,19 @@
     </TocEntry>
     <TocEntry
       Title="Services and Components"
-      Link="/Content/19_ServicesandComponents/Introduction to Services and Components.htm">
+      Link="/Content/15ServicesandComponents/Introduction to Services and Components.htm">
       <TocEntry
         Title="Install EMS Automated Report Service"
-        Link="/Content/19_ServicesandComponents/EMS Automated Report Service.htm" />
+        Link="/Content/15ServicesandComponents/EMS Automated Report Service.htm" />
       <TocEntry
         Title="Install EMS Check-in Notification Service"
-        Link="/Content/19_ServicesandComponents/EMS Check in Notification.htm" />
+        Link="/Content/15ServicesandComponents/EMS Check in Notification.htm" />
       <TocEntry
         Title="Install or Upgrade the EMS Email Notification Service"
-        Link="/Content/19_ServicesandComponents/InstallUpgradeEMSEmailNotificationSvc.htm" />
+        Link="/Content/15ServicesandComponents/InstallUpgradeEMSEmailNotificationSvc.htm" />
       <TocEntry
         Title="Install or Upgrade the EMS Campus Auto Sync Service (EMS Campus Only)"
-        Link="/Content/19_ServicesandComponents/InstallUpgrade EMS Campus Auto Sync Service.htm" />
+        Link="/Content/15ServicesandComponents/InstallUpgradeEMSEmailNotificationSvc.htm" />
     </TocEntry>
   </TocEntry>
   <TocEntry

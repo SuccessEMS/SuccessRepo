@@ -313,77 +313,76 @@
       Title="EMS Campus"
       Link="/Content/A_Installation/10_CampusV44.1/10_CampusHome.htm">
       <TocEntry
-        Title="EMS Campus Planning Interface">
+        Title="EMS Campus Planning Interface"
+        Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_Intro.htm">
         <TocEntry
           Title="Introduction"
-          Link="/Content/9CPI/A_InstallationGuide/CPI_Introduction.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_Intro.htm" />
         <TocEntry
           Title="EMS V44.1 System Requirements"
-          Link="/Content/9CPI/A_InstallationGuide/CPI_Install_44.1SystemRequirements.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_SysReqPrereq.htm" />
         <TocEntry
           Title="Obtain the Latest Release of EMS Campus Planning Interface"
-          Link="/Content/9CPI/A_InstallationGuide/CPI_ObtainingLatestReleaseofEMSCPI.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_ObtainLateRel.htm" />
         <TocEntry
           Title="Install or Upgrade the EMS Campus Planning Interface"
-          Link="/Content/9CPI/A_InstallationGuide/CPI_InstallUpgrdEMSCPI.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_InstallUpgradCPI.htm" />
         <TocEntry
           Title="Start the EMS Campus Planning Interface"
-          Link="/Content/9CPI/A_InstallationGuide/CPI_StartingEMSCPI.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_StartCPI.htm" />
       </TocEntry>
       <TocEntry
-        Title="EMS Campus Web Service and White Paper">
-        <TocEntry
-          Title="Introduction"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_Introduction.html" />
+        Title="EMS Campus Web Service and White Paper"
+        Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_Intro.htm">
         <TocEntry
           Title="EMS Campus Web Service Hardware/Software Requirements"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_Hardware-SoftwareReq.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_SysReqPrereq.htm" />
         <TocEntry
           Title="Obtain the Latest EMS Campus Web Service Components"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_ObtainingLatest.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_ObtainLatestVers.htm" />
         <TocEntry
           Title="Install or Upgrade the EMS Campus Web Service"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_Installing-Upgrading.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_InstallUpgrade.htm" />
         <TocEntry
           Title="EMS Configuration Steps"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_EMSConfigSteps.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ConfigSteps.htm" />
         <TocEntry
           Title="Data Models"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_DataModels.html">
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_Data Models.htm">
           <TocEntry
             Title="Banner Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_BannerViewsDataModel.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_BanView.htm" />
           <TocEntry
             Title="CAMS Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_CAMSViewsDataModel.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_CAMSView.htm" />
           <TocEntry
             Title="Colleague (Oracle or SQL) Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_ColleagueViews DataModel.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ColleagOrac.htm" />
           <TocEntry
             Title="Colleague Unidata Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_ColleagueUnidataViewsDataMdl.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ColleagUnidata.htm" />
           <TocEntry
             Title="Jenzabar (CX - Informix) Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_JenzabarCXInformix.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_JenzabarCX.htm" />
           <TocEntry
             Title="Jenzabar (EX) Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_JenzabarEXViewsDataMdl.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_JenzabarEX.htm" />
           <TocEntry
             Title="PeopleSoft Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_PeopleSoftViewsData.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_PeopleSoft.htm" />
           <TocEntry
             Title="PowerCampus Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_PowerCampusViewsDataModel.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_PowerCampus.htm" />
         </TocEntry>
         <TocEntry
           Title="Web Service Overview"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_WebServiceOverview.html"></TocEntry>
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_WebSvOverview.htm"></TocEntry>
         <TocEntry
           Title="Appendix A - Format for Tab-Delimited Files"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_AppendixAFormatforTab.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_AppendA.htm" />
         <TocEntry
           Title="Integrate Course and Student Information with Student Information Systems (SIS)"
-          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_IntegCourseSutdentInfowithSIS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -391,28 +390,28 @@
       Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
       <TocEntry
         Title="EMS Master Calendar (V8)"
-        Link="/Content/16_MC/A_Installation/MC_EMSMCV8.html" />
+        Link="/Content/8MC/V8/A_Installation/MC_EMSMCV8.html" />
       <TocEntry
         Title="Requirements for Master Calendar"
-        Link="/Content/16_MC/A_Installation/MC_IG_RequirementforMC.html" />
+        Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
       <TocEntry
         Title="Installation Instructions"
-        Link="/Content/16_MC/A_Installation/MC_IG_InstallationInstruct.html">
+        Link="/Content/8MC/V8/A_Installation/MC_IG_InstallationInstruct.html">
         <TocEntry
           Title="Obtain Master Calendar Installation Files"
-          Link="/Content/16_MC/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
         <TocEntry
           Title="Run the Master Calendar Installer"
-          Link="/Content/16_MC/A_Installation/MC_IG_RunningMCInstaller.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
         <TocEntry
           Title="Configure Master Calendar to Use the Master Calendar API Web Service"
-          Link="/Content/16_MC/A_Installation/MC_ConfigUseAPIWebService.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_ConfigUseAPIWebService.html" />
         <TocEntry
           Title="Install or Upgrade the Database Component in Master Calendar"
-          Link="/Content/16_MC/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
         <TocEntry
           Title="Install or Upgrade the Master Calendar Web Service"
-          Link="/Content/16_MC/A_Installation/MC_InstallUpgradeMCWebService.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -1111,23 +1110,23 @@
             Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_JenzabarCX.htm" />
           <TocEntry
             Title="Jenzabar (EX) Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_JenzabarEXViewsDataMdl.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_JenzabarEX.htm" />
           <TocEntry
             Title="PeopleSoft Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_PeopleSoftViewsData.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_PeopleSoft.htm" />
           <TocEntry
             Title="PowerCampus Views Data Model"
-            Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_PowerCampusViewsDataModel.html" />
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_PowerCampus.htm" />
         </TocEntry>
         <TocEntry
           Title="Web Service Overview"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_WebServiceOverview.html"></TocEntry>
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_WebSvOverview.htm"></TocEntry>
         <TocEntry
           Title="Appendix A - Format for Tab-Delimited Files"
-          Link="/Content/10CampusWebServ/A_InstallationGuide/CampusWeb_AppendixAFormatforTab.html" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_AppendA.htm" />
         <TocEntry
           Title="Integrate Course and Student Information with Student Information Systems (SIS)"
-          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_IntegCourseSutdentInfowithSIS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -1135,28 +1134,28 @@
       Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
       <TocEntry
         Title="EMS Master Calendar (V8)"
-        Link="/Content/16_MC/A_Installation/MC_EMSMCV8.html" />
+        Link="/Content/8MC/V8/A_Installation/MC_EMSMCV8.html" />
       <TocEntry
         Title="Requirements for Master Calendar"
-        Link="/Content/16_MC/A_Installation/MC_IG_RequirementforMC.html" />
+        Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
       <TocEntry
         Title="Installation Instructions"
-        Link="/Content/16_MC/A_Installation/MC_IG_InstallationInstruct.html">
+        Link="/Content/8MC/V8/A_Installation/MC_IG_InstallationInstruct.html">
         <TocEntry
           Title="Obtain Master Calendar Installation Files"
-          Link="/Content/16_MC/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
         <TocEntry
           Title="Run the Master Calendar Installer"
-          Link="/Content/16_MC/A_Installation/MC_IG_RunningMCInstaller.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
         <TocEntry
           Title="Configure Master Calendar to Use the Master Calendar API Web Service"
-          Link="/Content/16_MC/A_Installation/MC_ConfigUseAPIWebService.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_ConfigUseAPIWebService.html" />
         <TocEntry
           Title="Install or Upgrade the Database Component in Master Calendar"
-          Link="/Content/16_MC/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
         <TocEntry
           Title="Install or Upgrade the Master Calendar Web Service"
-          Link="/Content/16_MC/A_Installation/MC_InstallUpgradeMCWebService.html" />
+          Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -2192,264 +2191,261 @@
       Title="EMS Master Calendar"
       Link="/Content/8MC/V8/B_Configuration/MC_Introduction.htm">
       <TocEntry
-        Title="EMS Master Calendar (V8)"
-        Link="/Content/16_MC/B_Configuration/MC_EMSMCV8.html" />
-      <TocEntry
         Title="Admin Interface Overview"
-        Link="/Content/16_MC/B_Configuration/MC_AdminInterfaceOverview.html" />
+        Link="/Content/8MC/V8/B_Configuration/MC_AdminInterfaceOverview.html" />
       <TocEntry
         Title="Calendar Management"
-        Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_CalendarManagement.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CalendarManagement.html">
         <TocEntry
           Title="Import Events Into Your Master Calendar System"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_ImportEvents.html">
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ImportEvents.html">
           <TocEntry
             Title="Connect Master Calendar to Your EMS Database"
-            Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_ConnectMCtoEMSDatabase.html" />
+            Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ConnectMCtoEMSDatabase.html" />
           <TocEntry
             Title="Connect to Data Sources"
-            Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_ConnectDataSources.html" />
+            Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ConnectDataSources.html" />
         </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Manage an Event from the Event Summary Page"
-        Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_ManageEventfromEventSumPg.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ManageEventfromEventSumPg.html">
         <TocEntry
           Title="Add Events to Your Personal Email Calendar"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_AddEventstoPersonalEmailCal.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_AddEventstoPersonalEmailCal.html" />
         <TocEntry
           Title="Add Event Dates"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_AddEventDates.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_AddEventDates.html" />
         <TocEntry
           Title="Cancel Event Dates"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_CancelEventDates.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CancelEventDates.html" />
         <TocEntry
           Title="Copy an Event"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_CopyEvent.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CopyEvent.html" />
         <TocEntry
           Title="Edit an Event"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_EditEvent.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_EditEvent.html" />
         <TocEntry
           Title="Un-Cancel an Event"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_Un-CancelEvent.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_Un-CancelEvent.html" />
       </TocEntry>
       <TocEntry
         Title="Manage Events from the Manage Events Page"
-        Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_ManageEventsfromManageEventsPg.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ManageEventsfromManageEventsPg.html">
         <TocEntry
           Title="Filter Events on the Manage Events Page"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_FilterEventsManageEventsPg.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_FilterEventsManageEventsPg.html" />
         <TocEntry
           Title="Approve Pending Event Requests"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_ApprovePendingEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ApprovePendingEventRequests.html" />
         <TocEntry
           Title="Reject Pending Event Requests"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_RejectPendingEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RejectPendingEventRequests.html" />
         <TocEntry
           Title="Move Rejected Event Requests to Approved Status"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_MoveRejectEventRequeststoAppStatus.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_MoveRejectEventRequeststoAppStatus.html" />
         <TocEntry
           Title="Generate a List of Event Requests"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_GenerateListEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_GenerateListEventRequests.html" />
         <TocEntry
           Title="Request Additional Information for Event Requests"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_RequestAddInfoEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RequestAddInfoEventRequests.html" />
         <TocEntry
           Title="Delete Event Requests"
-          Link="/Content/16_MC/B_Configuration/MC_CalMan/MC_DeleteEventRequests.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_DeleteEventRequests.html" />
       </TocEntry>
       <TocEntry
         Title="Configure Calendar Groupings and Calendars"
-        Link="/Content/16_MC/B_Configuration/MC_ConGrpCal/MC_ConfigCalGroupingsandCals.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ConfigCalGroupingsandCals.html">
         <TocEntry
           Title="Manage Calendars in Master Calendar"
-          Link="/Content/16_MC/B_Configuration/MC_ConGrpCal/MC_ManageCalendarsinMC.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageCalendarsinMC.html" />
         <TocEntry
           Title="Configure Special Dates"
-          Link="/Content/16_MC/B_Configuration/MC_ConGrpCal/MC_ConfigSpecialDates.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ConfigSpecialDates.html" />
         <TocEntry
           Title="Manage Calendar URLs"
-          Link="/Content/16_MC/B_Configuration/MC_ConGrpCal/MC_ManageCalURLs.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageCalURLs.html" />
         <TocEntry
           Title="Manage External Links for a Grouping"
-          Link="/Content/16_MC/B_Configuration/MC_ConGrpCal/MC_ManageExtLinksforGrouping.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageExtLinksforGrouping.html" />
         <TocEntry
           Title="Manage Groupings in Master Calendar"
-          Link="/Content/16_MC/B_Configuration/MC_ConGrpCal/MC_ManageGroupingsinMC.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageGroupingsinMC.html" />
       </TocEntry>
       <TocEntry
         Title="Configure Optional Information"
-        Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_ConfigOptionalInfo.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ConfigOptionalInfo.html">
         <TocEntry
           Title="Configure Event Icons"
-          Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_ConfigEventIcons.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ConfigEventIcons.html" />
         <TocEntry
           Title="Maintain Departments in Master Calendar"
-          Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_MaintainDeptinMC.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_MaintainDeptinMC.html" />
         <TocEntry
           Title="Manage Cultures"
-          Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_ManageCultures.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageCultures.html" />
         <TocEntry
           Title="Manage Custom Field Hints"
-          Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_ManageCustomFieldHints.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageCustomFieldHints.html" />
         <TocEntry
           Title="Manage Event Type Views"
-          Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_ManageEventTypeViews.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageEventTypeViews.html" />
         <TocEntry
           Title="Work with Event Locations"
-          Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_WorkwithEventLocations.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventLocations.html" />
         <TocEntry
           Title="Work with Event Types"
-          Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_WorkwithEventTypes.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventTypes.html" />
         <TocEntry
           Title="Work with Rooms"
-          Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_WorkwithRooms.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithRooms.html" />
         <TocEntry
           Title="Work with User Defined Questions (UDQs)"
-          Link="/Content/16_MC/B_Configuration/MC_ConOp/MC_WorkwithUserDefQuest.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithUserDefQuest.html" />
       </TocEntry>
       <TocEntry
         Title="Configure Users and Templates"
-        Link="/Content/16_MC/B_Configuration/MC_ConUsTp/MC_ConfigUsersTemplates.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ConfigUsersTemplates.html">
         <TocEntry
           Title="Manage Users"
-          Link="/Content/16_MC/B_Configuration/MC_ConUsTp/MC_ManageUsers.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ManageUsers.html" />
         <TocEntry
           Title="Manage User Templates"
-          Link="/Content/16_MC/B_Configuration/MC_ConUsTp/MC_ManageUserTemplates.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ManageUserTemplates.html" />
       </TocEntry>
       <TocEntry
         Title="Create Custom Reports in Master Calendar"
-        Link="/Content/16_MC/B_Configuration/MC_CreateCustReports.html" />
+        Link="/Content/8MC/V8/B_Configuration/MC_CreateCustReports.html" />
       <TocEntry
         Title="Customize Master Calendar Site Appearance and Behavior"
-        Link="/Content/16_MC/B_Configuration/MC_CusApBh/MC_CustomMCSiteAppBehav.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomMCSiteAppBehav.html">
         <TocEntry
           Title="Broadcast Announcements"
-          Link="/Content/16_MC/B_Configuration/MC_CusApBh/MC_BroadcastAnnouncements.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_BroadcastAnnouncements.html" />
         <TocEntry
           Title="Customize Help Text in Master Calendar"
-          Link="/Content/16_MC/B_Configuration/MC_CusApBh/MC_CustomizeHelpText.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeHelpText.html" />
         <TocEntry
           Title="Customize Menus in Master Calendar"
-          Link="/Content/16_MC/B_Configuration/MC_CusApBh/MC_CustomizeMenus.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeMenus.html" />
         <TocEntry
           Title="Customize Your Master Calendar Site and Automated Emails"
-          Link="/Content/16_MC/B_Configuration/MC_CusApBh/MC_CustomizeMCSiteandAutoEmails.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeMCSiteandAutoEmails.html" />
         <TocEntry
           Title="Set Default Home Page Behavior"
-          Link="/Content/16_MC/B_Configuration/MC_CusApBh/MC_SetDefaultHomePgBehavior.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_SetDefaultHomePgBehavior.html" />
         <TocEntry
           Title="Set the Default Home Page Layout"
-          Link="/Content/16_MC/B_Configuration/MC_CusApBh/MC_SetDefaultHomePgLayout.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_SetDefaultHomePgLayout.html" />
       </TocEntry>
       <TocEntry
         Title="Integrated Authentication for Master Calendar"
-        Link="/Content/16_MC/B_Configuration/MC_IntegAuthenforMC.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_IntegAuthenforMC.html">
         <TocEntry
           Title="Portal Authentication Methods"
-          Link="/Content/16_MC/B_Configuration/MC_PortalAuthenMethods.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_PortalAuthenMethods.html" />
       </TocEntry>
       <TocEntry
         Title="Maintain Master Calendar Software Registration"
-        Link="/Content/16_MC/B_Configuration/MC_MaintainMCSoftwareReg.html" />
+        Link="/Content/8MC/V8/B_Configuration/MC_MaintainMCSoftwareReg.html" />
       <TocEntry
         Title="Manage RSS Feeds"
-        Link="/Content/16_MC/B_Configuration/MC_ManageRSSFeeds.html" />
+        Link="/Content/8MC/V8/B_Configuration/MC_ManageRSSFeeds.html" />
       <TocEntry
         Title="Master Calendar Admin Field Definitions"
-        Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_MCAdminFieldDef.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_MCAdminFieldDef.html">
         <TocEntry
           Title="Area: Calendar"
-          Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_AreaCalendar.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaCalendar.html" />
         <TocEntry
           Title="Area: Email"
-          Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_AreaEmail.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaEmail.html" />
         <TocEntry
           Title="Area: Labels"
-          Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_AreaLabels.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaLabels.html" />
         <TocEntry
           Title="Area: Mobile"
-          Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_AreaMobile.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaMobile.html" />
         <TocEntry
           Title="Area: Portal Authentication"
-          Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_AreaPortAuthen.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaPortAuthen.html" />
         <TocEntry
           Title="Area: RSS"
-          Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_AreaRSS.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaRSS.html" />
         <TocEntry
           Title="Area: Submit"
-          Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_AreaSubmit.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaSubmit.html" />
         <TocEntry
           Title="Area: System Configuration"
-          Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_AreaSystemConfig.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaSystemConfig.html" />
         <TocEntry
           Title="Area: Tooltip"
-          Link="/Content/16_MC/B_Configuration/MC_AdFldDef/MC_AreaTooltip.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaTooltip.html" />
       </TocEntry>
       <TocEntry
         Title="Master Calendar API"
-        Link="/Content/16_MC/B_Configuration/MC_API/MC_MasterCalAPI.html">
+        Link="/Content/8MC/V8/B_Configuration/MC_API/MC_MasterCalAPI.html">
         <TocEntry
           Title="Master Calendar API Requirements and Licensing"
-          Link="/Content/16_MC/B_Configuration/MC_API/MC_APIRequirementsLicensing.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_APIRequirementsLicensing.html" />
         <TocEntry
           Title="Verify the Master Calendar API"
-          Link="/Content/16_MC/B_Configuration/MC_API/MC_VerifyMCAPI.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_VerifyMCAPI.html" />
         <TocEntry
           Title="Release Notes"
-          Link="/Content/16_MC/B_Configuration/MC_API/MC_ReleaseNotes.html" />
+          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_ReleaseNotes.html" />
         <TocEntry
           Title="API Functions"
-          Link="/Content/16_MC/B_Configuration/MC_API/MC_APIFunctions.html">
+          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_APIFunctions.html">
           <TocEntry
             Title="AddEventWithMultipleDates (Requires Advanced API Option)"
-            Link="/Content/16_MC/B_Configuration/MC_API/MC_API_AddEventwithMultDates.html" />
+            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_API_AddEventwithMultDates.html" />
           <TocEntry
             Title="AddEvent (Requires Advanced API Option)"
-            Link="/Content/16_MC/B_Configuration/MC_API/MC_AddEventReqAdvAPIOpt.html">
+            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_AddEventReqAdvAPIOpt.html">
             <TocEntry
               Title="GetCalendar"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetCalendar.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetCalendar.html" />
             <TocEntry
               Title="GetCalendars"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetCalendars.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetCalendars.html" />
             <TocEntry
               Title="GetComments"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetComments.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetComments.html" />
             <TocEntry
               Title="GetEvent"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetEvent.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEvent.html" />
             <TocEntry
               Title="GetEvents"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetEvents.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEvents.html" />
             <TocEntry
               Title="GetEventTypes"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetEventTypes.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEventTypes.html" />
             <TocEntry
               Title="GetFeaturedEvents"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetFeaturedEvents.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetFeaturedEvents.html" />
             <TocEntry
               Title="GetGroupings"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetGroupings.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetGroupings.html" />
             <TocEntry
               Title="GetLocations"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetLocations.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetLocations.html" />
             <TocEntry
               Title="GetUdqs"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_GetUdqs.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetUdqs.html" />
             <TocEntry
               Title="UpdateEventDate (Requires Advanced API Option)"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_UpdateEventDateReqAdvanAPIOpt.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_UpdateEventDateReqAdvanAPIOpt.html" />
             <TocEntry
               Title="UpdateEvent (Requires Advanced API Option)"
-              Link="/Content/16_MC/B_Configuration/MC_API/MC_UpdateEventReqAdvanAPIOpt.html" />
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_UpdateEventReqAdvanAPIOpt.html" />
           </TocEntry>
         </TocEntry>
       </TocEntry>
       <TocEntry
         Title="Work with Subscriptions"
-        Link="/Content/16_MC/B_Configuration/MC_WorkwithSubscriptions.html" />
+        Link="/Content/8MC/V8/B_Configuration/MC_WorkwithSubscriptions.html" />
     </TocEntry>
     <TocEntry
       Title="EMS Platform Services"
@@ -3902,7 +3898,8 @@
             Title="Configure Word Merge Documents"
             Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigWordMergeDoc.html" />
           <TocEntry
-            Title="Configure Calendar Styles" />
+            Title="Configure Calendar Styles"
+            Link="/Content/1DesktopClient/44/CG_44/DC_CG_44_ConfigCalendarStyles.html" />
         </TocEntry>
         <TocEntry
           Title="System Administration Configuration &gt; Settings"
@@ -4997,11 +4994,11 @@
       Title="Release Notes V44.1"
       Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm"></TocEntry>
     <TocEntry
-      Title="Release Notes V44"></TocEntry>
+      Title="Release Notes V44"
+      Link="/Content/C_Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm"></TocEntry>
     <TocEntry
-      Title="Release Notes V43" />
-    <TocEntry
-      Title="Release Notes V8" />
+      Title="Release Notes V43"
+      Link="/Content/C_Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
   </TocEntry>
   <TocEntry
     Title="Learn About Our Applications">
