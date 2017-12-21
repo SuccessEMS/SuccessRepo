@@ -1,62 +1,58 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="3386" MadCap:lastWidth="1000" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSWebApp.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
-    <head><title mt-export-translate="no">Configuring Everyday User Process Templates</title>
-        <meta name="mt-type" value="application/x.deki-text" />
-        <meta name="mt-unsafe" value="true" />
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="4519" MadCap:lastWidth="865" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSWebApp.flmsp');" class="emsWebapp" MadCap:onlyLocalStylesheets="False">
+    <head><title>Configure Everyday User Process Templates</title>
     </head>
     <body>
         <h1>Configure Everyday User Process Templates</h1>
-        <p>Concept: "Web Process Templates" Are Now Called "Everyday User Process Templates." </p>
-        <p>If you have previously used older versions of EMS, you may know booking templates as "Web Process Templates." These templates are now called "Everyday User Process Templates." These templates define user access and booking behavior in EMS Web App, EMS Mobile App, and EMS for Outlook. Similarly, you may know permissions templates, which control what an Everyday User is able to do, as "Web Security Templates." These are now called "Everyday User Security Templates."</p>
-        <div class="EXPAND_CLASS">
-            <p>See Also: <a title="Configuring Security Templates"><MadCap:xref href="WebApp_CG_ConfigSecurityTemps.html">Configure Security Templates</MadCap:xref></a></p>
-            <p>Note: In EMS Enterprise, the guest (unauthenticated user) everyday user process template is always available and you can have an unlimited number of other everyday user process templates.</p>
-            <p>In EMS Professional, the (unauthenticated user) everyday user process template is always available, but you can have only two additional everyday user process templates.</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Concept: "Web Process Templates" Are Now Called "Everyday User Process Templates." <span class="italics">Click for more...</span></MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>If you have previously used older versions of EMS, you may know booking templates as "Web Process Templates." These templates are now called "Everyday User Process Templates." These templates define user access and booking behavior in EMS Web App, EMS Mobile App, and EMS for Outlook. Similarly, you may know permissions templates, which control what an Everyday User is able to do, as "Web Security Templates." These are now called "Everyday User Security Templates."</p>
+                <div class="EXPAND_CLASS">
+                    <p>See Also: <a href="WebApp_CG_ConfigSecurityTemps.html">Configure Security Templates</a></p>
+                    <p class="note-box note">Note: In EMS Enterprise, the guest (unauthenticated user) everyday user process template is always available and you can have an unlimited number of other everyday user process templates. In EMS Professional, the (unauthenticated user) everyday user process template is always available, but you can have only two additional everyday user process templates.</p>
+                </div>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <p>To configure Everyday User process templates, complete the following steps:</p>
+        <ol class="number-list">
+            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Everyday Applications</span> &gt; <span class="bold">Everyday User Process Templates</span>. The Everyday User Process Templates window opens on the <span class="bold">Everyday User Template</span> tab.<p><img src="Images/B_ConfigurationGuide/WA_ConfigEverydayUserProcessTemps_EUProcessTemps.png" /></p><p>This window lists the process templates that have been defined for your EMS Web App implementation. The pre-defined user called "unauthenticated user" is included in all EMS implementations; you use this template to manage settings for anonymous or “guest” users. For a user to be able to view and use this template, you must assign the user to the template. See <a href="WebApp_CG_ConfigEverydayUsers.htm">Configure Everyday Users</a>.</p><p class="note-box tip">Tip: To view all everyday user process templates in your EMS database, regardless of status, under Show, click <span class="bold">Inactive</span>.</p></li>
+            <li>Click <span class="bold">New</span>. The Everyday User Process Template dialog box displays. Enter the information for the new everyday user process template as needed. &#160;<p><img src="Images/B_ConfigurationGuide/WA_ConfigEverydayUserProcessTemps_BookaMeetingRoom.png" /></p><p class="note-box warning">Warning: The cache must be cleared in the EMS Web App whenever parameter changes are made in the EMS Desktop Client.</p><p class="note-box tip">Tip: The <span class="bold">Request Status</span> field is used to configure booking templates for the "Request/Approval" booking model, in which everyday users request space and administrative users approve those requests (using the Dashboard menu icon). For example, if you set this field to <span class="bold">Request</span>, then the booking will not be finalized until an administrator has approved it. If you are configuring a template for booking desks and workspaces or "hoteling," see <a href="../../../1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CreateTempDeskWork.htm">Create Templates for Desks and Workspaces</a>.</p></li>
+        </ol>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Concept:&#160;You Use the Request/Approval Model to Oversee "Managed Space." Click for more...</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>Once you have <a href="../../../1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFacil.html">configured facilities</a> (rooms, categories, services, resources, and so on), you can configure special process templates for "managed space," which is meeting space that may require additional oversight and an approval process to finalize a reservation. For example, you may wish to configure a large banquet hall as managed space to ensure that any request to use it is approved by a supervisor. That supervisor would use the Dashboard from the <MadCap:variable name="General.EMS&#160;Desktop Client" /> menu bar to view requests for space.&#160;</p>
+                <p>
+                    <img src="Images/B_ConfigurationGuide/WA_ConfigEverydayUserProcessTemps_Dashboard.png" />
+                </p>
+                <p>Typically, managed space involves services, expenses, and invoicing that affect multiple stakeholders and departments, and templates designed for this model are typically assigned to Everyday Users of EMS Web App. By contrast, such templates are <span class="bold">not </span>recommended for assignment to EMS for Outlook users since Microsoft<sup>®</sup> Outlook does not show the request status of such a reservation.</p>
+                <h3>Configure Process Template to Require Supervisory Approval</h3>
+                <p>To configure a process template to require supervisory approval:&#160;</p>
+                <ul class="unorder-list">
+                    <li>When defining an Everyday User Process template for a specialized type of space or room, you set the <span class="bold">Request Status</span> field to <span class="bold">Request </span>(so it will show as pending in the Dashboard).</li>
+                    <li>Assign that template to the appropriate everyday users (typically, EMS Web App users so they can only Request reservations for that specialized space.</li>
+                    <li>Designate users in EMS Desktop Client who will <a href="../../../1DesktopClient/V44.1/C_UserGuide/DC_UG_ManageReqMangedSpace.html">review and approve this type of space request in the Dashboard</a>.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
+        <div class="note-box note">
+            <p>Note: In the Everyday User Application Settings section:</p>
+            <ul class="unorder-list">
+                <li><span class="bold">Enable for Web App</span> means enable the template on EMS Web App.</li>
+                <li><span class="bold">Enable for Mobile</span> means enable the template for both the EMS Mobile App and the mobile version of the EMS Web App.</li>
+                <li><span class="bold">Enable for Outlook</span> means enable the template for the EMS for Outlook add-in, which can override booking rules such that users can book a room that is in conflict. For this situation, you can also configure a system-generated email to be sent to the user if any rooms are not available for dates booked.  An additional tab becomes available if you create a template with the option enabled, Outlook Conflict Email.</li>
+                <li><span class="bold">Enable Integration to Microsoft Exchange </span>means enable the template for Microsoft<sup>®</sup> Exchange when your organization does not use EMS for Outlook.<p>See Also: <a href="WebApp_CG_EverydayUserProcTempFieldDef.html">Everyday User Process Template Field Definitions</a></p></li>
+            </ul>
         </div>
-        <ol>
-            <li>On the EMS menu bar, click <span class="bold">Configuration </span>&gt; <span class="bold">Everyday Applications</span> &gt; <span class="bold">Everyday User Process Templates</span>. The Everyday User Process Templates window opens on the Everyday User Template tab.</li>
-        </ol>
-        <p>
-            <img src="Images/B_ConfigurationGuide/WA_ConfigEverydayUserProcessTemps_EUProcessTemps.png" />
-        </p>
-        <p>This window lists the process templates that have been defined for your EMS Web App implementation. The pre-defined user called "(unauthenticated user)" is included in all EMS implementations; you use this template to manage settings for anonymous or “guest” users. For a user to be able to view and use this template, you must assign the user to the template. See <MadCap:xref href="WebApp_CG_ConfigEverydayUsers.htm">Configure Everyday Users</MadCap:xref>.</p>
-        <p>Tip: To view all everyday user process templates in your EMS database, regardless of status, under Show, click <span class="bold">Inactive</span>.</p>
-        <ol MadCap:continue="true">
-            <li>Click <span class="bold">New</span>. The Everyday User Process Template dialog box displays. Enter the information for the new everyday user process template as needed. &#160;</li>
-        </ol>
-        <p>
-            <img src="Images/B_ConfigurationGuide/WA_ConfigEverydayUserProcessTemps_BookaMeetingRoom.png" />
-        </p>
-        <p>Warning: The cache must be cleared in the EMS Web App whenever parameter changes are made in the EMS Desktop Client.</p>
-        <p>Tips: The <span class="bold">Request Status</span> field is used to configure booking templates for the "Request/Approval" booking model, in which everyday users request space and administrative users approve those requests (using the Dashboard menu icon). For example, if you set this field to <span class="bold">Request</span>, then the booking will not be finalized until an administrator has approved it.</p>
-        <p>If you are configuring a template for booking desks and workspaces or "hoteling," see <MadCap:xref href="../../../1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CreateTempDeskWork.htm">Create Templates for Desks and Workspaces</MadCap:xref>.</p>
-        <p>Concept:&#160;You <MadCap:annotation MadCap:createDate="2017-11-21T20:32:03.0939518-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Info for Concept goes on until the Note that starts &quot;in Everyday User Application Settings section...&quot; and is a wiki from wiki link from the topic &quot;Configuring Managed Space&quot;: https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/EMS_Web_App_V44.1/Setting_Up_EMS_Web_App/020_Everyday_User_Templates/Configuring_Everyday_User_Process_Templates/Configuring_Managed_Space" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-21T20:33:13.0174339-07:00">Use</MadCap:annotation> the Request/Approval Model to Oversee "Managed Space"</p>
-        <p>Once you have <a title="Configuration &gt; Facilities">configured facilities</a> (rooms, categories, services, resources, and so on), you can configure special process templates for "managed space," which is meeting space that may require additional oversight and an approval process to finalize a reservation. For example, you may wish to configure a large banquet hall as managed space to ensure that any request to use it is approved by a supervisor. That supervisor would use the Dashboard from the <MadCap:variable name="General.EMS&#160;Desktop Client" /> menu bar to view requests for space.&#160;</p>
-        <p>
-            <img src="Images/B_ConfigurationGuide/WA_ConfigEverydayUserProcessTemps_Dashboard.png" />
-        </p>
-        <p>Typically, managed space involves services, expenses, and invoicing that affect multiple stakeholders and departments, and templates designed for this model are typically assigned to Everyday Users of EMS Web App. By contrast, such templates are <span class="bold">not </span>recommended for assignment to EMS for Outlook users since Microsoft® Outlook does not show the request status of such a reservation.</p>
-        <h3><strong>Process Overview:</strong>
-        </h3>
-        <p>To configure a process template to require supervisory approval:&#160;</p>
-        <ul>
-            <li>When defining an Everyday User Process template for a specialized type of space or room, you set the <span class="bold">Request Status</span> field to <span class="bold">Request </span>(so it will show as pending in the Dashboard).</li>
-            <li>Assign that template to the appropriate everyday users (typically, EMS Web App users so they can only Request reservations for that specialized space.</li>
-            <li>Designate users in EMS Desktop Client who will review and approve this type of space request in the Dashboard.</li>
-        </ul>
-        <p>Note: In the Everyday User Application Settings section:</p>
-        <ul>
-            <li><span class="bold">Enable for Web App</span> means enable the template on EMS Web App.</li>
-            <li><span class="bold">Enable for Mobile</span> means enable the template for both the EMS Mobile App and the mobile version of the EMS Web App.</li>
-            <li><span class="bold">Enable for Outlook</span> means enable the template for the EMS for Outlook add-in, which can override booking rules such that users can book a room that is in conflict. For this situation, you can also configure a system-generated email to be sent to the user if any rooms are not available for dates booked.  An additional tab becomes available if you create a template with the option enabled, Outlook Conflict Email.</li>
-            <li><span class="bold">Enable Integration to Microsoft Exchange </span>means enable the template for Microsoft<sup>®</sup> Exchange when your organization does not use EMS for Outlook.</li>
-        </ul>
-        <p>See Also: <MadCap:xref href="WebApp_CG_EverydayUserProcTempFieldDef.html">Everyday User Process Template Field Definitions</MadCap:xref>.</p>
         <p>You can&#160;continue configuring the booking template on additional tabs or just&#160;click <span class="bold">OK </span>to save your changes.</p>
-        <h2>
-            <MadCap:annotation MadCap:createDate="2017-11-02T12:22:49.2266417-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Not part of wiki. This section is from the current topic." MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-02T12:23:12.6261242-06:00">Saving</MadCap:annotation> Your Template Settings</h2>
+        <h2>Save Your Template Settings</h2>
         <p>When you have completed entries in all tabs as desired, click <span class="bold">OK</span>.  Your changes to the everyday user templates are saved.</p>
-        <p>Tip: Make sure that you have defined your everyday users so you can assign them to your everyday templates. See <MadCap:xref href="WebApp_CG_ConfigEverydayUsers.htm">Configure Everyday Users</MadCap:xref>.</p>
+        <p class="note-box tip">Tip: Make sure that you have defined your everyday users so you can assign them to your everyday templates. See Also:&#160;<a href="WebApp_CG_ConfigEverydayUsers.htm">Configure Everyday Users</a></p>
         <p>&#160;</p>
     </body>
 </html>
