@@ -1926,7 +1926,7 @@
       </TocEntry>
       <TocEntry
         Title="The Calendar"
-        Link="/Content/2WebApp/A_V44.1/C_UserGuide/DC_UG_Calendar.htm">
+        Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Calendar.htm">
         <TocEntry
           Title="Search with the Calendar"
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithCalendar.html" />
@@ -3484,7 +3484,7 @@
         </TocEntry>
         <TocEntry
           Title="The Calendar"
-          Link="/Content/2WebApp/A_V44.1/C_UserGuide/DC_UG_Calendar.htm">
+          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Calendar.htm">
           <TocEntry
             Title="Search with the Calendar"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SearchwithCalendar.html" />
