@@ -765,6 +765,769 @@
     </TocEntry>
   </TocEntry>
   <TocEntry
+    Title="Installation Guides"
+    Link="/Content/A_Installation/1InstallationHome.htm">
+    <TocEntry
+      Title="EMS Desktop Client"
+      Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html">
+      <TocEntry
+        Title="System Requirements and Prerequisites"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_SystemReq.htm" />
+      <TocEntry
+        Title="Installation Instructions"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_INstallationInstruct.html" />
+      <TocEntry
+        Title="Upgrade Considerations"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeConsideration.html" />
+      <TocEntry
+        Title="Upgrade Instructions"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeInstruct.html" />
+      <TocEntry
+        Title="Downgrade the EMS Desktop Client Web Deploy"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_DowngradeWebDeploy.htm" />
+      <TocEntry
+        Title="Installing Custom Reports in EMS Desktop Client"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_InstallCustomReport.html" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Web App"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/3a_Web App_Introduction.htm">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Introduction.html">
+        <TocEntry
+          Title="System Architecture"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_SystemArchitecture.html" />
+        <TocEntry
+          Title="Requirements and Prerequisites"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_RequirementPrerequisites.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Obtain the Installation Files"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_ObtainInstallFiles.html" />
+      <TocEntry
+        Title="Install or Upgrade to the EMS Web App"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_InstallUpgradetoWebApp.html">
+        <TocEntry
+          Title="Upgrade Considerations"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_UpgradeConsiderations.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Optional EMS Web App Features"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_OptionalFeatures.html">
+        <TocEntry
+          Title="Customize EMS Web App"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Customize.html" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS Mobile Web Application"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_MobileWebApplication.html" />
+      <TocEntry
+        Title="Launch EMS Web App"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_StartWebApp.html" />
+      <TocEntry
+        Title="Windows Server 2008/2008 R2 Web Server Setup Guide"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_WinWebServGuide2008R2.htm">
+        <TocEntry
+          Title="Best Practices: Setting Up Your Web Server 2008 or 2008R2"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_BestPracSetUpServer2008R2.html" />
+        <TocEntry
+          Title="Install .NET Framework"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_InstallNETFramework2008.html" />
+        <TocEntry
+          Title="Install Internet Information Services (IIS)"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Install-IIS2008.html">
+          <TocEntry
+            Title="Add Role Services"
+            Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_AddingRoleServices2008.html" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Windows Server 2012/2012 R2 Web Server Setup Guide"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_WinWebServGuide2012R.htm">
+        <TocEntry
+          Title="Best Practices: Setting Up Your Web Server 2012 or 2012R2"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_BestPracSetUpServer2012R2.html" />
+        <TocEntry
+          Title="Install .NET Framework"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_InstallNETFramework2012.html" />
+        <TocEntry
+          Title="Install Internet Information Services (IIS)"
+          Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Install-IIS2012.html">
+          <TocEntry
+            Title="Add Role Services"
+            Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_AddRoleServices2012.html" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/Learn About Our Applications/VPAT for EMS Web App V44 1.htm" />
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
+        <TocEntry
+          Title="EMS Web App and VEMS Authentication Options"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="EMS Mobile App"
+      Link="/Content/3MobileApp/A_InstallationGuide/4_MobileAppHome.htm">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Introduction.html" />
+      <TocEntry
+        Title="Installation and Basic Setup"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_InstallandBasicSetup.html">
+        <TocEntry
+          Title="Architecture"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Architecture.html" />
+        <TocEntry
+          Title="How Mobile App Data Is Stored on Devices"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
+      </TocEntry>
+      <TocEntry
+        Title="System Requirements"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SysRequirements.html" />
+      <TocEntry
+        Title="What's New"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_WhatsNew.html" />
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
+        <TocEntry
+          Title="EMS Mobile App Authentication Options"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Mobile.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS Mobile Authentication"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SetUpMobileAuthen.html">
+        <TocEntry
+          Title="EMS Native Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html" />
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html" />
+        <TocEntry
+          Title="Open ID Connect Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html">
+          <TocEntry
+            Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+            Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Persistent Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm" />
+        <TocEntry
+          Title="SAML Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">
+          <TocEntry
+            Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+            Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Using Windows Authentication (NTLM) for EMS Mobile"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Link="/Content/A_Installation/5_OutlookV44.1/5_OutlookV44.1Home.htm"
+      Title="EMS for Microsoft Outlook">
+      <TocEntry
+        Title="Introduction to EMS for Outlook"
+        Link="/Content/4Outlook/A_Install/Outlook_IG_Introduction.htm" />
+      <TocEntry
+        Title="Requirements and Prerequisites for EMS for Outlook"
+        Link="/Content/4Outlook/A_Install/Outlook_IG_ReqsPrereqs.htm" />
+      <TocEntry
+        Title="Plan Your EMS for Outlook Implementation"
+        Link="/Content/4Outlook/A_Install/Outlook_IG_PlanImplementation.htm" />
+      <TocEntry
+        Title="Install or Upgrade EMS for Outlook on Users' Computers"
+        Link="/Content/4Outlook/A_Install/Outlook_IG_InstallUpgrade.htm">
+        <TocEntry
+          Title="EMS for Outlook Add-In Is Offline"
+          Link="/Content/4Outlook/A_Install/Outlook_IG_OutlookAddInOffline.htm" />
+        <TocEntry
+          Title="Silent/Unattended EMS for Outlook Installation"
+          Link="/Content/4Outlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm" />
+        <TocEntry
+          Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
+          Link="/Content/4Outlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
+        Title="Integration to Microsoft Exchange">
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_IntegExchanReqs.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_ConfigIntegExchange.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_UseAppPoolIdentif.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_ConfigEWSImperforME.htm" />
+        <TocEntry
+          Title="[%=System.LinkedTitle%]"
+          Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="EMS Kiosk App"
+      Skin="/Project/Skins/TopicToolBar.flskn"
+      ReplaceMergeNode="false"
+      Link="/Content/A_Installation/6_Kiosk/A_KioskHome.htm">
+      <TocEntry
+        Title="Introduction to the EMS Kiosk App"
+        Link="/Content/5Kiosk/A_44.1/A_Install/Kiosk_IG_Introduction.htm" />
+      <TocEntry
+        Title="Obtain the Installation Files for EMS Kiosk App"
+        Link="/Content/5Kiosk/A_44.1/A_Install/Kiosk_IG_ObtainInstallation.htm" />
+      <TocEntry
+        Title="System Requirements and Prerequisites for EMS Kiosk App"
+        Link="/Content/5Kiosk/A_44.1/A_Install/Kiosk_IG_SysReqPrereq.htm" />
+      <TocEntry
+        Title="Install or Upgrade the EMS Kiosk App"
+        Link="/Content/5Kiosk/A_44.1/A_Install/Kiosk_IG_InstallUpgrade.htm" />
+      <TocEntry
+        Title="Launch EMS Kiosk App"
+        Link="/Content/5Kiosk/A_44.1/A_Install/Kiosk_IG_StartKioskApp.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Room Sign App (formerly Glance)"
+      Link="/Content/A_Installation/8_RoomSignAppV44.1/8_RoomSignAppHome.htm">
+      <TocEntry
+        Title="Requirements for the EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_RequirementsforRSA.html" />
+      <TocEntry
+        Title="Obtain the Installation Files for EMS Room Sign"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_ObtainInstallFiles.html" />
+      <TocEntry
+        Title="Architecture for the EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_Architecture.html" />
+      <TocEntry
+        Title="Best Practices for Using EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_BestPractices.htm" />
+      <TocEntry
+        Title="Install EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Campus"
+      Link="/Content/A_Installation/10_CampusV44.1/10_CampusHome.htm">
+      <TocEntry
+        Title="EMS Campus Planning Interface"
+        Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_Intro.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_Intro.htm" />
+        <TocEntry
+          Title="EMS V44.1 System Requirements"
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_SysReqPrereq.htm" />
+        <TocEntry
+          Title="Obtain the Latest Release of EMS Campus Planning Interface"
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_ObtainLateRel.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS Campus Planning Interface"
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_InstallUpgradCPI.htm" />
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CPI/CPI_IG_44.1_StartCPI.htm"
+          Title="Start the EMS Campus Planning Interface" />
+      </TocEntry>
+      <TocEntry
+        Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_Intro.htm"
+        Title="EMS Campus Web Service and White Paper">
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_SysReqPrereq.htm"
+          Title="EMS Campus Web Service Hardware/Software Requirements" />
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_ObtainLatestVers.htm"
+          Title="Obtain the Latest EMS Campus Web Service Components" />
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_InstallUpgrade.htm"
+          Title="Install or Upgrade the EMS Campus Web Service" />
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ConfigSteps.htm"
+          Title="EMS Configuration Steps" />
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_Data Models.htm"
+          Title="Data Models">
+          <TocEntry
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_BanView.htm"
+            Title="Banner Views Data Model" />
+          <TocEntry
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_CAMSView.htm"
+            Title="CAMS Views Data Model" />
+          <TocEntry
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ColleagOrac.htm"
+            Title="Colleague (Oracle or SQL) Views Data Model" />
+          <TocEntry
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ColleagUnidata.htm"
+            Title="Colleague Unidata Views Data Model" />
+          <TocEntry
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_JenzabarCX.htm"
+            Title="Jenzabar (CX - Informix) Views Data Model" />
+          <TocEntry
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_JenzabarEX.htm"
+            Title="Jenzabar (EX) Views Data Model" />
+          <TocEntry
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_PeopleSoft.htm"
+            Title="PeopleSoft Views Data Model" />
+          <TocEntry
+            Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_PowerCampus.htm"
+            Title="PowerCampus Views Data Model" />
+        </TocEntry>
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_WebSvOverview.htm"
+          Title="Web Service Overview" />
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_AppendA.htm"
+          Title="Appendix A - Format for Tab-Delimited Files" />
+        <TocEntry
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm"
+          Title="Integrate Course and Student Information with Student Information Systems (SIS)" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="EMS Master Calendar"
+      Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
+      <TocEntry
+        Title="Requirements for Master Calendar"
+        Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
+      <TocEntry
+        Title="Installation Instructions"
+        Link="/Content/8MC/V8/A_Installation/MC_IG_InstallationInstruct.html">
+        <TocEntry
+          Title="Obtain Master Calendar Installation Files"
+          Link="/Content/8MC/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
+        <TocEntry
+          Title="Run the Master Calendar Installer"
+          Link="/Content/8MC/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
+        <TocEntry
+          Title="Configure Master Calendar to Use the Master Calendar API Web Service"
+          Link="/Content/8MC/V8/A_Installation/MC_ConfigUseAPIWebService.html" />
+        <TocEntry
+          Title="Install or Upgrade the Database Component in Master Calendar"
+          Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
+        <TocEntry
+          Title="Install or Upgrade the Master Calendar Web Service"
+          Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
+      </TocEntry>
+    </TocEntry>
+    <TocEntry
+      Title="EMS Platform Services"
+      Link="/Content/A_Installation/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
+      <TocEntry
+        Title="Introduction to EMS Platform Services"
+        Link="/Content/7PlatformServices/A_InstallationGuide/Platform_Introduction.html" />
+      <TocEntry
+        Title="Install EMS Platform Services"
+        Link="/Content/7PlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
+      <TocEntry
+        Title="License Requirements for Platform Services"
+        Link="/Content/7PlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Exchange Room Integration (ERI)"
+      Link="/Content/A_Installation/11_ERI_V44.1/11_ERI_Home.htm">
+      <TocEntry
+        Title="Introduction to ERI"
+        Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_IntroductiontoERI.html">
+        <TocEntry
+          Title="Architecture of ERI"
+          Link="/Content/E_Integrations/7ERI/A_Installation/ERI_ArchitectureofERI.html" />
+        <TocEntry
+          Title="System Requirements of ERI"
+          Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_SystemRequirements.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Install Exchange Room Integration"
+        Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_InstallingERI.html" />
+      <TocEntry
+        Title="Exchange Sync Utility"
+        Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_ExchangeSyncUtility.html" />
+    </TocEntry>
+    <TocEntry
+      Title="Regics "
+      Link="/Content/Regics/EMS Regics Installation Guide.pdf" />
+    <TocEntry
+      Title="Optional Features"
+      Link="/Content/F_Optional Features/1_OptionalFeaturesHome.htm">
+      <TocEntry
+        Title="EMS API Home (Optional Feature)"
+        Link="/Content/F_Optional Features/2_EMS_API_Home.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_Introduction.htm">
+          <TocEntry
+            Title="Process Overview"
+            Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ProcessOverview.html" />
+          <TocEntry
+            Title="Technical Benefits"
+            Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_TechnicalBenefits.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Hardware and Software Requirements"
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_HardwareSoftwareReqs.htm" />
+        <TocEntry
+          Title="EMS API Requirements and Licensing"
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_APIReqsLicensing.htm" />
+        <TocEntry
+          Title="Obtain the EMS API Web Service Installation Files"
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ObtainAPIWebServInstallFiles.htm" />
+        <TocEntry
+          Title="Install or Upgrade Database Components"
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_InstallUpgradeDatabaseComponents.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS API Web Service"
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_InstallUpgradeAPIWebServ.htm" />
+        <TocEntry
+          Title="Configure and Verify EMS for EMS API Web Service Use"
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ConfigVerifyEMSAPIWebServUse.htm" />
+        <TocEntry
+          Title="EMS API Functions"
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_EMSAPIfunctions.html" />
+        <TocEntry
+          Title="Release Notes"
+          Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ReleaseNotes.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS Floor Plan (Optional Feature)"
+        Link="/Content/F_Optional Features/3_EMS_FloorPlansHome.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Introduction.htm">
+          <TocEntry
+            Title="Requirements"
+            Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_Requirements.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Obtain Floor Plans Installation Files"
+          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_ObtainFPInstallFiles.htm" />
+        <TocEntry
+          Title="Install Floor Plans Components"
+          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallFloorPlanComponents.htm">
+          <TocEntry
+            Title="Install or Upgrade the Floor Plan Web Service"
+            Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPWebService.htm" />
+          <TocEntry
+            Title="Install or Upgrade the Floor Plan Configuration Tool"
+            Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_InstallUpgradeFPConfigTool.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Upload, Configure, and View Floorplans"
+          Link="/Content/F_Optional Features/FloorPlan/A_V44.1/FloorPlan_IG/FloorPlan_IG_UploadConfigViewFP.htm" />
+        <TocEntry
+          Title="Integrated Authentication Options"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+          <TocEntry
+            Title="Introduction"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm">
+            <TocEntry
+              Title="Integrated Authentication Considerations"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="Integrated Windows Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+            <TocEntry
+              Title="Manage Everyday Users For Integrated Authentication"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+          </TocEntry>
+          <TocEntry
+            Title="LDAP Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+          <TocEntry
+            Title="Portal or Federated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+            <TocEntry
+              Title="Portal Authentication Methods"
+              Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+          </TocEntry>
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="EMS Facility Management Toolkit (Optional Feature)"
+        Link="/Content/F_Optional Features/4_EMS_Facility_Management_Toolkit_Home.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_Introduction.htm">
+          <TocEntry
+            Title="How It Works"
+            Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_HowItWorks.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Installation Overview"
+          Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_InstallOverview.htm" />
+        <TocEntry
+          Title="Obtain the Installation Files"
+          Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_ObtainInstallFiles.htm" />
+        <TocEntry
+          Title="Install and Execute the Facility Management Toolkit"
+          Link="/Content/F_Optional Features/FMToolkit/A_V44.1/FMToolkit_InstallExecuteFMToolkit.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS Human Resources Toolkit"
+        Link="/Content/F_Optional Features/5_EMS_HumanResourcesToolkitHome.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_Introduction.htm" />
+        <TocEntry
+          Title="Installation Overview"
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_InstallationOverview.htm" />
+        <TocEntry
+          Title="Obtain the Installation Files"
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ObtainInstallFiles.htm" />
+        <TocEntry
+          Title="How It Works"
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_HowItWorks.htm">
+          <TocEntry
+            Title="How HR Toolkit Integrates Your User Records"
+            Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_HowIntegUserRec.htm" />
+          <TocEntry
+            Title="Align Your Source Data for HR Toolkit"
+            Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_AlignSourceData.htm" />
+          <TocEntry
+            Title="Configure EMS Web App for HR Toolkit"
+            Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ConfigWebAppforHRTK.htm" />
+          <TocEntry
+            Title="Upgrade Considerations"
+            Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_UpgradeConsiderations.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Install HR Toolkit for the Group/Group Type Model"
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_InstallforGroupGroupTypeModel.htm">
+          <TocEntry
+            Title="Import Group/Group Type Data"
+            Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ImportGroupGroupTypeData.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Install HR Toolkit for the Groups/Contacts or Hybrid Model"
+          Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_InstallforGroupContactHybridModel.htm">
+          <TocEntry
+            Title="Import Group/Contact or Hybrid Data"
+            Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_ImportGroupContactHybridData.htm" />
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Active Directory"
+        Link="/Content/F_Optional Features/8_Active DirectoryHome.htm">
+        <TocEntry
+          Title="Connect to Your Database Using Active Directory"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_ConnectToYourDatabase.htm">
+          <TocEntry
+            Title="Pre-Installation Requirements"
+            Link="/Content/F_Optional Features/Active Directory/OptFeat_Pre-InstallReqs.htm" />
+          <TocEntry
+            Title="Configure Your EMS Database"
+            Link="/Content/F_Optional Features/Active Directory/OptFeat_ConfigYourEMSDatabase.htm" />
+          <TocEntry
+            Title="Configure EMS Desktop Client"
+            Link="/Content/F_Optional Features/Active Directory/OptFeat_ConfigEMSDesktopClient.htm" />
+          <TocEntry
+            Title="Connect Your EMS Web-Based Applications"
+            Link="/Content/F_Optional Features/Active Directory/OptFeat_ConnectYourEMSWebBasedApps.htm" />
+          <TocEntry
+            Title="Finalize Your Database Connection"
+            Link="/Content/F_Optional Features/Active Directory/OptFeat_FinalizeYourDatabaseCon.htm" />
+          <TocEntry
+            Title="Manage Database Connections With EMS Services"
+            Link="/Content/F_Optional Features/Active Directory/OptFeat_ManageDatabaseCon.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="How Do I Translate EMS To Another Language?"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_HowTranslateEMSAnothLang.htm" />
+        <TocEntry
+          Title="Install EMS Check-in Notification Service"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSCheckinNotif.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS Email Notification Service"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallUpgradeEMSEmailNotif.htm" />
+        <TocEntry
+          Title="Install the EMS Automated Report Service"
+          Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="CISCO TMS Interface"
+        Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_Introduction.htm" />
+        <TocEntry
+          Title="Obtain the Installation Files "
+          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ObtainInstallFiles.htm" />
+        <TocEntry
+          Title="Install the Database"
+          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_InstallDatabase.htm" />
+        <TocEntry
+          Title="Install the EMS - Cisco TMS Service"
+          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_InstallCiscoTMSservice.htm" />
+        <TocEntry
+          Title="Install the Cisco TMS Activity DLL"
+          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_InstallCiscoTMSActDLL.htm" />
+        <TocEntry
+          Title="Configure the EMS - Cisco TMS Interface"
+          Link="/Content/F_Optional Features/Cisco/A_V44.1/Cisco_ConfigCiscoTMSinterface.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS RoomWizard Integration"
+        Link="/Content/F_Optional Features/8_Room_Wizard_Home.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_Introduction.htm" />
+        <TocEntry
+          Title="System Requirements"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_SystemRequirements.htm" />
+        <TocEntry
+          Title="Obtain the Installation Files"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_ObtainInstallFiles.htm" />
+        <TocEntry
+          Title="Install EMS - RoomWizard Interface"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_InstallRWinterface.htm" />
+        <TocEntry
+          Title="Install EMS -RoomWizard Interface Website"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_InstallRWInterWebsite.htm" />
+        <TocEntry
+          Title="Configure the EMS RoomWizard Interface"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_ConfigEMSRW.htm">
+          <TocEntry
+            Title="Data Transferred Between Units and the Interface"
+            Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_DataTransBetweenUnits.htm" />
+          <TocEntry
+            Title="Room Wizard Communication"
+            Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_RWCommunication.htm" />
+          <TocEntry
+            Title="Security Considerations"
+            Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_SecurityConsiderations.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Configure Steelcase RoomWizard"
+          Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_ConfigSteelcaseRW.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Polycom Integration"
+        Link="/Content/F_Optional Features/7_Polycom_Integration_Home.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_Introduction.html">
+          <TocEntry
+            Title="Application Architecture"
+            Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_ApplicationArchitecture.html" />
+          <TocEntry
+            Title="Requirements"
+            Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_Requirements.html" />
+          <TocEntry
+            Title="Integration Diagram"
+            Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_IntegrationDiagram.htm" />
+        </TocEntry>
+        <TocEntry
+          Title="Obtain the Installation Files"
+          Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_ObtainInstallFiles.html" />
+        <TocEntry
+          Title="Install the EMS Polycom Service For the First Time"
+          Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_InstallPolycomServiceFirstTime.html" />
+        <TocEntry
+          Title="Install or Upgrade the EMS Polycom Service"
+          Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_InstallUpgradePolycomService.html" />
+        <TocEntry
+          Title="Configure the EMS Polycom Interface"
+          Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_ConfigPolycomInterface.htm">
+          <TocEntry
+            Title="Install the Polycom Activity DLL on Users' Machines"
+            Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_InstallPolycomActivityDLL.html" />
+          <TocEntry
+            Title="Configure the EMS Polycom Rooms/Resources"
+            Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_ConfigurePolycomRoomsResources.html" />
+          <TocEntry
+            Title="Advanced EMS Polycom Interface Configuration"
+            Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html" />
+        </TocEntry>
+      </TocEntry>
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
     Title="Configuration Guides"
     Link="/Content/B_Configuration Guides/1_ConfigurationHome/1_Configuration Home.htm">
     <TocEntry
