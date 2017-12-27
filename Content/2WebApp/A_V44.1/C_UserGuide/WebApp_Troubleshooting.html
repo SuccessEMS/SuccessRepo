@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="6" MadCap:lastHeight="644" MadCap:lastWidth="861" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSWebApp.flmsp');" MadCap:onlyLocalStylesheets="False">
-    <head><title mt-export-translate="no">Troubleshooting: Internal Server Error When Viewing My Events in EMS Web App</title>
-        <meta name="mt-type" value="application/x.deki-text" />
-        <meta name="mt-unsafe" value="false" />
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="1056" MadCap:lastWidth="891" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSWebApp.flmsp');" MadCap:onlyLocalStylesheets="False">
+    <head><title>Troubleshoot an Internal Server Error When Viewing My Events in EMS Web App</title>
     </head>
     <body>
         <h1>Troubleshoot an Internal Server Error When Viewing My Events in EMS Web App</h1>
         <p>If you are&#160;getting an internal server error when trying to view existing bookings through the “My Events” page in <MadCap:variable name="General.EMS&#160;Web App" /> and there are&#160;a large amount of bookings under your name, this is because the number of records returned exceeds the number allowed by the IIS web app configuration. The maximum is set to 50,000 by default.</p>
         <p><span class="bold">Workaround:&#160;</span>You or your System Administrator can increase this limit&#160;by editing the web.config file. The configuration attribute to look for is the following:</p>
-        <div class="indent">&lt;add key="aspnet:MaxJsonDeserializerMembers" value="50000" /&gt;</div>
+        <div class="indent">
+            <p>&lt;add key="aspnet:MaxJsonDeserializerMembers" value="50000" /&gt;</p>
+        </div>
         <p>Change the value to&#160;the maximum number of bookings you expect users to have.</p>
-        <p>
-            <MadCap:annotation MadCap:createDate="2017-11-01T21:35:17.0333842-06:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="Following info is the text for a wiki link. Make into a snippet?" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-07T21:05:46.5266455-07:00">Tip</MadCap:annotation> for EMS Cloud Customers: Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please contact EMS Support.</p>
+        <div class="note-box tip">
+            <p>Tip for EMS Cloud Customers: Modifications to the web.config file must be performed by EMS Cloud Operations. To request these changes, please contact <a href="#Contact_Customer_Support">EMS Support</a>.</p>
+        </div>
+        <h2><a name="Contact_Customer_Support"></a>Contact Customer Support</h2>
         <MadCap:snippetBlock src="../../../ContactCustomerSupport.flsnp" />
         <p>&#160;</p>
     </body>

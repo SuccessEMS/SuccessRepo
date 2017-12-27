@@ -1,4 +1,4 @@
-/*<meta />*/
+﻿/*<meta />*/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700');
 
@@ -2242,7 +2242,7 @@ ul.unorder-list
 
 div.indent
 {
-	
+	margin-left: 3em;
 }
 
 p.beforelist
@@ -2251,4 +2251,3 @@ p.beforelist
 	margin: 0 0 10px;
 	margin-bottom: 5px;
 }
-
