@@ -125,10 +125,17 @@
     <Word Comment="">Enabling/Disabling</Word>
     <Word Comment="">unpublish</Word>
     <Word Comment="">GetBookingHistory</Word>
-    <Word>SVGA</Word>
-    <Word>w/9ms</Word>
-    <Word>V8.0</Word>
-    <Word>V7.0</Word>
-    <Word>SP2</Word>
-    <Word>Windows®</Word>
+    <Word Comment="">SVGA</Word>
+    <Word Comment="">w/9ms</Word>
+    <Word Comment="">V8.0</Word>
+    <Word Comment="">V7.0</Word>
+    <Word Comment="">SP2</Word>
+    <Word Comment="">Windows®</Word>
+    <Word>RoomTypes.txt</Word>
+    <Word>Rooms.txt</Word>
+    <Word>Instructors.txt</Word>
+    <Word>Subjects.txt</Word>
+    <Word>CourseTypes.txt</Word>
+    <Word>Terms.txt</Word>
+    <Word>CourseDates.txt</Word>
 </IgnoredWordsDictionary>
