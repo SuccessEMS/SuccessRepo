@@ -2,220 +2,223 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Installation Guide EMS Mobile App"
-    Link="/Content/3MobileApp/A_InstallationGuide/4_MobileAppHome.htm">
+    Title="Documentation for EMS Mobile App">
     <TocEntry
-      Title="Introduction"
-      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Introduction.html" />
-    <TocEntry
-      Title="Installation and Basic Setup"
-      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_InstallandBasicSetup.html">
-      <TocEntry
-        Title="Architecture"
-        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Architecture.html" />
-      <TocEntry
-        Title="How Mobile App Data Is Stored on Devices"
-        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
-    </TocEntry>
-    <TocEntry
-      Title="System Requirements"
-      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SysRequirements.html" />
-    <TocEntry
-      Title="What's New"
-      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_WhatsNew.html" />
-    <TocEntry
-      Title="Integrated Authentication Options"
-      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+      Title="Installation Guide EMS Mobile App"
+      Link="/Content/A_Installation/MobileApp/4_MobileAppHome.htm">
       <TocEntry
         Title="Introduction"
-        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Introduction.html" />
+      <TocEntry
+        Title="Installation and Basic Setup"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_InstallandBasicSetup.html">
         <TocEntry
-          Title="Integrated Authentication Considerations"
-          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+          Title="Architecture"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Architecture.html" />
+        <TocEntry
+          Title="How Mobile App Data Is Stored on Devices"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
       </TocEntry>
       <TocEntry
-        Title="Integrated Windows Authentication"
-        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
-        <TocEntry
-          Title="Manage Everyday Users For Integrated Authentication"
-          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
-      <TocEntry
-        Title="LDAP Authentication"
-        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
-      <TocEntry
-        Title="Portal or Federated Authentication"
-        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
-        <TocEntry
-          Title="Portal Authentication Methods"
-          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
-      </TocEntry>
-      <TocEntry
-        Title="EMS Mobile App Authentication Options"
-        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Mobile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    </TocEntry>
-    <TocEntry
-      Title="EMS Mobile Authentication"
-      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SetUpMobileAuthen.html">
-      <TocEntry
-        Title="EMS Native Authentication"
-        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html" />
-      <TocEntry
-        Title="LDAP Authentication"
-        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html" />
-      <TocEntry
-        Title="Open ID Connect Authentication"
-        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html">
-        <TocEntry
-          Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
-      <TocEntry
-        Title="Persistent Authentication"
-        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="SAML Authentication"
-        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">
-        <TocEntry
-          Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
-          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      </TocEntry>
-      <TocEntry
-        Title="Using Windows Authentication (NTLM) for EMS Mobile"
-        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html" />
-    </TocEntry>
-  </TocEntry>
-  <TocEntry
-    Title="Configuration Guide EMS Mobile App"
-    Link="/Content/B_Configuration Guides/4_EMS_MobileApp_CG.htm">
-    <TocEntry
-      Title="Introduction"
-      Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="Add Mobile Users"
-      Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_AddMobileUsers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="Deploying the EMS Mobile App"
-      Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_DeployMobileApp.html">
-      <TocEntry
-        Title="Change EMS Mobile App Logo (Private Deployment Only)"
-        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_ChangeEMSMobileAppLogoPrivDeploy.html" />
-      <TocEntry
-        Title="Configure and Re-Sign EMS Mobile App (Private Deployment Only)"
-        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html" />
-      <TocEntry
-        Title="Customize Your Mobile App Configuration Using config.json (Private Deployment Only)"
-        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-      <TocEntry
-        Title="Restrict Users' Mobile App Versions"
-        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_RestrictUsersMobileAppVer.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Change the Help Link Label and URL"
-      Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_ChangeHelpLinkLabelURL.html" />
-    <TocEntry
-      Title="Configure EMS Mobile QR Codes"
-      Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_ConfigMobileQRCodes.html" />
-    <TocEntry
-      Title="How Do I Know When To Upgrade the Mobile App and API?"
-      Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_HowtoUpgradeMobileApptoAPI.html" />
-    <TocEntry
-      Title="Set EMS Mobile Parameters"
-      Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html"></TocEntry>
-  </TocEntry>
-  <TocEntry
-    Title="Everyday User Guide EMS Mobile App"
-    Link="/Content/3MobileApp/C_UserGuide/2_EMS Mobile App.htm">
-    <TocEntry
-      Title="Introduction"
-      Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_Introduction.html">
+        Title="System Requirements"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SysRequirements.html" />
       <TocEntry
         Title="What's New"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_WhatsNew.html"></TocEntry>
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_WhatsNew.html" />
+      <TocEntry
+        Title="Integrated Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+          <TocEntry
+            Title="Integrated Authentication Considerations"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Integrated Windows Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+          <TocEntry
+            Title="Manage Everyday Users For Integrated Authentication"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+        <TocEntry
+          Title="Portal or Federated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+          <TocEntry
+            Title="Portal Authentication Methods"
+            Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+        </TocEntry>
+        <TocEntry
+          Title="EMS Mobile App Authentication Options"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Mobile.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS Mobile Authentication"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SetUpMobileAuthen.html">
+        <TocEntry
+          Title="EMS Native Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html" />
+        <TocEntry
+          Title="LDAP Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html" />
+        <TocEntry
+          Title="Open ID Connect Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html">
+          <TocEntry
+            Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+            Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Persistent Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="SAML Authentication"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">
+          <TocEntry
+            Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+            Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        </TocEntry>
+        <TocEntry
+          Title="Using Windows Authentication (NTLM) for EMS Mobile"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html" />
+      </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="Get Started With EMS Mobile"
-      Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_GetStarted.html">
+      Title="Configuration Guide EMS Mobile App"
+      Link="/Content/B_Configuration Guides/4_EMS_MobileApp_CG.htm">
       <TocEntry
-        Title="Log In, Reset Password, or Create An Account"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_LogInResetPasswordCreateAccount.html" />
+        Title="Introduction"
+        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Enter Your Server URL"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_EnterYourServerURL.html" />
+        Title="Add Mobile Users"
+        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_AddMobileUsers.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       <TocEntry
-        Title="Search For Events"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_SearchforEvents.html" />
+        Title="Deploying the EMS Mobile App"
+        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_DeployMobileApp.html">
+        <TocEntry
+          Title="Change EMS Mobile App Logo (Private Deployment Only)"
+          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_ChangeEMSMobileAppLogoPrivDeploy.html" />
+        <TocEntry
+          Title="Configure and Re-Sign EMS Mobile App (Private Deployment Only)"
+          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_ConfigRe-signMobilePrivDeploy.html" />
+        <TocEntry
+          Title="Customize Your Mobile App Configuration Using config.json (Private Deployment Only)"
+          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_CustomizeMobileAppUsingConfigJson.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+        <TocEntry
+          Title="Restrict Users' Mobile App Versions"
+          Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_RestrictUsersMobileAppVer.html" />
+      </TocEntry>
       <TocEntry
-        Title="Check In to Meetings"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_CheckIntoMeetings.html" />
+        Title="Change the Help Link Label and URL"
+        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_ChangeHelpLinkLabelURL.html" />
       <TocEntry
-        Title="Cancel Meetings"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_CancelMeetings.html" />
+        Title="Configure EMS Mobile QR Codes"
+        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_ConfigMobileQRCodes.html" />
       <TocEntry
-        Title="End Meetings Early"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_EndMeetingsEarly.html" />
+        Title="How Do I Know When To Upgrade the Mobile App and API?"
+        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_HowtoUpgradeMobileApptoAPI.html" />
       <TocEntry
-        Title="Favorite Locations"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_FavoriteLocations.html" />
-      <TocEntry
-        Title="Remove Favorite Locations"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_RemoveFavoriteLocations.html" />
-      <TocEntry
-        Title="Use QR Codes"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_UseQRCodes.html" />
+        Title="Set EMS Mobile Parameters"
+        Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html"></TocEntry>
     </TocEntry>
     <TocEntry
-      Title="Attend a Meeting"
-      Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_AttendMeeting.html" />
-    <TocEntry
-      Title="Create a Meeting"
-      Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_CreateMeeting.html">
+      Title="Everyday User Guide EMS Mobile App"
+      Link="/Content/3MobileApp/C_UserGuide/2_EMS Mobile App.htm">
       <TocEntry
-        Title="Find a Room"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_FindRoom.html" />
+        Title="Introduction"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_Introduction.html">
+        <TocEntry
+          Title="What's New"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_WhatsNew.html"></TocEntry>
+      </TocEntry>
       <TocEntry
-        Title="Invite People"
-        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_InvitePeople.html" />
+        Title="Get Started With EMS Mobile"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_GetStarted.html">
+        <TocEntry
+          Title="Log In, Reset Password, or Create An Account"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_LogInResetPasswordCreateAccount.html" />
+        <TocEntry
+          Title="Enter Your Server URL"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_EnterYourServerURL.html" />
+        <TocEntry
+          Title="Search For Events"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_SearchforEvents.html" />
+        <TocEntry
+          Title="Check In to Meetings"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_CheckIntoMeetings.html" />
+        <TocEntry
+          Title="Cancel Meetings"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_CancelMeetings.html" />
+        <TocEntry
+          Title="End Meetings Early"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_EndMeetingsEarly.html" />
+        <TocEntry
+          Title="Favorite Locations"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_FavoriteLocations.html" />
+        <TocEntry
+          Title="Remove Favorite Locations"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_RemoveFavoriteLocations.html" />
+        <TocEntry
+          Title="Use QR Codes"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_UseQRCodes.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Attend a Meeting"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_AttendMeeting.html" />
+      <TocEntry
+        Title="Create a Meeting"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_CreateMeeting.html">
+        <TocEntry
+          Title="Find a Room"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_FindRoom.html" />
+        <TocEntry
+          Title="Invite People"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_InvitePeople.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Change a Meeting"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_ChangeMeeting.html" />
+      <TocEntry
+        Title="Use Skype for Business in the EMS Mobile App"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_UseSkypeforBusiness.html" />
     </TocEntry>
     <TocEntry
-      Title="Change a Meeting"
-      Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_ChangeMeeting.html" />
+      Title="Video Tutorials"
+      Link="/Content/3MobileApp/Video Tutorials/Mobile App_VideoTutorialIntro.htm">
+      <TocEntry
+        Title="VIDEO: Booking a Desk or Meeting in the EMS Mobile App"
+        Link="/Content/3MobileApp/Video Tutorials/Mobile_Video_BookingDeskMeeting.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="VIDEO: Use a QR Code to Book a Meeting"
+        Link="/Content/3MobileApp/Video Tutorials/Mobile_Video_Use QR CodeBookMeeting.htm"
+        MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+    </TocEntry>
     <TocEntry
-      Title="Use Skype for Business in the EMS Mobile App"
-      Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_UseSkypeforBusiness.html" />
+      Title="Release Notes">
+      <TocEntry
+        Title="Release Notes V44.1"
+        Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />
+      <TocEntry
+        Title="Release Notes V44"
+        Link="/Content/C_Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Release Notes V43"
+        Link="/Content/C_Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/G_Glossary/1_Glossary.htm"
+      Skin="/Project/Skins/HomeSearchBar.flskn"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false"></TocEntry>
   </TocEntry>
-  <TocEntry
-    Title="Video Tutorials"
-    Link="/Content/3MobileApp/Video Tutorials/Mobile App_VideoTutorialIntro.htm">
-    <TocEntry
-      Title="VIDEO: Booking a Desk or Meeting in the EMS Mobile App"
-      Link="/Content/3MobileApp/Video Tutorials/Mobile_Video_BookingDeskMeeting.htm"
-      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-    <TocEntry
-      Title="VIDEO: Use a QR Code to Book a Meeting"
-      Link="/Content/3MobileApp/Video Tutorials/Mobile_Video_Use QR CodeBookMeeting.htm"
-      MadCap:generatedToc="true" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
-  </TocEntry>
-  <TocEntry
-    Title="Release Notes">
-    <TocEntry
-      Title="Release Notes V44.1"
-      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />
-    <TocEntry
-      Title="Release Notes V44"
-      Link="/Content/C_Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm" />
-    <TocEntry
-      Title="Release Notes V43"
-      Link="/Content/C_Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="Glossary"
-    Link="/Content/G_Glossary/1_Glossary.htm"
-    Skin="/Project/Skins/HomeSearchBar.flskn"
-    StartSection="false"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue"
-    ComputeToc="false"
-    ReplaceMergeNode="false"></TocEntry>
 </CatapultToc>
