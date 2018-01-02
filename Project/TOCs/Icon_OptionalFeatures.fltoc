@@ -222,7 +222,7 @@
         Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
     </TocEntry>
     <TocEntry
-      Title="CISCO TMS Interface"
+      Title="Cisco TMS Interface"
       Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
       <TocEntry
         Title="Introduction"
@@ -284,7 +284,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS RoomWizard Integration"
-      Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_Introduction.htm">
+      Link="/Content/F_Optional Features/8_Room_Wizard_Home.htm">
       <TocEntry
         Title="Introduction"
         Link="/Content/F_Optional Features/RoomWiz/A_V44.1/RoomWiz_Introduction.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"></TocEntry>

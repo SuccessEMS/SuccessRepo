@@ -476,7 +476,7 @@
       Title="Optional Features"
       Link="/Content/F_Optional Features/1_OptionalFeaturesHome.htm">
       <TocEntry
-        Title="EMS API Home (Optional Feature)"
+        Title="EMS API Home"
         Link="/Content/F_Optional Features/2_EMS_API_Home.htm">
         <TocEntry
           Title="Introduction"
@@ -514,7 +514,7 @@
           Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ReleaseNotes.htm" />
       </TocEntry>
       <TocEntry
-        Title="EMS Floor Plan (Optional Feature)"
+        Title="EMS Floor Plan"
         Link="/Content/F_Optional Features/3_EMS_FloorPlansHome.htm">
         <TocEntry
           Title="Introduction"
@@ -569,7 +569,7 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Title="EMS Facility Management Toolkit (Optional Feature)"
+        Title="EMS Facility Management Toolkit"
         Link="/Content/F_Optional Features/4_EMS_Facility_Management_Toolkit_Home.htm">
         <TocEntry
           Title="Introduction"
@@ -670,7 +670,7 @@
           Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" />
       </TocEntry>
       <TocEntry
-        Title="CISCO TMS Interface"
+        Title="Cisco TMS Interface"
         Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
         <TocEntry
           Title="Introduction"
