@@ -43,10 +43,13 @@
       Title="EMS Campus">
       <TocEntry
         Title="Configuration Guide EMS Campus"
-        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_44.1_IntrotoConfigGuide.htm">
+        Link="/Content/B_Configuration Guides/10_EMS Campus Configuration Guide.htm">
+        <TocEntry
+          Title="Introduction"
+          Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_44.1_IntrotoConfigGuide.htm" />
         <TocEntry
           Title="Set Up EMS Campus"
-          Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_SetUpEMSCampusIntro.html" />
+          Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_SetUpEMSCampusIntro.html"></TocEntry>
         <TocEntry
           Title="Overview of Synchronization"
           Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_OverviewofSynchr.html" />
@@ -180,7 +183,7 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="EMS Campus Web Service">
+      Title="EMS Campus Web Service and White Paper">
       <TocEntry
         Title="Installation Guide EMS Campus Web Service and White Paper "
         Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_Intro.htm">
