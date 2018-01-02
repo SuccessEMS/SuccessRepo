@@ -40,7 +40,8 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="EMS Campus">
+      Title="EMS Campus"
+      Link="/Content/8Campus/A_V44.1/Campus_44.1_CGandUG_LandPage.htm">
       <TocEntry
         Title="Configuration Guide EMS Campus"
         Link="/Content/B_Configuration Guides/10_EMS Campus Configuration Guide.htm">
@@ -86,7 +87,7 @@
       </TocEntry>
       <TocEntry
         Title="User Guide EMS Campus"
-        Link="/Content/8Campus/B_V44/C_UG_Campus/Campus_UG_44_AcademicPlanwithCampus.htm">
+        Link="/Content/8Campus/A_V44.1/C_UG_Campus/Campus_UG_44_AcademicPlanwithCampus.htm">
         <TocEntry
           Title="Overview of the Academic Scheduling Process"
           Link="/Content/8Campus/B_V44/C_UG_Campus/Campus_UG_44_OverviewAcademicScheduling.htm" />
@@ -183,54 +184,57 @@
       </TocEntry>
     </TocEntry>
     <TocEntry
+      Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_Intro.htm"
       Title="EMS Campus Web Service and White Paper">
       <TocEntry
-        Title="Installation Guide EMS Campus Web Service and White Paper "
-        Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_Intro.htm">
+        Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_SysReqPrereq.htm"
+        Title="EMS Campus Web Service Hardware/Software Requirements" />
+      <TocEntry
+        Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_ObtainLatestVers.htm"
+        Title="Obtain the Latest EMS Campus Web Service Components" />
+      <TocEntry
+        Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_InstallUpgrade.htm"
+        Title="Install or Upgrade the EMS Campus Web Service" />
+      <TocEntry
+        Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ConfigSteps.htm"
+        Title="EMS Configuration Steps" />
+      <TocEntry
+        Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_Data Models.htm"
+        Title="Data Models">
         <TocEntry
-          Title="Overview of EMS Campus Web Service"
-          Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_WebSvOverview.htm" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_BanView.htm"
+          Title="Banner Views Data Model" />
         <TocEntry
-          Title="System Requirements and Prerequisites"
-          Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_SysReqPrereq.htm" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_CAMSView.htm"
+          Title="CAMS Views Data Model" />
         <TocEntry
-          Title="Obtain Latest Version of EMS Campus Web Service"
-          Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_ObtainLatestVers.htm" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ColleagOrac.htm"
+          Title="Colleague (Oracle or SQL) Views Data Model" />
         <TocEntry
-          Title="Install/Upgrade the EMS Campus Web Service"
-          Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_InstallUpgrade.htm" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ColleagUnidata.htm"
+          Title="Colleague Unidata Views Data Model" />
         <TocEntry
-          Title="EMS Configuration Steps"
-          Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_ConfigSteps.htm" />
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_JenzabarCX.htm"
+          Title="Jenzabar (CX - Informix) Views Data Model" />
         <TocEntry
-          Title="Data Models"
-          Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_Data Models.htm">
-          <TocEntry
-            Title="Banner Views Data Model"
-            Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_BanView.htm" />
-          <TocEntry
-            Title="CAMS Views Data Model"
-            Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_CAMSView.htm" />
-          <TocEntry
-            Title="Colleague (Oracle or SQL) Views Data Model"
-            Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_ColleagOrac.htm" />
-          <TocEntry
-            Title="Colleague Unidata Views Data Model"
-            Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_ColleagUnidata.htm" />
-          <TocEntry
-            Title="Jenzabar CX Informix Views Data Model"
-            Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_JenzabarCX.htm" />
-          <TocEntry
-            Title="Jenzabar EX Views Data Model"
-            Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_JenzabarEX.htm" />
-          <TocEntry
-            Title="PeopleSoft Views Data Model"
-            Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_PeopleSoft.htm" />
-          <TocEntry
-            Title="PowerCampus Views Data Model"
-            Link="/Content/8Campus/B_V44/A_IG_CWS/CWS_IG_44_PowerCampus.htm" />
-        </TocEntry>
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_JenzabarEX.htm"
+          Title="Jenzabar (EX) Views Data Model" />
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_PeopleSoft.htm"
+          Title="PeopleSoft Views Data Model" />
+        <TocEntry
+          Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_PowerCampus.htm"
+          Title="PowerCampus Views Data Model" />
       </TocEntry>
+      <TocEntry
+        Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_WebSvOverview.htm"
+        Title="Web Service Overview" />
+      <TocEntry
+        Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_AppendA.htm"
+        Title="Appendix A - Format for Tab-Delimited Files" />
+      <TocEntry
+        Link="/Content/F_Optional Features/HRToolkit/A_V44.1/HRToolkit_IntegCourseStudentInfowithSIS.htm"
+        Title="Integrate Course and Student Information with Student Information Systems (SIS)" />
     </TocEntry>
     <TocEntry
       Title="Older Releases"
