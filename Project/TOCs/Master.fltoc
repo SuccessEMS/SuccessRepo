@@ -2646,9 +2646,6 @@
             Title="Copy Booking Details Between Bookings"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetBetwBookings.htm" />
           <TocEntry
-            Title="Delete Booking Detail Items from Multiple Bookings"
-            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetItemMultBook.htm" />
-          <TocEntry
             Title="Delete Booking Details from Multiple Bookings"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsMultBook.htm" />
           <TocEntry
@@ -4210,8 +4207,7 @@
               Title="Copy Booking Details Between Bookings"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetBetwBookings.htm" />
             <TocEntry
-              Title="Delete Booking Detail Items from Multiple Bookings"
-              Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetItemMultBook.htm" />
+              Title="Delete Booking Detail Items from Multiple Bookings" />
             <TocEntry
               Title="Delete Booking Details from Multiple Bookings"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsMultBook.htm" />
