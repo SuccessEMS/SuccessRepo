@@ -2646,9 +2646,6 @@
             Title="Copy Booking Details Between Bookings"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetBetwBookings.htm" />
           <TocEntry
-            Title="Delete Booking Detail Items from Multiple Bookings"
-            Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetItemMultBook.htm" />
-          <TocEntry
             Title="Delete Booking Details from Multiple Bookings"
             Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsMultBook.htm" />
           <TocEntry
@@ -2898,6 +2895,9 @@
         Title="Confirmations"
         Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_Confirmations.html">
         <TocEntry
+          Title="Specifying Your Confirmation Settings"
+          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SpecifyConfirmSettings.htm" />
+        <TocEntry
           Title="Send Confirmations"
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SendConfirmations.html" />
         <TocEntry
@@ -2910,11 +2910,11 @@
           Title="Generate Word Merge Documents for Custom Documentation"
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_GenMergeDocsCustomDoc.html" />
         <TocEntry
+          Title="Sending Emails from EMS"
+          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SendEmails.html" />
+        <TocEntry
           Title="View History of Sent Emails"
           Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_ViewHistorySentEmails.html" />
-        <TocEntry
-          Title="Specifying Your Confirmation Settings"
-          Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_SpecifyConfirmSettings.htm" />
       </TocEntry>
     </TocEntry>
     <TocEntry
@@ -4207,8 +4207,7 @@
               Title="Copy Booking Details Between Bookings"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_CopyBookDetBetwBookings.htm" />
             <TocEntry
-              Title="Delete Booking Detail Items from Multiple Bookings"
-              Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetItemMultBook.htm" />
+              Title="Delete Booking Detail Items from Multiple Bookings" />
             <TocEntry
               Title="Delete Booking Details from Multiple Bookings"
               Link="/Content/1DesktopClient/V44.1/C_UserGuide/DC_UG_DeleteBookDetailsMultBook.htm" />
