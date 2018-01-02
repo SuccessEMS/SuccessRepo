@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="19889" MadCap:lastWidth="1220" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" xml:lang="en-us" MadCap:lastBlockDepth="6" MadCap:lastHeight="19909" MadCap:lastWidth="1220" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title></title>
     </head>
@@ -47,10 +47,9 @@
         <ol class="number-list">
             <li>
                 The VSG (Visual Schema Generator), an executable that is shipped with Unidata, must be installed on a computer that can access Unidata. If you cannot locate the .msi installer for this tool, EMS Software&#160;can provide a copy.
-            </li>
-            <li>
+            <ul><li>
                 The purpose of the VSG is to create SQL compliant dictionary files based on the dictionary files that contain data that EMS requires. Once SQL compliant dictionaries are created by the VSG the final EMS views can be created and permissions granted via the VSG.
-            </li>
+            </li></ul></li>
             <li>
                 The 32-bit IBM Unidata ODBC driver must be installed in order for the VSG to connect to Unidata. If you cannot locate this installer, EMS Software can provide a copy.
             </li>
@@ -2148,8 +2147,8 @@
                         <p>I</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
-                        <p>IF SEC_ACTIVE_STUDENTS AND SEC_ACTIVE_STUDENTS NE "0" THEN (((COUNT(SEC_ACT</p>
-                        <p>IVE_STUDENTS,@VM)) + (1))) ELSE (0)&#160;</p>
+                        <p style="color: #ff0000;">IF SEC_ACTIVE_STUDENTS AND SEC_ACTIVE_STUDENTS NE "0" THEN (((COUNT(SEC_ACT</p>
+                        <p style="color: #ff0000;">IVE_STUDENTS,@VM)) + (1))) ELSE (0)&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyE-Regular-DarkerRows">
                         <p>MD0,</p>
@@ -2351,8 +2350,8 @@
                         <p>&#160;</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
-                        <p>Location</p>
-                        <p>(This record required when using Campus Codes)</p>
+                        <p style="color: #ff0000;">Location</p>
+                        <p style="color: #ff0000;">(This record required when using Campus Codes)</p>
                     </td>
                     <td class="TableStyle-PatternedRows-BodyB-Regular-DarkerRows">
                         <p><span style="color: #ff0000;">40L</span>
