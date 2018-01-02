@@ -31,7 +31,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Web App"
-      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/3a_Web App_Introduction.htm">
+      Link="/Content/A_Installation/3_WebApp/V44.1/3_Web Appv44.1 Home.htm">
       <TocEntry
         Title="Introduction"
         Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Introduction.html">
@@ -136,7 +136,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
-      Link="/Content/3MobileApp/A_InstallationGuide/4_MobileAppHome.htm">
+      Link="/Content/A_Installation/MobileApp/4_MobileAppHome.htm">
       <TocEntry
         Title="Introduction"
         Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Introduction.html" />
@@ -902,7 +902,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Mobile App"
-      Link="/Content/3MobileApp/A_InstallationGuide/4_MobileAppHome.htm">
+      Link="/Content/A_Installation/MobileApp/4_MobileAppHome.htm">
       <TocEntry
         Title="Introduction"
         Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Introduction.html" />
