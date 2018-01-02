@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="3140" MadCap:lastWidth="848" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');" class="desktopClient">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="4421" MadCap:lastWidth="971" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');" class="desktopClient">
     <head><title mt-export-translate="no">Configuring Automated Reports</title>
         <meta name="mt-type" value="application/x.deki-text" />
         <meta name="mt-unsafe" value="true" />
     </head>
     <body>
         <h1 class="mt-export-title">Configure Automated Reports</h1>
-        <p>EMS is able to send reports daily to selected email addresses. Reports that can currently be automated to send are Reservation and Sales\Statistics Queries and all Saved&#160;Daily and Statistics Reports under the EMS Reports menu. To learn more read about creating&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Managing_EMS_Desktop_Client/070_Reports_and_Queries/040_Working_with_a_Query" title="Working with a Query">Queries</a>&#160;or&#160;<a href="https://success.emssoftware.com/001_Using_EMS__(V44.1)/Using_EMS_for_Microsoft%C2%AE_Outlook/Using_EMS/EMS_Desktop_Client/070_Reports_and_Queries/020_Working_with_Saved_Reports" title="Working with Saved Reports">Saved Reports</a>.&#160;Automated Reports can be set up and emailed to selected individuals. Automated Reports use predefined&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Managing_EMS_Desktop_Client/070_Reports_and_Queries/040_Working_with_a_Query" title="Working with a Query">Queries</a>&#160;and&#160;<a href="https://success.emssoftware.com/001_Using_EMS__(V44.1)/Using_EMS_for_Microsoft%C2%AE_Outlook/Using_EMS/EMS_Desktop_Client/070_Reports_and_Queries/020_Working_with_Saved_Reports" title="Working with Saved Reports">Saved Reports</a>. An email will be sent to the users defined in the Automated Report Delivery with either the information requested through the report, or with an email stating there was no data to display.</p>
-        <p>For Automated Reports to be sent,&#160;the EMS Automated Report service needs to be installed and configured. For directions on installing and configuring&#160;the service see the&#160;<a href="https://success.emssoftware.com/?title=Installation_%26_Setup_Guides/Optional_Features/Installing_the_EMS_Automated_Report_Service" title="Installing the EMS Automated Report Service">Installing&#160;the EMS Automated Report Service</a>.</p>
+        <p>EMS is able to send reports daily to selected email addresses. Reports that can currently be automated to send are Reservation and Sales\Statistics Queries and all Saved&#160;Daily and Statistics Reports under the EMS Reports menu. To learn more read about creating&#160;<a href="DC_UG_WorkwithQuery.html" title="Working with a Query" alt="Working with a Query">Queries</a>&#160;or&#160;<a href="DC_UG_WorkwithSavedReports.html" title="Working with Saved Reports" alt="Working with Saved Reports">Saved Reports</a>.&#160;Automated Reports can be set up and emailed to selected individuals. Automated Reports use predefined&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Managing_EMS_Desktop_Client/070_Reports_and_Queries/040_Working_with_a_Query" title="Working with a Query"><a href="DC_UG_WorkwithQuery.html" title="Working with a Query" alt="Working with a Query">Queries</a></a>&#160;and<a href="DC_UG_WorkwithSavedReports.html" title="Working with Saved Reports" alt="Working with Saved Reports"> Saved Reports</a>. An email will be sent to the users defined in the Automated Report Delivery with either the information requested through the report, or with an email stating there was no data to display.</p>
+        <p>For Automated Reports to be sent,&#160;the EMS Automated Report service needs to be installed and configured. For directions on installing and configuring&#160;the service see the&#160;<a href="../../../F_Optional Features/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" title="Installing the EMS Automated Report Service" alt="Installing the EMS Automated Report Service">Installing&#160;the EMS Automated Report Service</a>.</p>
         <ol start="1">
             <li>On the EMS menu bar, click Reports &gt;&#160;Automated Report Delivery.&#160;The Automated Report Delivery&#160;window opens. This window lists all Automated Reports&#160;that are currently configured in your EMS database and that have a status of Active.</li>
         </ol>
@@ -15,7 +15,7 @@
             <img src="../../../Resources/Images/DTC_V44.1_RepQuer/Configuring Automated Reports.gif" alt="https://success.emssoftware.com/@api/deki/files/1414/Automated_Report_Delivery.gif?revision=4">
             </img>
         </p>
-        <p>Tip:&#160;To view any deactivated Automated Reports&#160;check the "Inactive" box inside the "Show" section.</p>
+        <p class="note-box">Tip:&#160;To view any deactivated Automated Reports&#160;check the "Inactive" box inside the "Show" section.</p>
         <ol start="2">
             <li>Click&#160;New.&#160;The Automated Report window&#160;opens.</li>
         </ol>
@@ -27,22 +27,29 @@
             <li>In the&#160;Description&#160;field, enter a name or description for the new Automated Report.&#160;The Automated Report Delivery description should specify the type of&#160;delivery, such as"Daily Event Schedule Delivery."</li>
             <li>Specify if this report is a&#160;Query&#160;or&#160;Saved report.</li>
         </ol>
-        <p>&#160;</p>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_RepQuer/Configuring Automated Reports_2.gif" alt="https://success.emssoftware.com/@api/deki/files/1423/Report_Type_Query1.gif?revision=3">
             </img>
         </p>
-        <p>Query</p>
-        <ul>
-            <li>Query Type: limits the displayed Queries to either&#160;Reservation or Sales\Statistics.</li>
-            <li>Query: Shows the available Queries to Automate based on either Query Type, or if no Query Type is selected it will display all&#160;Reservation and&#160;Sales\Statistics queries.</li>
-        </ul>
-        <p>Saved Report</p>
-        <ul>
-            <li>Report Section: Set to (all) by default, but can be modified to either Daily or Statistics to limit the Report Types that will be shown.</li>
-            <li>Report Type: Set to (all) by default, but can be modified to a specific Daily or Statistical report to filter the saved reports.</li>
-            <li>Saved Report: Displays the Saved Reports that are available to be automated.</li>
-        </ul>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot><span class="bold">Concept:&#160;Queries and Saved Reports </span>
+                </MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <h4>Query</h4>
+                <ul>
+                    <li>Query Type: limits the displayed Queries to either&#160;Reservation or Sales\Statistics.</li>
+                    <li>Query: Shows the available Queries to Automate based on either Query Type, or if no Query Type is selected it will display all&#160;Reservation and&#160;Sales\Statistics queries.</li>
+                </ul>
+                <h4>Saved Report</h4>
+                <ul>
+                    <li>Report Section: Set to (all) by default, but can be modified to either Daily or Statistics to limit the Report Types that will be shown.</li>
+                    <li>Report Type: Set to (all) by default, but can be modified to a specific Daily or Statistical report to filter the saved reports.</li>
+                    <li>Saved Report: Displays the Saved Reports that are available to be automated.</li>
+                </ul>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <ol start="5">
             <li>Specify&#160;Frequency</li>
         </ol>
