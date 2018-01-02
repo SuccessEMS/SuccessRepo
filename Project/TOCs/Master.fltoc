@@ -2195,6 +2195,9 @@
       Title="EMS Campus "
       Link="/Content/B_Configuration Guides/10_EMS Campus Configuration Guide.htm">
       <TocEntry
+        Title="Introduction"
+        Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_44.1_IntrotoConfigGuide.htm" />
+      <TocEntry
         Title="Set Up EMS Campus"
         Link="/Content/8Campus/A_V44.1/B_CG_Campus/Campus_SetUpEMSCampusIntro.html" />
       <TocEntry
