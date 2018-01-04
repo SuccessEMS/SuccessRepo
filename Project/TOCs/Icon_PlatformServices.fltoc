@@ -2,45 +2,48 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Installation Guide EMS Platform Services"
-    Link="/Content/A_Installation/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
+    Title="Documentation for EMS Platform Services">
     <TocEntry
-      Title="Introduction to EMS Platform Services"
-      Link="/Content/7PlatformServices/A_InstallationGuide/Platform_Introduction.html" />
+      Title="Installation Guide EMS Platform Services"
+      Link="/Content/A_Installation/7_PlatformServices/V44.1/7_PlatformServicesHome.htm">
+      <TocEntry
+        Title="Introduction to EMS Platform Services"
+        Link="/Content/7PlatformServices/A_InstallationGuide/Platform_Introduction.html" />
+      <TocEntry
+        Title="Install EMS Platform Services"
+        Link="/Content/7PlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
+      <TocEntry
+        Title="License Requirements for Platform Services"
+        Link="/Content/7PlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+    </TocEntry>
     <TocEntry
-      Title="Install EMS Platform Services"
-      Link="/Content/7PlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
+      Title="EMS Platform Services Configuration Guide"
+      Link="/Content/B_Configuration Guides/7_EMS_PlatformServices_CG.htm">
+      <TocEntry
+        Title="Configure Platform Services in the Admin Portal"
+        Link="/Content/7PlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html" />
+    </TocEntry>
     <TocEntry
-      Title="License Requirements for Platform Services"
-      Link="/Content/7PlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+      Title="Release Notes">
+      <TocEntry
+        Title="Release Notes V44.1"
+        Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />
+      <TocEntry
+        Title="Release Notes V44"
+        Link="/Content/C_Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm" />
+      <TocEntry
+        Title="Release Notes V43"
+        Link="/Content/C_Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="Glossary"
+      Link="/Content/G_Glossary/1_Glossary.htm"
+      Skin="/Project/Skins/HomeSearchBar.flskn"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false"></TocEntry>
   </TocEntry>
-  <TocEntry
-    Title="EMS Platform Services Configuration Guide"
-    Link="/Content/B_Configuration Guides/7_EMS_PlatformServices_CG.htm">
-    <TocEntry
-      Title="Configure Platform Services in the Admin Portal"
-      Link="/Content/7PlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html" />
-  </TocEntry>
-  <TocEntry
-    Title="Release Notes">
-    <TocEntry
-      Title="Release Notes V44.1"
-      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />
-    <TocEntry
-      Title="Release Notes V44"
-      Link="/Content/C_Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm" />
-    <TocEntry
-      Title="Release Notes V43"
-      Link="/Content/C_Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="Glossary"
-    Link="/Content/G_Glossary/1_Glossary.htm"
-    Skin="/Project/Skins/HomeSearchBar.flskn"
-    StartSection="false"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue"
-    ComputeToc="false"
-    ReplaceMergeNode="false"></TocEntry>
 </CatapultToc>

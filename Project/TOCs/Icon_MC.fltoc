@@ -2,461 +2,424 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Installation Guide EMS Master Calendar"
-    Link="/Content/8MC/V8/A_Installation/MC_IG_Intro.htm">
+    Title="Documentation for EMS Master Calendar">
     <TocEntry
-      Title="System Requirements and Prerequisites"
-      Link="/Content/8MC/V8/A_Installation/MC_IG_SysReqPrereq.html" />
-    <TocEntry
-      Title="Obtain Latest Version of Installation Files"
-      Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html">
+      Title="Installation Guide EMS Master Calendar"
+      Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
       <TocEntry
-        Title="Requirements for Master Calendar"
-        Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Installation Instructions"
-      Link="/Content/8MC/V8/A_Installation/MC_IG_InstallationInstruct.html">
+        Title="System Requirements and Prerequisites"
+        Link="/Content/8MC/V8/A_Installation/MC_IG_SysReqPrereq.html" />
       <TocEntry
-        Title="Obtain Master Calendar Installation Files"
-        Link="/Content/8MC/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
-      <TocEntry
-        Title="Run the Master Calendar Installer"
-        Link="/Content/8MC/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
-      <TocEntry
-        Title="Configure Master Calendar to Use the Master Calendar API Web Service"
-        Link="/Content/8MC/V8/A_Installation/MC_ConfigUseAPIWebService.html" />
-      <TocEntry
-        Title="Install or Upgrade the Database Component in Master Calendar"
-        Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
-      <TocEntry
-        Title="Install or Upgrade the Master Calendar Web Service"
-        Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
-    </TocEntry>
-  </TocEntry>
-  <TocEntry
-    Title="Installation Guide EMS Master Calendar"
-    Link="/Content/A_Installation/9_MasterCalendarV8/9_MasterCalendarV8Home.htm">
-    <TocEntry
-      Title="System Requirements and Prerequisites"
-      Link="/Content/8MC/V8/A_Installation/MC_IG_SysReqPrereq.html" />
-    <TocEntry
-      Title="Obtain Latest Version of Installation Files"
-      Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html">
-      <TocEntry
-        Title="Requirements for Master Calendar"
-        Link="/Content/8MC/V8/A_Installation/MC_IG_RequirementforMC.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Installation Instructions"
-      Link="/Content/8MC/V8/A_Installation/MC_IG_InstallationInstruct.html">
-      <TocEntry
-        Title="Obtain Master Calendar Installation Files"
-        Link="/Content/8MC/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
-      <TocEntry
-        Title="Run the Master Calendar Installer"
-        Link="/Content/8MC/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
-      <TocEntry
-        Title="Configure Master Calendar to Use the Master Calendar API Web Service"
-        Link="/Content/8MC/V8/A_Installation/MC_ConfigUseAPIWebService.html" />
-      <TocEntry
-        Title="Install or Upgrade the Database Component in Master Calendar"
-        Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
-      <TocEntry
-        Title="Install or Upgrade the Master Calendar Web Service"
-        Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
-    </TocEntry>
-  </TocEntry>
-  <TocEntry
-    Title="Configuration Guide EMS Master Calendar"
-    Link="/Content/8MC/V8/B_Configuration/MC_Introduction.htm">
-    <TocEntry
-      Title="Admin Interface Overview"
-      Link="/Content/8MC/V8/B_Configuration/MC_AdminInterfaceOverview.html" />
-    <TocEntry
-      Title="Calendar Management"
-      Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CalendarManagement.html">
-      <TocEntry
-        Title="Import Events Into Your Master Calendar System"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ImportEvents.html">
+        Title="Installation Instructions"
+        Link="/Content/8MC/V8/A_Installation/MC_IG_InstallationInstruct.html">
         <TocEntry
-          Title="Connect Master Calendar to Your EMS Database"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ConnectMCtoEMSDatabase.html" />
+          Title="Obtain Master Calendar Installation Files"
+          Link="/Content/8MC/V8/A_Installation/MC_IG_ObtainingMCInstallFiles.html" />
         <TocEntry
-          Title="Connect to Data Sources"
-          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ConnectDataSources.html" />
+          Title="Run the Master Calendar Installer"
+          Link="/Content/8MC/V8/A_Installation/MC_IG_RunningMCInstaller.html" />
+        <TocEntry
+          Title="Configure Master Calendar to Use the Master Calendar API Web Service"
+          Link="/Content/8MC/V8/A_Installation/MC_ConfigUseAPIWebService.html" />
+        <TocEntry
+          Title="Install or Upgrade the Database Component in Master Calendar"
+          Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeDatabaseComp.html" />
+        <TocEntry
+          Title="Install or Upgrade the Master Calendar Web Service"
+          Link="/Content/8MC/V8/A_Installation/MC_InstallUpgradeMCWebService.html" />
       </TocEntry>
     </TocEntry>
     <TocEntry
-      Title="Manage an Event from the Event Summary Page"
-      Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ManageEventfromEventSumPg.html">
+      Title="Configuration Guide EMS Master Calendar"
+      Link="/Content/8MC/V8/B_Configuration/MC_Introduction.htm">
       <TocEntry
-        Title="Add Events to Your Personal Email Calendar"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_AddEventstoPersonalEmailCal.html" />
+        Title="Admin Interface Overview"
+        Link="/Content/8MC/V8/B_Configuration/MC_AdminInterfaceOverview.html" />
       <TocEntry
-        Title="Add Event Dates"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_AddEventDates.html" />
-      <TocEntry
-        Title="Cancel Event Dates"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CancelEventDates.html" />
-      <TocEntry
-        Title="Copy an Event"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CopyEvent.html" />
-      <TocEntry
-        Title="Edit an Event"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_EditEvent.html" />
-      <TocEntry
-        Title="Un-Cancel an Event"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_Un-CancelEvent.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Manage Events from the Manage Events Page"
-      Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ManageEventsfromManageEventsPg.html">
-      <TocEntry
-        Title="Filter Events on the Manage Events Page"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_FilterEventsManageEventsPg.html" />
-      <TocEntry
-        Title="Approve Pending Event Requests"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ApprovePendingEventRequests.html" />
-      <TocEntry
-        Title="Reject Pending Event Requests"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RejectPendingEventRequests.html" />
-      <TocEntry
-        Title="Move Rejected Event Requests to Approved Status"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_MoveRejectEventRequeststoAppStatus.html" />
-      <TocEntry
-        Title="Generate a List of Event Requests"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_GenerateListEventRequests.html" />
-      <TocEntry
-        Title="Request Additional Information for Event Requests"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RequestAddInfoEventRequests.html" />
-      <TocEntry
-        Title="Delete Event Requests"
-        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_DeleteEventRequests.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Configure Calendar Groupings and Calendars"
-      Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ConfigCalGroupingsandCals.html">
-      <TocEntry
-        Title="Manage Calendars in Master Calendar"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageCalendarsinMC.html" />
-      <TocEntry
-        Title="Configure Special Dates"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ConfigSpecialDates.html" />
-      <TocEntry
-        Title="Manage Calendar URLs"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageCalURLs.html" />
-      <TocEntry
-        Title="Manage External Links for a Grouping"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageExtLinksforGrouping.html" />
-      <TocEntry
-        Title="Manage Groupings in Master Calendar"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageGroupingsinMC.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Configure Optional Information"
-      Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ConfigOptionalInfo.html">
-      <TocEntry
-        Title="Configure Event Icons"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ConfigEventIcons.html" />
-      <TocEntry
-        Title="Maintain Departments in Master Calendar"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_MaintainDeptinMC.html" />
-      <TocEntry
-        Title="Manage Cultures"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageCultures.html" />
-      <TocEntry
-        Title="Manage Custom Field Hints"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageCustomFieldHints.html" />
-      <TocEntry
-        Title="Manage Event Type Views"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageEventTypeViews.html" />
-      <TocEntry
-        Title="Work with Event Locations"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventLocations.html" />
-      <TocEntry
-        Title="Work with Event Types"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventTypes.html" />
-      <TocEntry
-        Title="Work with Rooms"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithRooms.html" />
-      <TocEntry
-        Title="Work with User Defined Questions (UDQs)"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithUserDefQuest.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Configure Users and Templates"
-      Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ConfigUsersTemplates.html">
-      <TocEntry
-        Title="Manage Users"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ManageUsers.html" />
-      <TocEntry
-        Title="Manage User Templates"
-        Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ManageUserTemplates.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Create Custom Reports in Master Calendar"
-      Link="/Content/8MC/V8/B_Configuration/MC_CreateCustReports.html" />
-    <TocEntry
-      Title="Customize Master Calendar Site Appearance and Behavior"
-      Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomMCSiteAppBehav.html">
-      <TocEntry
-        Title="Broadcast Announcements"
-        Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_BroadcastAnnouncements.html" />
-      <TocEntry
-        Title="Customize Help Text in Master Calendar"
-        Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeHelpText.html" />
-      <TocEntry
-        Title="Customize Menus in Master Calendar"
-        Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeMenus.html" />
-      <TocEntry
-        Title="Customize Your Master Calendar Site and Automated Emails"
-        Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeMCSiteandAutoEmails.html" />
-      <TocEntry
-        Title="Set Default Home Page Behavior"
-        Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_SetDefaultHomePgBehavior.html" />
-      <TocEntry
-        Title="Set the Default Home Page Layout"
-        Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_SetDefaultHomePgLayout.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Integrated Authentication for Master Calendar"
-      Link="/Content/8MC/V8/B_Configuration/MC_IntegAuthenforMC.html">
-      <TocEntry
-        Title="Portal Authentication Methods"
-        Link="/Content/8MC/V8/B_Configuration/MC_PortalAuthenMethods.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Maintain Master Calendar Software Registration"
-      Link="/Content/8MC/V8/B_Configuration/MC_MaintainMCSoftwareReg.html" />
-    <TocEntry
-      Title="Manage RSS Feeds"
-      Link="/Content/8MC/V8/B_Configuration/MC_ManageRSSFeeds.html" />
-    <TocEntry
-      Title="Master Calendar Admin Field Definitions"
-      Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_MCAdminFieldDef.html">
-      <TocEntry
-        Title="Area: Calendar"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaCalendar.html" />
-      <TocEntry
-        Title="Area: Email"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaEmail.html" />
-      <TocEntry
-        Title="Area: Labels"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaLabels.html" />
-      <TocEntry
-        Title="Area: Mobile"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaMobile.html" />
-      <TocEntry
-        Title="Area: Portal Authentication"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaPortAuthen.html" />
-      <TocEntry
-        Title="Area: RSS"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaRSS.html" />
-      <TocEntry
-        Title="Area: Submit"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaSubmit.html" />
-      <TocEntry
-        Title="Area: System Configuration"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaSystemConfig.html" />
-      <TocEntry
-        Title="Area: Tooltip"
-        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaTooltip.html" />
-    </TocEntry>
-    <TocEntry
-      Title="Master Calendar API"
-      Link="/Content/8MC/V8/B_Configuration/MC_API/MC_MasterCalAPI.html">
-      <TocEntry
-        Title="Master Calendar API Requirements and Licensing"
-        Link="/Content/8MC/V8/B_Configuration/MC_API/MC_APIRequirementsLicensing.html" />
-      <TocEntry
-        Title="Verify the Master Calendar API"
-        Link="/Content/8MC/V8/B_Configuration/MC_API/MC_VerifyMCAPI.html" />
-      <TocEntry
-        Title="Release Notes"
-        Link="/Content/8MC/V8/B_Configuration/MC_API/MC_ReleaseNotes.html" />
-      <TocEntry
-        Title="API Functions"
-        Link="/Content/8MC/V8/B_Configuration/MC_API/MC_APIFunctions.html">
+        Title="Calendar Management"
+        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CalendarManagement.html">
         <TocEntry
-          Title="AddEventWithMultipleDates (Requires Advanced API Option)"
-          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_API_AddEventwithMultDates.html" />
-        <TocEntry
-          Title="AddEvent (Requires Advanced API Option)"
-          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_AddEventReqAdvAPIOpt.html">
+          Title="Import Events Into Your Master Calendar System"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ImportEvents.html">
           <TocEntry
-            Title="GetCalendar"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetCalendar.html" />
+            Title="Connect Master Calendar to Your EMS Database"
+            Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ConnectMCtoEMSDatabase.html" />
           <TocEntry
-            Title="GetCalendars"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetCalendars.html" />
-          <TocEntry
-            Title="GetComments"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetComments.html" />
-          <TocEntry
-            Title="GetEvent"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEvent.html" />
-          <TocEntry
-            Title="GetEvents"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEvents.html" />
-          <TocEntry
-            Title="GetEventTypes"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEventTypes.html" />
-          <TocEntry
-            Title="GetFeaturedEvents"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetFeaturedEvents.html" />
-          <TocEntry
-            Title="GetGroupings"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetGroupings.html" />
-          <TocEntry
-            Title="GetLocations"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetLocations.html" />
-          <TocEntry
-            Title="GetUdqs"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetUdqs.html" />
-          <TocEntry
-            Title="UpdateEventDate (Requires Advanced API Option)"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_UpdateEventDateReqAdvanAPIOpt.html" />
-          <TocEntry
-            Title="UpdateEvent (Requires Advanced API Option)"
-            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_UpdateEventReqAdvanAPIOpt.html" />
+            Title="Connect to Data Sources"
+            Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ConnectDataSources.html" />
         </TocEntry>
       </TocEntry>
+      <TocEntry
+        Title="Manage an Event from the Event Summary Page"
+        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ManageEventfromEventSumPg.html">
+        <TocEntry
+          Title="Add Events to Your Personal Email Calendar"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_AddEventstoPersonalEmailCal.html" />
+        <TocEntry
+          Title="Add Event Dates"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_AddEventDates.html" />
+        <TocEntry
+          Title="Cancel Event Dates"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CancelEventDates.html" />
+        <TocEntry
+          Title="Copy an Event"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_CopyEvent.html" />
+        <TocEntry
+          Title="Edit an Event"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_EditEvent.html" />
+        <TocEntry
+          Title="Un-Cancel an Event"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_Un-CancelEvent.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Manage Events from the Manage Events Page"
+        Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ManageEventsfromManageEventsPg.html">
+        <TocEntry
+          Title="Filter Events on the Manage Events Page"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_FilterEventsManageEventsPg.html" />
+        <TocEntry
+          Title="Approve Pending Event Requests"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_ApprovePendingEventRequests.html" />
+        <TocEntry
+          Title="Reject Pending Event Requests"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RejectPendingEventRequests.html" />
+        <TocEntry
+          Title="Move Rejected Event Requests to Approved Status"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_MoveRejectEventRequeststoAppStatus.html" />
+        <TocEntry
+          Title="Generate a List of Event Requests"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_GenerateListEventRequests.html" />
+        <TocEntry
+          Title="Request Additional Information for Event Requests"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_RequestAddInfoEventRequests.html" />
+        <TocEntry
+          Title="Delete Event Requests"
+          Link="/Content/8MC/V8/B_Configuration/MC_CalMan/MC_DeleteEventRequests.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Calendar Groupings and Calendars"
+        Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ConfigCalGroupingsandCals.html">
+        <TocEntry
+          Title="Manage Calendars in Master Calendar"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageCalendarsinMC.html" />
+        <TocEntry
+          Title="Configure Special Dates"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ConfigSpecialDates.html" />
+        <TocEntry
+          Title="Manage Calendar URLs"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageCalURLs.html" />
+        <TocEntry
+          Title="Manage External Links for a Grouping"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageExtLinksforGrouping.html" />
+        <TocEntry
+          Title="Manage Groupings in Master Calendar"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConGrpCal/MC_ManageGroupingsinMC.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Optional Information"
+        Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ConfigOptionalInfo.html">
+        <TocEntry
+          Title="Configure Event Icons"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ConfigEventIcons.html" />
+        <TocEntry
+          Title="Maintain Departments in Master Calendar"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_MaintainDeptinMC.html" />
+        <TocEntry
+          Title="Manage Cultures"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageCultures.html" />
+        <TocEntry
+          Title="Manage Custom Field Hints"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageCustomFieldHints.html" />
+        <TocEntry
+          Title="Manage Event Type Views"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_ManageEventTypeViews.html" />
+        <TocEntry
+          Title="Work with Event Locations"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventLocations.html" />
+        <TocEntry
+          Title="Work with Event Types"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithEventTypes.html" />
+        <TocEntry
+          Title="Work with Rooms"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithRooms.html" />
+        <TocEntry
+          Title="Work with User Defined Questions (UDQs)"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConOp/MC_WorkwithUserDefQuest.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Users and Templates"
+        Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ConfigUsersTemplates.html">
+        <TocEntry
+          Title="Manage Users"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ManageUsers.html" />
+        <TocEntry
+          Title="Manage User Templates"
+          Link="/Content/8MC/V8/B_Configuration/MC_ConUsTp/MC_ManageUserTemplates.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Create Custom Reports in Master Calendar"
+        Link="/Content/8MC/V8/B_Configuration/MC_CreateCustReports.html" />
+      <TocEntry
+        Title="Customize Master Calendar Site Appearance and Behavior"
+        Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomMCSiteAppBehav.html">
+        <TocEntry
+          Title="Broadcast Announcements"
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_BroadcastAnnouncements.html" />
+        <TocEntry
+          Title="Customize Help Text in Master Calendar"
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeHelpText.html" />
+        <TocEntry
+          Title="Customize Menus in Master Calendar"
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeMenus.html" />
+        <TocEntry
+          Title="Customize Your Master Calendar Site and Automated Emails"
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_CustomizeMCSiteandAutoEmails.html" />
+        <TocEntry
+          Title="Set Default Home Page Behavior"
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_SetDefaultHomePgBehavior.html" />
+        <TocEntry
+          Title="Set the Default Home Page Layout"
+          Link="/Content/8MC/V8/B_Configuration/MC_CusApBh/MC_SetDefaultHomePgLayout.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Authentication for Master Calendar"
+        Link="/Content/8MC/V8/B_Configuration/MC_IntegAuthenforMC.html">
+        <TocEntry
+          Title="Portal Authentication Methods"
+          Link="/Content/8MC/V8/B_Configuration/MC_PortalAuthenMethods.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Maintain Master Calendar Software Registration"
+        Link="/Content/8MC/V8/B_Configuration/MC_MaintainMCSoftwareReg.html" />
+      <TocEntry
+        Title="Manage RSS Feeds"
+        Link="/Content/8MC/V8/B_Configuration/MC_ManageRSSFeeds.html" />
+      <TocEntry
+        Title="Master Calendar Admin Field Definitions"
+        Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_MCAdminFieldDef.html">
+        <TocEntry
+          Title="Area: Calendar"
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaCalendar.html" />
+        <TocEntry
+          Title="Area: Email"
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaEmail.html" />
+        <TocEntry
+          Title="Area: Labels"
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaLabels.html" />
+        <TocEntry
+          Title="Area: Mobile"
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaMobile.html" />
+        <TocEntry
+          Title="Area: Portal Authentication"
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaPortAuthen.html" />
+        <TocEntry
+          Title="Area: RSS"
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaRSS.html" />
+        <TocEntry
+          Title="Area: Submit"
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaSubmit.html" />
+        <TocEntry
+          Title="Area: System Configuration"
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaSystemConfig.html" />
+        <TocEntry
+          Title="Area: Tooltip"
+          Link="/Content/8MC/V8/B_Configuration/MC_AdFldDef/MC_AreaTooltip.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Master Calendar API"
+        Link="/Content/8MC/V8/B_Configuration/MC_API/MC_MasterCalAPI.html">
+        <TocEntry
+          Title="Master Calendar API Requirements and Licensing"
+          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_APIRequirementsLicensing.html" />
+        <TocEntry
+          Title="Verify the Master Calendar API"
+          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_VerifyMCAPI.html" />
+        <TocEntry
+          Title="Release Notes"
+          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_ReleaseNotes.html" />
+        <TocEntry
+          Title="API Functions"
+          Link="/Content/8MC/V8/B_Configuration/MC_API/MC_APIFunctions.html">
+          <TocEntry
+            Title="AddEventWithMultipleDates (Requires Advanced API Option)"
+            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_API_AddEventwithMultDates.html" />
+          <TocEntry
+            Title="AddEvent (Requires Advanced API Option)"
+            Link="/Content/8MC/V8/B_Configuration/MC_API/MC_AddEventReqAdvAPIOpt.html">
+            <TocEntry
+              Title="GetCalendar"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetCalendar.html" />
+            <TocEntry
+              Title="GetCalendars"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetCalendars.html" />
+            <TocEntry
+              Title="GetComments"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetComments.html" />
+            <TocEntry
+              Title="GetEvent"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEvent.html" />
+            <TocEntry
+              Title="GetEvents"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEvents.html" />
+            <TocEntry
+              Title="GetEventTypes"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetEventTypes.html" />
+            <TocEntry
+              Title="GetFeaturedEvents"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetFeaturedEvents.html" />
+            <TocEntry
+              Title="GetGroupings"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetGroupings.html" />
+            <TocEntry
+              Title="GetLocations"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetLocations.html" />
+            <TocEntry
+              Title="GetUdqs"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_GetUdqs.html" />
+            <TocEntry
+              Title="UpdateEventDate (Requires Advanced API Option)"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_UpdateEventDateReqAdvanAPIOpt.html" />
+            <TocEntry
+              Title="UpdateEvent (Requires Advanced API Option)"
+              Link="/Content/8MC/V8/B_Configuration/MC_API/MC_UpdateEventReqAdvanAPIOpt.html" />
+          </TocEntry>
+        </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Work with Subscriptions"
+        Link="/Content/8MC/V8/B_Configuration/MC_WorkwithSubscriptions.html" />
     </TocEntry>
     <TocEntry
-      Title="Work with Subscriptions"
-      Link="/Content/8MC/V8/B_Configuration/MC_WorkwithSubscriptions.html" />
-  </TocEntry>
-  <TocEntry
-    Title="Everyday User Guide EMS Master Calendar"
-    Link="/Content/8MC/V8/C_UserGuide/MC_UG_Introduction.html">
-    <TocEntry
-      Title="Log In to Master Calendar"
-      Link="/Content/8MC/V8/C_UserGuide/MC_UG_LogIn.html" />
-    <TocEntry
-      Title="Use Basic Features of EMS Master Calendar"
-      Link="/Content/8MC/V8/C_UserGuide/MC_UG_UseBasicFeatures.html">
+      Title="Everyday User Guide EMS Master Calendar"
+      Link="/Content/8MC/V8/C_UserGuide/MC_UG_Introduction.html">
       <TocEntry
-        Title="Use Field Icons in EMS Master Calendar"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_UseFieldIcons.html"></TocEntry>
+        Title="Log In to Master Calendar"
+        Link="/Content/8MC/V8/C_UserGuide/MC_UG_LogIn.html" />
       <TocEntry
-        Title="Search by Keyword"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_SearchbyKeyword.html" />
+        Title="Use Basic Features of EMS Master Calendar"
+        Link="/Content/8MC/V8/C_UserGuide/MC_UG_UseBasicFeatures.html">
+        <TocEntry
+          Title="Use Field Icons in EMS Master Calendar"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_UseFieldIcons.html"></TocEntry>
+        <TocEntry
+          Title="Search by Keyword"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_SearchbyKeyword.html" />
+        <TocEntry
+          Title="Export Search Results"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_ExportSearchResults.html" />
+        <TocEntry
+          Title="Search for an Event or Special Date"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_SearchforEventorSpecialDate.html" />
+        <TocEntry
+          Title="Use RSS Feeds in EMS Master Calendar"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_UseRSSFeeds.html" />
+      </TocEntry>
       <TocEntry
-        Title="Export Search Results"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_ExportSearchResults.html" />
+        Title="Work with Calendars"
+        Link="/Content/8MC/V8/C_UserGuide/MC_UG_WorkwithCalendars.html">
+        <TocEntry
+          Title="Modify the Calendar Display"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_ModifyCalendarDispaly.html" />
+        <TocEntry
+          Title="Filter Events on the Calendar"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_FilterEventsonCalendar.html" />
+        <TocEntry
+          Title="Set a Timeframe for the Calendar Display"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_SetTimeFrameforDisplay.html" />
+        <TocEntry
+          Title="Navigate in the Master Calendar"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_NavinMasterCalendar.html" />
+        <TocEntry
+          Title="Open Events from the Master Calendar"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_OpenEvents.html" />
+        <TocEntry
+          Title="Scroll Through Events on the Calendar"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_ScrollThroughEvents.html" />
+        <TocEntry
+          Title="Subscribe to a Calendar"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_SubscribetoCalendar.html" />
+        <TocEntry
+          Title="Subscribe to a Calendar Using Email"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_SubscribetoCalendarUsingEmail.html" />
+        <TocEntry
+          Title="Subscribe to a Calendar Using iCal"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_SubscribetoCalendarUsingical.html" />
+      </TocEntry>
       <TocEntry
-        Title="Search for an Event or Special Date"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_SearchforEventorSpecialDate.html" />
+        Title="User Options"
+        Link="/Content/8MC/V8/C_UserGuide/MC_UG_UserOptions.html">
+        <TocEntry
+          Title="Change Your Password"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_ChangeYourPassword.html" />
+        <TocEntry
+          Title="View Custom Help Text"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_ViewCustomHelpText.html" />
+        <TocEntry
+          Title="View Your Notifications"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_ViewYourNotifications.html" />
+        <TocEntry
+          Title="View Your Requests"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_ViewYourRequests.html" />
+      </TocEntry>
       <TocEntry
-        Title="Use RSS Feeds in EMS Master Calendar"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_UseRSSFeeds.html" />
+        Title="How Do I Publicize an Event in Master Calendar?"
+        Link="/Content/8MC/V8/C_UserGuide/MC_UG_HowtoPublicizeEvent.html" />
+      <TocEntry
+        Title="Work with Events"
+        Link="/Content/8MC/V8/C_UserGuide/MC_UG_WorkwithEvents.html">
+        <TocEntry
+          Title="Types of Master Calendar Users"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_TypesofUsers.html" />
+        <TocEntry
+          Title="Submit an Event"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_SubmitEvents.html" />
+        <TocEntry
+          Title="Additional Info Fields"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_AdditionalInfoFields.html" />
+        <TocEntry
+          Title="Custom, Email, and Attachment Fields"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_CustomEmailAttachmentFields.html" />
+        <TocEntry
+          Title="Event Times Fields"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_EventTimesFields.html" />
+        <TocEntry
+          Title="General Info Fields"
+          Link="/Content/8MC/V8/C_UserGuide/MC_UG_GeneralInfoFields.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Glossary"
+        Link="/Content/8MC/V8/C_UserGuide/MC_UG_Glossary.html" />
     </TocEntry>
     <TocEntry
-      Title="Work with Calendars"
-      Link="/Content/8MC/V8/C_UserGuide/MC_UG_WorkwithCalendars.html">
+      Title="Older Releases">
       <TocEntry
-        Title="Modify the Calendar Display"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_ModifyCalendarDispaly.html" />
+        Title="Configuration Guide for EMS Master Calendar V5"
+        Link="/Content/8MC/V7/Master Calendar Configuration Guide V5.pdf" />
       <TocEntry
-        Title="Filter Events on the Calendar"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_FilterEventsonCalendar.html" />
-      <TocEntry
-        Title="Set a Timeframe for the Calendar Display"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_SetTimeFrameforDisplay.html" />
-      <TocEntry
-        Title="Navigate in the Master Calendar"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_NavinMasterCalendar.html" />
-      <TocEntry
-        Title="Open Events from the Master Calendar"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_OpenEvents.html" />
-      <TocEntry
-        Title="Scroll Through Events on the Calendar"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_ScrollThroughEvents.html" />
-      <TocEntry
-        Title="Subscribe to a Calendar"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_SubscribetoCalendar.html" />
-      <TocEntry
-        Title="Subscribe to a Calendar Using Email"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_SubscribetoCalendarUsingEmail.html" />
-      <TocEntry
-        Title="Subscribe to a Calendar Using iCal"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_SubscribetoCalendarUsingical.html" />
+        Title="Integrated Authentication Instructions for EMS Master Calendar V5"
+        Link="/Content/8MC/V7/Master Calendar Integrated Authentication Instructions.pdf" />
     </TocEntry>
     <TocEntry
-      Title="User Options"
-      Link="/Content/8MC/V8/C_UserGuide/MC_UG_UserOptions.html">
+      Title="Release Notes">
       <TocEntry
-        Title="Change Your Password"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_ChangeYourPassword.html" />
+        Title="Release Notes V44.1"
+        Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />
       <TocEntry
-        Title="View Custom Help Text"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_ViewCustomHelpText.html" />
+        Title="Release Notes V44"
+        Link="/Content/C_Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm" />
       <TocEntry
-        Title="View Your Notifications"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_ViewYourNotifications.html" />
-      <TocEntry
-        Title="View Your Requests"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_ViewYourRequests.html" />
-    </TocEntry>
-    <TocEntry
-      Title="How Do I Publicize an Event in Master Calendar?"
-      Link="/Content/8MC/V8/C_UserGuide/MC_UG_HowtoPublicizeEvent.html" />
-    <TocEntry
-      Title="Work with Events"
-      Link="/Content/8MC/V8/C_UserGuide/MC_UG_WorkwithEvents.html">
-      <TocEntry
-        Title="Types of Master Calendar Users"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_TypesofUsers.html" />
-      <TocEntry
-        Title="Submit an Event"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_SubmitEvents.html" />
-      <TocEntry
-        Title="Additional Info Fields"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_AdditionalInfoFields.html" />
-      <TocEntry
-        Title="Custom, Email, and Attachment Fields"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_CustomEmailAttachmentFields.html" />
-      <TocEntry
-        Title="Event Times Fields"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_EventTimesFields.html" />
-      <TocEntry
-        Title="General Info Fields"
-        Link="/Content/8MC/V8/C_UserGuide/MC_UG_GeneralInfoFields.html" />
+        Title="Release Notes V43"
+        Link="/Content/C_Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
     </TocEntry>
     <TocEntry
       Title="Glossary"
-      Link="/Content/8MC/V8/C_UserGuide/MC_UG_Glossary.html" />
+      Link="/Content/G_Glossary/1_Glossary.htm"
+      Skin="/Project/Skins/HomeSearchBar.flskn"
+      StartSection="false"
+      SectionNumberReset="continue"
+      VolumeNumberReset="same"
+      ChapterNumberReset="continue"
+      ComputeToc="false"
+      ReplaceMergeNode="false"></TocEntry>
   </TocEntry>
-  <TocEntry
-    Title="Older Releases">
-    <TocEntry
-      Title="Configuration Guide for EMS Master Calendar V5"
-      Link="/Content/8MC/V7/Master Calendar Configuration Guide V5.pdf" />
-    <TocEntry
-      Title="Integrated Authentication Instructions for EMS Master Calendar V5"
-      Link="/Content/8MC/V7/Master Calendar Integrated Authentication Instructions.pdf" />
-  </TocEntry>
-  <TocEntry
-    Title="Release Notes">
-    <TocEntry
-      Title="Release Notes V44.1"
-      Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/V44.1_Release Notes.htm" />
-    <TocEntry
-      Title="Release Notes V44"
-      Link="/Content/C_Release Notes/V44_ReleaseNotes/V44_ReleaseNotes.htm" />
-    <TocEntry
-      Title="Release Notes V43"
-      Link="/Content/C_Release Notes/V43_ReleaseNotes/V43_ReleaseNotes.htm" />
-  </TocEntry>
-  <TocEntry
-    Title="Glossary"
-    Link="/Content/G_Glossary/1_Glossary.htm"
-    Skin="/Project/Skins/HomeSearchBar.flskn"
-    StartSection="false"
-    SectionNumberReset="continue"
-    VolumeNumberReset="same"
-    ChapterNumberReset="continue"
-    ComputeToc="false"
-    ReplaceMergeNode="false"></TocEntry>
 </CatapultToc>

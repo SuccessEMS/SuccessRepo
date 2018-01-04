@@ -9,10 +9,10 @@
       Link="/Content/E_Integrations/1_Integrations.htm">
       <TocEntry
         Title="Exchange Room Integration (ERI)"
-        Link="/Content/E_Integrations/7ERI/ERI_Introduction.htm">
+        Link="/Content/E_Integrations/7ERI/11_ERI_IGandCGLandPage.htm">
         <TocEntry
           Title="Installation Guide"
-          Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_EMSERI.html">
+          Link="/Content/A_Installation/11_ERI_V44.1/11_ERI_Home.htm">
           <TocEntry
             Title="Introduction to ERI"
             Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_IntroductiontoERI.html" />
@@ -28,7 +28,7 @@
         </TocEntry>
         <TocEntry
           Title="B_Config"
-          Link="/Content/E_Integrations/7ERI/ERI_Introduction.htm">
+          Link="/Content/B_Configuration Guides/8_EMS_ExchangeRoomIntegration_CG.htm">
           <TocEntry
             Title="Configuring Exchange Room Integration (ERI)"
             Link="/Content/E_Integrations/7ERI/B_Config/ERI_Config_ConfigEXR.html" />

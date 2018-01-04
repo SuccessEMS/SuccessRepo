@@ -476,7 +476,7 @@
       Title="Optional Features"
       Link="/Content/F_Optional Features/1_OptionalFeaturesHome.htm">
       <TocEntry
-        Title="EMS API Home (Optional Feature)"
+        Title="EMS API Home"
         Link="/Content/F_Optional Features/2_EMS_API_Home.htm">
         <TocEntry
           Title="Introduction"
@@ -514,7 +514,7 @@
           Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ReleaseNotes.htm" />
       </TocEntry>
       <TocEntry
-        Title="EMS Floor Plan (Optional Feature)"
+        Title="EMS Floor Plan"
         Link="/Content/F_Optional Features/3_EMS_FloorPlansHome.htm">
         <TocEntry
           Title="Introduction"
@@ -569,7 +569,7 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Title="EMS Facility Management Toolkit (Optional Feature)"
+        Title="EMS Facility Management Toolkit"
         Link="/Content/F_Optional Features/4_EMS_Facility_Management_Toolkit_Home.htm">
         <TocEntry
           Title="Introduction"
@@ -670,7 +670,7 @@
           Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" />
       </TocEntry>
       <TocEntry
-        Title="CISCO TMS Interface"
+        Title="Cisco TMS Interface"
         Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
         <TocEntry
           Title="Introduction"
@@ -765,6 +765,22 @@
             Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html" />
         </TocEntry>
       </TocEntry>
+      <TocEntry
+        Title="Services and Components"
+        Link="/Content/15ServicesandComponents/Introduction to Services and Components.htm">
+        <TocEntry
+          Title="Install EMS Automated Report Service"
+          Link="/Content/15ServicesandComponents/EMS Automated Report Service.htm" />
+        <TocEntry
+          Title="Install EMS Check-in Notification Service"
+          Link="/Content/15ServicesandComponents/EMS Check in Notification.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS Email Notification Service"
+          Link="/Content/15ServicesandComponents/InstallUpgradeEMSEmailNotificationSvc.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS Campus Auto Sync Service (EMS Campus Only)"
+          Link="/Content/15ServicesandComponents/InstallUpgrade EMS Campus Auto Sync Service.htm" />
+      </TocEntry>
     </TocEntry>
   </TocEntry>
   <TocEntry
@@ -797,7 +813,7 @@
     </TocEntry>
     <TocEntry
       Title="EMS Web App"
-      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/3a_Web App_Introduction.htm">
+      Link="/Content/A_Installation/3_WebApp/V44.1/3_Web Appv44.1 Home.htm">
       <TocEntry
         Title="Introduction"
         Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Introduction.html">
@@ -1242,7 +1258,7 @@
       Title="Optional Features"
       Link="/Content/F_Optional Features/1_OptionalFeaturesHome.htm">
       <TocEntry
-        Title="EMS API Home (Optional Feature)"
+        Title="EMS API Home"
         Link="/Content/F_Optional Features/2_EMS_API_Home.htm">
         <TocEntry
           Title="Introduction"
@@ -1280,7 +1296,7 @@
           Link="/Content/F_Optional Features/EMS_API/A_V44.1/API_ReleaseNotes.htm" />
       </TocEntry>
       <TocEntry
-        Title="EMS Floor Plan (Optional Feature)"
+        Title="EMS Floor Plan"
         Link="/Content/F_Optional Features/3_EMS_FloorPlansHome.htm">
         <TocEntry
           Title="Introduction"
@@ -1335,7 +1351,7 @@
         </TocEntry>
       </TocEntry>
       <TocEntry
-        Title="EMS Facility Management Toolkit (Optional Feature)"
+        Title="EMS Facility Management Toolkit"
         Link="/Content/F_Optional Features/4_EMS_Facility_Management_Toolkit_Home.htm">
         <TocEntry
           Title="Introduction"
@@ -1436,7 +1452,7 @@
           Link="/Content/F_Optional Features/Active Directory/OptFeat_InstallEMSAutoReportServ.htm" />
       </TocEntry>
       <TocEntry
-        Title="CISCO TMS Interface"
+        Title="Cisco TMS Interface"
         Link="/Content/F_Optional Features/6_CISCO_TMS_InterfaceHome.htm">
         <TocEntry
           Title="Introduction"
@@ -1530,6 +1546,22 @@
             Title="Advanced EMS Polycom Interface Configuration"
             Link="/Content/F_Optional Features/Polycom/A_V44.1/Polycom_AdvancedPolycomInterfaceConfig.html" />
         </TocEntry>
+      </TocEntry>
+      <TocEntry
+        Title="Services and Components"
+        Link="/Content/15ServicesandComponents/Introduction to Services and Components.htm">
+        <TocEntry
+          Title="Install EMS Automated Report Service"
+          Link="/Content/15ServicesandComponents/EMS Automated Report Service.htm" />
+        <TocEntry
+          Title="Install EMS Check-in Notification Service"
+          Link="/Content/15ServicesandComponents/EMS Check in Notification.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS Email Notification Service"
+          Link="/Content/15ServicesandComponents/InstallUpgradeEMSEmailNotificationSvc.htm" />
+        <TocEntry
+          Title="Install or Upgrade the EMS Campus Auto Sync Service (EMS Campus Only)"
+          Link="/Content/15ServicesandComponents/InstallUpgrade EMS Campus Auto Sync Service.htm" />
       </TocEntry>
     </TocEntry>
   </TocEntry>
