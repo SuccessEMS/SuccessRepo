@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:lastBlockDepth="4" MadCap:lastHeight="4115" MadCap:lastWidth="1022">
+    <head>
+    </head>
+    <body>
+        <h1>Configuration of G Suite Integration</h1>
+        <p>Google G Suite provides users with tools to connect with others, create documents, access cloud storage, and provide security for data and devices. The G Suite integration with EMS Software combines the scheduling power of the EMS platform with the convenience of G Suite.</p>
+        <p>Google Calendar Integration will allow access to G Suite users’ Google Calendars to provide their free/busy statuses within EMS for scheduling meetings. Everyday Users can see attendee availability directly within the EMS Web App or Mobile App alongside space availability information from the EMS database. When creating a booking, users can easily compare room availability alongside invitee availability to find a day and time that works for the right people and in the right space. Additionally, Google Calendar Integration will send invitations to attendee’s Gmail and Calendars.</p>
+        <h2>1. Enable Google Calendar and Google Drive APIs</h2>
+        <ol>
+            <li>Navigate to the Google Cloud Platform page.</li>
+            <li>Create a separate project to manage the G Suite integration with EMS Software.</li>
+            <li>From the Google Cloud Platform main page, select APIs &amp; Services from the side navigation.</li>
+            <li>From the Google API Dashboard, click Enable APIs and Services.</li>
+        </ol>
+        <p>
+            <img src="../Resources/Images/GSuite_1.png" />
+        </p>
+        <ol start="5">
+            <li>Click on the Google Calendar API icon and click Enable.</li>
+            <li>Click on the Admin SDK icon and click Enable.</li>
+            <li>Click on the Google Drive icon and click Enable.</li>
+        </ol>
+        <h2>2. Create Service Account Credentials</h2>
+        <p>The Service Account ID and Private Key will be required for EMS integrations:</p>
+        <p>Navigate to IAM &amp; Admin from the side navigation.</p>
+        <p>Select your project.</p>
+        <p>Select Service Accounts.</p>
+        <p>Click Create Service Account.</p>
+        <p>Create a Service Account name.</p>
+        <p>Do not select a Role from the dropdown.</p>
+        <p>Check the Furnish a New Private Key and Enable G Suite Domain-wide Delegation boxes.</p>
+        <p>Enter a product name into the Product Name for Consent Screen field.</p>
+        <p>Click Create.</p>
+        <p>Assign the following permissions to the API Client to access certain Google APIs.</p>
+        <p>Navigate to the GSuite Admin Console to view users on the domain.</p>
+        <p>Select Security &gt; Advanced Settings &gt; Manage API Client Access.</p>
+        <p>Enter the Client ID in the field marked Client Name. (The API Client ID is accessible by navigating to IAM &amp; Admin &gt; Service Accounts &gt; View Client ID.)</p>
+        <p>In the One or More API Scopes field, copy the link (https://www.googleapis.com/auth/admi....user.readonly) to provide permission to View Users On Your Domain. Click Authorize.</p>
+        <p>In the One or More API Scopes field, copy the link (https://www.googleapis.com/auth/calendar) to provide permission to Google Calendar. Click Authorize.</p>
+        <p>In the One or More API Scopes field, copy the link (https://www.googleapis.com/auth/drive) to provide permission to Google Drive. Click Authorize.</p>
+        <p>Download the JSON file:</p>
+        <p>Navigate to API &amp; Services &gt; Credentials.</p>
+        <p>Click on the Service Account Name from the OAuth 2.0 Client IDs list.</p>
+        <p>Click on Download JSON link at the top of the page.</p>
+        <p>3. Import PAM (Google Calendar) License into EMS Desktop Client</p>
+        <p>In the EMS Desktop Client, import the license for Google Calendar.</p>
+        <p>GSuite_3.PNG</p>
+        <p>Navigate to System Admin &gt; Settings &gt; Parameter and enter the EMS Platform Services Secret.</p>
+        <p>GSuite_2.PNG</p>
+        <p>Create an Everyday User template and enable Google Calendar integration on that template.</p>
+        <p>&#160;</p>
+        <p>4. Upload JSON File into EMS Platform Services</p>
+        <p>In EMS Platform Services, navigate to the Calendaring page and upload the JSON file for G Suite Configuration.</p>
+        <p>Gsuite4.PNG</p>
+        <p>5. Enable G Suite Integration to EMS Products in EMS Platform Services</p>
+        <p>To enable G Suite integration with either EMS Desktop Client, EMS Web App, or EMS Mobile App, enable the Client in EMS Platform Services. Click here for more information on enabling clients in EMS Platform Services.</p>
+        <p>Navigate to System Admin &gt; Settings &gt; Parameter and enter the EMS Platform Services Secret.</p>
+        <p>GSuite_2.PNG</p>
+    </body>
+</html>
