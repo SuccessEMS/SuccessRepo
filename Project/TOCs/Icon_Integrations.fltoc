@@ -72,6 +72,13 @@
             Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
         </TocEntry>
       </TocEntry>
+      <TocEntry
+        Title="G Suite Integration"
+        Link="/Content/G Suite Integration/GSuite_Introduction.htm">
+        <TocEntry
+          Title="Configuration of G Suite Integration"
+          Link="/Content/G Suite Integration/GSuite_Config.htm" />
+      </TocEntry>
     </TocEntry>
   </TocEntry>
   <TocEntry
