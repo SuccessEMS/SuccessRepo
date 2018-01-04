@@ -370,7 +370,7 @@
           Title="Install or Upgrade the EMS Campus Web Service" />
         <TocEntry
           Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ConfigSteps.htm"
-          Title="EMS Configuration Steps" />
+          Title="Configure EMS Campus Web Service" />
         <TocEntry
           Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_Data Models.htm"
           Title="Data Models">
@@ -1152,7 +1152,7 @@
           Title="Install or Upgrade the EMS Campus Web Service" />
         <TocEntry
           Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44.1_ConfigSteps.htm"
-          Title="EMS Configuration Steps" />
+          Title="Configure EMS Campus Web Service" />
         <TocEntry
           Link="/Content/8Campus/A_V44.1/A_IG_CWS/CWS_IG_44_Data Models.htm"
           Title="Data Models">
