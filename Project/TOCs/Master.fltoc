@@ -2556,6 +2556,13 @@
         Title="Configure Skype for Business"
         Link="/Content/12Skype/C_UserGuide/SkypeforBusiness_UserGuide_ConfigureSkypeforBusiness.html" />
     </TocEntry>
+    <TocEntry
+      Title="G Suite Integration"
+      Link="/Content/G Suite Integration/GSuite_Introduction.htm">
+      <TocEntry
+        Title="Configuration of G Suite Integration"
+        Link="/Content/G Suite Integration/GSuite_Config.htm" />
+    </TocEntry>
   </TocEntry>
   <TocEntry
     Title="User Guides"
@@ -3456,6 +3463,13 @@
     <TocEntry
       Title="EMS Regics User Guide and Credit Card Processing Guide"
       Link="/Content/Regics/EMS Regics User Guide and Credit Card Payment Processing Guide.pdf" />
+    <TocEntry
+      Title="G Suite Integration"
+      Link="/Content/G Suite Integration/GSuite_Introduction.htm">
+      <TocEntry
+        Title="Configuration of G Suite Integration"
+        Link="/Content/G Suite Integration/GSuite_Config.htm" />
+    </TocEntry>
   </TocEntry>
   <TocEntry
     Title="Older Releases"
