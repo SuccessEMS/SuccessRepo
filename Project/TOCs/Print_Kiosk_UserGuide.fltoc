@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Kiosk App User Guide"
+    Link="/Content/Print/Kiosk_UG_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
+      <TocEntry
+        Title="EMS Kiosk"
+        Link="/Content/B_Configuration Guides/6_EMS Kiosk (V44.1) Configuration Guide.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
+      <TocEntry
+        Title="Configure EMS Kiosk App Profiles"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure EMS Kiosk App Menus"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Kiosk "
+      Link="/Content/D_Everyday User Guides/4_EMSKiosk_UG.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
+    <TocEntry
+      Title="Get Started with EMS Kiosk App"
+      Link="/Content/5Kiosk/A_44.1/C_User/Kiosk_UG_GetStarted.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Overview: The EMS Kiosk App Window"
+        Link="/Content/5Kiosk/A_44.1/C_User/Kiosk_UG_OverviewKioskWindow.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="View Your Reservations and Check In to EMS Kiosk App"
+      Link="/Content/5Kiosk/A_44.1/C_User/Kiosk_UG_ViewYourRes.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Book a Desk or Workspace in EMS Kiosk App"
+      Link="/Content/5Kiosk/A_44.1/C_User/Kiosk_UG_BookDeskWorkspace.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Locate a Person in EMS Kiosk App"
+      Link="/Content/5Kiosk/A_44.1/C_User/Kiosk_UG_LocatePerson.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Locate a Space in EMS Kiosk App"
+      Link="/Content/5Kiosk/A_44.1/C_User/Kiosk_UG_LocateSpace.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="View Today's Events in EMS Kiosk App"
+      Link="/Content/5Kiosk/A_44.1/C_User/Kiosk_UG_ViewTodaysEvents.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+</CatapultToc>

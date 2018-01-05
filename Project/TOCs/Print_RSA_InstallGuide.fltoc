@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Room Sign App Installation Guide"
+    Link="/Content/Print/RSA_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+    <TocEntry
+      Title="EMS Room Sign App (formerly Glance)"
+      Link="/Content/A_Installation/8_RoomSignAppV44.1/8_RoomSignAppHome.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
+    <TocEntry
+      Title="Requirements for the EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_RequirementsforRSA.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Obtain the Installation Files for EMS Room Sign"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_ObtainInstallFiles.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Architecture for the EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_Architecture.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Best Practices for Using EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_BestPractices.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Install EMS Room Sign App"
+      Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+</CatapultToc>
