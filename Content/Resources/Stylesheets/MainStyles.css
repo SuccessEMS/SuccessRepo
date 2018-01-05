@@ -556,10 +556,10 @@ p
 	margin-bottom: 8px;
 	margin-top: 8px;
 	text-align: left;
-	color: #adbd21;
 	font-size: 18px;
 	font-family: "Open sans", sans-serif;
 	line-height: 32px;
+	color: #000000;
 }
 
 p.CompanyInformation1
@@ -1131,6 +1131,34 @@ span.toggleexp
 #smartmenu-accordion .menu > li a.selected
 {
 	background: #f8f8f8;
+}
+
+p.TOC1
+{
+	padding-bottom: 10px;
+	font-size: 12;
+	font-weight: bold;
+}
+
+p.TOC2
+{
+	font-size: 10pt;
+	line-height: 10pt;
+	padding-bottom: 5px;
+}
+
+p.TOC3
+{
+	font-size: 10pt;
+	line-height: 5pt;
+	padding-bottom: 5pt;
+}
+
+p.TOC4
+{
+	font-size: 10pt;
+	line-height: 5;
+	padding-bottom: 5pt;
 }
 
 /*medium device style*/

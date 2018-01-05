@@ -27,6 +27,9 @@
       <TocEntry
         Title="Installing Custom Reports in EMS Desktop Client"
         Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_InstallCustomReport.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide for EMS Desktop Client"
@@ -526,6 +529,8 @@
           Title="Troubleshooting"
           Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Troubleshooting.htm" />
       </TocEntry>
+      <TocEntry
+        Title="PDF" />
     </TocEntry>
     <TocEntry
       Title="Expert User Guide for EMS Desktop Client"

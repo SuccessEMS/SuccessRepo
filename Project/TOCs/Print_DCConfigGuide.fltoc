@@ -1,11 +1,987 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1">
-    <TocEntry Title="New Book 1">
-        <TocEntry Title="New entry 1" />
-        <TocEntry Title="New entry 2" />
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Desktop Client"
+    Link="/Content/Print/DC_Config_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+    <TocEntry
+      Title="Starting EMS"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_StartingEMS.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Overview of EMS Desktop Client Configuration"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewofDCConfig.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Authentication Options for EMS Desktop Client"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_AuthenticationOptions.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="EMS Main Window"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSMainWindow.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="EMS Browser Window"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EMSBrowserWindow.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Configuration &gt; Facililties"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFacil.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
+      PageNumber="1">
+      <TocEntry
+        Title="Overview of Configuring Rooms"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRooms.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Configure Rooms"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRooms.html"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Room Configuration Wizard"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomConfigWiz.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Configure Room Pricing"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomPricing.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Configure Override Rooms"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigOverrideRooms.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Configure and Generate Room QR Codes"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGenerRoomQRCode.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Import Rooms"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportRooms.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Buildings"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuilding.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Building Hours"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBuildingHours.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Building Hours Wizard"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_BuildHourWiz.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Areas"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAreas.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Room Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigRoomType.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Setup Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigSetupType.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Features"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFeatures.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Floors"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloors.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Floor Plans"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigFloorPlans.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Public Views"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigPublicViews.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     </TocEntry>
-    <TocEntry Title="New Book 2">
-        <TocEntry Title="New entry 3" />
-        <TocEntry Title="New entry 4" />
+    <TocEntry
+      Title="Configuration &gt; Resources"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewConfigRes.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Categories, Resources, Services - What's the Difference?"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoriesResourcesServices_WhatsDiff.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Resources for a Category"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigResourcesforCat.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Resource Configuration Wizard"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ResourceConfigWiz.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Import Resources for a Category"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResforCat.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Define Resource Selections and Selection Items"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineResourceSel.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Services for a Category"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigureServicesforCat.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Groupings for a Resource"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigGroupingsResource.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Define Production Areas and Production Items for a Catering Resource"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_DefineProdAreaItems.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Pricing for a Resource in the Edit Pricing Window"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingResourceEditPriceWin.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Export Pricing Information for a Resource"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricInfo.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     </TocEntry>
+    <TocEntry
+      Title="Configuration &gt; Billing"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBilling.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Configure Rate Schedules"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRateSchedule.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Pricing Plans"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPricingPlan.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Export Pricing Information for Billable Items (Rooms &amp; Resources)"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ExportPricingInfoBillableItems.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Calculations"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalc.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Accounts"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAccount.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Payment Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigPaymentType.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Sales Categories"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSalesCat.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Billing References and PO Numbers"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigBillRefPO.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Establishing Billing Reference and PO Behavior"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EstablishBillingRef.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Currencies"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCurrencies.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Configuration &gt; Administration"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAdmin.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Configure Categories"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCategory.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Enable Visitor Management"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EnableVisitorMgmt.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Departments"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigDepts.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Statuses"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigStatuses.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Notification Rules"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigNotRules.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Types of Notification Rules"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_TypesNotifiRules.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Group Notification Rules"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupNot.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Check-in Notification Rules"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCheckinNot.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Room Card Formats"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigRoomCardFormat.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Calendar Formats"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalFormat.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Reservation Wizard Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigResWiz.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Configuration &gt; Other"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigOther.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Configure Event Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEventType.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Group Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigGroupType.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Reminder Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigReminderTypes.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Comment Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCommentType.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Messages"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigMessages.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Special Dates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigSpecialDates.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure User-Defined Fields"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigUDF.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Reservation Sources"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigReservSources.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Cancel Reasons"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCancelReasons.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Attachment Types"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAttachmentType.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Word Merge Documents"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigWordMergeDoc.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Calendar Styles"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigCalendarStyles.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Configuration &gt; Everyday User Applications"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEverydayUserApp.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Configure Everyday Users"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEverydayUser.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Licensing for Everyday Users"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_LicensingEverydayUser.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Emailing an Everyday User"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EmailingEverydayUser.html"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Configure Groups and Contacts from an Everyday User"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroupsContactsEverydayUser.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Assign Templates to Everyday Users"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignTempEverydayUser.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Everyday User Process Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ConfigEverydayUserProcessTemplate.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Web Template Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTemplateTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Booking Rules Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingRulesTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Defaults Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_DefaultsTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Video Conference Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_VCtab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Rooms Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_RoomsTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Categories Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CategoryTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Event Types Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EventTypeTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="LDAP Groups Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_LDAPGroupTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="User Defined Fields Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_UDFTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Parameters Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ParametersTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Web Text Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_WebTextTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Menu Text Translations Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_MenuTextTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Terms and Conditions Tab"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_TermsConditionsTab.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Everyday User Security Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigSecTemplate.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Everyday User Security Template Field Definitions"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEUSecurityFieldDef.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Assign Security Templates to Multiple Everyday Users"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_AssignSecTempMultUser.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure EMS Web App Menus"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigWebAppMenu.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Help Text"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigHelpText.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Web Text"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigWebText.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Language Translations"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigLangTrans.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Confirmation Behavior for Everyday User Applications"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfBehavior.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Create Templates for Desks and Workspaces"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CreateTempDeskWork.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Everyday User Process Template Field Definitions"
+        Link="/Content/2WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_EverydayUserProcTempFieldDef.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="How Do I Allow Invitations on a Booking Template?"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_HowDoIAllowInvite.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Configuration &gt; Kiosk"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigurationKiosk.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Configure Kiosk Profiles"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Kiosk Menus"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Configure Groups (Toolbar Icon)"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigurationGroupsToolbarIcon.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Configure Groups"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigGroup.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Configure Additional Information for a Group"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAddInfoGroup.html"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Edit Group Information"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EditGroupInfo.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Import Groups"
+          Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportGroup.htm"
+          BreakType="chapter"
+          PageNumber="1"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Configure Contacts"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigContacts.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="System Administration &gt; Settings"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SystemAdministrationSettings.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Edit System Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_EditSysParam.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Import Registration Information"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportRegInfo.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure the Confirmation Email Subject Line"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigConfEmailSubLine.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Reservation Wizard Required Fields"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_ReservationWizReqFields.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Email Settings"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigEmailSet.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Set Global Email Preference to SMTP and My Personal Email Preference to Outlook"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SetGlobalEmailPrefSMTP.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="System Administration &gt; Security"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SysAdminSecurity.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Overview of User Processes"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_OverviewUserProc.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Users"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUsers.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure User Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserTemp.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Academic User Templates"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigAcadUserTemp.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure User Security for Multiple User Accounts"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigUserSecMultAcct.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="System Administration &gt; Tools"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_SystemAdminTools.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Change Group Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeGroupWiz.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Change Reservation Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ChangeResWiz.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Room Administration Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomAdminWizard.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Manage Saved Reports"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ManageSavedReport.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Override Existing Bookings Utility"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverrideExistingBookUtil.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Import Reservations Utility"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportResUtil.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="View and Email Logged-In Users"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ViewEmailLoggedUsers.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Deleting Old Data"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_DeleteOldData.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Currency Configuration Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_CurrencyConfigWiz.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Booking Move/Change Status Wizard"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_BookingMoveChangeStatusWiz.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Video Display Interface"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_VideoDisplayInterf.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Migrate Data"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_MigrateData.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="System Parameters"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SystemParam.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="EMS Desktop Client Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_DCSystemParam.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="EMS Web App Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_WebAppParam.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="EMS for Outlook Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_OutlookSysParam.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="EMS Kiosk Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_KioskParam.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="EMS Mobile App Parameters"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_MobileAppParam.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Import Files to Streamline Data Entry"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ImportFileSpec.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Special Date Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_SpecialDateImportFileSpec.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Room Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_RoomImportFileSpec.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Resource Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ResourceImportFileSpec.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Group Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_GroupImportFileSpec.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Reservation Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ResImportFileSpec.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Final Exam Schedule Import File Specification"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_FinalExamSchedImportFileSpec.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Video Conferencing"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_VC.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Configure Video Conferencing Capabilities"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_ConfigVCCapabilities.htm"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Overview of Video Conferenncing"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DesktopClient_OverviewVCConfig.html"
+        BreakType="chapter"
+        PageNumber="1"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+    <TocEntry
+      Title="Academic Import Utility"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_CG_AcademicImportUtil.html"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Deployment of EMS Desktop Client"
+      Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DeploymentOptions.htm"
+      BreakType="chapter"
+      PageNumber="1"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Decision Guide: Web Vs Conventional Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_DecisionGuide.htm" />
+      <TocEntry
+        Title="Web Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Web Deployment.htm" />
+      <TocEntry
+        Title="Conventional Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Conventional Deployment.htm" />
+      <TocEntry
+        Title="Easy Deployment with Conventional Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Easy Deployment.htm" />
+      <TocEntry
+        Title="Enable SSL on Web Deployment"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Enable SSL on Web Deployment.htm" />
+      <TocEntry
+        Title="Troubleshooting"
+        Link="/Content/1DesktopClient/V44.1/B_ConfigGuide/DC_Deploy_Troubleshooting.htm" />
+    </TocEntry>
+  </TocEntry>
 </CatapultToc>
