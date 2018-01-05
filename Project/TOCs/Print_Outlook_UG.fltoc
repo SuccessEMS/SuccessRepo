@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS for Microsoft Outlook User Guide"
+    Link="/Content/Print/Outlook_UG_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+    <TocEntry
+      Title="EMS for Microsoft Outlook "
+      Link="/Content/4Outlook/C_User/Outlook_UG_UseEMSforOutlook.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Get Started with EMS for Outlook"
+        Link="/Content/4Outlook/C_User/Outlook_UG_GetStarted.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Microsoft Outlook, EMS for Microsoft Outlook, and EMS Web App Comparison"
+          Link="/Content/4Outlook/C_User/Outlook_UG_OutlookComparisons.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Create a Reservation in EMS for Microsoft Outlook"
+        Link="/Content/4Outlook/C_User/Outlook_UG_CreateResOverview.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+        <TocEntry
+          Title="Create a Single Reservation"
+          Link="/Content/4Outlook/C_User/Outlook_UG_CreateSingleRes.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Create a Series Reservation"
+          Link="/Content/4Outlook/C_User/Outlook_UG_CreateSeriesRes.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Create a Video Conference Reservation"
+          Link="/Content/4Outlook/C_User/Outlook_UG_CreateVideoConRes.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+        <TocEntry
+          Title="Edit or Cancel a Reservation"
+          Link="/Content/4Outlook/C_User/Outlook_UG_EditCancelSchedEvent.htm"
+          BreakType="chapter"
+          StartSection="false"
+          PageNumberReset="continue"
+          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      </TocEntry>
+      <TocEntry
+        Title="Use Skype for Business in EMS for Outlook"
+        Link="/Content/4Outlook/C_User/Outlook_UG_UseSkypeforBusiness.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Resolve Booking Conflicts"
+        Link="/Content/4Outlook/C_User/Outlook_UG_ResolveBookingConflicts.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="View Known Errors/Alerts for EMS for Outlook"
+        Link="/Content/4Outlook/C_User/Outlook_UG_ViewKnownErrorsAlerts.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>
