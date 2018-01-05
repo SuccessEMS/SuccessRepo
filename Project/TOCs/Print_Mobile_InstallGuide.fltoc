@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Mobile App Installation Guide"
+    Link="/Content/Print/DC_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+    <TocEntry
+      Title="EMS Mobile App"
+      Link="/Content/A_Installation/MobileApp/4_MobileAppHome.htm"></TocEntry>
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Introduction.html" />
+    <TocEntry
+      Title="Installation and Basic Setup"
+      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_InstallandBasicSetup.html">
+      <TocEntry
+        Title="Architecture"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_Architecture.html" />
+      <TocEntry
+        Title="How Mobile App Data Is Stored on Devices"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_HowAppDataIsStoredonDevices.html" />
+    </TocEntry>
+    <TocEntry
+      Title="System Requirements"
+      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SysRequirements.html" />
+    <TocEntry
+      Title="What's New"
+      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_WhatsNew.html" />
+    <TocEntry
+      Title="Integrated Authentication Options"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm">
+        <TocEntry
+          Title="Integrated Authentication Considerations"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Integrated Windows Authentication"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+        <TocEntry
+          Title="Manage Everyday Users For Integrated Authentication"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="LDAP Authentication"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+      <TocEntry
+        Title="Portal or Federated Authentication"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+        <TocEntry
+          Title="Portal Authentication Methods"
+          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+      </TocEntry>
+      <TocEntry
+        Title="EMS Mobile App Authentication Options"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_Mobile.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Mobile Authentication"
+      Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SetUpMobileAuthen.html">
+      <TocEntry
+        Title="EMS Native Authentication"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_EMSNativeAuthen.html" />
+      <TocEntry
+        Title="LDAP Authentication"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_LDAPAuthen.html" />
+      <TocEntry
+        Title="Open ID Connect Authentication"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthen.html">
+        <TocEntry
+          Title="Open ID Connect Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_OpenIDConnectAuthenHostPreconfig.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Persistent Authentication"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_PersistentAuthen.htm" />
+      <TocEntry
+        Title="SAML Authentication"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthen.html">
+        <TocEntry
+          Title="SAML Authentication Can Be Hosted or Pre-Configured in the EMS Mobile App"
+          Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_SAMLAuthenHostPreconfig.htm" />
+      </TocEntry>
+      <TocEntry
+        Title="Using Windows Authentication (NTLM) for EMS Mobile"
+        Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>
