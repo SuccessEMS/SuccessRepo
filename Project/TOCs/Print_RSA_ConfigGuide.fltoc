@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Room Sign App Configuration Guide"
+    Link="/Content/Print/RSA_Config_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
+      <TocEntry
+        Title="EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_Introduction.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
+      <TocEntry
+        Title="Best Practices for Device Configuration"
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_BestPractDeviceConfSteps.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure the EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_Config.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Profiles"
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigProfile.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Check In Functionality "
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigCheckInFunct.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Edit Booking Functionality"
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigEditBookFunct.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure How Booking Information Displays"
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigHowBookInfoDisplay.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure New Booking Functionality"
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_ConfigNewBookFunct.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure Custom Labels, Messages, and Images"
+        Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_CustomLabelsMessImage.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>

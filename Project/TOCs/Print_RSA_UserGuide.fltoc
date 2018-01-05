@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Room Sign App User Guide"
+    Link="/Content/Print/RSA_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
+      <TocEntry
+        Title="EMS Room Sign App (formerly Glance)"
+        Link="/Content/D_Everyday User Guides/8_EMSRoomSignApp_UG.htm"></TocEntry>
+      <TocEntry
+        Title="Introduction to EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_Introduction.html" />
+      <TocEntry
+        Title="Best Practices for Using EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_BestPracticesforUsing.html" />
+      <TocEntry
+        Title="Get Started with EMS Room Sign App"
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_GettingStarted.html" />
+      <TocEntry
+        Title="Deploying the EMS Room Sign App on Tablets"
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_DeployingonTablet.html" />
+      <TocEntry
+        Title="Set Up EMS Room Sign App to Demo on a Desktop Browser (Update 12+)"
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_SettingUpRSAtoDemo.html" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>
