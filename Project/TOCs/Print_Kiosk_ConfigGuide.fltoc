@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Kiosk App Configuration Guide"
+    Link="/Content/Print/Kiosk_Config_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
+      <TocEntry
+        Title="EMS Kiosk"
+        Link="/Content/B_Configuration Guides/6_EMS Kiosk (V44.1) Configuration Guide.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
+      <TocEntry
+        Title="Configure EMS Kiosk App Profiles"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+      <TocEntry
+        Title="Configure EMS Kiosk App Menus"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>
