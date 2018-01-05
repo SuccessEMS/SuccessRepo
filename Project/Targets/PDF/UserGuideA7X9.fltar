@@ -7,7 +7,7 @@
   GlossaryTermConversion="marked"
   MasterToc="/Project/TOCs/Print_DCInstallGuide.fltoc"
   ConditionTagExpression="include[General.PDF or PrintGuides.UserGuideA]exclude[General.Online or PrintGuides.UserGuideB]"
-  PatchHeadingLevels="true"
+  PatchHeadingLevels="false"
   InjectEmptyPages="false"
   UseLocalBuildSettings="true"
   IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
@@ -17,7 +17,7 @@
     CollapseMargins="true"
     ExpandingTextConversion="expand"
     PopupConversion="remove-body"
-    GenerateTOCProxy="true" />
+    GenerateTOCProxy="false" />
   <DocumentProperties
     Title="User Manual—7X9"
     Author="My Name" />

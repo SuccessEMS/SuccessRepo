@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PageStyles xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
     <Page Name="All" Width="7in" Height="9in" Padding="20px" PageSize="custom" PageType="normal" PaddingLeft="0.5in" PaddingRight="0.5in" PaddingTop="0.5in" PaddingBottom="0.5in" BackgroundRepeat="no-repeat" Orientation="portrait" BackgroundImage="../../Images/TitlePageBackground.eps" BackgroundPositionX="10px" BackgroundPositionY="-90px" BleedLeft="0.25in" BleedRight="0.25in" BleedTop="0.25in" BleedBottom="0.25in">
-        <Frame X="-24px" Y="509px" Width="624px" Height="225px" Flow="body" Right="-24px" Bottom="34px" />
+        <Frame X="-7px" Y="477px" Width="607px" Height="274px" Flow="body" Right="-24px" Bottom="17px" />
         <Frame X="5px" Y="11px" Width="563px" Height="95px" Right="8px" Bottom="662px" BackgroundImage="../../Images/cover-logo.png" BackgroundRepeat="no-repeat" BackgroundPositionX="left" BackgroundPositionY="top" Anchors="" Flow="header" TextAlign="left" VerticalAlign="top" />
-        <Frame X="-48px" Y="148px" Width="673px" Height="326px" Flow="decoration1" Right="-49px" Bottom="294px" BackgroundImage="../../Images/PDF-cover.jpg" BackgroundRepeat="stretch" DividerTopMargin="208px" Anchors="" />
+        <Frame X="-48px" Y="124px" Width="673px" Height="326px" Flow="decoration1" Right="-49px" Bottom="318px" BackgroundImage="../../Images/PDF-cover.jpg" BackgroundRepeat="stretch" DividerTopMargin="208px" Anchors="" />
         <Frame X="-23px" Y="762px" Width="624px" Height="55px" Flow="footer" Right="-25px" Bottom="-49px">
             <Content>
                 <xhtml:html xmlns:xhtml="http://www.w3.org/1999/xhtml">

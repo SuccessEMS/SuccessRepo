@@ -9,7 +9,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Using <MadCap:variable xhtml:name="General.EMS&#160;Web App" /> <MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Installing <MadCap:variable xhtml:name="General.EMS&#160;Desktop Client" /> <MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -25,7 +25,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Using <MadCap:variable xhtml:name="General.EMS&#160;Web App" /> <MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Installing <MadCap:variable xhtml:name="General.EMS&#160;Desktop Client" /><MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -42,7 +42,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Using <MadCap:variable xhtml:name="General.EMS&#160;Web App" /> <MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Installing <MadCap:variable xhtml:name="General.EMS&#160;Desktop Client" /><MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
