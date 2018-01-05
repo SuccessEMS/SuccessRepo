@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print/WebApp_Install_FrontPage.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl" />
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
+  <TocEntry
+    Title="Introduction"
+    Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Introduction.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="System Architecture"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_SystemArchitecture.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Requirements and Prerequisites"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_RequirementPrerequisites.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Obtain the Installation Files"
+    Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_ObtainInstallFiles.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  <TocEntry
+    Title="Install or Upgrade to the EMS Web App"
+    Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_InstallUpgradetoWebApp.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Upgrade Considerations"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_UpgradeConsiderations.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Optional EMS Web App Features"
+    Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_OptionalFeatures.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Customize EMS Web App"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Customize.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="EMS Mobile Web Application"
+    Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_MobileWebApplication.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  <TocEntry
+    Title="Launch EMS Web App"
+    Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_StartWebApp.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  <TocEntry
+    Title="Windows Server 2008/2008 R2 Web Server Setup Guide"
+    Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_WinWebServGuide2008R2.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Best Practices: Setting Up Your Web Server 2008 or 2008R2"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_BestPracSetUpServer2008R2.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Install .NET Framework"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_InstallNETFramework2008.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Install Internet Information Services (IIS)"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Install-IIS2008.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Add Role Services"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_AddingRoleServices2008.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Windows Server 2012/2012 R2 Web Server Setup Guide"
+    Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_WinWebServGuide2012R.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Best Practices: Setting Up Your Web Server 2012 or 2012R2"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_BestPracSetUpServer2012R2.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Install .NET Framework"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_InstallNETFramework2012.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Install Internet Information Services (IIS)"
+      Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Install-IIS2012.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+      <TocEntry
+        Title="Add Role Services"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_AddRoleServices2012.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Title="Integrated Authentication Options"
+    Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Introduction"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm">
+      <TocEntry
+        Title="Integrated Authentication Considerations"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Learn About Our Applications/VPAT for EMS Web App V44 1.htm" />
+    <TocEntry
+      Title="Integrated Windows Authentication"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html">
+      <TocEntry
+        Title="Manage Everyday Users For Integrated Authentication"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm" />
+    </TocEntry>
+    <TocEntry
+      Title="LDAP Authentication"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html" />
+    <TocEntry
+      Title="Portal or Federated Authentication"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html">
+      <TocEntry
+        Title="Portal Authentication Methods"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html" />
+    </TocEntry>
+    <TocEntry
+      Title="EMS Web App and VEMS Authentication Options"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" />
+  </TocEntry>
+</CatapultToc>
