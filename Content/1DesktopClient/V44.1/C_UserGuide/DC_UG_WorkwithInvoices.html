@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="6" MadCap:lastHeight="16240" MadCap:lastWidth="758" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');" class="desktopClient">
+<html MadCap:lastBlockDepth="6" MadCap:lastHeight="16262" MadCap:lastWidth="758" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\EMSDesktopClient.flmsp');" class="desktopClient">
     <head>
         <link href="../../../Resources/TableStyles/PatternedRows.css" rel="stylesheet" MadCap:stylesheetType="table" /><title mt-export-translate="no">Working with Invoices</title>
         <meta name="mt-type" value="application/x.deki-text" />
@@ -105,7 +105,7 @@
                 <tr class="TableStyle-PatternedRows-Body-LightRows">
                     <td colspan="2" class="TableStyle-PatternedRows-BodyD-Regular-LightRows">
                         <p>Open the appropriate tab on the window and select the buildings, resource categories, booking statuses, and group types that are to be invoiced. This information is displayed on the invoice. To select a building, category, and so on, select the item in the Available list (CTRL-click to select multiple items), and then click the Move button (&gt;) to move the items to the Selected list.</p>
-                        <p>Note: You can click the&#160;Show Inactive&#160;option for both categories and statuses, to show inactive categories and statuses, so you can select these inactive items as part of your filtering criteria.</p>
+                        <p class="note-box">Note: You can click the&#160;Show Inactive&#160;option for both categories and statuses, to show inactive categories and statuses, so you can select these inactive items as part of your filtering criteria.</p>
                     </td>
                 </tr>
                 <tr class="TableStyle-PatternedRows-Body-DarkerRows">
@@ -262,7 +262,7 @@
         </p>
         <p>After you generate and post an invoice, the message “Items have been invoiced” is displayed in red text on the Reservation Summary tab, the Booking Summary tab, and the &lt;Booking Detail&gt; Summary tab in the Navigator. The booking detail folder in which the invoiced items reside now has a green background in the Booking Details pane and the icon for each invoiced item also has a green background in the Items pane. Also, the invoice is permanently saved, and you cannot edit it. You can make changes to the balance due for a reservation only by creating an adjustment or by voiding the invoice and regenerating it after you edit the booking information. (Because invoiced bookings are locked and cannot be edited, you must void the invoice before you can edit the bookings.)</p>
         <h2>Reprinting an Invoice&#160;</h2>
-        <p>You can reprint both non-voided and voided invoices. You can reprint invoices&#160;for only one department at a time&#160;from the Billing area of EMS. Reprinting an invoice does not recalculate the invoice. The invoice is simply printed as it appeared when it was first generated. You can&#160;<a href="https://success.emssoftware.com/001_Using_EMS__(V44.1)/Using_EMS_for_Microsoft®_Outlook/Using_EMS/EMS_Desktop_Client/030_Billing/020_Working_with_Invoices#RTF537065636966795f72657072">specify</a>&#160;the invoices that you are reprinting, or you can&#160;<a href="https://success.emssoftware.com/001_Using_EMS__(V44.1)/Using_EMS_for_Microsoft®_Outlook/Using_EMS/EMS_Desktop_Client/030_Billing/020_Working_with_Invoices#RTF5365617263685f7265707269">search</a>&#160;for invoices that meet specific criteria, and then select specific invoices to reprint from the list of search results.</p>
+        <p>You can reprint both non-voided and voided invoices. You can reprint invoices&#160;for only one department at a time&#160;from the Billing area of EMS. Reprinting an invoice does not recalculate the invoice. The invoice is simply printed as it appeared when it was first generated. You can&#160;specify&#160;the invoices that you are reprinting, or you can&#160;search&#160;for invoices that meet specific criteria, and then select specific invoices to reprint from the list of search results.</p>
         <p>To reprint invoices for one or more departments, you must select the reservation in the Navigator, open the Transactions tab and CTRL-click to select the multiple invoices that you are reprinting, and then use the Reprint option on the Transactions tab.</p>
         <ol start="1">
             <li>On the EMS Desktop Client menu bar, click Billing &gt; Other &gt;&#160;Reprint Invoices.&#160;The Reprint Invoices dialog box opens.</li>
@@ -334,15 +334,15 @@
             </tbody>
         </table>
         <ol start="6">
-            <li>Click&#160;OK.&#160;An onscreen preview of the invoices opens. The preview is titled “Invoices.” The preview window contains options for printing a hard copy of the invoices, for exporting the invoices to a .pdf, emailing the invoice (see&#160;<a href="https://success.emssoftware.com/001_Using_EMS__(V44.1)/Using_EMS_for_Microsoft%C2%AE_Outlook/Using_EMS/EMS_Desktop_Client/120_Other_Reservation_Functions/020_Sending_Email_from_EMS" title="Sending Email from EMS">Sending Email from EMS</a>) and so on. Select the option or options that best fits your working needs.</li>
+            <li>Click&#160;OK.&#160;An onscreen preview of the invoices opens. The preview is titled “Invoices.” The preview window contains options for printing a hard copy of the invoices, for exporting the invoices to a .pdf, emailing the invoice (see&#160;<a href="DC_UG_SendEmails.html"><a href="https://success.emssoftware.com/001_Using_EMS__(V44.1)/Using_EMS_for_Microsoft%C2%AE_Outlook/Using_EMS/EMS_Desktop_Client/120_Other_Reservation_Functions/020_Sending_Email_from_EMS" title="Sending Email from EMS">Sending Email from EMS</a></a>) and so on. Select the option or options that best fits your working needs.</li>
         </ol>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_Bill/Working with Invoices_5.png" alt="emsum_Billing_image006.png">
             </img>
         </p>
         <h2><a name="Voiding"></a>Voiding an Invoice&#160;</h2>
-        <p>You can void an invoice only if the invoice has&#160;not&#160;been paid. If payments have been made against an invoice, you must first void the payments.You can void invoices&#160;for only one department at a time. When you void an invoice, the invoice is removed from the Ageing report and its associated bookings are unlocked. You can specify invoices to void, or you can search for invoices that meet specific criteria, and then select specific invoices to void from the list of search results.</p>
-        <p>Tip:&#160;You can also void an invoice from the Transactions tab when a reservation is selected in the Navigator.</p>
+        <p>You can void an invoice only if the invoice has&#160;not&#160;been paid. If payments have been made against an invoice, you must first void the payments. You can void invoices&#160;for only one department at a time. When you void an invoice, the invoice is removed from the Ageing report and its associated bookings are unlocked. You can specify invoices to void, or you can search for invoices that meet specific criteria, and then select specific invoices to void from the list of search results.</p>
+        <p class="note-box">Tip:&#160;You can also void an invoice from the Transactions tab when a reservation is selected in the Navigator.</p>
         <ol start="1">
             <li>On the EMS menu bar, click Billing &gt; Other &gt;&#160;Void Invoices.&#160;The Void Invoices dialog box opens.&#160;</li>
         </ol>
@@ -363,7 +363,7 @@
             </img>
         </p>
         <ul>
-            <li>If payments have been applied to the invoice, then an error message opens indicating that payments have been applied to the invoice and it cannot be voided. You must void the payments first before you can continue with voiding the invoice. See&#160;<a href="https://success.emssoftware.com/001_Using_EMS__(V44.1)/Using_EMS_for_Microsoft®_Outlook/Using_EMS/EMS_Desktop_Client/030_Billing/040_Working_with_Transactions#To_void_a_transaction" title="Working with Transactions">Voiding a transaction</a>.</li>
+            <li>If payments have been applied to the invoice, then an error message opens indicating that payments have been applied to the invoice and it cannot be voided. You must void the payments first before you can continue with voiding the invoice. See&#160;<a href="DC_UG_WorkwithTransactions.html#To_void_a_transaction" title="Working with Transactions" alt="Working with Transactions">Voiding a transaction</a>.</li>
         </ul>
         <ol start="4">
             <li>Enter a reason for voiding the invoice, and then click&#160;OK.&#160;The invoice is displayed (by number) in the lower right Invoice pane.</li>
@@ -377,7 +377,7 @@
         <ol start="7">
             <li>Optionally, before you void a selected invoice, you can review it to ensure that it is indeed an invoice that you want to void. In the lower right Invoice pane, select the invoice, or CTRL-click to select multiple invoices, and then click&#160;Preview.&#160;An onscreen preview of the selected invoices opens. The preview is titled “Invoices.” The preview window contains options for printing a hard copy of the invoices, for exporting the invoices to a .pdf, and so on.&#160;Select the option or options that best fit your working needs. For example, before you void an invoice, you might want to email a copy of the invoice to a colleague to confirm that the invoice should be voided.</li>
         </ol>
-        <p>Onscreen preview of an invoice selected for voiding</p>
+        <p class="title">Onscreen preview of an invoice selected for voiding</p>
         <p>
             <img src="../../../Resources/Images/DTC_V44.1_Bill/Working with Invoices_8.png" alt="emsum_Billing_image011.png">
             </img>
@@ -387,9 +387,14 @@
             <li>Click&#160;Yes.&#160;A message opens indicating that the invoices have been voided.</li>
             <li>Click&#160;OK.&#160;The message and the Void Invoices dialog box close. The Void column is set to Yes on the Transactions tab for each of the voided invoices in the Navigator.</li>
         </ol>
-        <p>
-            <MadCap:annotation MadCap:createDate="2017-11-16T08:41:06.5536633-07:00" MadCap:creator="Megan.Laub" MadCap:initials="ME" MadCap:comment="This concept is a wiki link to the topic &quot;Apply Calculations to Billing topic&quot;" MadCap:editor="Megan.Laub" MadCap:editDate="2017-11-16T08:41:25.7250659-07:00">Concept</MadCap:annotation>:&#160;Calculations&#160;are additional charges that can be applied to billable items based on an associated group or individual, a category or service, or a room.</p>
-        <p>... such as gratuity or sales tax. Both pricing methods and calculations determine the final cost for a billable item; however, unlike pricing, which is applied when a billable item is reserved (and retained, even if the price for the item later changes), calculations are figured each time a confirmation or an invoice is generated. If a event has associated calculations (which are assigned to groups or individuals, categories and services, and rooms), you will see these in the&#160;<a href="https://success.emssoftware.com/EMS_V44.1/Managing_EMS_Desktop_Client/030_Billing/020_Working_with_Invoices" title="https://success.emssoftware.com/EMS_V44.1/Using_EMS/Using_EMS_Desktop_Client/030_Billing/020_Working_with_Invoices">invoicing process</a>.&#160;</p>
+        <MadCap:dropDown>
+            <MadCap:dropDownHead>
+                <MadCap:dropDownHotspot>Concept:&#160;Calculations&#160;are additional charges that can be applied to billable items based on an associated group or individual, a category or service, or a room.</MadCap:dropDownHotspot>
+            </MadCap:dropDownHead>
+            <MadCap:dropDownBody>
+                <p>... such as gratuity or sales tax. Both pricing methods and calculations determine the final cost for a billable item; however, unlike pricing, which is applied when a billable item is reserved (and retained, even if the price for the item later changes), calculations are figured each time a confirmation or an invoice is generated. If a event has associated calculations (which are assigned to groups or individuals, categories and services, and rooms), you will see these in the&#160;invoicing process.&#160;</p>
+            </MadCap:dropDownBody>
+        </MadCap:dropDown>
         <p>&#160;</p>
     </body>
 </html>
