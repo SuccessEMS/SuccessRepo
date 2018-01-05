@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Mobile App User Guide"
+    Link="/Content/Print/Mobile_UG_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
+      <TocEntry
+        Title="EMS Mobile App"
+        Link="/Content/3MobileApp/C_UserGuide/2_EMS Mobile App.htm"></TocEntry>
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_Introduction.html">
+        <TocEntry
+          Title="What's New"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_WhatsNew.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Get Started With EMS Mobile"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_GetStarted.html">
+        <TocEntry
+          Title="Log In, Reset Password, or Create An Account"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_LogInResetPasswordCreateAccount.html" />
+        <TocEntry
+          Title="Enter Your Server URL"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_EnterYourServerURL.html" />
+        <TocEntry
+          Title="Search For Events"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_SearchforEvents.html" />
+        <TocEntry
+          Title="Check In to Meetings"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_CheckIntoMeetings.html" />
+        <TocEntry
+          Title="Cancel Meetings"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_CancelMeetings.html" />
+        <TocEntry
+          Title="End Meetings Early"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_EndMeetingsEarly.html" />
+        <TocEntry
+          Title="Favorite Locations"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_FavoriteLocations.html" />
+        <TocEntry
+          Title="Remove Favorite Locations"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_RemoveFavoriteLocations.html" />
+        <TocEntry
+          Title="Use QR Codes"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_UseQRCodes.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Attend a Meeting"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_AttendMeeting.html" />
+      <TocEntry
+        Title="Create a Meeting"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_CreateMeeting.html">
+        <TocEntry
+          Title="Find a Room"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_FindRoom.html" />
+        <TocEntry
+          Title="Invite People"
+          Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_InvitePeople.html" />
+      </TocEntry>
+      <TocEntry
+        Title="Change a Meeting"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_ChangeMeeting.html" />
+      <TocEntry
+        Title="Use Skype for Business in the EMS Mobile App"
+        Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_UseSkypeforBusiness.html" />
+    </TocEntry>
+  </TocEntry>
+</CatapultToc>
