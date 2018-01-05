@@ -9,7 +9,15 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Installing <MadCap:variable xhtml:name="General.EMS&#160;Desktop Client" /> <MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:blockquote>
+                            <xhtml:div>
+                                <xhtml:blockquote>
+                                    <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;text-align: left;">EMS&#160;Software © 2018 <MadCap:variable xhtml:name="General.Version" /> </xhtml:p>
+                                    <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt; text-align: right;"><MadCap:variable xhtml:name="System.PageNumber" />
+                                    </xhtml:p>
+                                </xhtml:blockquote>
+                            </xhtml:div>
+                        </xhtml:blockquote>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -25,7 +33,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Installing <MadCap:variable xhtml:name="General.EMS&#160;Desktop Client" /><MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">EMS&#160;Software © 2018 / <MadCap:variable xhtml:name="General.Version" /> / Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
@@ -42,7 +50,7 @@
                     <xhtml:head>
                     </xhtml:head>
                     <xhtml:body>
-                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;">Installing <MadCap:variable xhtml:name="General.EMS&#160;Desktop Client" /><MadCap:variable xhtml:name="General.Version" /><MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
+                        <xhtml:p xhtml:class="FrameFooterText" xhtml:style="font-size: 10pt;text-align: right;">EMS&#160;Software © 2018 / <MadCap:variable xhtml:name="General.Version" /> / Page <MadCap:variable xhtml:name="System.PageNumber" /></xhtml:p>
                     </xhtml:body>
                 </xhtml:html>
             </Content>
