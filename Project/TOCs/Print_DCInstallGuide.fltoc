@@ -1,11 +1,32 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1">
-    <TocEntry Title="New Book 1">
-        <TocEntry Title="New entry 1" />
-        <TocEntry Title="New entry 2" />
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="Desktop Client Installation Guide">
+    <TocEntry
+      Title="EMS Desktop Client"
+      Link="/Content/A_Installation/2_DesktopClient/V44.1/2_DesktopClient_Home.htm">
+      <TocEntry
+        Title="Introduction"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html" />
+      <TocEntry
+        Title="System Requirements and Prerequisites"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_SystemReq.htm" />
+      <TocEntry
+        Title="Installation Instructions"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_INstallationInstruct.html" />
+      <TocEntry
+        Title="Upgrade Considerations"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeConsideration.html" />
+      <TocEntry
+        Title="Upgrade Instructions"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeInstruct.html" />
+      <TocEntry
+        Title="Downgrade the EMS Desktop Client Web Deploy"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_DowngradeWebDeploy.htm" />
+      <TocEntry
+        Title="Installing Custom Reports in EMS Desktop Client"
+        Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_InstallCustomReport.html" />
     </TocEntry>
-    <TocEntry Title="New Book 2">
-        <TocEntry Title="New entry 3" />
-        <TocEntry Title="New entry 4" />
-    </TocEntry>
+  </TocEntry>
 </CatapultToc>
