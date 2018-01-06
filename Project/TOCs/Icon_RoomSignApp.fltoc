@@ -21,6 +21,9 @@
       <TocEntry
         Title="Install EMS Room Sign App"
         Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_InstallRSA.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/6RoomSignApp/A_44.1/A_Installation/RSA_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide EMS Room Sign App (formerly Glance)"
@@ -49,6 +52,8 @@
       <TocEntry
         Title="Configure Custom Labels, Messages, and Images"
         Link="/Content/6RoomSignApp/A_44.1/B_Configuration/RSA_CG_CustomLabelsMessImage.html" />
+      <TocEntry
+        Title="PDF" />
     </TocEntry>
     <TocEntry
       Title="Everyday User Guide EMS Room Sign App (formerly Glance)"
@@ -68,6 +73,8 @@
       <TocEntry
         Title="Set Up EMS Room Sign App to Demo on a Desktop Browser (Update 12+)"
         Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_SettingUpRSAtoDemo.html" />
+      <TocEntry
+        Title="PDF" />
     </TocEntry>
     <TocEntry
       Title="Legacy Documentation"

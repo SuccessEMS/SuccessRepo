@@ -86,6 +86,9 @@
           Title="Using Windows Authentication (NTLM) for EMS Mobile"
           Link="/Content/3MobileApp/A_InstallationGuide/Mobile_SetUpMobileAuthen/Mobile_UseWindowsAuthenforMobile.html" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/5Kiosk/A_44.1/A_Install/Kiosk_Install_PDF.pdf"></TocEntry>
     </TocEntry>
     <TocEntry
       Title="Configuration Guide EMS Mobile App"
@@ -124,6 +127,9 @@
       <TocEntry
         Title="Set EMS Mobile Parameters"
         Link="/Content/3MobileApp/B_ConfigurationGuide/Mobile_SetMobileParameters.html"></TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Everyday User Guide EMS Mobile App"
@@ -185,6 +191,9 @@
       <TocEntry
         Title="Use Skype for Business in the EMS Mobile App"
         Link="/Content/3MobileApp/C_UserGuide/MobileApp_UserGuide_UseSkypeforBusiness.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/5Kiosk/A_44.1/C_User/Kiosk_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Video Tutorials"

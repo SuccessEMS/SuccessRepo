@@ -78,6 +78,9 @@
           Title="[%=System.LinkedTitle%]"
           Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/4Outlook/A_Install/Outlook_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide EMS for Microsoft Outlook"
@@ -85,6 +88,9 @@
       <TocEntry
         Title="Configure EMS for Outlook"
         Link="/Content/4Outlook/B_Config/Outlook_CG_ConfigforOutlook.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/4Outlook/B_Config/Outlook_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Everyday User Guide EMS for Microsoft Outlook"
@@ -121,6 +127,9 @@
       <TocEntry
         Title="View Known Errors/Alerts for EMS for Outlook"
         Link="/Content/4Outlook/C_User/Outlook_UG_ViewKnownErrorsAlerts.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/4Outlook/C_User/Outlook_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Legacy Documentation"

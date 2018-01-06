@@ -45,5 +45,7 @@
       ChapterNumberReset="continue"
       ComputeToc="false"
       ReplaceMergeNode="false"></TocEntry>
+    <TocEntry
+      Title="PDF" />
   </TocEntry>
 </CatapultToc>
