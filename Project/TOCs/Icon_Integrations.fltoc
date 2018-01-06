@@ -33,6 +33,8 @@
             Title="Configuring Exchange Room Integration (ERI)"
             Link="/Content/E_Integrations/7ERI/B_Config/ERI_Config_ConfigEXR.html" />
         </TocEntry>
+        <TocEntry
+          Title="PDF" />
       </TocEntry>
       <TocEntry
         Title="Human Resources Information Systems (HRIS)"

@@ -16,8 +16,8 @@
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
     <TocEntry
-      Title="EMS Exchange Room Integration (ERI)  "
-      Link="/Content/E_Integrations/7ERI/Print_ERI.htm"
+      Title="Introduction to ERI"
+      Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_IntroductiontoERI.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
@@ -36,13 +36,6 @@
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-    <TocEntry
-      Title="Introduction to ERI"
-      Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_IntroductiontoERI.html"
-      BreakType="chapter"
-      StartSection="false"
-      PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
     <TocEntry
       Title="Install Exchange Room Integration"
       Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_InstallingERI.html"

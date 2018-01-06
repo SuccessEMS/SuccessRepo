@@ -2,8 +2,8 @@
 <CatapultToc
   Version="1">
   <TocEntry
-    Title="Desktop Client Installation Guide"
-    Link="/Content/Print/DC_Install_FrontPage.htm"
+    Title="EMS Web App User Guide"
+    Link="/Content/Print/WebApp_User_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
@@ -17,51 +17,330 @@
     PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl" />
   <TocEntry
     Title="Introduction"
-    Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_Introduction.html"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-  <TocEntry
-    Title="System Requirements and Prerequisites"
-    Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_SystemReq.htm"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-  <TocEntry
-    Title="Installation Instructions"
-    Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_INstallationInstruct.html"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-  <TocEntry
-    Title="Upgrade Considerations"
-    Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeConsideration.html"
-    BreakType="chapter"
-    StartSection="false"
-    PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-  <TocEntry
-    Title="Upgrade Instructions"
-    Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_UpgradeInstruct.html"
+    Link="/Content/D_Everyday User Guides/3_EMSWebAppV44.1_UG.htm"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
   <TocEntry
-    Title="Downgrade the EMS Desktop Client Web Deploy"
-    Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_DowngradeWebDeploy.htm"
+    Title="Get Started with EMS Web App"
+    Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_GettingStarted.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Log In and Out"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_LogginginandOut.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Check In To Events"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_CheckingIntoEvents.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Introduction to the Home Page"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_IntroductiontoHomePage.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Create Your Login or Get a New Password"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_CreateLoginOrGetNewPassword.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
   <TocEntry
-    Title="Installing Custom Reports in EMS Desktop Client"
-    Link="/Content/1DesktopClient/V44.1/A_InstallationGuide/DC_IG_InstallCustomReport.html"
+    Title="Browse Events, Locations, and People"
+    Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_BrowseEventsLocPeople.html"
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
-    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Browse Events"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_BrowsingEvents.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Browse Locations"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_BrowsingLocations.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="View Floor Plans"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_ViewingFloorPlans.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Locate People"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_LocatingPeople.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Event Details Page"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_EventDetailsPage.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Create a Reservation in EMS Web App"
+    Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_MakingaResv.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Ways to Make Reservations"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_WaystoMakeReservations.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="View Your Events"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_ViewingYourEvents.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Search for Available Rooms"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_SearchingforAvailableRooms.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Book Multiple Rooms"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_BookingMultipleRooms.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Book Recurring Meetings"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_BookingRecurringMeetings.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Book a Video Conference Room"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_BookingVCRoom.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Book a Desk or Workspace"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_BookingDeskWorkspace.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Add Reservation Details"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_AddingReservationDetails.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Add Services to a Meeting"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_AddingServicestoMtg.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Work with Services"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_WorkingwithServices.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Cancel Your Reservations and Bookings"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_CancelingYourResvandBook.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Edit Reservations and Bookings"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_EditResvBooking.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Invite Attendees with EMS for Outlook"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_InviteAttendeesOutlook.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Notifications in the EMS Web App"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_Notifications.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Personalize Your Account"
+    Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_PersonalizingYourAcct.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Change Account Information"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_ChangeAccountInfo.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Establish Delegates"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_EstablishingDelegates.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Establish Booking Templates"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_EstablBookingTemp.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Set Favorite Rooms"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_SettingFavoriteRooms.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Mobile Web App"
+    Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_MobileWebApp.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Using the EMS Web App on Mobile Devices"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_UsingWebApponMobileDev.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="EMS Mobile App Versus EMS Mobile Web App: What is the Difference?"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_EMSMobilevsWeb.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Learn About EMS Web App"
+    Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_LearningAbout.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="Booking Templates, Requests, and Reservations"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_BookingTemplatesRequestsReserv.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Delegates Act as You"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_DelegatesActasYou.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="MY EVENTS vs. BROWSE EVENTS"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_MyEventsvsBrowseEvents.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Notifications Automatically Alert People to Changes in EMS"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_NotifcationsAutomaticallyAlert.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="EMS for Outlook® (Optional Capability)"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_EMSforOutlookOption.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Integration with Exchange Enables You to Use Outlook®"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_IntegrationwithExchangeEnables.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Reservations, Bookings, and Booking Details"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_ReservBookingsBookingDetails.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Troubleshooting: Internal Server Error When Viewing My Events in EMS Web App"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_Troubleshooting.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Understanding Everyday User Templates"
+      Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_UnderstandingEverydayUser.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Skype for Business in the EMS Web App"
+    Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_SkypeforBusiness.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
 </CatapultToc>
