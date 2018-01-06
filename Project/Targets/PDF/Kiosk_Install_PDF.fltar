@@ -12,7 +12,8 @@
   UseLocalBuildSettings="true"
   IgnoredCompilerWarnings="20032,20033,20034,20035,20036,20037,20038,20039,20040,20041"
   MasterStylesheet="/Content/Resources/Stylesheets/MainStyles.css"
-  MasterPageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+  MasterPageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"
+  GetLatestBeforeCompile="true">
   <PrintedOutput
     CollapseMargins="true"
     ExpandingTextConversion="expand"
