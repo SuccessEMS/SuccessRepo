@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1"
+  sourceDocument="C:\Users\Jen.Naused\Desktop\RELEASE NOTES\U19_DC_RN.docx">
+  <TocEntry
+    Title="EMS Desktop Client Release Notes V44.1, Update 19"
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 19/U19_DC_RN.htm" />
+  <TocEntry
+    Title="EMS Integrations -- Student Information Systems (SIS) Release Notes V44.1, Update 19"
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 19/EMS Integrations Student Information.htm" />
+  <TocEntry
+    Title="EMS Kiosk App Release Notes V44.1, Update 19"
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 19/EMS Kiosk App Release Notes.htm" />
+  <TocEntry
+    Title="EMS Master Calendar Release Notes V8"
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 19/EMS Master Calendar Release.htm" />
+  <TocEntry
+    Title="EMS Platform Services Release Notes V44.1, Update 19"
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 19/EMS Platform Services Release.htm" />
+  <TocEntry
+    Title="EMS Room Wizard Release Notes V44.1, Update 19"
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 19/EMS Room Wizard Release Notes.htm" />
+  <TocEntry
+    Title="EMS Room Sign App Release Notes V44.1, Update 19"
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 19/EMS Room Sign App Release.htm" />
+  <TocEntry
+    Title="EMS Web App Release Notes V44.1, Update 19"
+    Link="/Content/C_Release Notes/1_ReleaseNotesVersion44.1/Update 19/EMS Web App Release Notes.htm" />
+</CatapultToc>
