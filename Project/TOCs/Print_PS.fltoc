@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Platform Services"
+    Link="/Content/Print/PS_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
+    <TocEntry
+      Title="EMS Platform Services"
+      Link="/Content/A_Installation/7_PlatformServices/V44.1/7_PlatformServicesHome.htm"></TocEntry>
+    <TocEntry
+      Title="Introduction to EMS Platform Services"
+      Link="/Content/7PlatformServices/A_InstallationGuide/Platform_Introduction.html" />
+    <TocEntry
+      Title="Install EMS Platform Services"
+      Link="/Content/7PlatformServices/A_InstallationGuide/Platform_InstallPS.html" />
+    <TocEntry
+      Title="License Requirements for Platform Services"
+      Link="/Content/7PlatformServices/A_InstallationGuide/Platform_LicenseRequirements.html" />
+    <TocEntry
+      Title="Configure Platform Services in the Admin Portal"
+      Link="/Content/7PlatformServices/B_ConfigurationGuide/Platform_ConfigPSinAdminPortal.html" />
+  </TocEntry>
+</CatapultToc>
