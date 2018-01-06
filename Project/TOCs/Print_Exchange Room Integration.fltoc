@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CatapultToc
+  Version="1">
+  <TocEntry
+    Title="EMS Exchange Room Integration"
+    Link="/Content/Print/DC_Install_FrontPage.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
+    PageNumberReset="continue"></TocEntry>
+  <TocEntry
+    Title="[%=System.LinkedTitle%]"
+    Link="/Content/Print Only Topics/TOC.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
+    <TocEntry
+      Title="EMS Exchange Room Integration (ERI)  "
+      Link="/Content/B_Configuration Guides/8_EMS_ExchangeRoomIntegration_CG.htm"></TocEntry>
+    <TocEntry
+      Title="System Requirements of ERI"
+      Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_SystemRequirements.html" />
+    <TocEntry
+      Title="Architecture of ERI"
+      Link="/Content/E_Integrations/7ERI/A_Installation/ERI_ArchitectureofERI.html" />
+    <TocEntry
+      Title="Introduction to ERI"
+      Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_IntroductiontoERI.html"></TocEntry>
+    <TocEntry
+      Title="Install Exchange Room Integration"
+      Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_InstallingERI.html" />
+    <TocEntry
+      Title="Exchange Sync Utility"
+      Link="/Content/E_Integrations/7ERI/A_Installation/ERI_IG_ExchangeSyncUtility.html" />
+    <TocEntry
+      Title="Configure Exchange Room Integration (ERI)"
+      Link="/Content/E_Integrations/7ERI/B_Config/ERI_Config_ConfigEXR.html" />
+    <TocEntry
+      Title="EMS Exchange Room Integration (ERI)"
+      Link="/Content/A_Installation/11_ERI_V44.1/11_ERI_Home.htm"></TocEntry>
+  </TocEntry>
+</CatapultToc>
