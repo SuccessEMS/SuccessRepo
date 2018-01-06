@@ -104,6 +104,9 @@
           Title="EMS Web App and VEMS Authentication Options"
           Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Authentication Options_WebAppVEMS.htm" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" />
       </TocEntry>
+      <TocEntry
+        Title="PDF"
+        Link="/Content/2WebApp/A_V44.1/A_InstallationGuide/WebApp_Install_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Configuration Guide EMS Web App"
@@ -165,6 +168,9 @@
       <TocEntry
         Title="EMS Web App System Parameters"
         Link="/Content/2WebApp/A_V44.1/B_ConfigurationGuide/WebApp_CG_WebAppSysParameters.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/2WebApp/A_V44.1/B_ConfigurationGuide/WebApp_Config_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Everyday User Guide EMS Web App"
@@ -310,6 +316,9 @@
       <TocEntry
         Title="Skype for Business in the EMS Web App"
         Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_SkypeforBusiness.html" />
+      <TocEntry
+        Title="PDF"
+        Link="/Content/2WebApp/A_V44.1/C_UserGuide/WebApp_UG_PDF.pdf" />
     </TocEntry>
     <TocEntry
       Title="Older Releases"
