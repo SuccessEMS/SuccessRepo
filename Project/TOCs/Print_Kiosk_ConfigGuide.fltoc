@@ -14,28 +14,27 @@
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
-      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
-      <TocEntry
-        Title="EMS Kiosk"
-        Link="/Content/B_Configuration Guides/6_EMS Kiosk (V44.1) Configuration Guide.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
-      <TocEntry
-        Title="Configure EMS Kiosk App Profiles"
-        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-      <TocEntry
-        Title="Configure EMS Kiosk App Menus"
-        Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-    </TocEntry>
+      PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl"></TocEntry>
+    <TocEntry
+      Title="EMS Kiosk"
+      Link="/Content/B_Configuration Guides/6_EMS Kiosk (V44.1) Configuration Guide.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
+    <TocEntry
+      Title="Configure EMS Kiosk App Profiles"
+      Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppProfiles.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Configure EMS Kiosk App Menus"
+      Link="/Content/5Kiosk/A_44.1/B_Config/Kiosk_CG_ConfigKioskAppMenus.htm"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
   </TocEntry>
 </CatapultToc>

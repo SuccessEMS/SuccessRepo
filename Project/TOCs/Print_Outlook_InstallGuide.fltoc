@@ -21,142 +21,141 @@
     BreakType="chapter"
     StartSection="false"
     PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
+  <TocEntry
+    Title="Introduction to EMS for Outlook"
+    Link="/Content/4Outlook/A_Install/Outlook_IG_Introduction.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  <TocEntry
+    Title="Requirements and Prerequisites for EMS for Outlook"
+    Link="/Content/4Outlook/A_Install/Outlook_IG_ReqsPrereqs.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  <TocEntry
+    Title="Plan Your EMS for Outlook Implementation"
+    Link="/Content/4Outlook/A_Install/Outlook_IG_PlanImplementation.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  <TocEntry
+    Title="Install or Upgrade EMS for Outlook on Users' Computers"
+    Link="/Content/4Outlook/A_Install/Outlook_IG_InstallUpgrade.htm"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
     PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
     <TocEntry
-      Title="Introduction to EMS for Outlook"
-      Link="/Content/4Outlook/A_Install/Outlook_IG_Introduction.htm"
+      Title="EMS for Outlook Add-In Is Offline"
+      Link="/Content/4Outlook/A_Install/Outlook_IG_OutlookAddInOffline.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
-      Title="Requirements and Prerequisites for EMS for Outlook"
-      Link="/Content/4Outlook/A_Install/Outlook_IG_ReqsPrereqs.htm"
+      Title="Silent/Unattended EMS for Outlook Installation"
+      Link="/Content/4Outlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     <TocEntry
-      Title="Plan Your EMS for Outlook Implementation"
-      Link="/Content/4Outlook/A_Install/Outlook_IG_PlanImplementation.htm"
+      Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
+      Link="/Content/4Outlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+  </TocEntry>
+  <TocEntry
+    Title="Integrated Authentication Options"
+    Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
     <TocEntry
-      Title="Install or Upgrade EMS for Outlook on Users' Computers"
-      Link="/Content/4Outlook/A_Install/Outlook_IG_InstallUpgrade.htm"
+      Title="Introduction"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
-        Title="EMS for Outlook Add-In Is Offline"
-        Link="/Content/4Outlook/A_Install/Outlook_IG_OutlookAddInOffline.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-      <TocEntry
-        Title="Silent/Unattended EMS for Outlook Installation"
-        Link="/Content/4Outlook/A_Install/Outlook_IG_SilentUnattendedInstall.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-      <TocEntry
-        Title="Where to See Your Exchange Server URL and EMS for Outlook Version Number"
-        Link="/Content/4Outlook/A_Install/Outlook_IG_WhereExchServURLVerNum.htm"
+        Title="Integrated Authentication Considerations"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     </TocEntry>
     <TocEntry
-      Title="Integrated Authentication Options"
-      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenOptions.html"
+      Title="Integrated Windows Authentication"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
-        Title="Introduction"
-        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_Introduction.htm"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
-        <TocEntry
-          Title="Integrated Authentication Considerations"
-          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedAuthenticationConsid.htm"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-      </TocEntry>
-      <TocEntry
-        Title="Integrated Windows Authentication"
-        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_IntegratedWindowsAuthen.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
-        <TocEntry
-          Title="Manage Everyday Users For Integrated Authentication"
-          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-      </TocEntry>
-      <TocEntry
-        Title="LDAP Authentication"
-        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html"
+        Title="Manage Everyday Users For Integrated Authentication"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_ManageEUforIntegAuthen.htm"
         BreakType="chapter"
         StartSection="false"
         PageNumberReset="continue"
         PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-      <TocEntry
-        Title="Portal or Federated Authentication"
-        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html"
-        BreakType="chapter"
-        StartSection="false"
-        PageNumberReset="continue"
-        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
-        <TocEntry
-          Title="Portal Authentication Methods"
-          Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html"
-          BreakType="chapter"
-          StartSection="false"
-          PageNumberReset="continue"
-          PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
-      </TocEntry>
     </TocEntry>
     <TocEntry
-      Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
-      Title="Integration to Microsoft Exchange"
+      Title="LDAP Authentication"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_LDAPAuthentication.html"
+      BreakType="chapter"
+      StartSection="false"
+      PageNumberReset="continue"
+      PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
+    <TocEntry
+      Title="Portal or Federated Authentication"
+      Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalFederatedAuthen.html"
       BreakType="chapter"
       StartSection="false"
       PageNumberReset="continue"
       PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
       <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_IntegExchanReqs.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_ConfigIntegExchange.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_UseAppPoolIdentif.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_ConfigEWSImperforME.htm" />
-      <TocEntry
-        Title="[%=System.LinkedTitle%]"
-        Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" />
+        Title="Portal Authentication Methods"
+        Link="/Content/F_Optional Features/IntegAuth/A_V44.1/IntegAuth_PortalAuthenMethods.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     </TocEntry>
+  </TocEntry>
+  <TocEntry
+    Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_Introduction.htm"
+    Title="Integration to Microsoft Exchange"
+    BreakType="chapter"
+    StartSection="false"
+    PageNumberReset="continue"
+    PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl">
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_IntegExchanReqs.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_InstallUpgradeforEIWservice.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_ConfigIntegExchange.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_UseAppPoolIdentif.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_ConfigEWSImperforME.htm" />
+    <TocEntry
+      Title="[%=System.LinkedTitle%]"
+      Link="/Content/4Outlook/D_IntegExch/IME/Outlook_IME_LearnMoreaboutEWS.htm" />
   </TocEntry>
 </CatapultToc>
