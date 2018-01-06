@@ -1,38 +1,42 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html xml:lang="en-us" class="bold" MadCap:lastBlockDepth="4" MadCap:lastHeight="2009" MadCap:lastWidth="1022" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
+<html xml:lang="en-us" class="bold" MadCap:lastBlockDepth="4" MadCap:lastHeight="2333" MadCap:lastWidth="898" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
     <head><title></title>
-        <link href="../Resources/Stylesheets/Installing Campus Planning Interface.css" rel="stylesheet" />
     </head>
     <body>
         <h1>Web Service Overview</h1>
         <h2>EMS Campus Application Architecture</h2>
-        <p class="p_2" style="font-weight: normal;">The EMS Campus Web Service communicates with the SIS database via views.&#160; An installation script is provided during your implementation that will be executed against your SIS database to create the necessary views.&#160; The EMS Campus Web Service interacts directly with these views to handle all querying and updating room assignments.</p>
+        <p>The EMS Campus Web Service communicates with the SIS database via views.&#160; An installation script is provided during your implementation that will be executed against your SIS database to create the necessary views.&#160;The EMS Campus Web Service interacts directly with these views to handle all querying and updating room assignments.</p>
         <h2>EMS-SIS Data Synchronization</h2>
-        <p class="p_2" style="font-weight: normal;">The EMS Campus Web Service synchronizes the following information from the SIS:</p>
-        <h3>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Facility Information</h3>
-        <ul class="ul_3">
-            <li class="li_12" style="font-weight: normal;">Buildings (via ems_vwBuildings view)</li>
-            <li class="li_12" style="font-weight: normal;">Room Types (via ems_vwRoomTypes view)</li>
-            <li class="li_12" style="font-weight: normal;">Rooms (via ems_vwRooms view)</li>
+        <p>The EMS Campus Web Service synchronizes the following information from the SIS:</p>
+        <h3>Facility Information</h3>
+        <ul class="unorder-list">
+            <li>Buildings (via ems_vwBuildings view)</li>
+            <li>Room Types (via ems_vwRoomTypes view)</li>
+            <li>Rooms (via ems_vwRooms view)</li>
         </ul>
-        <h3>&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;Course Related Information</h3>
-        <ul class="ul_3">
-            <li class="li_12" style="font-weight: normal;">Subjects (via ems_vwSubjects view)</li>
-            <li class="li_12" style="font-weight: normal;">Instructors (via ems_vwInstructors view)</li>
-            <li class="li_12" style="font-weight: normal;">Course Types (via ems_vwCourseTypes view)</li>
-            <li class="li_12" style="font-weight: normal;">Terms (via ems_vwTerms view)</li>
-            <li class="li_12" style="font-weight: normal;">Courses and Course Dates (via ems_vwCourses and ems_vwCourseDates views)</li>
+        <h3>Course Related Information</h3>
+        <ul class="unorder-list">
+            <li>Subjects (via ems_vwSubjects view)</li>
+            <li>Instructors (via ems_vwInstructors view)</li>
+            <li>Course Types (via ems_vwCourseTypes view)</li>
+            <li>Terms (via ems_vwTerms view)</li>
+            <li>Courses and Course Dates (via ems_vwCourses and ems_vwCourseDates views)</li>
         </ul>
-        <p class="NormalWeb_4" style="font-weight: normal;">Note:&#160; An extra view – ems_vwCourseDates_IDs is provided for customers using Banner and PeopleSoft for their SIS.</p>
-        <p class="p_2" style="font-weight: normal;">When publishing your course schedule in EMS or when changing room assignments in EMS post-publish, the EMS Campus Web Service updates course room information in your SIS.&#160; This is the only information that the EMS Campus Web Service updates in the SIS database.</p>
+        <div class="note-box note">
+            <p><span class="bold">Note:</span>&#160;An extra view – ems_vwCourseDates_IDs is provided for customers using Banner and PeopleSoft for their SIS.</p>
+        </div>
+        <p>When publishing your course schedule in EMS or when changing room assignments in EMS post-publish, the EMS Campus Web Service updates course room information in your SIS.&#160;This is the only information that the EMS Campus Web Service updates in the SIS database.</p>
+        <p>
+            <img src="../Images/CampusWebSvcdiagram.png" />
+        </p>
         <h2>EMS/SIS Synchronization</h2>
-        <p class="p_2" style="font-weight: normal;">Synchronization functions are executed by the Domain Scheduler using the EMS Campus client application.&#160; After changes are made in the SIS, the EMS Campus Web Service pulls that information into EMS Campus when a sync is ran from the Manage Terms screen.</p>
-        <p class="p_2" style="font-weight: normal;">When the Domain Scheduler publishes a term in EMS, reservations and bookings are created in EMS and updates to course room assignments are pushed back to the SIS.&#160; Post-publish changes to course room assignments made in EMS are automatically updated in the SIS.</p>
+        <p>Synchronization functions are executed by the Domain Scheduler using the EMS Campus client application.&#160; After changes are made in the SIS, the EMS Campus Web Service pulls that information into EMS Campus when a sync is ran from the Manage Terms screen.</p>
+        <p>When the Domain Scheduler publishes a term in EMS, reservations and bookings are created in EMS and updates to course room assignments are pushed back to the SIS.&#160; Post-publish changes to course room assignments made in EMS are automatically updated in the SIS.</p>
         <h2>Other Synchronization Options</h2>
-        <p class="p_2" style="font-weight: normal;">If creating database views in your SIS is not possible, alternatives are possible:</p>
-        <ul class="ul_3">
-            <li class="li_5" style="font-weight: normal;">If an SIS is not available or is incompatible with the EMS Campus, course-related data from files exported from your SIS in a tab-delimited format can be used.&#160; This is a one-way import; EMS Campus will not update course room assignments back into your SIS. See&#160;<MadCap:xref href="CWS_IG_44_AppendA.htm">Appendix A - Format for Tab-Delimited Files</MadCap:xref>&#160;for file format information.</li>
+        <p>If creating database views in your SIS is not possible, alternatives are possible:</p>
+        <ul class="unorder-list">
+            <li>If an SIS is not available or is incompatible with the EMS Campus, course-related data from files exported from your SIS in a tab-delimited format can be used.&#160; This is a one-way import; EMS Campus will not update course room assignments back into your SIS. See&#160;<a href="CWS_IG_44.1_AppendA.htm">Appendix A - Format for Tab-Delimited Files</a>&#160;for file format information.</li>
         </ul>
-        <p style="font-weight: normal;">&#160;</p>
+        <p>&#160;</p>
     </body>
 </html>
