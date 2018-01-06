@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<html MadCap:lastBlockDepth="7" MadCap:lastHeight="3813" MadCap:lastWidth="859" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
+<html MadCap:lastBlockDepth="7" MadCap:lastHeight="3873" MadCap:lastWidth="859" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" style="mc-master-page: url('..\..\..\Resources\MasterPages\emsCampus.flmsp');">
     <head><title>Overview of Synchronization</title>
     </head>
     <body>
@@ -9,7 +9,7 @@
             <p><span class="bold">Tip:</span>&#160;Before you can carry out synchronization, the EMS Campus Web Service must be installed and configured. Refer to the EMS Installation instructions for details.</p>
         </div>
         <h2><a name="Facility_Data_Synchronization"></a>Facility Data Synchronization</h2>
-        <p>When you import facility SIS data, the actions that you must carry out are different if you do not have the facility data (building, room type, or room) already configured in your EMS database versus if you do have the data already configured.</p>
+        <p>When you import facility SIS data, the actions that you must carry out are different if you do not have the facility data (building, room type, or room) already configured in your EMS database versus if you do have the data already configured. See also:&#160;<a href="Campus_SynchroFacilityData.html">Synchronize Facility Data</a>.</p>
         <ul class="unorder-list">
             <li>If you have not configured the necessary data items in your EMS database, then all data items that are imported from your SIS are flagged with a status of New. To configure these items in your EMS database, you must select the item and then click Create. (Depending on the item that you select, another window might open with additional configuration options that are required to completely configure the item in your EMS database.) For example, in the figure below, the PAC-Pacific building, the PKE-Pike building, the ROCK-Rockies building, and the LNG-Long building exist in the SIS, but not in the EMS database. The status of the PAC-Pacific building, the PKE-Pike building, the ROCK-Rockies building is therefore set to New. The status of the of the Long building was set to Create by selecting the building, and then clicking Create.<p><img border="0" src="../Images/V44.1_Config/OverviewSynch1.png" /></p></li>
             <li>If you have configured the necessary data items in your EMS database, and you have named and/or coded them consistently between your EMS database and your SIS, then these data items are automatically matched and flagged with a status of New—Auto Matched. For example, in the figure above, the Evans building and the Broncos building were configured in the EMS database prior to synchronization. Because the Evans building was named and coded identically as the same building in the SIS, EMS auto-matched the record for this building. Even though the Broncos building was named differently, it was coded identically as the same building in the SIS, and therefore, it was auto-matched as well. <br />Auto-matching can occur only if each SIS facility data item can be matched to one and only one EMS data item. For example, if Softball Field and Soccer Field are separate buildings in the SIS, they cannot both be synchronized with Fields in the EMS database. Likewise, if Discussion Room and Conference Room are separate room types in the SIS, then the both cannot be synchronized to Meeting Room in the EMS database. In this case, the data items that are imported are with a status of New, and you must select each New item and assign it to the appropriate corresponding item in your EMS database. (See the bullet below.)</li>
@@ -18,13 +18,17 @@
         </ul>
         <p>You must synchronize your facility data in the following order:</p>
         <ol class="number-list">
-            <li>Buildings</li>
-            <li>Room Types</li>
-            <li>Rooms</li>
+            <li><a href="Campus_SynchroFacilityData.html#Synchronizing_Buildings">Buildings</a>
+            </li>
+            <li><a href="Campus_SynchroFacilityData.html#Synchronize_Room_Types">Room Types</a>
+            </li>
+            <li><a href="Campus_SynchroFacilityData.html#Synchronize_Rooms">Rooms</a>
+            </li>
         </ol>
         <p>The synchronization process does not update existing facility records after they have been imported and linked. For example, if a room’s code, description, or capacity is changed in the SIS after it has been imported and linked, this information is not changed in the EMS database. Previously synchronized items can be unsynchronized by selecting the item or items, and then clicking Unsynch. You must unsynchronize items in the reverse order in which they were synchronized. For example, you cannot unsynchronize buildings if the buildings have rooms that are still synchronized. You must first unsynchronize the rooms, and then you can unsynchronize the buildings. Likewise, you cannot unsynchronize room type if rooms are still synchronized with the room type. You must first unsynchronize the rooms, and then you can unsynchronize the room types. In addition, you cannot unsynchronize any facility data if courses that are synchronized use the buildings or rooms.</p>
         <h2><a name="Campus-Specific_Data_Synchronization"></a>Campus-Specific Data Synchronization</h2>
         <p>When you import your campus-specific SIS data, all the SIS data items are flagged with a status of New. To create these items in your EMS database, you select the items, click Create, and then Process. After you create these items in your EMS database, the status of the items is set to Synchronized to indicate that the SIS data has been synchronized. If you do not want to create the SIS data item in your EMS database (for example, you are importing an Instructors list and an instructor is on sabbatical and unavailable to teach classes), then you can select the item and click <span class="bold">Do Not Import</span>. Previously synchronized items can be unsynchronized by selecting the item or items, and then clicking Unsynch.</p>
+        <p>See also:&#160;<a href="Campus_SynchroCampus-SpecificData.html">Synchronize Campus-Specific Data</a>.</p>
         <div class="note-box tip">
             <p><span class="bold">Tip:</span> You can select a single data item at a time for processing, you can select multiple items for processing using the CTRL-click or SHIFT-click functions, or you can select all items in a single step by clicking Select All.</p>
         </div>
