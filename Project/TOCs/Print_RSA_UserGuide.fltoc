@@ -3,7 +3,7 @@
   Version="1">
   <TocEntry
     Title="EMS Room Sign App User Guide"
-    Link="/Content/Print/RSA_Install_FrontPage.htm"
+    Link="/Content/Print/RSA_UG_FrontPage.htm"
     BreakType="chapter"
     StartSection="false"
     PageLayout="/Content/Resources/PageLayouts/7X9/Title7X9.flpgl"
@@ -17,22 +17,46 @@
       PageLayout="/Content/Resources/PageLayouts/7X9/TOC7X9.flpgl">
       <TocEntry
         Title="EMS Room Sign App (formerly Glance)"
-        Link="/Content/D_Everyday User Guides/8_EMSRoomSignApp_UG.htm"></TocEntry>
+        Link="/Content/D_Everyday User Guides/8_EMSRoomSignApp_UG.htm"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl"></TocEntry>
       <TocEntry
         Title="Introduction to EMS Room Sign App"
-        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_Introduction.html" />
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_Introduction.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Best Practices for Using EMS Room Sign App"
-        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_BestPracticesforUsing.html" />
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_BestPracticesforUsing.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Get Started with EMS Room Sign App"
-        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_GettingStarted.html" />
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_GettingStarted.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Deploying the EMS Room Sign App on Tablets"
-        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_DeployingonTablet.html" />
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_DeployingonTablet.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
       <TocEntry
         Title="Set Up EMS Room Sign App to Demo on a Desktop Browser (Update 12+)"
-        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_SettingUpRSAtoDemo.html" />
+        Link="/Content/6RoomSignApp/A_44.1/C_UserGuide/RSA_UG_SettingUpRSAtoDemo.html"
+        BreakType="chapter"
+        StartSection="false"
+        PageNumberReset="continue"
+        PageLayout="/Content/Resources/PageLayouts/7X9/Chapters7X9.flpgl" />
     </TocEntry>
   </TocEntry>
 </CatapultToc>
