@@ -1,12 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<CatapultToc Version="1" sourceDocument="C:\Users\Jen.Naused\Desktop\RELEASE NOTES\U20_KnownIssues.docx">
-    <TocEntry Title="EMS Desktop Client Known Issues, V44.1, Update 20" Link="/Content/U20_KnownIssues/EMS Desktop Client Known Issues.htm" />
-    <TocEntry Title="EMS Web App Known Issues, V44.1 Update 20" Link="/Content/U20_KnownIssues/EMS Web App Known Issues V44.htm" />
-    <TocEntry Title="EMS Mobile App Known Issues, V44.1 Update 20" Link="/Content/U20_KnownIssues/EMS Mobile App Known Issues.htm" />
-    <TocEntry Title="EMS for Outlook Known Issues, V44.1 Update 20" Link="/Content/U20_KnownIssues/EMS for Outlook Known Issues.htm" />
-    <TocEntry Title="EMS for Outlook (Legacy) Known Issues, V44.1 Update 20" Link="/Content/U20_KnownIssues/EMS for Outlook Legacy Known.htm" />
-    <TocEntry Title="EMS Kiosk App Known Issues, V44.1 Update 20" Link="/Content/U20_KnownIssues/EMS Kiosk App Known Issues.htm" />
-    <TocEntry Title="EMS Kiosk (Legacy) Known Issues, V44.1 Update 20" Link="/Content/U20_KnownIssues/EMS Kiosk Legacy Known Issues.htm" />
-    <TocEntry Title="EMS Room Sign App Known Issues (Update 20)" Link="/Content/U20_KnownIssues/EMS Room Sign App Known Issues.htm" />
-    <TocEntry Title="EMS Platform Services Known Issue, V44.1 Update 20" Link="/Content/U20_KnownIssues/EMS Platform Services Known.htm" />
+<CatapultToc
+  Version="1"
+  sourceDocument="C:\Users\Jen.Naused\Desktop\RELEASE NOTES\U20_KnownIssues.docx">
+  <TocEntry
+    Title="EMS Desktop Client Known Issues, V44.1, Update 20" />
+  <TocEntry
+    Title="EMS Web App Known Issues, V44.1 Update 20" />
+  <TocEntry
+    Title="EMS Mobile App Known Issues, V44.1 Update 20" />
+  <TocEntry
+    Title="EMS for Outlook Known Issues, V44.1 Update 20" />
+  <TocEntry
+    Title="EMS for Outlook (Legacy) Known Issues, V44.1 Update 20" />
+  <TocEntry
+    Title="EMS Kiosk App Known Issues, V44.1 Update 20" />
+  <TocEntry
+    Title="EMS Kiosk (Legacy) Known Issues, V44.1 Update 20" />
+  <TocEntry
+    Title="EMS Room Sign App Known Issues (Update 20)" />
+  <TocEntry
+    Title="EMS Platform Services Known Issue, V44.1 Update 20" />
 </CatapultToc>
